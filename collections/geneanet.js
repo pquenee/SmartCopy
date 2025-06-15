@@ -35,10 +35,12 @@ registerCollection({
             focusfirstName = nameTab.find("a:not(:has(track))").first().text();
             focuslastName = departicule(nameTab.find("a:not(:has(track))").first().next().text());
           }
-         if (genderImg.attr("title") === "M") {
+         //if (genderImg.attr("title") === "M") { ancienne version
+         if (genderImg.attr("alt") === "Male") {
           focusname = focusfirstName + " " + sepgeneanet +" " + focuslastName;
               // genderval = "male";
-          } else if (genderImg.attr("title") === "F") {
+         // } else if (genderImg.attr("title") === "F") { ancienne version
+         } else if (genderImg.attr("alt") === "Female") {
 // Retrouver un nom marital (le premier qui se présente)
             var spouses = $(parsed).find('h2:has(span:contains("Spouses")) + ul.fiche_union > li');
             var nomMaris = $(spouses[0]).find("a:not(:has(track))").first().text().split(' ');
@@ -102,9 +104,9 @@ function parseGeneanet1(htmlstring, familymembers, relation) {
   var nameTab = parsed.find(".with_tabs.name");
   var genderval = "unknown";
   var genderImg = nameTab.find("track").first();
-  if (genderImg.attr("title") === "M") {
+  if (genderImg.attr("alt") === "Male") {
     genderval = "male";
-  } else if (genderImg.attr("title") === "F") {
+  } else if (genderImg.attr("alt") === "Female") {
     genderval = "female";
   } else if (exists(relation.gender) && relation.gender !== "unknown") {
     genderval = relation.gender;
