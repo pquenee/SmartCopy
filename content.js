@@ -36,6 +36,7 @@ var project_id;
 var getsettingsdone = false;
 var accountinfo;
 var GeniTaal="en";
+var sepgeneanet; //for operation on geni outside popup - Global Constant declared in buildform.js and not yet declared at this stage.must be declared to be identified as undefined.It's crazy isn't it
 
 var _ = function (messageName, substitutions) {
     return chrome.i18n.getMessage(messageName, substitutions);
@@ -1070,6 +1071,7 @@ function buildProfileFinnish() {
 }
 
 function buildConsistency() {
+    console.log("buildConsistency");
     consistencymessage = "";
     var focus = getFocus();
     var parents = getParents();
@@ -1514,6 +1516,7 @@ function checkCase(person, quickfix) {
     var namevalues = ["display_name", "first_name", "middle_name", "last_name", "maiden_name"];
     var names = getGeniData(person, "names");
     if (names !== "") {
+        console.log("Namechk ",names)
         for (let lang in names) {
             if (names.hasOwnProperty(lang)) {
                 for (let i = 0; i < namevalues.length; i++) {

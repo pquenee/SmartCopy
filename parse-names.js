@@ -3,6 +3,7 @@
 // ported to JavaScript by Mark Pemburn (pemburnia.com)
 // released under Apache 2.0 license
 
+var prefixs = ['vere','von','van','de','der','del','della','di','da', 'do', 'pietro','vanden','du','st.','st','la','le','lo', 'las', 'los', 'ter','o', 'y', "o'",'mc','mac','fitz']
 var NameParse = (function(){
     function NameParse() {
         return NameParse;
@@ -36,13 +37,17 @@ var NameParse = (function(){
         fullastName = fullastName.trim();
 
         // Look for a birth / maiden name: Mary Smith (Jones)
+        //console.log("fulllastName",fullastName,fullastName.indexOf(")"),fullastName.indexOf("("));
         if ((fullastName.indexOf(")", fullastName.length - 1) !== -1) && (fullastName.indexOf("(") !== -1)) {
             birthName = fullastName.substring(fullastName.lastIndexOf("(") + 1, fullastName.length).replace(")","");
+            //console.log("birthname ",birthName);
             birthName = NameParse.fix_case(birthName.replace(/^born /, '').replace(/^z d\. /, '').replace(/^nee /,''));
             fullastName = fullastName.substring(0, fullastName.lastIndexOf("(")).trim();
+            //console.log("FullastName2 ",fullastName,birthName);
         }
 
         var nameParts = fullastName.split(" ");
+        console.log("nameParts",nameParts);
         if (nameParts.length > 0 && !isNaN(nameParts[nameParts.length-1])) {
             nameParts.pop();
         }
@@ -177,10 +182,14 @@ var NameParse = (function(){
             }
 
             if (detectMiddleName) {
+                const rgx =/\./g ;
+                firstName = firstName.replace(rgx,' ' );  //cas rare de point separateur au lieu de l'espace dans geneanet
                 var checkmiddle = firstName.trim().split(" ");
+                console.log("chkmiddle :",checkmiddle[0],checkmiddle.at(-1));
                 if ((middleName.trim() === "") && (checkmiddle.length > 1)) {
                     middleName = checkmiddle.pop();
-                    while (checkmiddle.length > 2) {
+                   // initialement à 2
+                    while (checkmiddle.length > 1) {
                         middleName = checkmiddle.pop() + " " + middleName;
                     }
                     firstName = checkmiddle.join(" ");
@@ -197,7 +206,7 @@ var NameParse = (function(){
                     suffix = this.is_suffix(middleName);
                     checkmiddlesuffix = true;
                     for (i=start + 1; i<(end - 1); i++) {
-                        if (nameParts[i] === middleName) {
+                        if (nameParts[i].toUpperCase === middleName.toUpperCase) {
                             nameParts.splice(i,1);
                             break;
                         }
@@ -217,7 +226,7 @@ var NameParse = (function(){
                 middleName = "";
             }
         }
-
+        //console.log("birthname1 ",birthName);
         if (birthName !== "") {
             var birthsplit = birthName.split(" ");
             birthName = "";
@@ -231,7 +240,7 @@ var NameParse = (function(){
             }
             birthName = this.removeIgnoredChars(birthName);
         }
-
+        //console.log("birthname2 ",birthName);
         if (suffix !== false && suffix !== "" && lastName === "" && birthName === "") {
             //For names like John Ma, where the last name is detected as a suffix
             suffix = "";
@@ -255,7 +264,8 @@ var NameParse = (function(){
             var nickfirst = nickParts.join(" ");
             nickfirst = nickfirst.replace("(","");
             nickfirst = nickfirst.replace(")","");
-            nickfirst = nickfirst.replace(/"/g,'');
+            //nickfirst = nickfirst.replace("\""/g,'');
+            //nickfirst = nickfirst.replace("*"/g,'');
             nickfirst = this.fix_case(nickfirst.trim());
             nickName = nickfirst + " " + lastName.trim();
             if (birthName !== "") {
@@ -264,9 +274,26 @@ var NameParse = (function(){
                     nickName += ", " + nickborn;
                 }
             }
+          //  console.log("birthname3 ",birthName);
         }
 
-        // return the various parts in an array
+      
+    // Ajout pour traiter partiellement les specificités des prénoms composés français
+    //console.log("Data1 :",firstName);   
+       firstName = firstName.replace(/\*/g,"");
+       firstName = firstName.replace(/\./g,"");
+       firstName = firstName.replace(/\!/g,"");
+       console.log("Etat2 Fist Middle :",firstName," | ",middleName);
+        if (sepgeneanet !== "") {
+              	if (firstName.trim() === "Marie" || firstName.trim() === "Jean") {
+        		if (middleName.trim() !=="Joseph") {
+        		firstName = firstName + " " + middleName ;
+        		middleName = "" ;
+        		}
+           }
+       }
+         // return the various parts in an array
+         //console.log("birthname4 ",birthName);
         return {
             "prefix": prefix || "",
             "salutation": salutation || "",
@@ -326,7 +353,14 @@ var NameParse = (function(){
         }
         //ignore periods and commas
         word = word.replace(/\./g,"");
-        word = word.replace(/,/g,"");
+        word = word.replace(/\,/g,"");
+        word = word.replace(/\*/g,"");
+        word = word.replace(/\!/g,"");
+        //passage caractere special geneanet.js a eliminer apres emploi
+        if(sepgeneanet === undefined){
+        } else {
+        word = word.replace(sepgeneanet,"");
+        }
         return word;
     };
 
@@ -362,6 +396,9 @@ var NameParse = (function(){
         word = word.replace(/\s*\/\s*/g,'/');
         word = word.replace(/“/g, '"');
         word = word.replace(/”/g, '"');
+        word = word.replace(/\,/g, ' ');
+        //word = word.replace(/\"/g, '');
+        //word = word.replace(/\*/g, ' ');
         return word;
     }
 
@@ -390,9 +427,10 @@ var NameParse = (function(){
     // detect compound last names like "Von Fange"
     NameParse.is_compound_lastName = function (word) {
         word = word.toLocaleLowerCase();
-        // these are some common prefixes that identify a compound last names - what am I missing?
-        var words = ['vere','von','van','de','der','del','della','di','da', 'do', 'pietro','vanden','du','st.','st','la','le','lo', 'las', 'los', 'ter','o', 'y', "o'",'mc','mac','fitz'];
-        return (words.indexOf(word) >= 0);
+        // these are some common prefixes that identify a compound last names - what am I missing? - rajout de  · (geneanet) 4/9/2023
+    //    var words = ['vere','von','van','de','der','del','della','di','da', 'do', 'pietro','vanden','du','st.','st','la','le','lo', 'las', 'los', 'ter','o', 'y', "o'",'mc','mac','fitz',sepgeneanet];
+    
+        return (prefixs.indexOf(word) >= 0);
     };
 
     // single letter, possibly followed by a period
@@ -404,11 +442,21 @@ var NameParse = (function(){
 
     // detect mixed case words like "McDonald"
     // returns false if the string is all one case
+    // with avoiding compound nouns. (de MACHIN)
     NameParse.is_camel_case = function (word) {
+        if(this.is_compound_lastName(word)){
+        return true ;
+        }
         word = this.removeIgnoredChars(word);
+        if (word.includes(" ")){
+            //console.log("Is_camel ",word);
+            const words = word.split(' ');
+            return(words[1].toUpperCase == words[1] || false);   
+        } else {
         var ucReg = word.toUpperCase();
         var lcReg = word.toLowerCase();
         return (word.length === 1 || (lcReg !== word && ucReg !== word) || ucReg === lcReg);
+        }
     };
 
     // ucfirst words split by dashes or periods
@@ -418,11 +466,17 @@ var NameParse = (function(){
             return word;
         } else if (word === "NN") {
             return word;
+        } else if ((word === "DE")|| (word === "De")){
+            return "de";
+        } else if (word === "LE"){
+            return "Le";
         }
         // uppercase words split by dashes, like "Kimura-Fay"
         word = this.safe_ucfirst("-",word);
         // uppercase words split by periods, like "J.P."
         word = this.safe_ucfirst(".",word);
+        // uppercase words split by periods' like "d'Albis"
+        word = this.safe_ucfirst("'",word);
         return word;
     };
 
