@@ -1548,8 +1548,8 @@ function checkCase(person, quickfix) {
         let permissions = genifocusdata.get("actions");
         if (permissions.indexOf("update-basics") !== -1) {
             if (quickfix) {
-                consistencymessage += "<sup><a title='" + nameupdate.join("; ") + "' class='fixcase' href='javascript:void(0)' id='case" + getGeniData(person, "id") +
-                    "' name='" + namevaluecheck + "'>[" + _("fixCase") + "]</a></sup>";
+                consistencymessage += "<sup><a title='" + nameupdate.join("; ") + "' class='fixcase' href='#' id='case" + getGeniData(person, "id") +
+                    "' name='" + namevaluecheck + "'>[" + _("fixCase") + "]</a></sup>"; // mod CSP
             } else {
                 consistencymessage += "<sup>[" + profileStatus(person) + "]</sup>";
             }
@@ -1846,7 +1846,8 @@ function updateQMessage() {
             displayCheck(false);
         });
         $('.fixcase').off();
-        $('.fixcase').on('click', function () {
+        $('.fixcase').on('click', function (e) {
+        e.preventDefault(); // ← AJOUTEZ CETTE LIGNE pour empêcher le comportement du lien
             var id = $(this)[0].id.replace("case", "");
             var args = {};
             var nameparts = $(this)[0].name.split(",");
