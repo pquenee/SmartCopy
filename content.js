@@ -1819,6 +1819,8 @@ function updateQMessage() {
     if (consistencymessage !== "") {
         $("#consistencyck").html("<span style='float: right; margin-top: -1px; padding-left: 10px;'><img id='refreshcheck' src='" +
             chrome.runtime.getURL("images/content_update.png") +
+            "' style='cursor: pointer; margin-right: 3px; width: 12px;'><img class='fixauto' src='" +
+            chrome.runtime.getURL("images/content_iconfix.png") +
             "' style='cursor: pointer; margin-right: 3px; width: 12px;'><img class='consistencyslide' src='" +
             chrome.runtime.getURL("images/content_close.png") +
             "' style='cursor: pointer; width: 18px;'></span><a href='https://www.geni.com/projects/SmartCopy/18783' target='_blank'><img src='" +
@@ -1827,6 +1829,18 @@ function updateQMessage() {
             _("consistencyCheck") +
             ":</strong>" +
             consistencymessage);
+        $('.fixauto').off();
+        $('.fixauto').on('click', function () {
+            const fixCaseLinks = document.querySelectorAll('a.fixcase');
+            fixCaseLinks.forEach((link, index) => {
+        const clickEvent = new MouseEvent('click', {
+            view: window,
+            bubbles: true,
+            cancelable: true
+        });
+        link.dispatchEvent(clickEvent);
+    });
+        });    
         $('.consistencyslide').off();
         $('.consistencyslide').on('click', function () {
             displayCheck(false);
