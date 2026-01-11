@@ -115,7 +115,7 @@ function buildHistorySelect() {
     return historytext;
 }
 
-var dateformatter = ["MMM YYYY", "MMMM YYYY", "MMM D YYYY", "MMMM D YYYY", "YYYY", "MM/ /YYYY", "D MMM YYYY"];
+var dateformatter = ["MMM YYYY", "MMMM YYYY", "MMM D YYYY", "MMMM D YYYY", "YYYY", "MM/DD/YYYY", "D MMM YYYY"];//corr MM/ /YYYY 6eme
 //noinspection JSUnusedGlobalSymbols
 var expandparent = true; //used in expandAll function window[...] var call
 //noinspection JSUnusedGlobalSymbols
@@ -955,8 +955,9 @@ function escapeHtml(string) {
     });
 }
 
-function capFL(string) {   //Capitalize the first letter of the string
-    return string.charAt(0).toUpperCase() + string.slice(1);
+function capFL(string) {   //Capitalize the first letter of the string GLM-4.7
+    if (!string) return "";
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
 
 $(function () {
