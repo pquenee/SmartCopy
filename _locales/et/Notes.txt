@@ -1,0 +1,61 @@
+Notes sur la traduction estonienne
+Terminologie généalogique :
+
+eesnimi = prénom
+
+keskmine nimi = deuxième prénom
+
+perekonnanimi = nom de famille
+
+sünninimi = nom de naissance
+
+neiupõlvenimi = nom de jeune fille
+
+surmakuupäev = date de décès
+
+matmise kuupäev = date d'enterrement
+
+abiellumise kuupäev = date de mariage
+
+abikaasa = conjoint(e)
+
+naine = femme (épouse)
+
+õde/vend = sœur/frère
+
+sugulased = proches/parents
+
+esivanemad = ancêtres
+
+järglased = descendants
+
+Genre : l'estonien ne distingue pas le genre grammatical. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est tema (ou ta) pour les deux. C'est pourquoi :
+
+his, her → tous les deux tema
+
+their → nende
+
+Les adjectifs et participes sont invariables en genre
+
+$pronoun$ : valeurs tema (his/her) et nende (their). ⚠️ Comme his et her se traduisent tous deux par tema, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par u. $year$ (u. = umbes, « environ »).
+
+History : corrigé en Ajalugu.
+
+View_Profil : conservé comme clé, valeur Vaata profiili (orthographe estonienne correcte).
+
+County : traduit par Maakond (division administrative estonienne équivalente au comté).
+
+State : traduit par Maakond également. ⚠️ En estonien, il n'y a pas de distinction nette entre State (État fédéré) et County (comté) dans le contexte administratif local. Si le contexte est américain, Osariik serait plus approprié pour State. J'ai utilisé Maakond pour les deux, ce qui peut prêter à confusion — il faudrait peut-être différencier.
+
+SwitchOn/SwitchOff : SEES / VÄLJAS (formes courantes en estonien).
+
+Submit : Esita (soumettre).
+
+Particularité estonienne : l'estonien est une langue finno-ougrienne proche du finnois, avec une grammaire agglutinante et de nombreuses déclinaisons. J'ai respecté les cas grammaticalux standards.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
+

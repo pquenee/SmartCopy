@@ -6,7 +6,7 @@
         "message": "SmartCopy"
     },
     "appDesc": {
-        "message": "Geni'ye soyağacı verileri kopyalamak için araç."
+        "message": "Soybilimsel verileri Geni'ye kopyalamak için araç."
     },
     "switchOn": {
         "message": "AÇIK"
@@ -18,88 +18,58 @@
         "message": "Tutarlılık Denetimi"
     },
     "contains_incorrect_uppercase_lowercase_in_name": {
-        "message": "$person$, $pronoun$ adında büyük/küçük harflerin yanlış kullanımını içeriyor ($lang$).",
+        "message": "$person$, $pronoun$ adında büyük/küçük harf kullanım hatası içeriyor ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_incorrect_uppercase_lowercase_in_name_default": {
-        "message": "$person$, $pronoun$ adında büyük/küçük harflerin yanlış kullanımını içeriyor.",
+        "message": "$person$, $pronoun$ adında büyük/küçük harf kullanım hatası içeriyor.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_patronym_in_first_name": {
-        "message": "$person$, $pronoun$ adında bir patro/matronim içeriyor ($lang$).",
+        "message": "$person$, $pronoun$ ön adında bir baba/anne adı içeriyor ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_patronym_in_first_name_default": {
-        "message": "$person$, $pronoun$ adında bir patro/matronim içeriyor.",
+        "message": "$person$, $pronoun$ ön adında bir baba/anne adı içeriyor.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_non_patronym_in_middle_name": {
-        "message": "$person$, $pronoun$ ikinci adında patro/matronim olmayan bir değer içeriyor ($lang$).",
+        "message": "$person$, $pronoun$ ikinci adında baba/anne adı olmayan bir ad içeriyor ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_non_patronym_in_middle_name_default": {
-        "message": "$person$, $pronoun$ ikinci adında patro/matronim olmayan bir değer içeriyor.",
+        "message": "$person$, $pronoun$ ikinci adında baba/anne adı olmayan bir ad içeriyor.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "consistencyCheckLiving": {
-        "message": "yaşıyor"
+        "message": "yaşayan"
     },
     "claimed": {
-        "message": "sahiplenilmiş"
+        "message": "talep edildi"
     },
     "fixCase": {
-        "message": "harf biçimini düzelt"
+        "message": "büyük/küçük harfi düzelt"
     },
     "fixed": {
         "message": "düzeltildi"
@@ -111,7 +81,7 @@
         "message": "boşluğu düzelt"
     },
     "fixSuffix": {
-        "message": "soneki düzelt"
+        "message": "son eki düzelt"
     },
     "fixTitle": {
         "message": "unvanı düzelt"
@@ -123,25 +93,17 @@
         "message": "herkese açık yap"
     },
     "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
-        "message": "$count$ aile üyesi, yaklaşık $year$ yılından önce doğmuş olup özel olarak ayarlanmıştır.",
+        "message": "Yaklaşık $year$ yılından önce doğan $count$ aile üyesi özel olarak ayarlandı.",
         "placeholders": {
-            "count": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "personWasBornBeforeYearAndIsSetAsPrivate": {
-        "message": "$person$, yaklaşık $year$ yılından önce doğmuş ve özel olarak ayarlanmış.",
+        "message": "$person$, yaklaşık $year$ yılından önce doğdu ve özel olarak ayarlandı.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "Research_this_Person": {
@@ -160,22 +122,22 @@
         "message": "Holokost"
     },
     "Name_Search": {
-        "message": "Ad Arama"
+        "message": "Ad Araması"
     },
     "Gravestones": {
         "message": "Mezar Taşları"
     },
     "Genealogies": {
-        "message": "Soyağaçları"
+        "message": "Soykütükleri"
     },
     "Genealogy": {
-        "message": "Şecere"
+        "message": "Soykütüğü"
     },
     "Geni_Search": {
-        "message": "Geni Arama"
+        "message": "Geni Araması"
     },
     "Google_Search": {
-        "message": "Google Arama"
+        "message": "Google Araması"
     },
     "Records": {
         "message": "Kayıtlar"
@@ -214,19 +176,19 @@
         "message": "Torun Grafiği"
     },
     "History_Search": {
-        "message": "Geçmiş Arama"
+        "message": "Tarih Araması"
     },
     "Forest_Density_Calculator": {
-        "message": "Yoğunluk Hesaplayıcısı"
+        "message": "Yoğunluk Hesaplayıcı"
     },
     "Path_To_User": {
-        "message": "Kullanıcıya Yol"
+        "message": "Kullanıcıya Giden Yol"
     },
     "Configuration": {
         "message": "Yapılandırma"
     },
     "Copy_Preferences": {
-        "message": "Kopyalama Tercihleri"
+        "message": "Tercihleri Kopyala"
     },
     "Consistency_Checks": {
         "message": "Tutarlılık Denetimleri"
@@ -238,40 +200,40 @@
         "message": "Not: Between, Before ve After içeren tarihler tutarlılık denetimlerinde karşılaştırılmaz. Circa içeren tarihler kesin tarih olarak kabul edilir."
     },
     "Run_consistency_checks_when_viewing_Geni_profiles": {
-        "message": "Geni profilleri görüntülenirken tutarlılık denetimlerini çalıştır."
+        "message": "Geni profillerini görüntülerken tutarlılık denetimlerini çalıştır."
     },
     "Age_difference_between_partners_is_significant": {
-        "message": "Eşler arasındaki yaş farkı belirgin"
+        "message": "Eşler arasındaki yaş farkı önemli"
     },
     "Maiden_name_same_as_husbands_last_name": {
-        "message": "Kızlık soyadı kocanın soyadıyla aynı"
+        "message": "Kızlık soyadı, kocanın soyadıyla aynı"
     },
     "Husband_and_wife_death_dates_the_same": {
-        "message": "Koca ve eşin ölüm tarihleri aynı"
+        "message": "Karı ve kocanın ölüm tarihleri aynı"
     },
     "Husband_death_date_same_as_marriage_date": {
-        "message": "Kocanın ölüm tarihi evlilik tarihiyle aynı"
+        "message": "Kocanın ölüm tarihi, evlilik tarihiyle aynı"
     },
     "Wife_death_date_same_as_marriage_date": {
-        "message": "Eşin ölüm tarihi evlilik tarihiyle aynı"
+        "message": "Karının ölüm tarihi, evlilik tarihiyle aynı"
     },
     "Born_after_marriage": {
-        "message": "Evlilikten sonra doğmuş"
+        "message": "Evlilikten sonra doğdu"
     },
     "Died_before_marriage": {
-        "message": "Evlilikten önce ölmüş"
+        "message": "Evlilikten önce öldü"
     },
     "Implausible_marriage_age_too_young": {
-        "message": "Olası görünmeyen evlilik yaşı, çok genç"
+        "message": "İnandırıcı olmayan evlilik yaşı, çok genç"
     },
     "Siblings_ages_too_close_together": {
         "message": "Kardeşlerin yaşları birbirine çok yakın"
     },
     "Born_before_parent_birth": {
-        "message": "Ebeveyn doğmadan önce doğmuş"
+        "message": "Ebeveynin doğumundan önce doğdu"
     },
     "Born_after_parent_death": {
-        "message": "Ebeveynin ölümünden sonra doğmuş"
+        "message": "Ebeveynin ölümünden sonra doğdu"
     },
     "Death_before_baptism_date": {
         "message": "Vaftiz tarihinden önce ölüm"
@@ -280,19 +242,19 @@
         "message": "Defin tarihinden sonra ölüm"
     },
     "Parent_too_young_for_childs_birth": {
-        "message": "Çocuğun doğumu için ebeveyn çok genç"
+        "message": "Ebeveyn, çocuğun doğumu için çok genç"
     },
     "Mother_too_old_for_childs_birth": {
-        "message": "Çocuğun doğumu için anne çok yaşlı"
+        "message": "Anne, çocuğun doğumu için çok yaşlı"
     },
     "Born_before_parent_marriage": {
-        "message": "Ebeveyn evliliğinden önce doğmuş"
+        "message": "Ebeveynlerin evliliğinden önce doğdu"
     },
     "Excessive_Age": {
         "message": "Aşırı Yaş"
     },
     "Born_after_death": {
-        "message": "Ölümden sonra doğmuş"
+        "message": "Ölümden sonra doğdu"
     },
     "Name_contains_double_space": {
         "message": "Ad çift boşluk içeriyor"
@@ -301,22 +263,22 @@
         "message": "Ad takma ad içeriyor"
     },
     "Name_contains_improper_use_of_uppercase_lowercase": {
-        "message": "Ad, büyük/küçük harflerin hatalı kullanımını içeriyor"
+        "message": "Ad, büyük/küçük harf kullanım hatası içeriyor"
     },
     "First_Name_ends_in_suffix_eg___": {
-        "message": "İlk ad bir sonek ile bitiyor (örn. 'i','ii','iii','iv','jr','sr')"
+        "message": "Ön ad son ek ile bitiyor (örn. 'i','ii','iii','iv','jr','sr')"
     },
     "Salutation_or_relationship_in_title_eg___": {
-        "message": "Unvanda hitap veya ilişki var (örn. 'Mr', 'Mrs')"
+        "message": "Unvanda hitap veya akrabalık (örn. 'Mr', 'Mrs')"
     },
     "Salutation_or_relationship_in_suffix_eg___": {
-        "message": "Sonekte hitap veya ilişki var (örn. 'Mr', 'Mrs')"
+        "message": "Son ekte hitap veya akrabalık (örn. 'Mr', 'Mrs')"
     },
     "Relationship_cycle_in_immediate_family": {
-        "message": "Yakın aile içinde ilişki döngüsü"
+        "message": "Yakın ailede ilişki döngüsü"
     },
     "Check_date_formatting_for_inconsistent_values": {
-        "message": "Tarih biçimlendirmesini tutarsız değerler için denetle"
+        "message": "Tutarsız değerler için tarih biçimlendirmesini denetle"
     },
     "Check_for_pending_data_conflict_resolution": {
         "message": "Bekleyen veri çakışması çözümünü denetle"
@@ -325,7 +287,7 @@
         "message": "Profili tutarsız tarihler ve değerler için kendi kendine denetle."
     },
     "Check_name_fields_for_improper_values": {
-        "message": "Ad alanlarını hatalı değerler için denetle"
+        "message": "Ad alanlarını uygun olmayan değerler için denetle"
     },
     "Check_name_fields_for_living_profiles": {
         "message": "Yaşayan profilleri hızlı düzeltmeden hariç tut"
@@ -343,43 +305,43 @@
         "message": "Özel olmak için en yüksek yıl:"
     },
     "Maximum_age": {
-        "message": "Maksimum yaş:"
+        "message": "En yüksek yaş:"
     },
     "Check_the_dates_of_children_against_their_parents": {
-        "message": "Çocukların tarihlerini ebeveynlerininkilerle karşılaştır."
+        "message": "Çocukların tarihlerini ebeveynlerine göre denetle."
     },
     "Check_child_is_born_after_parent_marriage": {
-        "message": "Çocuğun ebeveyn evliliğinden sonra doğduğunu denetle"
+        "message": "Çocuğun ebeveynlerin evliliğinden sonra doğup doğmadığını denetle"
     },
     "Age_the_parent_is_too_young_to_have_a_child": {
-        "message": "Ebeveynin çocuk sahibi olmak için çok genç sayıldığı yaş"
+        "message": "Ebeveynin çocuk sahibi olamayacak kadar genç olduğu yaş"
     },
     "Age_the_mother_is_too_old_to_have_a_child": {
-        "message": "Annenin çocuk sahibi olmak için çok yaşlı sayıldığı yaş"
+        "message": "Annenin çocuk sahibi olamayacak kadar yaşlı olduğu yaş"
     },
     "Check_the_values_of_partner_spouses_against_each_other": {
-        "message": "Partner/eş değerlerini birbirine karşı denetle."
+        "message": "Eşlerin/partnerlerin değerlerini birbirlerine göre denetle."
     },
     "Identify_possible_maiden_name_copy_issues": {
         "message": "Olası kızlık soyadı kopyalama sorunlarını belirle"
     },
     "Age_the_spouse_is_too_young_to_be_married": {
-        "message": "Eşin evlenmek için çok genç sayıldığı yaş"
+        "message": "Eşin evlenemeyecek kadar genç olduğu yaş"
     },
     "Maximum_age_difference_between_spouses": {
-        "message": "Eşler arasındaki maksimum yaş farkı"
+        "message": "Eşler arasındaki en yüksek yaş farkı"
     },
     "Check_siblings_birth_are_over_": {
-        "message": "Kardeşlerin doğumlarının "
+        "message": "Kardeşlerin doğumlarının arasında en az "
     },
     "_months_apart_excl_twins": {
-        "message": " aydan fazla aralıklı olduğunu denetle (ikizler hariç)."
+        "message": " ay olup olmadığını denetle (ikizler hariç)."
     },
     "Future_options_to_add_features_to_Geni": {
         "message": "Geni'ye özellik eklemek için gelecekteki seçenekler."
     },
     "This_profile_is_not_in_the_World_Family_Tree": {
-        "message": "Bu profil Dünya Aile Ağacı'nda değil."
+        "message": "Bu profil World Family Tree'de değil."
     },
     "Add_to_History": {
         "message": "Geçmişe Ekle"
@@ -394,14 +356,12 @@
         "message": "Geçmişi Temizle"
     },
     "Notice___Please_Read": {
-        "message": "Uyarı - Lütfen Okuyun"
+        "message": "Uyarı – Lütfen Okuyun"
     },
     "SmartCopy_will_no_longer_do_geo_location_lookups___": {
-        "message": "SmartCopy, Google hizmetinin maliyeti nedeniyle artık otomatik olarak coğrafi konum sorguları yapmayacaktır. Bu üzücü bir haber olsa da, Geni son zamanlarda gönderimden <i>sonra</i> coğrafi konum sorgusu yapma özelliğini sundu. Bir konum yer alanı üzerinden gönderildiğinde, Geni sorguyu yapacak ve web sitesindeki konum alanlarını dolduracaktır. Alternatif olarak, yapılandırmada kendi Google API anahtarınızı belirtebilirsiniz. Ayrıca, küre simgesi $globe_icon$ öğesine tıklayarak SmartCopy içinde konum verilerini hâlâ el ile doldurma seçeneğiniz vardır ve Geni'nin coğrafi konum sorgusunu devre dışı bırakmak isterseniz bunu SmartCopy yapılandırmasında yapabilirsiniz.",
+        "message": "SmartCopy, Google hizmetinin maliyeti nedeniyle artık otomatik olarak coğrafi konum aramaları yapmayacak. Bu üzücü bir haber olsa da Geni, kısa süre önce gönderimden <i>sonra</i> coğrafi konum aramaları yapma özelliğini sundu. Bir konum, yer alanı aracılığıyla gönderildiğinde Geni sorguyu yürütecek ve web sitesindeki konum alanlarını dolduracaktır. Alternatif olarak, yapılandırmada kendi Google API anahtarınızı belirtebilirsiniz. Ayrıca, küre simgesine $globe_icon$ tıklayarak SmartCopy'de konum verilerini manuel olarak doldurma seçeneğiniz hâlâ var ve Geni'nin coğrafi konum aramasını devre dışı bırakmak isterseniz bunu SmartCopy yapılandırmasında yapabilirsiniz.",
         "placeholders": {
-            "globe_icon": {
-                "content": "$1"
-            }
+            "globe_icon": { "content": "$1" }
         }
     },
     "Close": {
@@ -414,13 +374,13 @@
         "message": "Biyografi ekle"
     },
     "Export_Profiles_button_on_Project_Actions": {
-        "message": "Proje İşlemlerinde Profilleri Dışa Aktar düğmesi"
+        "message": "Proje Eylemlerinde Profilleri Dışa Aktar düğmesi"
     },
     "Export_Profiles": {
         "message": "Profilleri Dışa Aktar"
     },
     "SmartCopy_does_not_currently_support_parsing": {
-        "message": "SmartCopy şu anda bu sayfanın / sitenin / koleksiyonun ayrıştırılmasını desteklemiyor."
+        "message": "SmartCopy şu anda bu sayfayı / siteyi / koleksiyonu ayrıştırmayı desteklemiyor."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
         "message": "SmartCopy sayfayı okumakta zorlanıyor. Sayfayı yenilemeyi deneyin."
@@ -438,16 +398,16 @@
         "message": "Fotoğraf onay kutusu otomatik seçimini etkinleştir"
     },
     "Reminder_user_responsible": {
-        "message": "Hatırlatma: Resimleri kopyalarken gerekli izinlerin<br>fotoğrafçıdan alınmasından<br>kullanıcı sorumludur."
+        "message": "Hatırlatma: Kullanıcı, görselleri kopyalarken<br>fotoğrafçıdan gerekli izni<br>almaktan sorumludur."
     },
     "Exclude_private_profile_auto_select": {
         "message": "<private> profil otomatik seçimini hariç tut"
     },
     "Est_burial_date_from_death_if_location": {
-        "message": "Konum varsa ölümden tahmini defin tarihi"
+        "message": "Konum varsa ölümden defin tarihini tahmin et"
     },
     "This_change_will_take_effect_at_next_use": {
-        "message": "Bu değişiklik bir sonraki kullanımda geçerli olacaktır."
+        "message": "Bu değişiklik bir sonraki kullanımda geçerli olacak."
     },
     "Location": {
         "message": "Konum"
@@ -459,7 +419,19 @@
         "message": "API Anahtarı"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "Konum alanlarında birini seç hepsini seçsin"
+        "message": "Konum alanları: birini seç, tümünü seç"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "Konum düzenleme tüm alanları önceden seçer"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "Konumları FamilySearch Places ile ayrıştır (deneysel)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "Defin yeri için güncel adı kullan (tarihsel yerine)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "Mezarlığı ölüm konumundan defin konumuna taşı"
     },
     "Naming": {
         "message": "Adlandırma"
@@ -468,25 +440,25 @@
         "message": "Boş doğum adı alanlarını otomatik doldur"
     },
     "Auto_fill_married_last_name": {
-        "message": "Evli soyadını otomatik doldur"
+        "message": "Evlilik sonrası soyadını otomatik doldur"
     },
     "Parse_for_middle_names_automatically": {
-        "message": "İkinci adları otomatik ayrıştır"
+        "message": "İkinci adları otomatik olarak ayrıştır"
     },
     "Auto_adjust_the_names_for_mixed_case": {
-        "message": "Adları karışık harf biçimi için otomatik ayarla"
+        "message": "Adları karışık büyük/küçük harfe otomatik uyarla"
     },
     "Force_compound_lastname_to_lowercase": {
         "message": "Bileşik soyadını küçük harfe zorla"
     },
     "Default_children_to_likely_Geni_parent": {
-        "message": "Çocukları varsayılan olarak muhtemel Geni ebeveynine ata"
+        "message": "Çocukları varsayılan olarak muhtemel Geni ebeveynine bağla"
     },
     "Default_deceased_profiles_to_public": {
-        "message": "Ölen kişilerin profillerini varsayılan olarak herkese açık yap"
+        "message": "Vefat etmiş profilleri varsayılan olarak herkese açık yap"
     },
     "Add_reference_to_Geni_s_About_section": {
-        "message": "Geni'nin Hakkında bölümüne kaynak ekle"
+        "message": "Geni'nin Hakkında bölümüne referans ekle"
     },
     "Display_the_Geni_side_data_by_default": {
         "message": "Geni tarafı verilerini varsayılan olarak göster"
@@ -495,34 +467,34 @@
         "message": "Lütfen bu sonuç sayfasındaki eşleşmelerden birini seçin."
     },
     "_year_age_difference_between_": {
-        "message": " arasındaki yaş farkı "
+        "message": " yıl yaş farkı: "
     },
     "Birth_Surname_of_": {
-        "message": "Doğum Soyadı: "
+        "message": "Doğum soyadı: "
     },
     "_is_the_same_as_the_last_name_of_": {
-        "message": " şunun soyadıyla aynıdır: "
+        "message": " şunun soyadıyla aynı: "
     },
     "Death_date_of_": {
         "message": "Ölüm tarihi: "
     },
     "_is_the_same_as_the_death_date_of_": {
-        "message": " şunun ölüm tarihiyle aynıdır: "
+        "message": " şunun ölüm tarihiyle aynı: "
     },
     "_is_the_same_as_": {
-        "message": " şununla aynıdır: "
+        "message": " şununla aynı: "
     },
     "_marriage_date": {
         "message": " evlilik tarihi"
     },
     "_born_after_": {
-        "message": " şundan sonra doğmuş: "
+        "message": " şundan sonra doğdu: "
     },
     "_died_before_": {
-        "message": " şundan önce ölmüş: "
+        "message": " şundan önce öldü: "
     },
     "_years_old_for_": {
-        "message": " yaşında olduğu olay: "
+        "message": " yaşında: "
     },
     "_marriage": {
         "message": " evlilik"
@@ -534,37 +506,37 @@
         "message": " ve "
     },
     "_are_within_": {
-        "message": " şu aralık içinde: "
+        "message": " şunun içinde: "
     },
     "_months": {
         "message": " ay"
     },
     "_born_before_the_birth_of_": {
-        "message": " şunun doğumundan önce doğmuş: "
+        "message": " şunun doğumundan önce doğdu: "
     },
     "death": {
         "message": "ölüm"
     },
     "_born_after_the_death_of_": {
-        "message": " şunun ölümünden sonra doğmuş: "
+        "message": " şunun ölümünden sonra doğdu: "
     },
     "_is_under_": {
-        "message": " şu değerin altında: "
+        "message": " şunun altında: "
     },
     "_years_old_for_the_birth_of_": {
-        "message": " yaşında, şu kişinin doğumu için: "
+        "message": " yaşında, şunun doğumu için: "
     },
     "_is_over_": {
-        "message": " şu değerin üstünde: "
+        "message": " şunun üstünde: "
     },
     "_born_before_the_marriage_of_": {
-        "message": " şunun evliliğinden önce doğmuş: "
+        "message": " şunun evliliğinden önce doğdu: "
     },
     "_parents_": {
         "message": " ebeveynler "
     },
     "_has_pending_": {
-        "message": " bekleyen şuna sahip: "
+        "message": " bekleyen var: "
     },
     "data_conflicts": {
         "message": "veri çakışmaları"
@@ -573,7 +545,7 @@
         "message": "Yaşı: "
     },
     "_exceeds_": {
-        "message": " şu değeri aşıyor: "
+        "message": " aşıyor: "
     },
     "_years": {
         "message": " yıl"
@@ -597,52 +569,52 @@
         "message": " defin tarihi"
     },
     "_contains_a_double_space_in_": {
-        "message": " şu alanda çift boşluk içeriyor: "
+        "message": " çift boşluk içeriyor: "
     },
     "first_name": {
-        "message": "ilk ad"
+        "message": "ön ad"
     },
     "_contains_a_double_or_trailing_space_in_": {
-        "message": " şu alanda çift veya sondaki boşluk içeriyor: "
+        "message": " çift veya sondaki boşluk içeriyor: "
     },
     "_names": {
         "message": " adlar"
     },
     "_contains_an_alias_in_": {
-        "message": " şu alanda takma ad içeriyor: "
+        "message": " takma ad içeriyor: "
     },
     "_appears_to_contain_a_suffix_in_": {
-        "message": " şu alanda bir sonek içeriyor gibi görünüyor: "
+        "message": " son ek içeriyor gibi görünüyor: "
     },
     "Move_Suffix": {
-        "message": "Soneki Taşı"
+        "message": "Son Eki Taşı"
     },
     "_contains_improper_use_of_salutation_in_": {
-        "message": " şu alanda hitabın hatalı kullanımını içeriyor: "
+        "message": " uygunsuz hitap kullanımı içeriyor: "
     },
     "_title": {
         "message": " unvan"
     },
     "Remove_salutation": {
-        "message": "Hitabı Kaldır"
+        "message": "Hitabı kaldır"
     },
     "_contains_improper_use_of_relationship_in_": {
-        "message": " şu alanda ilişkinin hatalı kullanımını içeriyor: "
+        "message": " uygunsuz akrabalık kullanımı içeriyor: "
     },
     "_suffix": {
-        "message": " sonek"
+        "message": " son ek"
     },
     "Remove_relationship": {
-        "message": "İlişkiyi Kaldır"
+        "message": "Akrabalığı kaldır"
     },
     "_contains_improper_use_of_a_numbering_scheme_in_": {
-        "message": " şu alanda numaralandırma şemasının hatalı kullanımını içeriyor: "
+        "message": " uygunsuz numaralandırma şeması kullanımı içeriyor: "
     },
     "Remove_numeric": {
-        "message": "Sayısalı Kaldır"
+        "message": "Sayıyı kaldır"
     },
     "_is_in_a_relationship_cycle_within_the_immediate_family": {
-        "message": " yakın aile içinde bir ilişki döngüsü içinde"
+        "message": " yakın ailede bir ilişki döngüsü içinde"
     },
     "_contains_an_invalid_": {
         "message": " geçersiz bir şey içeriyor: "
@@ -666,10 +638,10 @@
         "message": " tarih, yıl eksik."
     },
     "_contains_a_": {
-        "message": " şunu içeriyor: "
+        "message": " bir şey içeriyor: "
     },
     "_location_without_a_country": {
-        "message": " ülkesiz konum"
+        "message": " ülkesiz bir konum"
     },
     "his": {
         "message": "onun"
@@ -704,17 +676,212 @@
     "partner": {
         "message": "partner"
     },
+    "Submit": {
+        "message": "Gönder"
+    },
+    "Profile_Data": {
+        "message": "Profil Verileri"
+    },
+    "ExperimentalMessage": {
+        "message": "Deneysel Mesaj"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "Geni'de SmartCopy tartışması"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy, Geni profilini belirleyemedi"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "Geni Hedef Profilini Ayarla"
+    },
+    "Relatives": {
+        "message": "Akrabalar"
+    },
+    "Select_from_History": {
+        "message": "Geçmişten Seç"
+    },
+    "Invalid_Profile": {
+        "message": "Geçersiz Profil"
+    },
+    "Set_Destination": {
+        "message": "Hedefi Ayarla"
+    },
+    "History": {
+        "message": "Geçmiş"
+    },
+    "Reading_Family_Data": {
+        "message": "Aile verileri okunuyor ..."
+    },
+    "Updating_Geni": {
+        "message": "Geni güncelleniyor"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni Ağacı Güncellendi"
+    },
+    "Reminder_Duplicate": {
+        "message": "Hatırlatma: kopya"
+    },
+    "View_Profile": {
+        "message": "Profili Görüntüle :"
+    },
+    "Tree_View": {
+        "message": "Ağaç Görünümü"
+    },
+    "View_Profil": {
+        "message": "Profili Görüntüle"
+    },
+    "Geni_Data": {
+        "message": "Geni Verileri"
+    },
+    "Update_Profile": {
+        "message": "Profili Güncelle"
+    },
+    "Family_Members": {
+        "message": "Aile Üyeleri"
+    },
+    "Parents": {
+        "message": "Ebeveynler"
+    },
+    "Siblings": {
+        "message": "Kardeşler"
+    },
+    "Partners": {
+        "message": "Partnerler"
+    },
+    "Children": {
+        "message": "Çocuklar"
+    },
+    "expand_all": {
+        "message": "tümünü genişlet"
+    },
+    "collapse_all": {
+        "message": "tümünü daralt"
+    },
+    "Title": {
+        "message": "Unvan:"
+    },
+    "FFirst_Name": {
+        "message": "Ön Ad : "
+    },
+    "Middle_Name": {
+        "message": "İkinci Ad :"
+    },
+    "Last_Name": {
+        "message": "Soyad :"
+    },
+    "Birth_Name": {
+        "message": "Doğum Adı :"
+    },
+    "Suffix": {
+        "message": "Son Ek :"
+    },
+    "Display_Name": {
+        "message": "Görünen Ad :"
+    },
+    "Also_Known_As": {
+        "message": "Ayrıca bilinen adı :"
+    },
+    "Occupation": {
+        "message": "Meslek :"
+    },
+    "Gender": {
+        "message": "Cinsiyet :"
+    },
+    "Vital": {
+        "message": "Hayati Veriler :"
+    },
+    "Privacy": {
+        "message": "Gizlilik :"
+    },
+    "About": {
+        "message": "Hakkında :"
+    },
+    "Male": {
+        "message": "Erkek"
+    },
+    "Female": {
+        "message": "Kadın"
+    },
+    "Deceased": {
+        "message": "Vefat etmiş"
+    },
+    "LLiving": {
+        "message": "Yaşayan"
+    },
+    "Public": {
+        "message": "Herkese açık"
+    },
+    "Private": {
+        "message": "Özel"
+    },
+    "Auto": {
+        "message": "Otomatik"
+    },
+    "Unknown": {
+        "message": "Bilinmiyor"
+    },
+    "Action": {
+        "message": "Eylem:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "Kullanılmayan Alanları Gizle"
+    },
+    "Show_All_Fields": {
+        "message": "Tüm Alanları Göster"
+    },
+    "Update": {
+        "message": "Güncelle :"
+    },
+    "Add": {
+        "message": "Ekle"
+    },
+    "Add_Profile": {
+        "message": "Profil Ekle "
+    },
+    "Unknown_Relations": {
+        "message": "Bilinmeyen İlişkiler"
+    },
+    "MMother": {
+        "message": "Anne"
+    },
+    "FFather": {
+        "message": "Baba"
+    },
+    "Parent": {
+        "message": "Ebeveyn"
+    },
+    "BBrother": {
+        "message": "Erkek Kardeş"
+    },
+    "Sister": {
+        "message": "Kız Kardeş"
+    },
+    "SSibling": {
+        "message": "Kardeş"
+    },
+    "WWife": {
+        "message": "Eş"
+    },
+    "HHusband": {
+        "message": "Koca"
+    },
+    "Partner": {
+        "message": "Partner"
+    },
+    "Spouse": {
+        "message": "Eş"
+    },
+    "Son": {
+        "message": "Oğul"
+    },
+    "Daughter": {
+        "message": "Kız"
+    },
+    "Child": {
+        "message": "Çocuk"
+    },
     "Enable_Google_Geocoding": {
-        "message": "Google Geocoding'i etkinleştir"
-    },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "Konumları FamilySearch Places ile işle (deneysel)"
-    },
-    "Use_current_location_name_for_burial": {
-        "message": "Defin için güncel yer adını kullan (tarihi ad yerine)"
-    },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "Mezarlığı ölüm yerinden defin yerine taşı"
+        "message": "Google Geocoding'i Etkinleştir"
     },
     "Family_Data": {
         "message": "Aile Verileri"
@@ -723,7 +890,7 @@
         "message": "Tam ayrıntılar için derin araştırma (daha uzun sürer)"
     },
     "Skip_Deep_Research_for_this_run": {
-        "message": "Derin araştırmayı atla"
+        "message": "Derin Araştırmayı Atla"
     },
     "Deep_Research_skipped_for_this_run": {
         "message": "Kalan aramalar atlanıyor..."
@@ -735,27 +902,36 @@
         "message": "Ortalama nesil farkı (yıl):"
     },
     "Average_spousal_age_gap_years": {
-        "message": "Eşler arası ortalama yaş farkı (yıl):"
+        "message": "Eşler arasındaki ortalama yaş farkı (yıl):"
     },
     "Show_birth_death_years_in_dropdowns": {
         "message": "Açılır menülerde doğum/ölüm yıllarını göster"
     },
-    "Male": {
-        "message": "Erkek"
-    },
-    "Female": {
-        "message": "Kadın"
-    },
-    "Unknown": {
-        "message": "Bilinmiyor"
-    },
     "Living": {
-        "message": "Sağ"
-    },
-    "Deceased": {
-        "message": "Vefat etmiş"
+        "message": "Yaşayan"
     },
     "Fix_All_Case_Issues": {
-        "message": "Tümünü düzelt"
+        "message": "Tümünü Düzelt"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Konumu güncelleyin ve coğrafi konum için tekrar Google'a gönderin."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Konumu ve/veya yılı güncelleyin, ardından FamilySearch'ün tarihsel yer aramasına tekrar gönderin."
+    },
+    "Country": {
+        "message": "Ülke"
+    },
+    "State": {
+        "message": "Eyalet"
+    },
+    "City": {
+        "message": "Şehir"
+    },
+    "Place": {
+        "message": "Yer"
+    },
+    "County": {
+        "message": "İlçe"
     }
 }

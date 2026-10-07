@@ -1,0 +1,937 @@
+{
+    "appName": {
+        "message": "SmartCopy"
+    },
+    "appShortName": {
+        "message": "SmartCopy"
+    },
+    "appDesc": {
+        "message": "वंशावली डेटा को Geni में कॉपी करने का उपकरण।"
+    },
+    "switchOn": {
+        "message": "चालू"
+    },
+    "switchOff": {
+        "message": "बंद"
+    },
+    "consistencyCheck": {
+        "message": "संगतता जाँच"
+    },
+    "contains_incorrect_uppercase_lowercase_in_name": {
+        "message": "$person$ के $pronoun$ नाम में बड़े/छोटे अक्षरों का गलत उपयोग है ($lang$)।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_incorrect_uppercase_lowercase_in_name_default": {
+        "message": "$person$ के $pronoun$ नाम में बड़े/छोटे अक्षरों का गलत उपयोग है।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_patronym_in_first_name": {
+        "message": "$person$ के $pronoun$ पहले नाम में पितृनाम/मातृनाम है ($lang$)।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_patronym_in_first_name_default": {
+        "message": "$person$ के $pronoun$ पहले नाम में पितृनाम/मातृनाम है।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_non_patronym_in_middle_name": {
+        "message": "$person$ के $pronoun$ मध्य नाम में गैर-पितृनाम/मातृनाम है ($lang$)।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_non_patronym_in_middle_name_default": {
+        "message": "$person$ के $pronoun$ मध्य नाम में गैर-पितृनाम/मातृनाम है।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "consistencyCheckLiving": {
+        "message": "जीवित"
+    },
+    "claimed": {
+        "message": "दावा किया गया"
+    },
+    "fixCase": {
+        "message": "अक्षर केस ठीक करें"
+    },
+    "fixed": {
+        "message": "ठीक किया गया"
+    },
+    "fixName": {
+        "message": "नाम ठीक करें"
+    },
+    "fixSpace": {
+        "message": "स्थान ठीक करें"
+    },
+    "fixSuffix": {
+        "message": "प्रत्यय ठीक करें"
+    },
+    "fixTitle": {
+        "message": "उपाधि ठीक करें"
+    },
+    "noPermission": {
+        "message": "ठीक करने की अनुमति नहीं"
+    },
+    "makePublic": {
+        "message": "सार्वजनिक करें"
+    },
+    "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
+        "message": "$count$ परिवार के सदस्य जो लगभग $year$ से पहले पैदा हुए थे, निजी के रूप में सेट हैं।",
+        "placeholders": {
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "personWasBornBeforeYearAndIsSetAsPrivate": {
+        "message": "$person$ लगभग $year$ से पहले पैदा हुए थे और निजी के रूप में सेट हैं।",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "Research_this_Person": {
+        "message": "इस व्यक्ति पर शोध करें"
+    },
+    "All_Collections": {
+        "message": "सभी संग्रह"
+    },
+    "Collections": {
+        "message": "संग्रह"
+    },
+    "Publications": {
+        "message": "प्रकाशन"
+    },
+    "Holocaust": {
+        "message": "होलोकॉस्ट"
+    },
+    "Name_Search": {
+        "message": "नाम खोज"
+    },
+    "Gravestones": {
+        "message": "कब्र के पत्थर"
+    },
+    "Genealogies": {
+        "message": "वंशावलियाँ"
+    },
+    "Genealogy": {
+        "message": "वंशावली"
+    },
+    "Geni_Search": {
+        "message": "Geni खोज"
+    },
+    "Google_Search": {
+        "message": "Google खोज"
+    },
+    "Records": {
+        "message": "अभिलेख"
+    },
+    "Messageboard": {
+        "message": "संदेश बोर्ड"
+    },
+    "Newspapers": {
+        "message": "समाचार पत्र"
+    },
+    "Books": {
+        "message": "पुस्तकें"
+    },
+    "Obituaries": {
+        "message": "शोक संदेश"
+    },
+    "Other_Resources": {
+        "message": "अन्य संसाधन"
+    },
+    "Unable_to_create_research_links_on_this_profile": {
+        "message": "इस प्रोफ़ाइल पर शोध लिंक नहीं बना सकते।"
+    },
+    "Loading___": {
+        "message": "लोड हो रहा है..."
+    },
+    "HistoryLink_unreachable_message": {
+        "message": "HistoryLink की लॉगिन सेवा तक नहीं पहुँच सके। अपना इंटरनेट कनेक्शन जाँचें और पुनः प्रयास करें।"
+    },
+    "HistoryLink": {
+        "message": "HistoryLink उपकरण"
+    },
+    "Ancestor_Graph": {
+        "message": "पूर्वज ग्राफ"
+    },
+    "Descendant_Graph": {
+        "message": "वंशज ग्राफ"
+    },
+    "History_Search": {
+        "message": "ऐतिहासिक खोज"
+    },
+    "Forest_Density_Calculator": {
+        "message": "घनत्व कैलकुलेटर"
+    },
+    "Path_To_User": {
+        "message": "उपयोगकर्ता तक पथ"
+    },
+    "Configuration": {
+        "message": "कॉन्फ़िगरेशन"
+    },
+    "Copy_Preferences": {
+        "message": "प्राथमिकताएँ कॉपी करें"
+    },
+    "Consistency_Checks": {
+        "message": "संगतता जाँच"
+    },
+    "Geni_Customization": {
+        "message": "Geni अनुकूलन"
+    },
+    "Note_Dates_that_contain_Between_Before_and_After___": {
+        "message": "नोट: Between, Before और After वाली तिथियाँ संगतता जाँच में तुलना नहीं की जातीं। Circa वाली तिथियाँ सटीक तिथियाँ मानी जाती हैं।"
+    },
+    "Run_consistency_checks_when_viewing_Geni_profiles": {
+        "message": "Geni प्रोफ़ाइल देखते समय संगतता जाँच चलाएँ।"
+    },
+    "Age_difference_between_partners_is_significant": {
+        "message": "साथियों के बीच आयु का अंतर महत्वपूर्ण है"
+    },
+    "Maiden_name_same_as_husbands_last_name": {
+        "message": "विवाह से पहले का उपनाम पति के उपनाम के समान है"
+    },
+    "Husband_and_wife_death_dates_the_same": {
+        "message": "पति और पत्नी की मृत्यु तिथियाँ समान हैं"
+    },
+    "Husband_death_date_same_as_marriage_date": {
+        "message": "पति की मृत्यु तिथि विवाह तिथि के समान है"
+    },
+    "Wife_death_date_same_as_marriage_date": {
+        "message": "पत्नी की मृत्यु तिथि विवाह तिथि के समान है"
+    },
+    "Born_after_marriage": {
+        "message": "विवाह के बाद जन्म"
+    },
+    "Died_before_marriage": {
+        "message": "विवाह से पहले मृत्यु"
+    },
+    "Implausible_marriage_age_too_young": {
+        "message": "अविश्वसनीय विवाह आयु, बहुत कम"
+    },
+    "Siblings_ages_too_close_together": {
+        "message": "भाई-बहनों की आयु बहुत करीब है"
+    },
+    "Born_before_parent_birth": {
+        "message": "माता-पिता के जन्म से पहले जन्म"
+    },
+    "Born_after_parent_death": {
+        "message": "माता-पिता की मृत्यु के बाद जन्म"
+    },
+    "Death_before_baptism_date": {
+        "message": "बपतिस्मा तिथि से पहले मृत्यु"
+    },
+    "Death_after_burial_date": {
+        "message": "दफन तिथि के बाद मृत्यु"
+    },
+    "Parent_too_young_for_childs_birth": {
+        "message": "माता-पिता बच्चे के जन्म के लिए बहुत कम उम्र के हैं"
+    },
+    "Mother_too_old_for_childs_birth": {
+        "message": "माँ बच्चे के जन्म के लिए बहुत अधिक उम्र की हैं"
+    },
+    "Born_before_parent_marriage": {
+        "message": "माता-पिता के विवाह से पहले जन्म"
+    },
+    "Excessive_Age": {
+        "message": "अत्यधिक आयु"
+    },
+    "Born_after_death": {
+        "message": "मृत्यु के बाद जन्म"
+    },
+    "Name_contains_double_space": {
+        "message": "नाम में दोहरा स्थान है"
+    },
+    "Name_contains_alias": {
+        "message": "नाम में उपनाम है"
+    },
+    "Name_contains_improper_use_of_uppercase_lowercase": {
+        "message": "नाम में बड़े/छोटे अक्षरों का अनुचित उपयोग है"
+    },
+    "First_Name_ends_in_suffix_eg___": {
+        "message": "पहला नाम प्रत्यय पर समाप्त होता है (जैसे 'i','ii','iii','iv','jr','sr')"
+    },
+    "Salutation_or_relationship_in_title_eg___": {
+        "message": "उपाधि में संबोधन या संबंध (जैसे 'Mr', 'Mrs')"
+    },
+    "Salutation_or_relationship_in_suffix_eg___": {
+        "message": "प्रत्यय में संबोधन या संबंध (जैसे 'Mr', 'Mrs')"
+    },
+    "Relationship_cycle_in_immediate_family": {
+        "message": "निकट परिवार में संबंध चक्र"
+    },
+    "Check_date_formatting_for_inconsistent_values": {
+        "message": "असंगत मानों के लिए तिथि प्रारूपण जाँचें"
+    },
+    "Check_for_pending_data_conflict_resolution": {
+        "message": "लंबित डेटा विरोध समाधान जाँचें"
+    },
+    "Self_check_profile_for_inconsistent_dates_and_values": {
+        "message": "असंगत तिथियों और मानों के लिए प्रोफ़ाइल स्वयं जाँचें।"
+    },
+    "Check_name_fields_for_improper_values": {
+        "message": "अनुचित मानों के लिए नाम फ़ील्ड जाँचें"
+    },
+    "Check_name_fields_for_living_profiles": {
+        "message": "जीवित प्रोफ़ाइल को त्वरित सुधार से बाहर रखें"
+    },
+    "Check_profile_for_pending_data_conflicts": {
+        "message": "लंबित डेटा विरोध के लिए प्रोफ़ाइल जाँचें"
+    },
+    "Check_date_values_for_irregular_formatting": {
+        "message": "अनियमित प्रारूपण के लिए तिथि मान जाँचें"
+    },
+    "Check_when_location_is_missing_a_country": {
+        "message": "जब स्थान में देश न हो तो जाँचें"
+    },
+    "Maximum_year_to_be_private": {
+        "message": "निजी होने के लिए अधिकतम वर्ष:"
+    },
+    "Maximum_age": {
+        "message": "अधिकतम आयु:"
+    },
+    "Check_the_dates_of_children_against_their_parents": {
+        "message": "बच्चों की तिथियों की उनके माता-पिता से तुलना करें।"
+    },
+    "Check_child_is_born_after_parent_marriage": {
+        "message": "जाँचें कि बच्चा माता-पिता के विवाह के बाद पैदा हुआ है"
+    },
+    "Age_the_parent_is_too_young_to_have_a_child": {
+        "message": "वह आयु जब माता-पिता बच्चा पैदा करने के लिए बहुत कम उम्र के हैं"
+    },
+    "Age_the_mother_is_too_old_to_have_a_child": {
+        "message": "वह आयु जब माँ बच्चा पैदा करने के लिए बहुत अधिक उम्र की हैं"
+    },
+    "Check_the_values_of_partner_spouses_against_each_other": {
+        "message": "साथियों/पति-पत्नी के मानों की एक-दूसरे से तुलना करें।"
+    },
+    "Identify_possible_maiden_name_copy_issues": {
+        "message": "संभावित विवाह-पूर्व उपनाम प्रतिलिपि समस्याओं की पहचान करें"
+    },
+    "Age_the_spouse_is_too_young_to_be_married": {
+        "message": "वह आयु जब जीवनसाथी विवाह के लिए बहुत कम उम्र का है"
+    },
+    "Maximum_age_difference_between_spouses": {
+        "message": "पति-पत्नी के बीच अधिकतम आयु अंतर"
+    },
+    "Check_siblings_birth_are_over_": {
+        "message": "जाँचें कि भाई-बहनों के जन्म के बीच "
+    },
+    "_months_apart_excl_twins": {
+        "message": " महीने से अधिक का अंतर है (जुड़वाँ को छोड़कर)।"
+    },
+    "Future_options_to_add_features_to_Geni": {
+        "message": "Geni में सुविधाएँ जोड़ने के भविष्य के विकल्प।"
+    },
+    "This_profile_is_not_in_the_World_Family_Tree": {
+        "message": "यह प्रोफ़ाइल World Family Tree में नहीं है।"
+    },
+    "Add_to_History": {
+        "message": "इतिहास में जोड़ें"
+    },
+    "Show_History": {
+        "message": "इतिहास दिखाएँ"
+    },
+    "Hide_History": {
+        "message": "इतिहास छिपाएँ"
+    },
+    "Clear_History": {
+        "message": "इतिहास साफ़ करें"
+    },
+    "Notice___Please_Read": {
+        "message": "सूचना – कृपया पढ़ें"
+    },
+    "SmartCopy_will_no_longer_do_geo_location_lookups___": {
+        "message": "Google की सेवा की लागत के कारण SmartCopy अब स्वचालित रूप से भू-स्थान खोज नहीं करेगा। हालाँकि यह दुखद समाचार है, Geni ने हाल ही में सबमिट करने के <i>बाद</i> भू-स्थान खोज करने की सुविधा प्रदान की है। जब कोई स्थान स्थान फ़ील्ड के माध्यम से सबमिट किया जाता है, तो Geni क्वेरी चलाएगा और वेबसाइट पर स्थान फ़ील्ड भरेगा। वैकल्पिक रूप से, आप कॉन्फ़िगरेशन में अपनी स्वयं की Google API कुंजी निर्दिष्ट कर सकते हैं। आपके पास अभी भी ग्लोब आइकन $globe_icon$ पर क्लिक करके SmartCopy में स्थान डेटा मैन्युअल रूप से भरने का विकल्प है, और यदि आप Geni की भू-स्थान खोज को अक्षम करना चाहते हैं, तो आप SmartCopy कॉन्फ़िगरेशन में ऐसा कर सकते हैं।",
+        "placeholders": {
+            "globe_icon": { "content": "$1" }
+        }
+    },
+    "Close": {
+        "message": "बंद करें"
+    },
+    "Display_Add_Biography_button_in_About": {
+        "message": "परिचय में जीवनी जोड़ें बटन दिखाएँ"
+    },
+    "Add_Biography": {
+        "message": "जीवनी जोड़ें"
+    },
+    "Export_Profiles_button_on_Project_Actions": {
+        "message": "प्रोजेक्ट क्रियाओं में प्रोफ़ाइल निर्यात करें बटन"
+    },
+    "Export_Profiles": {
+        "message": "प्रोफ़ाइल निर्यात करें"
+    },
+    "SmartCopy_does_not_currently_support_parsing": {
+        "message": "SmartCopy वर्तमान में इस पृष्ठ / साइट / संग्रह की पार्सिंग का समर्थन नहीं करता।"
+    },
+    "SmartCopy_is_having_difficulty_reading_the_page": {
+        "message": "SmartCopy को पृष्ठ पढ़ने में कठिनाई हो रही है। पृष्ठ को रीफ़्रेश करने का प्रयास करें।"
+    },
+    "This_website_is_not_yet_supported_by_SmartCopy": {
+        "message": "यह वेबसाइट अभी तक SmartCopy द्वारा समर्थित नहीं है।"
+    },
+    "Selection": {
+        "message": "चयन"
+    },
+    "Simplify_form_by_hiding_unused_fields": {
+        "message": "अप्रयुक्त फ़ील्ड छिपाकर फ़ॉर्म सरल बनाएँ"
+    },
+    "Enable_photo_checkbox_auto_selection": {
+        "message": "फ़ोटो चेकबॉक्स स्वतः चयन सक्षम करें"
+    },
+    "Reminder_user_responsible": {
+        "message": "अनुस्मारक: छवियों को कॉपी करते समय<br>उपयोगकर्ता फ़ोटोग्राफ़र से आवश्यक<br>अनुमति प्राप्त करने के लिए ज़िम्मेदार है।"
+    },
+    "Exclude_private_profile_auto_select": {
+        "message": "<private> प्रोफ़ाइल स्वतः चयन को बाहर रखें"
+    },
+    "Est_burial_date_from_death_if_location": {
+        "message": "यदि स्थान हो तो मृत्यु से दफन तिथि का अनुमान लगाएँ"
+    },
+    "This_change_will_take_effect_at_next_use": {
+        "message": "यह परिवर्तन अगली बार उपयोग पर प्रभावी होगा।"
+    },
+    "Location": {
+        "message": "स्थान"
+    },
+    "Enable_Geolocation": {
+        "message": "भू-स्थान सक्षम करें"
+    },
+    "API_Key": {
+        "message": "API कुंजी"
+    },
+    "Location_fields_auto_select_one_select_all": {
+        "message": "स्थान फ़ील्ड: एक चुनें, सभी चुनें"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "स्थान संपादन सभी फ़ील्ड पहले से चुनता है"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "FamilySearch Places के साथ स्थान पार्स करें (प्रयोगात्मक)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "दफन स्थान के लिए वर्तमान नाम का उपयोग करें (ऐतिहासिक के बजाय)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "कब्रिस्तान को मृत्यु स्थान से दफन स्थान पर ले जाएँ"
+    },
+    "Naming": {
+        "message": "नामकरण"
+    },
+    "Auto_populate_empty_birth_name_fields": {
+        "message": "खाली जन्म नाम फ़ील्ड स्वतः भरें"
+    },
+    "Auto_fill_married_last_name": {
+        "message": "विवाह के बाद उपनाम स्वतः भरें"
+    },
+    "Parse_for_middle_names_automatically": {
+        "message": "मध्य नाम स्वतः पार्स करें"
+    },
+    "Auto_adjust_the_names_for_mixed_case": {
+        "message": "मिश्रित केस के लिए नाम स्वतः समायोजित करें"
+    },
+    "Force_compound_lastname_to_lowercase": {
+        "message": "संयुक्त उपनाम को छोटे अक्षरों में बाध्य करें"
+    },
+    "Default_children_to_likely_Geni_parent": {
+        "message": "बच्चों को डिफ़ॉल्ट रूप से संभावित Geni माता-पिता से जोड़ें"
+    },
+    "Default_deceased_profiles_to_public": {
+        "message": "मृतकों की प्रोफ़ाइल डिफ़ॉल्ट रूप से सार्वजनिक करें"
+    },
+    "Add_reference_to_Geni_s_About_section": {
+        "message": "Geni के परिचय अनुभाग में संदर्भ जोड़ें"
+    },
+    "Display_the_Geni_side_data_by_default": {
+        "message": "Geni पक्ष का डेटा डिफ़ॉल्ट रूप से दिखाएँ"
+    },
+    "Please_select_one_of_the_Matches": {
+        "message": "कृपया इस परिणाम पृष्ठ पर मिलान में से एक चुनें।"
+    },
+    "_year_age_difference_between_": {
+        "message": " वर्ष का आयु अंतर "
+    },
+    "Birth_Surname_of_": {
+        "message": "जन्म उपनाम: "
+    },
+    "_is_the_same_as_the_last_name_of_": {
+        "message": " के उपनाम के समान है: "
+    },
+    "Death_date_of_": {
+        "message": "मृत्यु तिथि: "
+    },
+    "_is_the_same_as_the_death_date_of_": {
+        "message": " की मृत्यु तिथि के समान है: "
+    },
+    "_is_the_same_as_": {
+        "message": " के समान है: "
+    },
+    "_marriage_date": {
+        "message": " विवाह तिथि"
+    },
+    "_born_after_": {
+        "message": " के बाद जन्म: "
+    },
+    "_died_before_": {
+        "message": " से पहले मृत्यु: "
+    },
+    "_years_old_for_": {
+        "message": " वर्ष का "
+    },
+    "_marriage": {
+        "message": " विवाह"
+    },
+    "Birth_date_of_": {
+        "message": "जन्म तिथि: "
+    },
+    "_and_": {
+        "message": " और "
+    },
+    "_are_within_": {
+        "message": " के भीतर हैं: "
+    },
+    "_months": {
+        "message": " महीने"
+    },
+    "_born_before_the_birth_of_": {
+        "message": " के जन्म से पहले जन्म: "
+    },
+    "death": {
+        "message": "मृत्यु"
+    },
+    "_born_after_the_death_of_": {
+        "message": " की मृत्यु के बाद जन्म: "
+    },
+    "_is_under_": {
+        "message": " से कम है: "
+    },
+    "_years_old_for_the_birth_of_": {
+        "message": " वर्ष का जन्म के लिए: "
+    },
+    "_is_over_": {
+        "message": " से अधिक है: "
+    },
+    "_born_before_the_marriage_of_": {
+        "message": " के विवाह से पहले जन्म: "
+    },
+    "_parents_": {
+        "message": " माता-पिता "
+    },
+    "_has_pending_": {
+        "message": " लंबित है: "
+    },
+    "data_conflicts": {
+        "message": "डेटा विरोध"
+    },
+    "The_age_of_": {
+        "message": "आयु: "
+    },
+    "_exceeds_": {
+        "message": " से अधिक है: "
+    },
+    "_years": {
+        "message": " वर्ष"
+    },
+    "_is_after_": {
+        "message": " के बाद है: "
+    },
+    "_death_date": {
+        "message": " मृत्यु तिथि"
+    },
+    "Baptism_date_of_": {
+        "message": "बपतिस्मा तिथि: "
+    },
+    "_is_before_": {
+        "message": " से पहले है: "
+    },
+    "_birth_date": {
+        "message": " जन्म तिथि"
+    },
+    "_burial_date": {
+        "message": " दफन तिथि"
+    },
+    "_contains_a_double_space_in_": {
+        "message": " में दोहरा स्थान है: "
+    },
+    "first_name": {
+        "message": "पहला नाम"
+    },
+    "_contains_a_double_or_trailing_space_in_": {
+        "message": " में दोहरा या अंतिम स्थान है: "
+    },
+    "_names": {
+        "message": " नाम"
+    },
+    "_contains_an_alias_in_": {
+        "message": " में उपनाम है: "
+    },
+    "_appears_to_contain_a_suffix_in_": {
+        "message": " में प्रत्यय होने का प्रतीत होता है: "
+    },
+    "Move_Suffix": {
+        "message": "प्रत्यय ले जाएँ"
+    },
+    "_contains_improper_use_of_salutation_in_": {
+        "message": " में संबोधन का अनुचित उपयोग है: "
+    },
+    "_title": {
+        "message": " उपाधि"
+    },
+    "Remove_salutation": {
+        "message": "संबोधन हटाएँ"
+    },
+    "_contains_improper_use_of_relationship_in_": {
+        "message": " में संबंध का अनुचित उपयोग है: "
+    },
+    "_suffix": {
+        "message": " प्रत्यय"
+    },
+    "Remove_relationship": {
+        "message": "संबंध हटाएँ"
+    },
+    "_contains_improper_use_of_a_numbering_scheme_in_": {
+        "message": " में क्रमांकन योजना का अनुचित उपयोग है: "
+    },
+    "Remove_numeric": {
+        "message": "संख्यात्मक हटाएँ"
+    },
+    "_is_in_a_relationship_cycle_within_the_immediate_family": {
+        "message": " निकट परिवार में संबंध चक्र में है"
+    },
+    "_contains_an_invalid_": {
+        "message": " में अमान्य है: "
+    },
+    "_date_month_greater_than_12": {
+        "message": " तिथि, महीना 12 से अधिक।"
+    },
+    "_date_day_greater_than_31": {
+        "message": " तिथि, दिन 31 से अधिक।"
+    },
+    "_date": {
+        "message": " तिथि"
+    },
+    "_contains_an_incomplete_": {
+        "message": " में अपूर्ण है: "
+    },
+    "_date_missing_month": {
+        "message": " तिथि, महीना अनुपस्थित।"
+    },
+    "_date_missing_year": {
+        "message": " तिथि, वर्ष अनुपस्थित।"
+    },
+    "_contains_a_": {
+        "message": " में है: "
+    },
+    "_location_without_a_country": {
+        "message": " देश के बिना स्थान"
+    },
+    "his": {
+        "message": "उसका"
+    },
+    "her": {
+        "message": "उसकी"
+    },
+    "their": {
+        "message": "उनका"
+    },
+    "mother": {
+        "message": "माँ"
+    },
+    "father": {
+        "message": "पिता"
+    },
+    "parent": {
+        "message": "माता-पिता"
+    },
+    "brother": {
+        "message": "भाई"
+    },
+    "sibling": {
+        "message": "भाई-बहन"
+    },
+    "wife": {
+        "message": "पत्नी"
+    },
+    "husband": {
+        "message": "पति"
+    },
+    "partner": {
+        "message": "साथी"
+    },
+    "Submit": {
+        "message": "सबमिट करें"
+    },
+    "Profile_Data": {
+        "message": "प्रोफ़ाइल डेटा"
+    },
+    "ExperimentalMessage": {
+        "message": "प्रयोगात्मक संदेश"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "Geni पर SmartCopy चर्चा"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy Geni प्रोफ़ाइल निर्धारित नहीं कर सका"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "Geni गंतव्य प्रोफ़ाइल सेट करें"
+    },
+    "Relatives": {
+        "message": "रिश्तेदार"
+    },
+    "Select_from_History": {
+        "message": "इतिहास से चुनें"
+    },
+    "Invalid_Profile": {
+        "message": "अमान्य प्रोफ़ाइल"
+    },
+    "Set_Destination": {
+        "message": "गंतव्य सेट करें"
+    },
+    "History": {
+        "message": "इतिहास"
+    },
+    "Reading_Family_Data": {
+        "message": "परिवार डेटा पढ़ा जा रहा है ..."
+    },
+    "Updating_Geni": {
+        "message": "Geni अपडेट हो रहा है"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni वृक्ष अपडेट किया गया"
+    },
+    "Reminder_Duplicate": {
+        "message": "अनुस्मारक: डुप्लिकेट"
+    },
+    "View_Profile": {
+        "message": "प्रोफ़ाइल देखें :"
+    },
+    "Tree_View": {
+        "message": "वृक्ष दृश्य"
+    },
+    "View_Profil": {
+        "message": "प्रोफ़ाइल देखें"
+    },
+    "Geni_Data": {
+        "message": "Geni डेटा"
+    },
+    "Update_Profile": {
+        "message": "प्रोफ़ाइल अपडेट करें"
+    },
+    "Family_Members": {
+        "message": "परिवार के सदस्य"
+    },
+    "Parents": {
+        "message": "माता-पिता"
+    },
+    "Siblings": {
+        "message": "भाई-बहन"
+    },
+    "Partners": {
+        "message": "साथी"
+    },
+    "Children": {
+        "message": "बच्चे"
+    },
+    "expand_all": {
+        "message": "सभी विस्तारित करें"
+    },
+    "collapse_all": {
+        "message": "सभी संकुचित करें"
+    },
+    "Title": {
+        "message": "उपाधि:"
+    },
+    "FFirst_Name": {
+        "message": "पहला नाम : "
+    },
+    "Middle_Name": {
+        "message": "मध्य नाम :"
+    },
+    "Last_Name": {
+        "message": "उपनाम :"
+    },
+    "Birth_Name": {
+        "message": "जन्म नाम :"
+    },
+    "Suffix": {
+        "message": "प्रत्यय :"
+    },
+    "Display_Name": {
+        "message": "प्रदर्शित नाम :"
+    },
+    "Also_Known_As": {
+        "message": "इन नामों से भी जाना जाता है :"
+    },
+    "Occupation": {
+        "message": "व्यवसाय :"
+    },
+    "Gender": {
+        "message": "लिंग :"
+    },
+    "Vital": {
+        "message": "महत्वपूर्ण डेटा :"
+    },
+    "Privacy": {
+        "message": "गोपनीयता :"
+    },
+    "About": {
+        "message": "के बारे में :"
+    },
+    "Male": {
+        "message": "पुरुष"
+    },
+    "Female": {
+        "message": "महिला"
+    },
+    "Deceased": {
+        "message": "मृत"
+    },
+    "LLiving": {
+        "message": "जीवित"
+    },
+    "Public": {
+        "message": "सार्वजनिक"
+    },
+    "Private": {
+        "message": "निजी"
+    },
+    "Auto": {
+        "message": "स्वतः"
+    },
+    "Unknown": {
+        "message": "अज्ञात"
+    },
+    "Action": {
+        "message": "क्रिया:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "अप्रयुक्त फ़ील्ड छिपाएँ"
+    },
+    "Show_All_Fields": {
+        "message": "सभी फ़ील्ड दिखाएँ"
+    },
+    "Update": {
+        "message": "अपडेट करें :"
+    },
+    "Add": {
+        "message": "जोड़ें"
+    },
+    "Add_Profile": {
+        "message": "प्रोफ़ाइल जोड़ें "
+    },
+    "Unknown_Relations": {
+        "message": "अज्ञात संबंध"
+    },
+    "MMother": {
+        "message": "माँ"
+    },
+    "FFather": {
+        "message": "पिता"
+    },
+    "Parent": {
+        "message": "माता-पिता"
+    },
+    "BBrother": {
+        "message": "भाई"
+    },
+    "Sister": {
+        "message": "बहन"
+    },
+    "SSibling": {
+        "message": "भाई-बहन"
+    },
+    "WWife": {
+        "message": "पत्नी"
+    },
+    "HHusband": {
+        "message": "पति"
+    },
+    "Partner": {
+        "message": "साथी"
+    },
+    "Spouse": {
+        "message": "जीवनसाथी"
+    },
+    "Son": {
+        "message": "बेटा"
+    },
+    "Daughter": {
+        "message": "बेटी"
+    },
+    "Child": {
+        "message": "बच्चा"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Google Geocoding सक्षम करें"
+    },
+    "Family_Data": {
+        "message": "परिवार डेटा"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "पूर्ण विवरण के लिए गहन शोध (अधिक समय लेता है)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "गहन शोध छोड़ें"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "शेष खोजें छोड़ी जा रही हैं..."
+    },
+    "Estimate_birth_years": {
+        "message": "जन्म/विवाह/मृत्यु/दफन वर्षों का अनुमान लगाएँ"
+    },
+    "Average_generational_gap_years": {
+        "message": "औसत पीढ़ी अंतर (वर्ष):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "पति-पत्नी के बीच औसत आयु अंतर (वर्ष):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "ड्रॉपडाउन में जन्म/मृत्यु वर्ष दिखाएँ"
+    },
+    "Living": {
+        "message": "जीवित"
+    },
+    "Fix_All_Case_Issues": {
+        "message": "सभी ठीक करें"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "स्थान अपडेट करें और भू-स्थान के लिए इसे Google को पुनः सबमिट करें।"
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "स्थान और/या वर्ष अपडेट करें, फिर इसे FamilySearch की ऐतिहासिक स्थान खोज में पुनः सबमिट करें।"
+    },
+    "Country": {
+        "message": "देश"
+    },
+    "State": {
+        "message": "राज्य"
+    },
+    "City": {
+        "message": "शहर"
+    },
+    "Place": {
+        "message": "स्थान"
+    },
+    "County": {
+        "message": "जिला"
+    }
+}

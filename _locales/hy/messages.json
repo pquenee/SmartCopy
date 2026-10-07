@@ -1,0 +1,937 @@
+{
+    "appName": {
+        "message": "SmartCopy"
+    },
+    "appShortName": {
+        "message": "SmartCopy"
+    },
+    "appDesc": {
+        "message": "Գործիք ծագումնաբանական տվյալները Geni կրկնօրինակելու համար։"
+    },
+    "switchOn": {
+        "message": "ՄԻԱՑՎԱԾ"
+    },
+    "switchOff": {
+        "message": "ԱՆՋԱՏՎԱԾ"
+    },
+    "consistencyCheck": {
+        "message": "Հետևողականության ստուգում"
+    },
+    "contains_incorrect_uppercase_lowercase_in_name": {
+        "message": "$person$-ը պարունակում է մեծատառ/փոքրատառերի սխալ օգտագործում $pronoun$ անվան մեջ ($lang$)։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_incorrect_uppercase_lowercase_in_name_default": {
+        "message": "$person$-ը պարունակում է մեծատառ/փոքրատառերի սխալ օգտագործում $pronoun$ անվան մեջ։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_patronym_in_first_name": {
+        "message": "$person$-ը պարունակում է հայրանուն/մայրանուն $pronoun$ անվան մեջ ($lang$)։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_patronym_in_first_name_default": {
+        "message": "$person$-ը պարունակում է հայրանուն/մայրանուն $pronoun$ անվան մեջ։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_non_patronym_in_middle_name": {
+        "message": "$person$-ը պարունակում է ոչ հայրանուն/մայրանուն $pronoun$ միջին անվան մեջ ($lang$)։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_non_patronym_in_middle_name_default": {
+        "message": "$person$-ը պարունակում է ոչ հայրանուն/մայրանուն $pronoun$ միջին անվան մեջ։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "consistencyCheckLiving": {
+        "message": "ողջ"
+    },
+    "claimed": {
+        "message": "հայցված"
+    },
+    "fixCase": {
+        "message": "ուղղել մեծատառ/փոքրատառերը"
+    },
+    "fixed": {
+        "message": "ուղղված է"
+    },
+    "fixName": {
+        "message": "ուղղել անունը"
+    },
+    "fixSpace": {
+        "message": "ուղղել բացատը"
+    },
+    "fixSuffix": {
+        "message": "ուղղել վերջածանցը"
+    },
+    "fixTitle": {
+        "message": "ուղղել տիտղոսը"
+    },
+    "noPermission": {
+        "message": "ուղղելու թույլտվություն չկա"
+    },
+    "makePublic": {
+        "message": "դարձնել հրապարակային"
+    },
+    "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
+        "message": "$count$ ընտանիքի անդամ, ծնված մոտ. $year$-ից առաջ, սահմանված են որպես մասնավոր։",
+        "placeholders": {
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "personWasBornBeforeYearAndIsSetAsPrivate": {
+        "message": "$person$-ը ծնվել է մոտ. $year$-ից առաջ և սահմանված է որպես մասնավոր։",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "Research_this_Person": {
+        "message": "Հետազոտել այս անձին"
+    },
+    "All_Collections": {
+        "message": "Բոլոր հավաքածուները"
+    },
+    "Collections": {
+        "message": "Հավաքածուներ"
+    },
+    "Publications": {
+        "message": "Հրապարակումներ"
+    },
+    "Holocaust": {
+        "message": "Հոլոքոստ"
+    },
+    "Name_Search": {
+        "message": "Որոնում անունով"
+    },
+    "Gravestones": {
+        "message": "Տապանաքարեր"
+    },
+    "Genealogies": {
+        "message": "Ծագումնաբանություններ"
+    },
+    "Genealogy": {
+        "message": "Ծագումնաբանություն"
+    },
+    "Geni_Search": {
+        "message": "Որոնում Geni-ում"
+    },
+    "Google_Search": {
+        "message": "Որոնում Google-ում"
+    },
+    "Records": {
+        "message": "Գրառումներ"
+    },
+    "Messageboard": {
+        "message": "Հաղորդագրությունների տախտակ"
+    },
+    "Newspapers": {
+        "message": "Թերթեր"
+    },
+    "Books": {
+        "message": "Գրքեր"
+    },
+    "Obituaries": {
+        "message": "Մահախոսականներ"
+    },
+    "Other_Resources": {
+        "message": "Այլ ռեսուրսներ"
+    },
+    "Unable_to_create_research_links_on_this_profile": {
+        "message": "Այս պրոֆիլում հետազոտական հղումներ ստեղծել հնարավոր չէ։"
+    },
+    "Loading___": {
+        "message": "Բեռնվում է..."
+    },
+    "HistoryLink_unreachable_message": {
+        "message": "HistoryLink-ի մուտքի ծառայությանը միանալ չհաջողվեց։ Ստուգեք ինտերնետ կապը և փորձեք կրկին։"
+    },
+    "HistoryLink": {
+        "message": "HistoryLink գործիքներ"
+    },
+    "Ancestor_Graph": {
+        "message": "Նախնիների գրաֆիկ"
+    },
+    "Descendant_Graph": {
+        "message": "Ժառանգների գրաֆիկ"
+    },
+    "History_Search": {
+        "message": "Պատմական որոնում"
+    },
+    "Forest_Density_Calculator": {
+        "message": "Խտության հաշվիչ"
+    },
+    "Path_To_User": {
+        "message": "Ուղի դեպի օգտատեր"
+    },
+    "Configuration": {
+        "message": "Կոնֆիգուրացիա"
+    },
+    "Copy_Preferences": {
+        "message": "Պատճենել նախապատվությունները"
+    },
+    "Consistency_Checks": {
+        "message": "Հետևողականության ստուգումներ"
+    },
+    "Geni_Customization": {
+        "message": "Geni-ի հարմարեցում"
+    },
+    "Note_Dates_that_contain_Between_Before_and_After___": {
+        "message": "Նշում. Between, Before և After պարունակող ամսաթվերը չեն համեմատվում հետևողականության ստուգումներում։ Circa պարունակող ամսաթվերը համարվում են ճշգրիտ ամսաթվեր։"
+    },
+    "Run_consistency_checks_when_viewing_Geni_profiles": {
+        "message": "Գործարկել հետևողականության ստուգումները Geni-ի պրոֆիլները դիտելիս։"
+    },
+    "Age_difference_between_partners_is_significant": {
+        "message": "Գործընկերների միջև տարիքային տարբերությունը նշանակալի է"
+    },
+    "Maiden_name_same_as_husbands_last_name": {
+        "message": "Օրիորդական ազգանունը նույնն է, ինչ ամուսնու ազգանունը"
+    },
+    "Husband_and_wife_death_dates_the_same": {
+        "message": "Ամուսնու և կնոջ մահվան ամսաթվերը նույնն են"
+    },
+    "Husband_death_date_same_as_marriage_date": {
+        "message": "Ամուսնու մահվան ամսաթիվը նույնն է, ինչ ամուսնության ամսաթիվը"
+    },
+    "Wife_death_date_same_as_marriage_date": {
+        "message": "Կնոջ մահվան ամսաթիվը նույնն է, ինչ ամուսնության ամսաթիվը"
+    },
+    "Born_after_marriage": {
+        "message": "Ծնվել է ամուսնությունից հետո"
+    },
+    "Died_before_marriage": {
+        "message": "Մահացել է ամուսնությունից առաջ"
+    },
+    "Implausible_marriage_age_too_young": {
+        "message": "Ամուսնության անհավանական տարիք, շատ երիտասարդ"
+    },
+    "Siblings_ages_too_close_together": {
+        "message": "Քույր-եղբայրների տարիքները շատ մոտ են"
+    },
+    "Born_before_parent_birth": {
+        "message": "Ծնվել է ծնողի ծնունդից առաջ"
+    },
+    "Born_after_parent_death": {
+        "message": "Ծնվել է ծնողի մահից հետո"
+    },
+    "Death_before_baptism_date": {
+        "message": "Մահ մկրտության ամսաթվից առաջ"
+    },
+    "Death_after_burial_date": {
+        "message": "Մահ թաղման ամսաթվից հետո"
+    },
+    "Parent_too_young_for_childs_birth": {
+        "message": "Ծնողը շատ երիտասարդ է երեխայի ծննդի համար"
+    },
+    "Mother_too_old_for_childs_birth": {
+        "message": "Մայրը շատ տարեց է երեխայի ծննդի համար"
+    },
+    "Born_before_parent_marriage": {
+        "message": "Ծնվել է ծնողների ամուսնությունից առաջ"
+    },
+    "Excessive_Age": {
+        "message": "Ավելորդ տարիք"
+    },
+    "Born_after_death": {
+        "message": "Ծնվել է մահից հետո"
+    },
+    "Name_contains_double_space": {
+        "message": "Անունը պարունակում է կրկնակի բացատ"
+    },
+    "Name_contains_alias": {
+        "message": "Անունը պարունակում է կեղծանուն"
+    },
+    "Name_contains_improper_use_of_uppercase_lowercase": {
+        "message": "Անունը պարունակում է մեծատառ/փոքրատառերի ոչ ճիշտ օգտագործում"
+    },
+    "First_Name_ends_in_suffix_eg___": {
+        "message": "Անունը վերջանում է վերջածանցով (օր. 'i','ii','iii','iv','jr','sr')"
+    },
+    "Salutation_or_relationship_in_title_eg___": {
+        "message": "Դիմելաձև կամ ազգակցական կապ տիտղոսում (օր. 'Mr', 'Mrs')"
+    },
+    "Salutation_or_relationship_in_suffix_eg___": {
+        "message": "Դիմելաձև կամ ազգակցական կապ վերջածանցում (օր. 'Mr', 'Mrs')"
+    },
+    "Relationship_cycle_in_immediate_family": {
+        "message": "Հարաբերությունների ցիկլ մերձավոր ընտանիքում"
+    },
+    "Check_date_formatting_for_inconsistent_values": {
+        "message": "Ստուգել ամսաթվի ձևաչափումը անհետևողական արժեքների համար"
+    },
+    "Check_for_pending_data_conflict_resolution": {
+        "message": "Ստուգել տվյալների կոնֆլիկտի սպասվող լուծումը"
+    },
+    "Self_check_profile_for_inconsistent_dates_and_values": {
+        "message": "Ինքնաստուգել պրոֆիլը անհետևողական ամսաթվերի և արժեքների համար։"
+    },
+    "Check_name_fields_for_improper_values": {
+        "message": "Ստուգել անվան դաշտերը ոչ ճիշտ արժեքների համար"
+    },
+    "Check_name_fields_for_living_profiles": {
+        "message": "Բացառել կենդանի պրոֆիլները արագ ուղղումից"
+    },
+    "Check_profile_for_pending_data_conflicts": {
+        "message": "Ստուգել պրոֆիլը սպասվող տվյալների կոնֆլիկտների համար"
+    },
+    "Check_date_values_for_irregular_formatting": {
+        "message": "Ստուգել ամսաթվի արժեքները անկանոն ձևաչափման համար"
+    },
+    "Check_when_location_is_missing_a_country": {
+        "message": "Ստուգել, երբ վայրին բացակայում է երկիրը"
+    },
+    "Maximum_year_to_be_private": {
+        "message": "Առավելագույն տարի մասնավոր լինելու համար."
+    },
+    "Maximum_age": {
+        "message": "Առավելագույն տարիք."
+    },
+    "Check_the_dates_of_children_against_their_parents": {
+        "message": "Ստուգել երեխաների ամսաթվերը նրանց ծնողների նկատմամբ։"
+    },
+    "Check_child_is_born_after_parent_marriage": {
+        "message": "Ստուգել, արդյոք երեխան ծնվել է ծնողների ամուսնությունից հետո"
+    },
+    "Age_the_parent_is_too_young_to_have_a_child": {
+        "message": "Տարիք, երբ ծնողը շատ երիտասարդ է երեխա ունենալու համար"
+    },
+    "Age_the_mother_is_too_old_to_have_a_child": {
+        "message": "Տարիք, երբ մայրը շատ տարեց է երեխա ունենալու համար"
+    },
+    "Check_the_values_of_partner_spouses_against_each_other": {
+        "message": "Ստուգել գործընկերների/ամուսինների արժեքները միմյանց նկատմամբ։"
+    },
+    "Identify_possible_maiden_name_copy_issues": {
+        "message": "Բացահայտել օրիորդական ազգանվան պատճենման հնարավոր խնդիրները"
+    },
+    "Age_the_spouse_is_too_young_to_be_married": {
+        "message": "Տարիք, երբ ամուսինը շատ երիտասարդ է ամուսնանալու համար"
+    },
+    "Maximum_age_difference_between_spouses": {
+        "message": "Առավելագույն տարիքային տարբերություն ամուսինների միջև"
+    },
+    "Check_siblings_birth_are_over_": {
+        "message": "Ստուգել, արդյոք քույր-եղբայրների ծնունդները ավելի քան "
+    },
+    "_months_apart_excl_twins": {
+        "message": " ամիս են իրարից (բացառությամբ երկվորյակների)։"
+    },
+    "Future_options_to_add_features_to_Geni": {
+        "message": "Ապագա ընտրանքներ Geni-ին գործառույթներ ավելացնելու համար։"
+    },
+    "This_profile_is_not_in_the_World_Family_Tree": {
+        "message": "Այս պրոֆիլը World Family Tree-ում չէ։"
+    },
+    "Add_to_History": {
+        "message": "Ավելացնել պատմությանը"
+    },
+    "Show_History": {
+        "message": "Ցուցադրել պատմությունը"
+    },
+    "Hide_History": {
+        "message": "Թաքցնել պատմությունը"
+    },
+    "Clear_History": {
+        "message": "Մաքրել պատմությունը"
+    },
+    "Notice___Please_Read": {
+        "message": "Ծանուցում – խնդրում ենք կարդալ"
+    },
+    "SmartCopy_will_no_longer_do_geo_location_lookups___": {
+        "message": "SmartCopy-ն այլևս ինքնաշխատ չի կատարի աշխարհագրական դիրքի որոնումներ Google-ի ծառայության արժեքի պատճառով։ Թեև սա տխուր նորություն է, Geni-ն վերջերս առաջարկել է աշխարհագրական դիրքի որոնումներ կատարելու գործառույթ <i>ներկայացնելուց հետո</i>։ Երբ վայրը ներկայացվում է վայրի դաշտի միջոցով, Geni-ն կկատարի հարցումը և կլրացնի վայրի դաշտերը կայքում։ Այլընտրանքորեն, կարող եք նշել ձեր սեփական Google API բանալին կոնֆիգուրացիայում։ Դուք դեռևս ունեք հնարավորություն ձեռքով լրացնել վայրի տվյալները SmartCopy-ում՝ սեղմելով գլոբուսի պատկերակը $globe_icon$, և եթե ցանկանում եք անջատել Geni-ի աշխարհագրական դիրքի որոնումը, կարող եք դա անել SmartCopy-ի կոնֆիգուրացիայում։",
+        "placeholders": {
+            "globe_icon": { "content": "$1" }
+        }
+    },
+    "Close": {
+        "message": "Փակել"
+    },
+    "Display_Add_Biography_button_in_About": {
+        "message": "Ցուցադրել «Ավելացնել կենսագրություն» կոճակը «Մասին» բաժնում"
+    },
+    "Add_Biography": {
+        "message": "Ավելացնել կենսագրություն"
+    },
+    "Export_Profiles_button_on_Project_Actions": {
+        "message": "«Արտահանել պրոֆիլները» կոճակը նախագծի գործողություններում"
+    },
+    "Export_Profiles": {
+        "message": "Արտահանել պրոֆիլները"
+    },
+    "SmartCopy_does_not_currently_support_parsing": {
+        "message": "SmartCopy-ն ներկայումս չի աջակցում այս էջի / կայքի / հավաքածուի վերլուծությունը։"
+    },
+    "SmartCopy_is_having_difficulty_reading_the_page": {
+        "message": "SmartCopy-ն դժվարանում է կարդալ էջը։ Փորձեք թարմացնել էջը։"
+    },
+    "This_website_is_not_yet_supported_by_SmartCopy": {
+        "message": "Այս կայքը դեռևս չի աջակցվում SmartCopy-ի կողմից։"
+    },
+    "Selection": {
+        "message": "Ընտրություն"
+    },
+    "Simplify_form_by_hiding_unused_fields": {
+        "message": "Պարզեցնել ձևը՝ թաքցնելով չօգտագործվող դաշտերը"
+    },
+    "Enable_photo_checkbox_auto_selection": {
+        "message": "Միացնել լուսանկարի նշման վանդակի ինքնաշխատ ընտրությունը"
+    },
+    "Reminder_user_responsible": {
+        "message": "Հիշեցում. Օգտատերը պատասխանատու է<br>պատկերները պատճենելիս լուսանկարչից<br>անհրաժեշտ թույլտվություն ստանալու համար։"
+    },
+    "Exclude_private_profile_auto_select": {
+        "message": "Բացառել <private> պրոֆիլի ինքնաշխատ ընտրությունը"
+    },
+    "Est_burial_date_from_death_if_location": {
+        "message": "Գնահատել թաղման ամսաթիվը մահից, եթե վայրը առկա է"
+    },
+    "This_change_will_take_effect_at_next_use": {
+        "message": "Այս փոփոխությունը ուժի մեջ կմտնի հաջորդ օգտագործման ժամանակ։"
+    },
+    "Location": {
+        "message": "Վայր"
+    },
+    "Enable_Geolocation": {
+        "message": "Միացնել աշխարհագրական դիրքը"
+    },
+    "API_Key": {
+        "message": "API բանալի"
+    },
+    "Location_fields_auto_select_one_select_all": {
+        "message": "Վայրի դաշտեր. ընտրել մեկը, ընտրել բոլորը"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "Վայրի խմբագրումը նախապես ընտրում է բոլոր դաշտերը"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "Վերլուծել վայրերը FamilySearch Places-ով (փորձարարական)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "Օգտագործել ընթացիկ անունը թաղման վայրի համար (պատմականի փոխարեն)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "Տեղափոխել գերեզմանատունը մահվան վայրից թաղման վայր"
+    },
+    "Naming": {
+        "message": "Անվանակոչում"
+    },
+    "Auto_populate_empty_birth_name_fields": {
+        "message": "Ինքնաշխատ լրացնել դատարկ ծննդյան անվան դաշտերը"
+    },
+    "Auto_fill_married_last_name": {
+        "message": "Ինքնաշխատ լրացնել ամուսնությունից հետո ազգանունը"
+    },
+    "Parse_for_middle_names_automatically": {
+        "message": "Ինքնաշխատ վերլուծել միջին անունները"
+    },
+    "Auto_adjust_the_names_for_mixed_case": {
+        "message": "Ինքնաշխատ կարգավորել անունները խառը մեծատառ/փոքրատառերի համար"
+    },
+    "Force_compound_lastname_to_lowercase": {
+        "message": "Հարկադրաբար բաղադրյալ ազգանունը դարձնել փոքրատառ"
+    },
+    "Default_children_to_likely_Geni_parent": {
+        "message": "Լռելյայն կապել երեխաներին հավանական Geni ծնողի հետ"
+    },
+    "Default_deceased_profiles_to_public": {
+        "message": "Լռելյայն սահմանել հանգուցյալների պրոֆիլները որպես հրապարակային"
+    },
+    "Add_reference_to_Geni_s_About_section": {
+        "message": "Ավելացնել հղում Geni-ի «Մասին» բաժնում"
+    },
+    "Display_the_Geni_side_data_by_default": {
+        "message": "Ցուցադրել Geni-ի կողմի տվյալները լռելյայն"
+    },
+    "Please_select_one_of_the_Matches": {
+        "message": "Խնդրում ենք ընտրել համընկնումներից մեկը այս արդյունքների էջում։"
+    },
+    "_year_age_difference_between_": {
+        "message": " տարվա տարիքային տարբերություն "
+    },
+    "Birth_Surname_of_": {
+        "message": "Ծննդյան ազգանունը՝ "
+    },
+    "_is_the_same_as_the_last_name_of_": {
+        "message": " նույնն է, ինչ ազգանունը՝ "
+    },
+    "Death_date_of_": {
+        "message": "Մահվան ամսաթիվը՝ "
+    },
+    "_is_the_same_as_the_death_date_of_": {
+        "message": " նույնն է, ինչ մահվան ամսաթիվը՝ "
+    },
+    "_is_the_same_as_": {
+        "message": " նույնն է, ինչ "
+    },
+    "_marriage_date": {
+        "message": " ամուսնության ամսաթիվ"
+    },
+    "_born_after_": {
+        "message": " ծնվել է հետո "
+    },
+    "_died_before_": {
+        "message": " մահացել է առաջ "
+    },
+    "_years_old_for_": {
+        "message": " տարեկան "
+    },
+    "_marriage": {
+        "message": " ամուսնություն"
+    },
+    "Birth_date_of_": {
+        "message": "Ծննդյան ամսաթիվը՝ "
+    },
+    "_and_": {
+        "message": " և "
+    },
+    "_are_within_": {
+        "message": " գտնվում են "
+    },
+    "_months": {
+        "message": " ամիս"
+    },
+    "_born_before_the_birth_of_": {
+        "message": " ծնվել է առաջ, քան ծնունդը՝ "
+    },
+    "death": {
+        "message": "մահ"
+    },
+    "_born_after_the_death_of_": {
+        "message": " ծնվել է մահից հետո՝ "
+    },
+    "_is_under_": {
+        "message": " գտնվում է ցածր "
+    },
+    "_years_old_for_the_birth_of_": {
+        "message": " տարեկան ծննդի համար՝ "
+    },
+    "_is_over_": {
+        "message": " գտնվում է բարձր "
+    },
+    "_born_before_the_marriage_of_": {
+        "message": " ծնվել է ամուսնությունից առաջ՝ "
+    },
+    "_parents_": {
+        "message": " ծնողներ "
+    },
+    "_has_pending_": {
+        "message": " ունի սպասվող "
+    },
+    "data_conflicts": {
+        "message": "տվյալների կոնֆլիկտներ"
+    },
+    "The_age_of_": {
+        "message": "Տարիքը՝ "
+    },
+    "_exceeds_": {
+        "message": " գերազանցում է "
+    },
+    "_years": {
+        "message": " տարի"
+    },
+    "_is_after_": {
+        "message": " գտնվում է հետո "
+    },
+    "_death_date": {
+        "message": " մահվան ամսաթիվ"
+    },
+    "Baptism_date_of_": {
+        "message": "Մկրտության ամսաթիվը՝ "
+    },
+    "_is_before_": {
+        "message": " գտնվում է առաջ "
+    },
+    "_birth_date": {
+        "message": " ծննդյան ամսաթիվ"
+    },
+    "_burial_date": {
+        "message": " թաղման ամսաթիվ"
+    },
+    "_contains_a_double_space_in_": {
+        "message": " պարունակում է կրկնակի բացատ "
+    },
+    "first_name": {
+        "message": "անուն"
+    },
+    "_contains_a_double_or_trailing_space_in_": {
+        "message": " պարունակում է կրկնակի կամ վերջնական բացատ "
+    },
+    "_names": {
+        "message": " անուններ"
+    },
+    "_contains_an_alias_in_": {
+        "message": " պարունակում է կեղծանուն "
+    },
+    "_appears_to_contain_a_suffix_in_": {
+        "message": " կարծես պարունակում է վերջածանց "
+    },
+    "Move_Suffix": {
+        "message": "Տեղափոխել վերջածանցը"
+    },
+    "_contains_improper_use_of_salutation_in_": {
+        "message": " պարունակում է դիմելաձևի ոչ ճիշտ օգտագործում "
+    },
+    "_title": {
+        "message": " տիտղոս"
+    },
+    "Remove_salutation": {
+        "message": "Հեռացնել դիմելաձևը"
+    },
+    "_contains_improper_use_of_relationship_in_": {
+        "message": " պարունակում է ազգակցական կապի ոչ ճիշտ օգտագործում "
+    },
+    "_suffix": {
+        "message": " վերջածանց"
+    },
+    "Remove_relationship": {
+        "message": "Հեռացնել ազգակցական կապը"
+    },
+    "_contains_improper_use_of_a_numbering_scheme_in_": {
+        "message": " պարունակում է համարակալման սխեմայի ոչ ճիշտ օգտագործում "
+    },
+    "Remove_numeric": {
+        "message": "Հեռացնել թվայինը"
+    },
+    "_is_in_a_relationship_cycle_within_the_immediate_family": {
+        "message": " գտնվում է հարաբերությունների ցիկլում մերձավոր ընտանիքում"
+    },
+    "_contains_an_invalid_": {
+        "message": " պարունակում է անվավեր "
+    },
+    "_date_month_greater_than_12": {
+        "message": " ամսաթիվ, ամիսը 12-ից մեծ։"
+    },
+    "_date_day_greater_than_31": {
+        "message": " ամսաթիվ, օրը 31-ից մեծ։"
+    },
+    "_date": {
+        "message": " ամսաթիվ"
+    },
+    "_contains_an_incomplete_": {
+        "message": " պարունակում է թերի "
+    },
+    "_date_missing_month": {
+        "message": " ամսաթիվ, ամիսը բացակայում է։"
+    },
+    "_date_missing_year": {
+        "message": " ամսաթիվ, տարին բացակայում է։"
+    },
+    "_contains_a_": {
+        "message": " պարունակում է "
+    },
+    "_location_without_a_country": {
+        "message": " վայր առանց երկրի"
+    },
+    "his": {
+        "message": "նրա"
+    },
+    "her": {
+        "message": "նրա"
+    },
+    "their": {
+        "message": "նրանց"
+    },
+    "mother": {
+        "message": "մայր"
+    },
+    "father": {
+        "message": "հայր"
+    },
+    "parent": {
+        "message": "ծնող"
+    },
+    "brother": {
+        "message": "եղբայր"
+    },
+    "sibling": {
+        "message": "քույր/եղբայր"
+    },
+    "wife": {
+        "message": "կին"
+    },
+    "husband": {
+        "message": "ամուսին"
+    },
+    "partner": {
+        "message": "գործընկեր"
+    },
+    "Submit": {
+        "message": "Ներկայացնել"
+    },
+    "Profile_Data": {
+        "message": "Պրոֆիլի տվյալներ"
+    },
+    "ExperimentalMessage": {
+        "message": "Փորձարարական հաղորդագրություն"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "SmartCopy-ի քննարկում Geni-ում"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy-ն չկարողացավ որոշել Geni-ի պրոֆիլը"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "Սահմանել Geni-ի նպատակակետ պրոֆիլը"
+    },
+    "Relatives": {
+        "message": "Հարազատներ"
+    },
+    "Select_from_History": {
+        "message": "Ընտրել պատմությունից"
+    },
+    "Invalid_Profile": {
+        "message": "Անվավեր պրոֆիլ"
+    },
+    "Set_Destination": {
+        "message": "Սահմանել նպատակակետը"
+    },
+    "History": {
+        "message": "Պատմություն"
+    },
+    "Reading_Family_Data": {
+        "message": "Ընտանեկան տվյալների ընթերցում ..."
+    },
+    "Updating_Geni": {
+        "message": "Geni-ի թարմացում"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni-ի ծառը թարմացվեց"
+    },
+    "Reminder_Duplicate": {
+        "message": "Հիշեցում. կրկնօրինակ"
+    },
+    "View_Profile": {
+        "message": "Դիտել պրոֆիլը՝"
+    },
+    "Tree_View": {
+        "message": "Ծառի տեսք"
+    },
+    "View_Profil": {
+        "message": "Դիտել պրոֆիլը"
+    },
+    "Geni_Data": {
+        "message": "Geni-ի տվյալներ"
+    },
+    "Update_Profile": {
+        "message": "Թարմացնել պրոֆիլը"
+    },
+    "Family_Members": {
+        "message": "Ընտանիքի անդամներ"
+    },
+    "Parents": {
+        "message": "Ծնողներ"
+    },
+    "Siblings": {
+        "message": "Քույր-եղբայրներ"
+    },
+    "Partners": {
+        "message": "Գործընկերներ"
+    },
+    "Children": {
+        "message": "Երեխաներ"
+    },
+    "expand_all": {
+        "message": "ընդարձակել բոլորը"
+    },
+    "collapse_all": {
+        "message": "փակել բոլորը"
+    },
+    "Title": {
+        "message": "Տիտղոս."
+    },
+    "FFirst_Name": {
+        "message": "Անուն : "
+    },
+    "Middle_Name": {
+        "message": "Միջին անուն :"
+    },
+    "Last_Name": {
+        "message": "Ազգանուն :"
+    },
+    "Birth_Name": {
+        "message": "Ծննդյան անուն :"
+    },
+    "Suffix": {
+        "message": "Վերջածանց :"
+    },
+    "Display_Name": {
+        "message": "Ցուցադրվող անուն :"
+    },
+    "Also_Known_As": {
+        "message": "Հայտնի է նաև որպես :"
+    },
+    "Occupation": {
+        "message": "Զբաղմունք :"
+    },
+    "Gender": {
+        "message": "Սեռ :"
+    },
+    "Vital": {
+        "message": "Կենսական տվյալներ :"
+    },
+    "Privacy": {
+        "message": "Գաղտնիություն :"
+    },
+    "About": {
+        "message": "Մասին :"
+    },
+    "Male": {
+        "message": "Արական"
+    },
+    "Female": {
+        "message": "Իգական"
+    },
+    "Deceased": {
+        "message": "Հանգուցյալ"
+    },
+    "LLiving": {
+        "message": "Ողջ"
+    },
+    "Public": {
+        "message": "Հրապարակային"
+    },
+    "Private": {
+        "message": "Մասնավոր"
+    },
+    "Auto": {
+        "message": "Ավտո"
+    },
+    "Unknown": {
+        "message": "Անհայտ"
+    },
+    "Action": {
+        "message": "Գործողություն."
+    },
+    "Hide_Unused_Fields": {
+        "message": "Թաքցնել չօգտագործվող դաշտերը"
+    },
+    "Show_All_Fields": {
+        "message": "Ցուցադրել բոլոր դաշտերը"
+    },
+    "Update": {
+        "message": "Թարմացնել :"
+    },
+    "Add": {
+        "message": "Ավելացնել"
+    },
+    "Add_Profile": {
+        "message": "Ավելացնել պրոֆիլ "
+    },
+    "Unknown_Relations": {
+        "message": "Անհայտ կապեր"
+    },
+    "MMother": {
+        "message": "Մայր"
+    },
+    "FFather": {
+        "message": "Հայր"
+    },
+    "Parent": {
+        "message": "Ծնող"
+    },
+    "BBrother": {
+        "message": "Եղբայր"
+    },
+    "Sister": {
+        "message": "Քույր"
+    },
+    "SSibling": {
+        "message": "Քույր/եղբայր"
+    },
+    "WWife": {
+        "message": "Կին"
+    },
+    "HHusband": {
+        "message": "Ամուսին"
+    },
+    "Partner": {
+        "message": "Գործընկեր"
+    },
+    "Spouse": {
+        "message": "Ամուսին"
+    },
+    "Son": {
+        "message": "Որդի"
+    },
+    "Daughter": {
+        "message": "Դուստր"
+    },
+    "Child": {
+        "message": "Երեխա"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Միացնել Google Geocoding-ը"
+    },
+    "Family_Data": {
+        "message": "Ընտանեկան տվյալներ"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "Խորը հետազոտություն ամբողջական մանրամասների համար (ավելի երկար է տևում)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "Բաց թողնել խորը հետազոտությունը"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "Մնացած որոնումները բաց են թողնվում..."
+    },
+    "Estimate_birth_years": {
+        "message": "Գնահատել ծննդյան/ամուսնության/մահվան/թաղման տարիները"
+    },
+    "Average_generational_gap_years": {
+        "message": "Միջին սերնդային տարբերություն (տարիներ)."
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "Ամուսինների միջև միջին տարիքային տարբերություն (տարիներ)."
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "Ցուցադրել ծննդյան/մահվան տարիները բացվող ցուցակներում"
+    },
+    "Living": {
+        "message": "Ողջ"
+    },
+    "Fix_All_Case_Issues": {
+        "message": "Ուղղել բոլորը"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Թարմացրեք վայրը և կրկին ներկայացրեք Google-ին աշխարհագրական դիրքի համար։"
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Թարմացրեք վայրը և/կամ տարին, ապա կրկին ներկայացրեք FamilySearch-ի պատմական վայրերի որոնմանը։"
+    },
+    "Country": {
+        "message": "Երկիր"
+    },
+    "State": {
+        "message": "Մարզ"
+    },
+    "City": {
+        "message": "Քաղաք"
+    },
+    "Place": {
+        "message": "Վայր"
+    },
+    "County": {
+        "message": "Գավառ"
+    }
+}

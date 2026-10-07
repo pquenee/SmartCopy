@@ -1,0 +1,70 @@
+Notes sur la traduction coréenne
+Système d'écriture : le coréen utilise l'alphabet hangeul (한글), avec des espaces entre les mots. Les caractères chinois (hanja) sont rarement utilisés dans les interfaces modernes.
+
+Terminologie généalogique :
+
+이름 (ireum) = prénom
+
+중간 이름 (junggan ireum) = deuxième prénom
+
+성 (seong) = nom de famille
+
+출생 이름 (chulsaeng ireum) = nom de naissance
+
+결혼 전 성 (gyeolhon jeon seong) = nom de jeune fille
+
+사망일 (samangil) = date de décès
+
+매장일 (maejangil) = date d'enterrement
+
+결혼일 (gyeolhonil) = date de mariage
+
+배우자 (baeuja) = conjoint(e)
+
+남편 (nampyeon) = mari
+
+아내 (anae) = femme (épouse)
+
+형제자매 (hyeongje jamae) = frères et sœurs
+
+친척 (chincheok) = proches/parents
+
+조상 (josang) = ancêtres
+
+후손 (huson) = descendants
+
+Genre : le coréen ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts en usage courant — le pronom 그 (geu, lui) et 그녀 (geunyeo, elle) existent mais sont rarement utilisés. Les possessifs :
+
+his → 그의 (geu-ui)
+
+her → 그녀의 (geunyeo-ui)
+
+their → 그들의 (geudeul-ui)
+
+⚠️ En coréen, le possessif est souvent omis quand le contexte est clair.
+
+$pronoun$ : valeurs 그의 (his), 그녀의 (her), 그들의 (their). ⚠️ Comme en coréen le pronom possessif est souvent omis, l'insertion de $pronoun$ peut sembler redondante. La logique devra être adaptée.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par $year$년경 (년경 = nyeongyeong, « environ »).
+
+History : corrigé en 기록 (girok).
+
+View_Profil : conservé comme clé, valeur 프로필 보기 (orthographe coréenne correcte).
+
+County : traduit par 군 (gun, division administrative coréenne équivalente au comté/district).
+
+State : traduit par 주 (ju, terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : 켜짐 / 꺼짐 (formes courantes en coréen).
+
+Submit : 제출 (jechuk, soumettre).
+
+About : traduit par 정보 (jeongbo, informations).
+
+Particularité coréenne : le coréen est une langue agglutinante avec un ordre des mots SOV (sujet-objet-verbe). Les phrases sont construites avec le verbe à la fin. J'ai adapté la structure des phrases pour qu'elles sonnent naturellement en coréen.
+
+Particules : le coréen utilise des particules grammaticales (은/는, 이/가, 을/를, 의, etc.) qui s'attachent aux noms. J'ai utilisé les particules appropriées selon le contexte.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

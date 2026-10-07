@@ -1,0 +1,78 @@
+Notes sur la traduction persane
+Sens d'écriture (RTL) : le persan s'écrit de droite à gauche, comme l'arabe et l'hébreu. Il faudra vérifier que l'application gère correctement le RTL (direction, alignement, ponctuation, chiffres).
+
+Alphabet : le persan utilise l'alphabet arabo-persan avec 4 lettres supplémentaires :
+
+پ (pe) = /p/
+
+چ (che) = /tʃ/
+
+ژ (zhe) = /ʒ/
+
+گ (gaf) = /g/
+
+Terminologie généalogique :
+
+نام کوچک (nâm-e kučak) = prénom
+
+نام میانی (nâm-e miyâni) = deuxième prénom
+
+نام خانوادگی (nâm-e khânevâdegi) = nom de famille
+
+نام تولد (nâm-e tavalod) = nom de naissance
+
+نام دوشیزگی (nâm-e dušizegi) = nom de jeune fille
+
+تاریخ فوت (târikh-e fowt) = date de décès
+
+تاریخ دفن (târikh-e dafn) = date d'enterrement
+
+تاریخ ازدواج (târikh-e ezdevâj) = date de mariage
+
+همسر (hamsar) = conjoint(e)
+
+شوهر (šowhar) = mari
+
+همسر (hamsar) = femme (épouse)
+
+خواهر/برادر (khâhar/barâdar) = sœur/frère
+
+بستگان (bastegân) = proches/parents
+
+نیاکان (niyâkân) = ancêtres
+
+نوادگان (navâdegân) = descendants
+
+Genre : le persan ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est او (u) pour les deux, et آنها (ânhâ) pour le pluriel. C'est pourquoi :
+
+his, her → tous les deux او (u)
+
+their → آنها (ânhâ)
+
+متوفی (motowaffâ) = décédé(e), invariable en genre
+
+$pronoun$ : valeurs او (his/her) et آنها (their). ⚠️ Comme his et her se traduisent tous deux par او, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par حدود $year$ (hodud = « environ »).
+
+History : corrigé en تاریخچه (târikhche).
+
+View_Profil : conservé comme clé, valeur مشاهده نمایه (orthographe persane correcte).
+
+County : traduit par شهرستان (šahrestân, division administrative persane équivalente au comté).
+
+State : traduit par استان (ostân, division administrative persane équivalente à la province).
+
+SwitchOn/SwitchOff : روشن / خاموش (formes courantes en persan).
+
+Submit : ارسال (ersâl, envoyer).
+
+About : traduit par درباره (darbâre, à propos de).
+
+Particularité persane : le persan est une langue indo-européenne (contrairement à l'arabe qui est sémitique), avec une grammaire relativement simple. Les verbes se conjuguent selon la personne, mais il n'y a pas d'accord en genre.
+
+Chiffres : j'ai utilisé les chiffres arabes standard (0-9) pour faciliter l'intégration technique, mais l'application devra peut-être les convertir en chiffres persans (۰۱۲۳۴۵۶۷۸۹) pour un affichage plus naturel.
+
+Geni : le nom propre reste en latin, mais dans un contexte RTL, il peut être nécessaire de l'entourer de marques d'isolation directionnelle (U+2068/U+2069) pour un affichage correct. J'ai laissé le nom tel quel ; l'application devra gérer le bidi.

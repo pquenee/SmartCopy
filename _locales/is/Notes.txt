@@ -1,0 +1,58 @@
+Notes sur la traduction islandaise
+Terminologie généalogique :
+
+skírnarnafn = prénom (littéralement « nom de baptême »)
+
+millinafn = deuxième prénom
+
+eftirnafn = nom de famille
+
+fæðingarnafn = nom de naissance
+
+ættarnafn = nom de famille / nom de clan (équivalent du « maiden name »)
+
+dánardagur = date de décès
+
+greftrunardagur = date d'enterrement
+
+giftingardagur = date de mariage
+
+maki = conjoint(e)
+
+eiginmaður = mari
+
+eiginkona = femme (épouse)
+
+systkini = frère(s) et sœur(s)
+
+ættingjar = proches/parents
+
+forfeður = ancêtres
+
+afkomendur = descendants
+
+Particularité islandaise : l'islandais utilise traditionnellement le patronyme (fils/fille de...) plutôt qu'un nom de famille. Le terme föður-/móðurnafn (patronyme/matronyme) est donc particulièrement pertinent dans le contexte généalogique.
+
+Formes genrées : l'islandais distingue le genre grammatical :
+
+fædd/ur = né (fædd pour une femme, fæddur pour un homme)
+
+látin/n = décédé(e)
+
+gamall/gömul = vieux/vieille
+
+J'ai utilisé la forme combinée fædd/ur pour rester neutre quand le placeholder $person$ peut être des deux sexes.
+
+$pronoun$ : valeurs hans (his), hennar (her), þeirra (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par u.þ.b. $year$ (u.þ.b. = um það bil, « environ »).
+
+History : corrigé en Ferill (historique/parcours).
+
+View_Profil : conservé comme clé, valeur Skoða prófíl (orthographe islandaise correcte).
+
+County : traduit par Sýsla (division administrative islandaise traditionnelle, équivalent du comté).
+
+State : traduit par Ríki (terme standard pour un État fédéré).

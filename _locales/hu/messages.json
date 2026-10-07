@@ -6,7 +6,7 @@
         "message": "SmartCopy"
     },
     "appDesc": {
-        "message": "Eszköz genealógiai adatok Geni-be másolásához."
+        "message": "Eszköz genealógiai adatok Genibe történő másolásához."
     },
     "switchOn": {
         "message": "BE"
@@ -18,78 +18,48 @@
         "message": "Konzisztencia-ellenőrzés"
     },
     "contains_incorrect_uppercase_lowercase_in_name": {
-        "message": "$person$ esetében hibás a kis-/nagybetűk használata $pronoun$ nevében ($lang$).",
+        "message": "$person$ helytelen nagy-/kisbetűhasználatot tartalmaz $pronoun$ nevében ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_incorrect_uppercase_lowercase_in_name_default": {
-        "message": "$person$ esetében hibás a kis-/nagybetűk használata $pronoun$ nevében.",
+        "message": "$person$ helytelen nagy-/kisbetűhasználatot tartalmaz $pronoun$ nevében.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_patronym_in_first_name": {
-        "message": "$person$ esetében patronimikon/matronimikon található $pronoun$ utónevében ($lang$).",
+        "message": "$person$ patro/matronimot tartalmaz $pronoun$ keresztnevében ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_patronym_in_first_name_default": {
-        "message": "$person$ esetében patronimikon/matronimikon található $pronoun$ utónevében.",
+        "message": "$person$ patro/matronimot tartalmaz $pronoun$ keresztnevében.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_non_patronym_in_middle_name": {
-        "message": "$person$ esetében nem patronimikon/matronimikon található $pronoun$ középső nevében ($lang$).",
+        "message": "$person$ nem-patro/matronimot tartalmaz $pronoun$ középső nevében ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_non_patronym_in_middle_name_default": {
-        "message": "$person$ esetében nem patronimikon/matronimikon található $pronoun$ középső nevében.",
+        "message": "$person$ nem-patro/matronimot tartalmaz $pronoun$ középső nevében.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "consistencyCheckLiving": {
@@ -99,7 +69,7 @@
         "message": "igényelt"
     },
     "fixCase": {
-        "message": "kis-/nagybetűk javítása"
+        "message": "nagy-/kisbetű javítása"
     },
     "fixed": {
         "message": "javítva"
@@ -114,7 +84,7 @@
         "message": "utótag javítása"
     },
     "fixTitle": {
-        "message": "cím javítása"
+        "message": "titulus javítása"
     },
     "noPermission": {
         "message": "nincs jogosultság a javításhoz"
@@ -123,32 +93,24 @@
         "message": "nyilvánossá tétel"
     },
     "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
-        "message": "$count$ családtag, aki kb. $year$ előtt született, privátként van beállítva.",
+        "message": "$count$ családtag, aki kb. $year$ előtt született, privátra van állítva.",
         "placeholders": {
-            "count": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "personWasBornBeforeYearAndIsSetAsPrivate": {
-        "message": "$person$ kb. $year$ előtt született, és privátként van beállítva.",
+        "message": "$person$ kb. $year$ előtt született, és privátra van állítva.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "Research_this_Person": {
         "message": "Személy kutatása"
     },
     "All_Collections": {
-        "message": "Összes gyűjtemény"
+        "message": "Minden gyűjtemény"
     },
     "Collections": {
         "message": "Gyűjtemények"
@@ -163,7 +125,7 @@
         "message": "Névkeresés"
     },
     "Gravestones": {
-        "message": "Sírkövek"
+        "message": "Síremlékek"
     },
     "Genealogies": {
         "message": "Genealógiák"
@@ -172,16 +134,16 @@
         "message": "Genealógia"
     },
     "Geni_Search": {
-        "message": "Keresés a Geniben"
+        "message": "Geni-keresés"
     },
     "Google_Search": {
         "message": "Google-keresés"
     },
     "Records": {
-        "message": "Iratok"
+        "message": "Feljegyzések"
     },
     "Messageboard": {
-        "message": "Üzenőfal"
+        "message": "Fórum"
     },
     "Newspapers": {
         "message": "Újságok"
@@ -190,43 +152,43 @@
         "message": "Könyvek"
     },
     "Obituaries": {
-        "message": "Gyászjelentések"
+        "message": "Nekrológok"
     },
     "Other_Resources": {
         "message": "Egyéb források"
     },
     "Unable_to_create_research_links_on_this_profile": {
-        "message": "Ehhez a profilhoz nem hozhatók létre kutatási hivatkozások."
+        "message": "Nem sikerült kutatási hivatkozásokat létrehozni ezen a profilon."
     },
     "Loading___": {
         "message": "Betöltés..."
     },
     "HistoryLink_unreachable_message": {
-        "message": "Nem érhető el a HistoryLink bejelentkezési szolgáltatása. Ellenőrizze az internetkapcsolatot, majd próbálja újra."
+        "message": "Nem sikerült elérni a HistoryLink bejelentkezési szolgáltatását. Ellenőrizze az internetkapcsolatot, és próbálja újra."
     },
     "HistoryLink": {
         "message": "HistoryLink eszközök"
     },
     "Ancestor_Graph": {
-        "message": "Ősök grafikonja"
+        "message": "Ősök gráfja"
     },
     "Descendant_Graph": {
-        "message": "Leszármazottak grafikonja"
+        "message": "Leszármazottak gráfja"
     },
     "History_Search": {
-        "message": "Történeti keresés"
+        "message": "Történelmi keresés"
     },
     "Forest_Density_Calculator": {
-        "message": "Sűrűségkalkulátor"
+        "message": "Sűrűség-kalkulátor"
     },
     "Path_To_User": {
         "message": "Útvonal a felhasználóhoz"
     },
     "Configuration": {
-        "message": "Beállítások"
+        "message": "Konfiguráció"
     },
     "Copy_Preferences": {
-        "message": "Másolási beállítások"
+        "message": "Beállítások másolása"
     },
     "Consistency_Checks": {
         "message": "Konzisztencia-ellenőrzések"
@@ -235,7 +197,7 @@
         "message": "Geni testreszabása"
     },
     "Note_Dates_that_contain_Between_Before_and_After___": {
-        "message": "Megjegyzés: A „Között”, „Előtt” és „Után” értéket tartalmazó dátumokat a konzisztencia-ellenőrzések nem hasonlítják össze. A „Körülbelül” jelölésű dátumok pontos dátumnak számítanak."
+        "message": "Megjegyzés: A Between, Before és After szavakat tartalmazó dátumok nem kerülnek összehasonlításra a konzisztencia-ellenőrzések során. A Circa szót tartalmazó dátumok pontos dátumként kerülnek kezelésre."
     },
     "Run_consistency_checks_when_viewing_Geni_profiles": {
         "message": "Konzisztencia-ellenőrzések futtatása Geni-profilok megtekintésekor."
@@ -244,16 +206,16 @@
         "message": "A partnerek közötti korkülönbség jelentős"
     },
     "Maiden_name_same_as_husbands_last_name": {
-        "message": "A születési vezetéknév megegyezik a férj vezetéknevével"
+        "message": "A leánykori név megegyezik a férj vezetéknevével"
     },
     "Husband_and_wife_death_dates_the_same": {
         "message": "A férj és a feleség halálozási dátuma megegyezik"
     },
     "Husband_death_date_same_as_marriage_date": {
-        "message": "A férj halálozási dátuma megegyezik a házasság dátumával"
+        "message": "A férj halálozási dátuma megegyezik a házasságkötés dátumával"
     },
     "Wife_death_date_same_as_marriage_date": {
-        "message": "A feleség halálozási dátuma megegyezik a házasság dátumával"
+        "message": "A feleség halálozási dátuma megegyezik a házasságkötés dátumával"
     },
     "Born_after_marriage": {
         "message": "Házasság után született"
@@ -262,7 +224,7 @@
         "message": "Házasság előtt halt meg"
     },
     "Implausible_marriage_age_too_young": {
-        "message": "Valószínűtlen házassági életkor: túl fiatal"
+        "message": "Valószínűtlen házasságkötési életkor, túl fiatal"
     },
     "Siblings_ages_too_close_together": {
         "message": "A testvérek életkora túl közel van egymáshoz"
@@ -280,16 +242,16 @@
         "message": "Halál a temetés dátuma után"
     },
     "Parent_too_young_for_childs_birth": {
-        "message": "A szülő túl fiatal volt a gyermek születésekor"
+        "message": "A szülő túl fiatal a gyermek születéséhez"
     },
     "Mother_too_old_for_childs_birth": {
-        "message": "Az anya túl idős volt a gyermek születésekor"
+        "message": "Az anya túl idős a gyermek születéséhez"
     },
     "Born_before_parent_marriage": {
         "message": "A szülők házassága előtt született"
     },
     "Excessive_Age": {
-        "message": "Túl magas életkor"
+        "message": "Túlzott életkor"
     },
     "Born_after_death": {
         "message": "Halál után született"
@@ -301,85 +263,85 @@
         "message": "A név álnevet tartalmaz"
     },
     "Name_contains_improper_use_of_uppercase_lowercase": {
-        "message": "A névben hibás a kis-/nagybetűk használata"
+        "message": "A név helytelen nagy-/kisbetűhasználatot tartalmaz"
     },
     "First_Name_ends_in_suffix_eg___": {
-        "message": "Az utónév utótaggal végződik (pl. 'i','ii','iii','iv','jr','sr')"
+        "message": "A keresztnév utótaggal végződik (pl. 'i','ii','iii','iv','jr','sr')"
     },
     "Salutation_or_relationship_in_title_eg___": {
-        "message": "Megszólítás vagy rokonsági kapcsolat a cím mezőben (pl. 'Mr', 'Mrs')"
+        "message": "Megszólítás vagy rokonsági viszony a titulusban (pl. 'Mr', 'Mrs')"
     },
     "Salutation_or_relationship_in_suffix_eg___": {
-        "message": "Megszólítás vagy rokonsági kapcsolat az utótag mezőben (pl. 'Mr', 'Mrs')"
+        "message": "Megszólítás vagy rokonsági viszony az utótagban (pl. 'Mr', 'Mrs')"
     },
     "Relationship_cycle_in_immediate_family": {
-        "message": "Körkörös rokonsági kapcsolat a közvetlen családban"
+        "message": "Kapcsolati ciklus a közvetlen családban"
     },
     "Check_date_formatting_for_inconsistent_values": {
-        "message": "Dátumformázás ellenőrzése következetlen értékekre"
+        "message": "Dátumformázás ellenőrzése inkonzisztens értékek szempontjából"
     },
     "Check_for_pending_data_conflict_resolution": {
-        "message": "Függőben lévő adatütközések ellenőrzése"
+        "message": "Függőben lévő adatkonfliktus-feloldás ellenőrzése"
     },
     "Self_check_profile_for_inconsistent_dates_and_values": {
-        "message": "Profil automatikus ellenőrzése következetlen dátumokra és értékekre."
+        "message": "Profil önellenőrzése inkonzisztens dátumok és értékek szempontjából."
     },
     "Check_name_fields_for_improper_values": {
-        "message": "Névmezők ellenőrzése hibás értékekre"
+        "message": "Névmezők ellenőrzése helytelen értékek szempontjából"
     },
     "Check_name_fields_for_living_profiles": {
-        "message": "Élő személyek profiljainak kizárása a gyorsjavításból"
+        "message": "Élő profilok kizárása a gyorsjavításból"
     },
     "Check_profile_for_pending_data_conflicts": {
-        "message": "Profil ellenőrzése függőben lévő adatütközésekre"
+        "message": "Profil ellenőrzése függőben lévő adatkonfliktusok szempontjából"
     },
     "Check_date_values_for_irregular_formatting": {
-        "message": "Dátumértékek ellenőrzése szabálytalan formázásra"
+        "message": "Dátumértékek ellenőrzése szabálytalan formázás szempontjából"
     },
     "Check_when_location_is_missing_a_country": {
-        "message": "Ellenőrzés, ha a helyből hiányzik az ország"
+        "message": "Ellenőrzés, ha egy helyszínről hiányzik az ország"
     },
     "Maximum_year_to_be_private": {
-        "message": "Legkésőbbi év privát profilhoz:"
+        "message": "Maximális év a privát állapothoz:"
     },
     "Maximum_age": {
         "message": "Maximális életkor:"
     },
     "Check_the_dates_of_children_against_their_parents": {
-        "message": "A gyermekek dátumainak összevetése a szülők dátumaival."
+        "message": "A gyermekek dátumainak ellenőrzése a szülőkkel szemben."
     },
     "Check_child_is_born_after_parent_marriage": {
-        "message": "Ellenőrzés, hogy a gyermek a szülők házassága után született-e"
+        "message": "Annak ellenőrzése, hogy a gyermek a szülők házassága után született-e"
     },
     "Age_the_parent_is_too_young_to_have_a_child": {
-        "message": "Az az életkor, amely alatt a szülő túl fiatalnak számít gyermekvállaláshoz"
+        "message": "Életkor, amikor a szülő túl fiatal gyermek vállalásához"
     },
     "Age_the_mother_is_too_old_to_have_a_child": {
-        "message": "Az az életkor, amely felett az anya túl idősnek számít gyermekvállaláshoz"
+        "message": "Életkor, amikor az anya túl idős gyermek vállalásához"
     },
     "Check_the_values_of_partner_spouses_against_each_other": {
-        "message": "A partnerek/házastársak értékeinek összevetése egymással."
+        "message": "A partnerek/házastársak értékeinek ellenőrzése egymással szemben."
     },
     "Identify_possible_maiden_name_copy_issues": {
-        "message": "A születési vezetéknév másolásával kapcsolatos lehetséges problémák azonosítása"
+        "message": "Lehetséges leánykori névmásolási problémák azonosítása"
     },
     "Age_the_spouse_is_too_young_to_be_married": {
-        "message": "Az az életkor, amely alatt a házastárs túl fiatalnak számít a házassághoz"
+        "message": "Életkor, amikor a házastárs túl fiatal a házasságkötéshez"
     },
     "Maximum_age_difference_between_spouses": {
-        "message": "Házastársak közötti maximális korkülönbség"
+        "message": "Maximális korkülönbség a házastársak között"
     },
     "Check_siblings_birth_are_over_": {
-        "message": "Ellenőrzés, hogy a testvérek születése között több mint "
+        "message": "Annak ellenőrzése, hogy a testvérek születése több mint "
     },
     "_months_apart_excl_twins": {
-        "message": " hónap van-e (ikrek kivételével)."
+        "message": " hónapra van egymástól (az ikrek kivételével)."
     },
     "Future_options_to_add_features_to_Geni": {
         "message": "Jövőbeli lehetőségek funkciók hozzáadására a Genihez."
     },
     "This_profile_is_not_in_the_World_Family_Tree": {
-        "message": "Ez a profil nem szerepel a Világcsaládfában."
+        "message": "Ez a profil nincs a World Family Tree-ben."
     },
     "Add_to_History": {
         "message": "Hozzáadás az előzményekhez"
@@ -394,126 +356,136 @@
         "message": "Előzmények törlése"
     },
     "Notice___Please_Read": {
-        "message": "Figyelem – kérjük, olvassa el"
+        "message": "Figyelmeztetés – kérem, olvassa el"
     },
     "SmartCopy_will_no_longer_do_geo_location_lookups___": {
-        "message": "A Google szolgáltatásának költsége miatt a SmartCopy többé nem végez automatikus földrajzihely-keresést. Bár ez sajnálatos hír, a Geni nemrég lehetővé tette a földrajzihely-keresést a beküldés <i>után</i>. Amikor egy helyet a hely mezőn keresztül beküldenek, a Geni elvégzi a lekérdezést, és kitölti a webhely helymezőit. Alternatív megoldásként saját Google API-kulcsot is megadhat a beállításokban. A helyadatokat továbbra is kézzel kitöltheti a SmartCopyban a földgömb ikonra $globe_icon$ kattintva, és ha ki szeretné kapcsolni a Geni földrajzihely-keresését, ezt a SmartCopy beállításaiban teheti meg.",
+        "message": "A SmartCopy a Google szolgáltatásának költségei miatt többé nem végez automatikus geolokalizációs kereséseket. Bár ez szomorú hír, a Geni nemrégiben bevezette a geolokalizációs keresések elvégzésének lehetőségét <i>a beküldés után</i>. Amikor egy helyszínt a hely mezőn keresztül küldenek be, a Geni végrehajtja a lekérdezést, és kitölti a helyszín mezőit a weboldalon. Alternatívaként megadhatja saját Google API-kulcsát a konfigurációban. Továbbra is lehetősége van arra, hogy manuálisan kitöltse a helyszínadatokat a SmartCopyban a földgömb ikonra kattintva $globe_icon$, és ha le szeretné tiltani a Geni geolokalizációs keresését, ezt a SmartCopy konfigurációjában teheti meg.",
         "placeholders": {
-            "globe_icon": {
-                "content": "$1"
-            }
+            "globe_icon": { "content": "$1" }
         }
     },
     "Close": {
         "message": "Bezárás"
     },
     "Display_Add_Biography_button_in_About": {
-        "message": "„Életrajz hozzáadása” gomb megjelenítése a Névjegyben"
+        "message": "Életrajz hozzáadása gomb megjelenítése a Névjegy részben"
     },
     "Add_Biography": {
         "message": "Életrajz hozzáadása"
     },
     "Export_Profiles_button_on_Project_Actions": {
-        "message": "„Profilok exportálása” gomb a Projektműveleteknél"
+        "message": "Profilok exportálása gomb a projektműveleteknél"
     },
     "Export_Profiles": {
         "message": "Profilok exportálása"
     },
     "SmartCopy_does_not_currently_support_parsing": {
-        "message": "A SmartCopy jelenleg nem támogatja ennek az oldalnak / webhelynek / gyűjteménynek a feldolgozását."
+        "message": "A SmartCopy jelenleg nem támogatja ennek az oldalnak / webhelynek / gyűjteménynek az elemzését."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
-        "message": "A SmartCopy nehezen tudja beolvasni az oldalt. Próbálja meg frissíteni."
+        "message": "A SmartCopy nehezen tudja olvasni az oldalt. Próbálja frissíteni az oldalt."
     },
     "This_website_is_not_yet_supported_by_SmartCopy": {
-        "message": "Ezt a webhelyet a SmartCopy még nem támogatja."
+        "message": "Ezt a webhelyet még nem támogatja a SmartCopy."
     },
     "Selection": {
-        "message": "Kiválasztás"
+        "message": "Kijelölés"
     },
     "Simplify_form_by_hiding_unused_fields": {
         "message": "Űrlap egyszerűsítése a nem használt mezők elrejtésével"
     },
     "Enable_photo_checkbox_auto_selection": {
-        "message": "Fotó jelölőnégyzet automatikus kijelölésének engedélyezése"
+        "message": "Fénykép jelölőnégyzet automatikus kijelölésének engedélyezése"
     },
     "Reminder_user_responsible": {
-        "message": "Emlékeztető: Képek másolásakor a felhasználó felelős<br>a fotóstól szükséges minden engedély<br>beszerzéséért."
+        "message": "Emlékeztető: A felhasználó felelős azért, hogy<br>a képek másolásakor beszerezze a fényképésztől<br>a szükséges engedélyt."
     },
     "Exclude_private_profile_auto_select": {
-        "message": "<private> profilok kizárása az automatikus kijelölésből"
+        "message": "<private> profil automatikus kijelölésének kizárása"
     },
     "Est_burial_date_from_death_if_location": {
-        "message": "Temetés dátumának becslése a halál dátumából, ha van hely"
+        "message": "Temetési dátum becslése a halálozásból, ha van helyszín"
     },
     "This_change_will_take_effect_at_next_use": {
-        "message": "Ez a módosítás a következő használatkor lép életbe."
+        "message": "Ez a változás a következő használatkor lép életbe."
     },
     "Location": {
-        "message": "Hely"
+        "message": "Helyszín"
     },
     "Enable_Geolocation": {
-        "message": "Földrajzi hely engedélyezése"
+        "message": "Geolokalizáció engedélyezése"
     },
     "API_Key": {
         "message": "API-kulcs"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "A helymezőkben egy kijelölése mindet kijelöli"
+        "message": "Helyszín mezők: egy kijelölése, összes kijelölése"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "A helyszín szerkesztése előre kijelöli az összes mezőt"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "Helyszínek elemzése a FamilySearch Places segítségével (kísérleti)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "Jelenlegi név használata a temetési helyhez (vs. történelmi)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "Temető áthelyezése a halálozás helyéről a temetés helyére"
     },
     "Naming": {
-        "message": "Névkezelés"
+        "message": "Elnevezés"
     },
     "Auto_populate_empty_birth_name_fields": {
-        "message": "Üres születési név mezők automatikus kitöltése"
+        "message": "Üres születési névmezők automatikus kitöltése"
     },
     "Auto_fill_married_last_name": {
         "message": "Házasság utáni vezetéknév automatikus kitöltése"
     },
     "Parse_for_middle_names_automatically": {
-        "message": "Középső nevek automatikus felismerése"
+        "message": "Középső nevek automatikus elemzése"
     },
     "Auto_adjust_the_names_for_mixed_case": {
-        "message": "Nevek kis-/nagybetűinek automatikus javítása"
+        "message": "Nevek automatikus igazítása vegyes nagy-/kisbetűhöz"
     },
     "Force_compound_lastname_to_lowercase": {
-        "message": "Összetett vezetéknevek kisbetűssé kényszerítése"
+        "message": "Összetett vezetéknév kisbetűsítésének kényszerítése"
     },
     "Default_children_to_likely_Geni_parent": {
-        "message": "Gyermekek alapértelmezett hozzárendelése a legvalószínűbb Geni-szülőhöz"
+        "message": "Gyermekek alapértelmezett hozzárendelése a valószínű Geni-szülőhöz"
     },
     "Default_deceased_profiles_to_public": {
-        "message": "Elhunytak profiljainak alapértelmezett nyilvánossá tétele"
+        "message": "Elhunyt profilok alapértelmezett nyilvánossá tétele"
     },
     "Add_reference_to_Geni_s_About_section": {
-        "message": "Forrás hozzáadása a Geni Névjegy szakaszához"
+        "message": "Hivatkozás hozzáadása a Geni Névjegy részéhez"
     },
     "Display_the_Geni_side_data_by_default": {
         "message": "A Geni oldali adatok alapértelmezett megjelenítése"
     },
     "Please_select_one_of_the_Matches": {
-        "message": "Válasszon egy találatot ezen az eredményoldalon."
+        "message": "Kérjük, válasszon egyet az ezen az eredményoldalon található egyezések közül."
     },
     "_year_age_difference_between_": {
-        "message": " év korkülönbség e között: "
+        "message": " év korkülönbség "
     },
     "Birth_Surname_of_": {
         "message": "Születési vezetéknév: "
     },
     "_is_the_same_as_the_last_name_of_": {
-        "message": " megegyezik ennek a vezetéknevével: "
+        "message": " megegyezik a vezetéknevével: "
     },
     "Death_date_of_": {
         "message": "Halálozási dátum: "
     },
     "_is_the_same_as_the_death_date_of_": {
-        "message": " megegyezik ennek a halálozási dátumával: "
+        "message": " megegyezik a halálozási dátumával: "
     },
     "_is_the_same_as_": {
         "message": " megegyezik ezzel: "
     },
     "_marriage_date": {
-        "message": " házasság dátuma"
+        "message": " házasságkötés dátuma"
     },
     "_born_after_": {
         "message": " született ez után: "
@@ -522,7 +494,7 @@
         "message": " meghalt ez előtt: "
     },
     "_years_old_for_": {
-        "message": " éves ekkor: "
+        "message": " éves ehhez: "
     },
     "_marriage": {
         "message": " házasság"
@@ -534,61 +506,61 @@
         "message": " és "
     },
     "_are_within_": {
-        "message": " közötti különbség legfeljebb "
+        "message": " belül vannak "
     },
     "_months": {
         "message": " hónap"
     },
     "_born_before_the_birth_of_": {
-        "message": " ennek a születése előtt született: "
+        "message": " született ezelőtt: "
     },
     "death": {
         "message": "halál"
     },
     "_born_after_the_death_of_": {
-        "message": " ennek a halála után született: "
+        "message": " született ez után a halál után: "
     },
     "_is_under_": {
-        "message": " kevesebb mint "
+        "message": " alatt van "
     },
     "_years_old_for_the_birth_of_": {
-        "message": " éves volt ennek a születésekor: "
+        "message": " éves a születéséhez: "
     },
     "_is_over_": {
-        "message": " több mint "
+        "message": " felett van "
     },
     "_born_before_the_marriage_of_": {
-        "message": " ennek a házassága előtt született: "
+        "message": " született e házasság előtt: "
     },
     "_parents_": {
         "message": " szülők "
     },
     "_has_pending_": {
-        "message": " függőben lévő "
+        "message": " függőben van "
     },
     "data_conflicts": {
-        "message": "adatütközések"
+        "message": "adatkonfliktusok"
     },
     "The_age_of_": {
-        "message": "Életkor: "
+        "message": "Életkora: "
     },
     "_exceeds_": {
-        "message": " meghaladja ezt: "
+        "message": " meghaladja "
     },
     "_years": {
         "message": " év"
     },
     "_is_after_": {
-        "message": " későbbi, mint "
+        "message": " ez után van: "
     },
     "_death_date": {
         "message": " halálozási dátum"
     },
     "Baptism_date_of_": {
-        "message": "Keresztelés dátuma: "
+        "message": "Keresztelési dátum: "
     },
     "_is_before_": {
-        "message": " korábbi, mint "
+        "message": " ez előtt van: "
     },
     "_birth_date": {
         "message": " születési dátum"
@@ -597,79 +569,79 @@
         "message": " temetési dátum"
     },
     "_contains_a_double_space_in_": {
-        "message": " dupla szóközt tartalmaz ebben: "
+        "message": " dupla szóközt tartalmaz itt: "
     },
     "first_name": {
-        "message": "utónév"
+        "message": "keresztnév"
     },
     "_contains_a_double_or_trailing_space_in_": {
-        "message": " dupla vagy záró szóközt tartalmaz ebben: "
+        "message": " dupla vagy záró szóközt tartalmaz itt: "
     },
     "_names": {
         "message": " nevek"
     },
     "_contains_an_alias_in_": {
-        "message": " álnevet tartalmaz ebben: "
+        "message": " álnevet tartalmaz itt: "
     },
     "_appears_to_contain_a_suffix_in_": {
-        "message": " úgy tűnik, utótagot tartalmaz ebben: "
+        "message": " úgy tűnik, utótagot tartalmaz itt: "
     },
     "Move_Suffix": {
         "message": "Utótag áthelyezése"
     },
     "_contains_improper_use_of_salutation_in_": {
-        "message": " megszólítás helytelen használatát tartalmazza ebben: "
+        "message": " helytelen megszólításhasználatot tartalmaz itt: "
     },
     "_title": {
-        "message": " cím"
+        "message": " titulus"
     },
     "Remove_salutation": {
         "message": "Megszólítás eltávolítása"
     },
     "_contains_improper_use_of_relationship_in_": {
-        "message": " rokonsági kapcsolat helytelen használatát tartalmazza ebben: "
+        "message": " helytelen rokonsági viszony használatot tartalmaz itt: "
     },
     "_suffix": {
         "message": " utótag"
     },
     "Remove_relationship": {
-        "message": "Kapcsolat eltávolítása"
+        "message": "Rokonsági viszony eltávolítása"
     },
     "_contains_improper_use_of_a_numbering_scheme_in_": {
-        "message": " számozási séma helytelen használatát tartalmazza ebben: "
+        "message": " helytelen számozási séma használatot tartalmaz itt: "
     },
     "Remove_numeric": {
-        "message": "Számok eltávolítása"
+        "message": "Szám eltávolítása"
     },
     "_is_in_a_relationship_cycle_within_the_immediate_family": {
-        "message": " körkörös rokonsági kapcsolatban van a közvetlen családban"
+        "message": " kapcsolati ciklusban van a közvetlen családban"
     },
     "_contains_an_invalid_": {
-        "message": " érvénytelen "
+        "message": " érvénytelen értéket tartalmaz: "
     },
     "_date_month_greater_than_12": {
-        "message": " dátumot tartalmaz, a hónap nagyobb 12-nél."
+        "message": " dátum, a hónap nagyobb, mint 12."
     },
     "_date_day_greater_than_31": {
-        "message": " dátumot tartalmaz, a nap nagyobb 31-nél."
+        "message": " dátum, a nap nagyobb, mint 31."
     },
     "_date": {
         "message": " dátum"
     },
     "_contains_an_incomplete_": {
-        "message": " hiányos "
+        "message": " hiányos értéket tartalmaz: "
     },
     "_date_missing_month": {
-        "message": " dátumot tartalmaz, hiányzik a hónap."
+        "message": " dátum, hiányzik a hónap."
     },
     "_date_missing_year": {
-        "message": " dátumot tartalmaz, hiányzik az év."
+        "message": " dátum, hiányzik az év."
     },
     "_contains_a_": {
         "message": " tartalmaz egy "
     },
     "_location_without_a_country": {
-        "message": " ország nélküli helyet"
+        "message": " helyszínt ország nélkül"
     },
     "his": {
         "message": "az ő"
@@ -690,7 +662,7 @@
         "message": "szülő"
     },
     "brother": {
-        "message": "fiútestvér"
+        "message": "fivér"
     },
     "sibling": {
         "message": "testvér"
@@ -704,41 +676,125 @@
     "partner": {
         "message": "partner"
     },
-    "Enable_Google_Geocoding": {
-        "message": "Google Geocoding engedélyezése"
+    "Submit": {
+        "message": "Beküldés"
     },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "Helyszínek feldolgozása a FamilySearch Places segítségével (kísérleti)"
+    "Profile_Data": {
+        "message": "Profiladatok"
     },
-    "Use_current_location_name_for_burial": {
-        "message": "A temetés helyének jelenlegi nevét használja (a történelmi helyett)"
+    "ExperimentalMessage": {
+        "message": "Kísérleti üzenet"
     },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "Temető áthelyezése a halálozás helyéről a temetés helyére"
+    "SmartCopy_discussion_at_Geni": {
+        "message": "SmartCopy-megbeszélés a Genin"
     },
-    "Family_Data": {
-        "message": "Családi adatok"
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "A SmartCopy nem tudta meghatározni a Geni-profilt"
     },
-    "Deep_Research_for_full_details_takes_longer": {
-        "message": "Mélykutatás a teljes részletekért (tovább tart)"
+    "Set_Geni_Destination_Profile": {
+        "message": "Geni célprofil beállítása"
     },
-    "Skip_Deep_Research_for_this_run": {
-        "message": "Mélykutatás kihagyása"
+    "Relatives": {
+        "message": "Hozzátartozók"
     },
-    "Deep_Research_skipped_for_this_run": {
-        "message": "A hátralévő keresések kihagyása..."
+    "Select_from_History": {
+        "message": "Kiválasztás az előzményekből"
     },
-    "Estimate_birth_years": {
-        "message": "Születési/házasságkötési/halálozási/temetési évek becslése"
+    "Invalid_Profile": {
+        "message": "Érvénytelen profil"
     },
-    "Average_generational_gap_years": {
-        "message": "Átlagos generációs különbség (évek):"
+    "Set_Destination": {
+        "message": "Cél beállítása"
     },
-    "Average_spousal_age_gap_years": {
-        "message": "Átlagos házastársi korkülönbség (évek):"
+    "History": {
+        "message": "Előzmények"
     },
-    "Show_birth_death_years_in_dropdowns": {
-        "message": "Születési/halálozási évek megjelenítése a legördülő menükben"
+    "Reading_Family_Data": {
+        "message": "Családi adatok olvasása ..."
+    },
+    "Updating_Geni": {
+        "message": "Geni frissítése"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni-fa frissítve"
+    },
+    "Reminder_Duplicate": {
+        "message": "Emlékeztető: duplikátum"
+    },
+    "View_Profile": {
+        "message": "Profil megtekintése :"
+    },
+    "Tree_View": {
+        "message": "Fanézet"
+    },
+    "View_Profil": {
+        "message": "Profil megtekintése"
+    },
+    "Geni_Data": {
+        "message": "Geni-adatok"
+    },
+    "Update_Profile": {
+        "message": "Profil frissítése"
+    },
+    "Family_Members": {
+        "message": "Családtagok"
+    },
+    "Parents": {
+        "message": "Szülők"
+    },
+    "Siblings": {
+        "message": "Testvérek"
+    },
+    "Partners": {
+        "message": "Partnerek"
+    },
+    "Children": {
+        "message": "Gyermekek"
+    },
+    "expand_all": {
+        "message": "összes kibontása"
+    },
+    "collapse_all": {
+        "message": "összes összecsukása"
+    },
+    "Title": {
+        "message": "Titulus:"
+    },
+    "FFirst_Name": {
+        "message": "Keresztnév : "
+    },
+    "Middle_Name": {
+        "message": "Középső név :"
+    },
+    "Last_Name": {
+        "message": "Vezetéknév :"
+    },
+    "Birth_Name": {
+        "message": "Születési név :"
+    },
+    "Suffix": {
+        "message": "Utótag :"
+    },
+    "Display_Name": {
+        "message": "Megjelenített név :"
+    },
+    "Also_Known_As": {
+        "message": "Más néven :"
+    },
+    "Occupation": {
+        "message": "Foglalkozás :"
+    },
+    "Gender": {
+        "message": "Nem :"
+    },
+    "Vital": {
+        "message": "Életrajzi adatok :"
+    },
+    "Privacy": {
+        "message": "Adatvédelem :"
+    },
+    "About": {
+        "message": "Névjegy :"
     },
     "Male": {
         "message": "Férfi"
@@ -746,16 +802,136 @@
     "Female": {
         "message": "Nő"
     },
+    "Deceased": {
+        "message": "Elhunyt"
+    },
+    "LLiving": {
+        "message": "Élő"
+    },
+    "Public": {
+        "message": "Nyilvános"
+    },
+    "Private": {
+        "message": "Privát"
+    },
+    "Auto": {
+        "message": "Automatikus"
+    },
     "Unknown": {
         "message": "Ismeretlen"
+    },
+    "Action": {
+        "message": "Művelet:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "Nem használt mezők elrejtése"
+    },
+    "Show_All_Fields": {
+        "message": "Összes mező megjelenítése"
+    },
+    "Update": {
+        "message": "Frissítés :"
+    },
+    "Add": {
+        "message": "Hozzáadás"
+    },
+    "Add_Profile": {
+        "message": "Profil hozzáadása "
+    },
+    "Unknown_Relations": {
+        "message": "Ismeretlen kapcsolatok"
+    },
+    "MMother": {
+        "message": "Anya"
+    },
+    "FFather": {
+        "message": "Apa"
+    },
+    "Parent": {
+        "message": "Szülő"
+    },
+    "BBrother": {
+        "message": "Fivér"
+    },
+    "Sister": {
+        "message": "Nővér"
+    },
+    "SSibling": {
+        "message": "Testvér"
+    },
+    "WWife": {
+        "message": "Feleség"
+    },
+    "HHusband": {
+        "message": "Férj"
+    },
+    "Partner": {
+        "message": "Partner"
+    },
+    "Spouse": {
+        "message": "Házastárs"
+    },
+    "Son": {
+        "message": "Fiú"
+    },
+    "Daughter": {
+        "message": "Lány"
+    },
+    "Child": {
+        "message": "Gyermek"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Google Geocoding engedélyezése"
+    },
+    "Family_Data": {
+        "message": "Családi adatok"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "Mélyreható kutatás a teljes részletekért (tovább tart)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "Mélyreható kutatás kihagyása"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "A fennmaradó keresések kihagyása..."
+    },
+    "Estimate_birth_years": {
+        "message": "Születési/házassági/halálozási/temetési évek becslése"
+    },
+    "Average_generational_gap_years": {
+        "message": "Átlagos generációs hézag (év):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "Átlagos korkülönbség a házastársak között (év):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "Születési/halálozási évek megjelenítése a legördülő menükben"
     },
     "Living": {
         "message": "Élő"
     },
-    "Deceased": {
-        "message": "Elhunyt"
-    },
     "Fix_All_Case_Issues": {
         "message": "Összes javítása"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Frissítse a helyszínt, és küldje újra a Google-nek geolokalizációhoz."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Frissítse a helyszínt és/vagy az évet, majd küldje újra a FamilySearch történelmi helykereséséhez."
+    },
+    "Country": {
+        "message": "Ország"
+    },
+    "State": {
+        "message": "Állam"
+    },
+    "City": {
+        "message": "Város"
+    },
+    "Place": {
+        "message": "Hely"
+    },
+    "County": {
+        "message": "Megye"
     }
 }

@@ -1,0 +1,70 @@
+Notes sur la traduction hindi
+Système d'écriture : l'hindi utilise l'alphabet devanagari (देवनागरी), qui est un abugida (syllabaire) écrit de gauche à droite. Chaque consonne porte une voyelle inhérente « a » qui peut être modifiée par des signes diacritiques.
+
+Terminologie généalogique :
+
+पहला नाम (pahlā nām) = prénom
+
+मध्य नाम (madhya nām) = deuxième prénom
+
+उपनाम (upnām) = nom de famille
+
+जन्म नाम (janm nām) = nom de naissance
+
+विवाह-पूर्व उपनाम (vivāh-pūrv upnām) = nom de jeune fille
+
+मृत्यु तिथि (mṛtyu tithi) = date de décès
+
+दफन तिथि (dafan tithi) = date d'enterrement
+
+विवाह तिथि (vivāh tithi) = date de mariage
+
+जीवनसाथी (jīvansāthī) = conjoint(e)
+
+पति (pati) = mari
+
+पत्नी (patnī) = femme (épouse)
+
+भाई-बहन (bhāī-bahan) = frères et sœurs
+
+रिश्तेदार (riśtedār) = proches/parents
+
+पूर्वज (pūrvaj) = ancêtres
+
+वंशज (vanśaj) = descendants
+
+Genre : l'hindi distingue le genre grammatical pour les noms et adjectifs (masculin/féminin), mais pas pour les pronoms personnels de la même manière qu'en anglais :
+
+वह (vah) = il/elle (invariable en genre)
+
+उसका (uskā) = son (à lui)
+
+उसकी (uskī) = sa (à elle)
+
+उनका (unkā) = leur
+
+$pronoun$ : valeurs उसका (his), उसकी (her), उनका (their). L'hindi distingue bien his/her selon le genre du possesseur.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par लगभग $year$ (lagbhag = « environ »).
+
+History : corrigé en इतिहास (itihās).
+
+View_Profil : conservé comme clé, valeur प्रोफ़ाइल देखें (orthographe hindi correcte).
+
+County : traduit par जिला (jilā, division administrative indienne équivalente au district).
+
+State : traduit par राज्य (rājya, terme standard pour un État fédéré ou une province).
+
+SwitchOn/SwitchOff : चालू / बंद (formes courantes en hindi).
+
+Submit : सबमिट करें (emprunt à l'anglais, standard en hindi technique).
+
+About : traduit par के बारे में (ke bāre mein, à propos de).
+
+Particularité hindi : l'hindi est une langue indo-aryenne avec un ordre des mots SOV (sujet-objet-verbe). Les verbes se conjuguent selon la personne, le nombre et le genre.
+
+Translittération : de nombreux termes techniques sont translittérés de l'anglais (प्रोफ़ाइल, कॉन्फ़िगरेशन, API), ce qui est standard en hindi moderne.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

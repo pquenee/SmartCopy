@@ -11,13 +11,16 @@ var focusURLid = "", focusname = "", focusrange = "", recordtype = "", smscorefa
 var buildhistory = [], marriagedates = [], parentspouselist = [], siblinglist = [], addsiblinglist = [];
 var genibuildaction = {}, updatecount = 1, updatetotal = 0;
 var errormsg = "#f9acac", warningmsg = "#f8ff86", infomsg = "#afd2ff";
+var _ = function(messageName, substitutions) {
+    return chrome.i18n.getMessage(messageName, substitutions);
+};
 var lastResearchFocus = null, tablinkTabId = undefined, tablinkResolvedFocusId = undefined; // #218/#227: see research.js's .ctrllink handler and loadPage() below
 
 document.addEventListener('DOMContentLoaded', function () {
   Array.prototype.forEach.call(document.getElementsByTagName('*'), function (el) {
     if ( el.hasAttribute('data-i18n') ){
-      var tranlation = chrome.i18n.getMessage(el.getAttribute('data-i18n'));
-      $(el).text(tranlation);
+      var translation = chrome.i18n.getMessage(el.getAttribute('data-i18n'));
+      $(el).text(translation);
     }
   });
   // The on/off switches render their "ON"/"OFF" text via CSS
@@ -1079,36 +1082,15 @@ function loadPage(request) {
 function loadSelectPage(request) {
     //document.getElementById("smartcopy-container").style.display = "none";
     document.getElementById("loading").style.display = "none";
-    setMessage(infomsg, 'SmartCopy was unable to determine the Geni profile to use as a copy destination.<br/><br/>' +
-        '<strong><span id="changetext" title="Select the profile on Geni that matches the focus person on this page.">Set Geni Destination Profile</span></strong>' +
-        '<table style="width: 100%;"><tr><td colspan="2" style="width: 100%; font-size: 90%; text-align: left;"><strong><span id="optionrel" style="display: none;">Relatives &&nbsp;</span><span id="optionsc">SmartCopy&nbsp;</span>History:</strong></td></tr>' +
+    setMessage(infomsg, _("SmartCopy_was_unable_to_determine_the_Geni_profile", "SmartCopy was unable to determine the Geni profile") + '<br/><br/>' +
+        '<strong><span id="changetext" title="Select the profile on Geni that matches the focus person on this page.">' + _("Set_Geni_Destination_Profile", "Set Geni Destination Profile") + '</strong>' +
+        '<table style="width: 100%;"><tr><td colspan="2" style="width: 100%; font-size: 90%; text-align: left;"><strong><span id="optionrel" style="display: none;">'+ _("Relatives", "Relatives") + '&&nbsp;</span><span id="optionsc">SmartCopy&nbsp;</span>' + _("History", "History") + '</strong></td></tr>' +
         '<tr id="optionrowldr"><td colspan="2" style="width: 100%; text-align: left; font-size: 90%; padding-left: 20px;">Loading Geni Relatives <img src="images/spinnerlg.gif" style="height: 16px; margin-bottom: -4px;"></td></tr>' +
         '<tr id="optionrow" style="display: none;"><td id="focusoption" style="width: 100%; text-align: left;"></td></tr>' +
         '<tr><td colspan="2" style="width: 100%; font-size: 90%; text-align: left;"><strong>Geni ID or URL:</strong></td></tr>' +
         '<tr><td style="padding-right: 5px;"><input type="text" style="width: 100%;" id="changeprofile"></td></tr>' +
-        '<tr><td style="padding-top: 5px;"><button id="changefocus">Set Destination</button></td></tr></table>');
-    // #257 (live-reported): was JSON.stringify(request), not request.source
-    // - wrapped the WHOLE request object (including its raw HTML) into one
-    // JSON string with every quote escaped, then fed that JSON text to
-    // jQuery's .html() as if it were markup. The browser's HTML parser hit
-    // literal backslash-quote sequences inside attribute values (e.g. an
-    // SVG icon's "cx=\"8\"", an iframe's "sandbox=\"allow-forms...") and
-    // threw a console error for each one - text extraction below
-    // (.individualInformationName, etc.) partially survived anyway since
-    // jQuery's HTML parsing is lenient, which is why this never broke the
-    // visible UI, just spammed the console. Matches every other call site
-    // in this function - request.source is the actual page HTML.
-    // #257 follow-up (found during a QA pass): request.source can
-    // genuinely be undefined here - a failed fetch (loadPage()'s own
-    // exists(request.source) check, above, guards the ONE call site that
-    // handles that directly, but execution still falls through past it
-    // to the buildhistory/opener-chain fallbacks and can end up here
-    // regardless). Unlike JSON.stringify(undefined) (the old code, which
-    // silently produced the string "undefined" rather than throwing),
-    // calling .replace() directly on undefined throws - degrade to the
-    // empty string instead, matching this project's established "never
-    // let an unreliable external source crash the run" convention.
-    var parsed = $('<div>').html(exists(request.source) ? request.source.replace(/<img[^>]*>/ig, "") : "");
+        '<tr><td style="padding-top: 5px;"><button id="changefocus">' + _("Set_Destination", "Set Destination") + '</button></td></tr></table>');
+    var parsed = $('<div>').html(JSON.stringify(request).replace(/<img[^>]*>/ig, ""));
     var focusperson = parsed.find(".individualInformationName").text().trim();
     if (focusperson == "<Private>") {
         focusperson = parsed.find("#BreadcrumbsFinalText").text().trim();
@@ -1209,7 +1191,7 @@ function loadSelectPage(request) {
             $($('#focusoption')[0]).html(selectsrt);
         });
     } else {
-        var selectsrt = '<select id="focusselect" style="width: 100%;"><option>Select from History</option>';
+        var selectsrt = '<select id="focusselect" style="width: 100%;"><option>'+_("Select_from_History","Select from History")+'</option>';
         selectsrt += buildHistorySelect();
         selectsrt += '</select>';
         $('#optionrowldr').css("display", "none");
@@ -1524,10 +1506,10 @@ var expandAll = function () {
         }
         if (window[this.name]) {
             $(expandmembers[i]).slideDown();
-            $(this).text("collapse all");
+            $(this).text(_("collapse_all","collapse all"));
         } else {
             $(expandmembers[i]).slideUp();
-            $(this).text("expand all");
+            $(this).text(_("expand_all","expand all"));
         }
     }
     window[this.name] = !window[this.name];
@@ -1736,9 +1718,9 @@ $(function () {
         $('#historybox').slideToggle();
         showhistorycheck = !showhistorycheck;
         if (showhistorycheck) {
-            $('#showhistory').text(_("Show_History"));
+            $('#showhistory').text(_("Show_History", "Show History"));
         } else {
-            $('#showhistory').text(_("Hide_History"));
+            $('#showhistory').text(_("Hide_History", "Hide History"));
         }
     });
 });
@@ -2750,11 +2732,11 @@ function submitWait() {
         } else {
             focusprofileurl = "https://www.geni.com/" + focusid;
         }
-        $("#updating").html('<div style="text-align: center; font-size: 110%;"><strong>Geni Tree Updated</strong></div>' +
-            '<div style="text-align: center; padding:5px; color: #a75ccd">Reminder: Please review for duplicates<br>and merge when able.</div>' +
-            '<div style="text-align: center; padding:5px;"><b>View Profile:</b> ' +
-            '<a href="https://www.geni.com/family-tree/index/' + focusid.replace("profile-g", "") + '" target="_blank">tree view</a>, ' +
-            '<a href="' + focusprofileurl + '" target="_blank">profile view</a></div>');
+        $("#updating").html('<div style="text-align: center; font-size: 110%;"><strong>'+_("Geni_Tree_Updated", "Geni Tree Updated")+'</strong></div>' +
+            '<div style="text-align: center; padding:5px; color: #a75ccd">'+_("Reminder_Duplicate","Reminder: Please review for duplicates<br>and merge when able.")+'</div>' +
+            '<div style="text-align: center; padding:5px;"><b>'+_("View_Profile", "View Profile:")+'</b> ' +
+            '<a href="https://www.geni.com/family-tree/index/' + focusid.replace("profile-g", "") + '" target="_blank">'+_("Tree_View", "tree view")+'</a>, ' +
+            '<a href="' + focusprofileurl + '" target="_blank">'+_("View_Profil", "profile view")+'</a></div>');
         if (noerror) {
             document.getElementById("message").style.display = "none";
             $('#updating').css('margin-bottom', "15px");

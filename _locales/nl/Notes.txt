@@ -1,0 +1,50 @@
+Notes sur la traduction néerlandaise
+Terminologie généalogique :
+
+voornaam = prénom
+
+tweede naam = deuxième prénom
+
+achternaam = nom de famille
+
+geboortenaam = nom de naissance
+
+meisjesnaam = nom de jeune fille
+
+sterfdatum = date de décès
+
+begraafdatum = date d'enterrement
+
+huwelijksdatum = date de mariage
+
+echtgenoot/echtgenote = mari/femme
+
+broer/zus = frère/sœur
+
+familieleden = proches/parents
+
+voorouders = ancêtres
+
+nakomelingen = descendants
+
+Formes genrées : le néerlandais distingue le masculin et le féminin pour les noms (echtgenoot/echtgenote, broer/zus), mais les adjectifs sont généralement invariables en genre.
+
+$pronoun$ : valeurs zijn (his), haar (her), hun (their). Le néerlandais distingue bien his/her, ce qui correspond à la distinction anglaise.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca. $year$ (ca. = circa, « environ »).
+
+History : corrigé en Geschiedenis.
+
+View_Profil : conservé comme clé, valeur Profiel bekijken (orthographe néerlandaise correcte).
+
+County : traduit par Graafschap (division administrative équivalente au comté).
+
+State : traduit par Provincie (division administrative néerlandaise équivalente à la province).
+
+SwitchOn/SwitchOff : AAN / UIT (formes courantes en néerlandais).
+
+Submit : Indienen (soumettre).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

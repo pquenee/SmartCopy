@@ -1,0 +1,17 @@
+Notes sur la traduction espagnole
+Terminologie généalogique :
+
+nombre de pila = prénom
+
+segundo nombre = deuxième prénom
+
+apellido = nom de famille
+
+nombre de nacimiento = nom de naissance
+
+apellido de soltera = nom de jeune fille
+
+fecha de defunción = date de décès
+
+fecha de entierro = date d'enterrement
+

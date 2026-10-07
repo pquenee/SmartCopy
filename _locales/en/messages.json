@@ -419,98 +419,93 @@
     "Export_Profiles": {
         "message": "Export Profiles"
     },
-
-
-   "SmartCopy_does_not_currently_support_parsing": {
+    "SmartCopy_does_not_currently_support_parsing": {
         "message": "SmartCopy does not currently support parsing this page / site / collection."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
-    "message": "SmartCopy is having difficulty reading the page.  Try refreshing the page."
+        "message": "SmartCopy is having difficulty reading the page.  Try refreshing the page."
     },
     "This_website_is_not_yet_supported_by_SmartCopy": {
         "message": "This website is not yet supported by SmartCopy."
     },
-
     "Selection": {
-    "message": "Selection"
+        "message": "Selection"
     },
     "Simplify_form_by_hiding_unused_fields": {
-    "message": "Simplify form by hiding unused fields"
+        "message": "Simplify form by hiding unused fields"
     },
     "Enable_photo_checkbox_auto_selection": {
-    "message": "Enable photo checkbox auto-selection"
+        "message": "Enable photo checkbox auto-selection"
     },
     "Reminder_user_responsible": {
-    "message": "Reminder: The user is responsible for<br>obtaining any required permission from<br>the photographer when copying images."
+        "message": "Reminder: The user is responsible for<br>obtaining any required permission from<br>the photographer when copying images."
     },
     "Exclude_private_profile_auto_select": {
-    "message": "Exclude <private> profile auto-select"
+        "message": "Exclude <private> profile auto-select"
     },
     "Est_burial_date_from_death_if_location": {
-    "message": "Est. burial date from death if location"
+        "message": "Est. burial date from death if location"
     },
     "This_change_will_take_effect_at_next_use": {
-    "message": "This change will take effect at next use."
+        "message": "This change will take effect at next use."
     },
     "Location": {
-    "message": "Location"
+        "message": "Location"
     },
-    "Enable_Google_Geocoding": {
-    "message": "Enable Google Geocoding"
+    "Enable_Geolocation": {
+        "message": "Enable Geolocation"
     },
     "API_Key": {
-    "message": "API Key"
+        "message": "API Key"
     },
     "Location_fields_auto_select_one_select_all": {
-    "message": "Location fields select one select all"
+        "message": "Location fields select one select all"
     },
     "Location_edit_pre_selects_all_fields": {
-    "message": "Location edit pre-selects all fields"
+        "message": "Location edit pre-selects all fields"
     },
     "Parse_locations_with_FamilySearch_Places": {
-    "message": "Parse locations with FamilySearch Places (experimental)"
+        "message": "Parse locations with FamilySearch Places (experimental)"
     },
     "Use_current_location_name_for_burial": {
-    "message": "Use current name for burial loc. (vs. historical)"
+        "message": "Use current name for burial loc. (vs. historical)"
     },
     "Move_cemetery_info_from_death_to_burial_location": {
-    "message": "Move cemetery from death loc. to burial loc."
+        "message": "Move cemetery from death loc. to burial loc."
     },
     "Naming": {
-    "message": "Naming"
+        "message": "Naming"
     },
     "Auto_populate_empty_birth_name_fields": {
-    "message": "Auto populate empty birth name fields"
+        "message": "Auto populate empty birth name fields"
     },
     "Auto_fill_married_last_name": {
-    "message": "Auto-fill married last name"
+        "message": "Auto-fill married last name"
     },
     "Parse_for_middle_names_automatically": {
-    "message": "Parse for middle names automatically"
+        "message": "Parse for middle names automatically"
     },
     "Auto_adjust_the_names_for_mixed_case": {
-    "message": "Auto-adjust the names for mixed-case"
+        "message": "Auto-adjust the names for mixed-case"
     },
     "Force_compound_lastname_to_lowercase": {
-    "message": "Force compound lastname to lowercase"
+        "message": "Force compound lastname to lowercase"
     },
     "Default_children_to_likely_Geni_parent": {
-    "message": "Default children to likely Geni parent"
+        "message": "Default children to likely Geni parent"
     },
     "Default_deceased_profiles_to_public": {
-    "message": "Default deceased profiles to public"
+        "message": "Default deceased profiles to public"
     },
     "Add_reference_to_Geni_s_About_section": {
-    "message": "Add reference to Geni's About section"
+        "message": "Add reference to Geni's About section"
     },
     "Display_the_Geni_side_data_by_default": {
-    "message": "Display the Geni side data by default"
+        "message": "Display the Geni side data by default"
     },
-
     "Please_select_one_of_the_Matches": {
-    "message": "Please select one of the Matches on this results page."
+        "message": "Please select one of the Matches on this results page."
     },
-
     "_year_age_difference_between_": {
         "message": " year age difference between "
     },
@@ -721,6 +716,213 @@
     "partner": {
         "message": "partner"
     },
+    "Submit": {
+        "message": "Submit"
+    },
+    "Profile_Data": {
+        "message": "Profile_Data"
+    },
+    "ExperimentalMessage": {
+        "message": "ExperimentalMessage "
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "SmartCopy_discussion_at_Geni"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy was unable to determine the Geni profile"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "Set Geni Destination Profile"
+    },
+    "Relatives": {
+        "message": "Relatives"
+    },
+    "Select_from_History": {
+        "message": "Select from History"
+    },
+    "Invalid_Profile": {
+        "message": "Invalid Profile"
+    },
+    "Set_Destination": {
+        "message": "Set Destination"
+    },
+    "History": {
+        "message": "History"
+    },
+    "Reading_Family_Data": {
+        "message": "Reading Family Data ..."
+    },
+    "Updating_Geni": {
+        "message": "Updating Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni Tree Updated"
+    },
+    "Reminder_Duplicate": {
+        "message": "Reminder Duplicate"
+    },
+    "View_Profile": {
+        "message": "View Profile :"
+    },
+    "Tree_View": {
+        "message": "Tree View"
+    },
+    "View_Profil": {
+        "message": "View Profil"
+    },
+    "Geni_Data": {
+        "message": "Geni Data"
+    },
+    "Update_Profile": {
+        "message": "Update Profile"
+    },
+    "Family_Members": {
+        "message": "Family Members"
+    },
+    "Parents": {
+        "message": "Parents"
+    },
+    "Siblings": {
+        "message": "Siblings"
+    },
+    "Partners": {
+        "message": "Partners"
+    },
+    "Children": {
+        "message": "Children"
+    },
+    "expand_all": {
+        "message": "expand all"
+    },
+    "collapse_all": {
+        "message": "collapse all"
+    },
+    "Title": {
+        "message": "Title:"
+    },
+    "FFirst_Name": {
+        "message": "First Name : "
+    },
+    "Middle_Name": {
+        "message": "Middle Name :"
+    },
+    "Last_Name": {
+        "message": "Last Name :"
+    },
+    "Birth_Name": {
+        "message": "Birth Name :"
+    },
+    "Suffix": {
+        "message": "Suffix :"
+    },
+    "Display_Name": {
+        "message": "Display Name :"
+    },
+    "Also_Known_As": {
+        "message": "Aka :"
+    },
+    "Occupation": {
+        "message": "Occupation :"
+    },
+    "Gender": {
+        "message": "Gender :"
+    },
+    "Vital": {
+        "message": "Vital :"
+    },
+    "Privacy": {
+        "message": "Privacy :"
+    },
+    "About": {
+        "message": "About :"
+    },
+    "Male": {
+        "message": "Male"
+    },
+    "Female": {
+        "message": "Female"
+    },
+    "Deceased": {
+        "message": "Deceased"
+    },
+    "LLiving": {
+        "message": "Living"
+    },
+    "Public": {
+        "message": "Public"
+    },
+    "Private": {
+        "message": "Private"
+    },
+    "Auto": {
+        "message": "Auto"
+    },
+    "Unknown": {
+        "message": "Unknown"
+    },
+    "Action": {
+        "message": "Action:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "Hide Unused Fields"
+    },
+    "Show_All_Fields": {
+        "message": "Show All Fields"
+    },
+    "Update": {
+        "message": "Update :"
+    },
+    "Add": {
+        "message": "Add"
+    },
+    "Add_Profile": {
+        "message": "Add Profile "
+    },
+    "Unknown_Relations": {
+        "message": "Unknown Relations"
+    },
+    "MMother": {
+        "message": "Mother"
+    },
+    "FFather": {
+        "message": "Father"
+    },
+    "Parent": {
+        "message": "Parent"
+    },
+    "BBrother": {
+        "message": "Brother"
+    },
+    "Sister": {
+        "message": "Sister"
+    },
+    "SSibling": {
+        "message": "Sibling"
+    },
+    "WWife": {
+        "message": "Wife"
+    },
+    "HHusband": {
+        "message": "Husband"
+    },
+    "Partner": {
+        "message": "Partner"
+    },
+    "Spouse": {
+        "message": "Spouse"
+    },
+    "Son": {
+        "message": "Son"
+    },
+    "Daughter": {
+        "message": "Daughter"
+    },
+    "Child": {
+        "message": "Child"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Enable Google Geocoding"
+    },
     "Family_Data": {
         "message": "Family Data"
     },
@@ -745,20 +947,8 @@
     "Show_birth_death_years_in_dropdowns": {
         "message": "Show birth/death years in dropdowns"
     },
-    "Male": {
-        "message": "Male"
-    },
-    "Female": {
-        "message": "Female"
-    },
-    "Unknown": {
-        "message": "Unknown"
-    },
     "Living": {
         "message": "Living"
-    },
-    "Deceased": {
-        "message": "Deceased"
     },
     "Fix_All_Case_Issues": {
         "message": "Fix All"
@@ -768,5 +958,20 @@
     },
     "Update_location_resubmit_to_FamilySearch": {
         "message": "Update the location and/or year, then resubmit to FamilySearch's historical places lookup."
+    },
+    "Country": {
+        "message": "Country"
+    },
+    "State": {
+        "message": "State"
+    },
+    "City": {
+        "message": "City"
+    },
+    "Place": {
+        "message": "Place"
+    },
+    "County": {
+        "message": "County"
     }
 }

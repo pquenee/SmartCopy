@@ -1,0 +1,68 @@
+Notes sur la traduction arménienne
+Système d'écriture : l'arménien utilise l'alphabet arménien (Հայոց գրեր), créé vers 405 apr. J.-C. par Mesrop Machtots. Il compte 38 lettres (31 consonnes + 7 voyelles) et s'écrit de gauche à droite. Il n'y a pas de distinction de casse (majuscules/minuscules) dans l'usage courant — les majuscules (գլխատառ) ne sont utilisées que pour les titres et les noms propres.
+
+Code de langue : le code ISO 639-1 est hy (du nom arménien hayeren = հայերեն). Le code am correspond à l'amharique (Éthiopie), pas à l'arménien.
+
+Terminologie généalogique :
+
+անուն (anun) = prénom
+
+միջին անուն (mijin anun) = deuxième prénom
+
+ազգանուն (azganun) = nom de famille
+
+ծննդյան անուն (tsnndyan anun) = nom de naissance
+
+օրիորդական ազգանուն (oriordakan azganun) = nom de jeune fille
+
+մահվան ամսաթիվ (mahvan amsat'iv) = date de décès
+
+թաղման ամսաթիվ (t'aghman amsat'iv) = date d'enterrement
+
+ամուսնության ամսաթիվ (amusnut'yan amsat'iv) = date de mariage
+
+ամուսին (amusin) = conjoint(e)
+
+կին (kin) = femme (épouse)
+
+ամուսին (amusin) = mari
+
+քույր/եղբայր (kuyr/yeghbayr) = sœur/frère
+
+հարազատներ (harazatner) = proches/parents
+
+նախնիներ (nakhinner) = ancêtres
+
+ժառանգներ (zharangner) = descendants
+
+Genre : l'arménien ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est նա (na) pour les deux, et le possessif est նրա (nra) (invariable en genre). C'est pourquoi :
+
+his, her → tous les deux նրա (nra)
+
+their → նրանց (nrants)
+
+Les termes de parenté sont lexicaux : մայր (mayr, mère), հայր (hayr, père), եղբայր (yeghbayr, frère), քույր (kuyr, sœur)
+
+$pronoun$ : valeurs նրա (his/her) et նրանց (their). ⚠️ Comme his et her se traduisent tous deux par նրա, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par մոտ. $year$ (mot. = մոտավորապես, « environ »).
+
+History : corrigé en Պատմություն (patmut'yun).
+
+View_Profil : conservé comme clé, valeur Դիտել պրոֆիլը (orthographe arménienne correcte).
+
+County : traduit par Գավառ (gavar, division administrative arménienne équivalente au district/marz).
+
+State : traduit par Մարզ (marz, division administrative arménienne équivalente à la région).
+
+SwitchOn/SwitchOff : ՄԻԱՑՎԱԾ / ԱՆՋԱՏՎԱԾ (formes courantes en arménien).
+
+Submit : Ներկայացնել (nerkayats'nel, soumettre).
+
+About : traduit par Մասին (masin, à propos de).
+
+Particularité arménienne : l'arménien est une branche indépendante de la famille indo-européenne, avec sa propre évolution phonétique et grammaticale. Il possède 7 cas et un système verbal complexe avec de nombreuses formes composées.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

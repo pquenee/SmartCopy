@@ -1,0 +1,63 @@
+Notes sur la traduction turque
+Terminologie généalogique :
+
+ön ad = prénom
+
+ikinci ad = deuxième prénom
+
+soyad = nom de famille
+
+doğum adı = nom de naissance
+
+kızlık soyadı = nom de jeune fille
+
+ölüm tarihi = date de décès
+
+defin tarihi = date d'enterrement
+
+evlilik tarihi = date de mariage
+
+eş = conjoint(e)
+
+koca = mari
+
+karı = femme (épouse) — mais dans le fichier j'ai utilisé eş qui est plus neutre
+
+kardeş = frère/sœur
+
+akrabalar = proches/parents
+
+atalar = ancêtres
+
+torunlar = descendants
+
+Particularité turque : le turc ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est o pour les deux. C'est pourquoi :
+
+his, her → tous les deux onun (le contexte détermine le sens)
+
+their → onların
+
+vefat etmiş (décédé/e), yaşayan (vivant/e) sont invariables en genre
+
+$pronoun$ : valeurs onun (his/her) et onların (their). ⚠️ Attention : comme his et her se traduisent tous deux par onun, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par yaklaşık $year$ (yaklaşık = « environ »).
+
+History : corrigé en Geçmiş.
+
+View_Profil : conservé comme clé, valeur Profili Görüntüle (orthographe turque correcte).
+
+County : traduit par İlçe (division administrative turque équivalente au district/canton).
+
+State : traduit par Eyalet (terme standard pour un État fédéré). ⚠️ En Turquie, on utiliserait plutôt İl (province), mais Eyalet correspond à la réalité américaine/fédérale.
+
+SwitchOn/SwitchOff : AÇIK / KAPALI (formes courantes en turc).
+
+Submit : Gönder (envoyer).
+
+Particularité turque : le turc est une langue agglutinante avec harmonie vocalique. J'ai respecté les règles d'accord et de suffixation.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
+

@@ -1,0 +1,56 @@
+Notes sur la traduction italienne
+Terminologie généalogique :
+
+nome = prénom
+
+secondo nome = deuxième prénom
+
+cognome = nom de famille
+
+nome di nascita = nom de naissance
+
+cognome da nubile = nom de jeune fille
+
+data di morte = date de décès
+
+data di sepoltura = date d'enterrement
+
+data di matrimonio = date de mariage
+
+coniuge = conjoint(e)
+
+marito = mari
+
+moglie = femme (épouse)
+
+fratello/sorella = frère/sœur
+
+parenti = proches/parents
+
+antenati = ancêtres
+
+discendenti = descendants
+
+Formes genrées : l'italien distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (nato/a, deceduto/a, figlio/a) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs suo (his), sua (her), loro (their). ⚠️ En italien, l'adjectif possessif s'accorde en genre avec l'objet possédé, pas avec le possesseur. suo = « son » (à lui/elle, objet masculin), sua = « sa » (à lui/elle, objet féminin). La distinction his/her de l'anglais ne correspond donc pas exactement au couple suo/sua. La logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par c. $year$ (c. = circa, « environ »).
+
+History : corrigé en Cronologia.
+
+View_Profil : conservé comme clé, valeur Visualizza profilo (orthographe italienne correcte).
+
+County : traduit par Contea (division administrative équivalente au comté).
+
+State : traduit par Stato (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : ATTIVO / DISATTIVO (formes courantes en italien).
+
+Submit : Invia (envoyer).
+
+About : traduit par Informazioni (terme standard dans les interfaces italiennes).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

@@ -1,0 +1,35 @@
+Notes sur la traduction
+Terminologie généalogique tchèque :
+
+rodné jméno = nom de naissance
+
+příjmení = nom de famille
+
+křestní jméno = prénom
+
+prostřední jméno = deuxième prénom
+
+úmrtí = décès
+
+pohřeb = enterrement
+
+sňatek = mariage
+
+manžel / manželka = mari / femme
+
+sourozenec = frère ou sœur
+
+předek / potomek = ancêtre / descendant
+
+Formes genrées : le tchèque distingue le masculin et le féminin. J'ai utilisé des formes neutres ou inclusives (narozen/a, zemřel/a, zesnulý/á) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : dans les messages avec $pronoun$, la valeur passée sera his, her ou their → traduits respectivement par jeho, její, jejich. Attention : en tchèque, l'accord de jeho/její avec le nom qui suit peut différer selon le contexte, mais comme il s'agit d'un placeholder, la logique d'accord devra être gérée côté code.
+
+<private> dans Exclude_private_profile_auto_select : conservé tel quel car c'est probablement une balise interne.
+
+<br> et <i> : conservés.
+
+c.$year$ : conservé (le c. = circa).
+
+Profil vs Profile : j'ai corrigé View_Profil → valeur Zobrazit profil (sans le e final, car en tchèque on écrit profil).
+

@@ -1,0 +1,54 @@
+Notes sur la traduction lettone
+Terminologie généalogique :
+
+vārds = prénom
+
+otrais vārds = deuxième prénom
+
+uzvārds = nom de famille
+
+dzimšanas vārds = nom de naissance
+
+meitenes uzvārds = nom de jeune fille
+
+miršanas datums = date de décès
+
+apbedīšanas datums = date d'enterrement
+
+laulības datums = date de mariage
+
+laulātais = conjoint(e)
+
+vīrs = mari
+
+sieva = femme (épouse)
+
+brālis/māsa = frère/sœur
+
+radinieki = proches/parents
+
+priekšteči = ancêtres
+
+pēcteči = descendants
+
+Formes genrées : le letton distingue le masculin et le féminin. J'ai utilisé des formes inclusives (dzimis/dzimusi, miris/mirusi) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs viņa (his), viņas (her), viņu (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par apm. $year$ (apm. = apmēram, « environ »).
+
+History : corrigé en Vēsture.
+
+View_Profil : conservé comme clé, valeur Skatīt profilu (orthographe lettone correcte).
+
+County : traduit par Apriņķis (division administrative lettone équivalente au comté).
+
+State : traduit par Pavalsts (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : IESLĒGTS / IZSLĒGTS (formes courantes en letton).
+
+Submit : Iesniegt (soumettre).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

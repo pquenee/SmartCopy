@@ -1,0 +1,60 @@
+Notes sur la traduction catalane
+Terminologie généalogique :
+
+nom de pila = prénom
+
+segon nom = deuxième prénom
+
+cognom = nom de famille
+
+nom de naixement = nom de naissance
+
+cognom de soltera = nom de jeune fille
+
+data de defunció = date de décès
+
+data d'enterrament = date d'enterrement
+
+data de matrimoni = date de mariage
+
+cònjuge = conjoint(e)
+
+marit = mari
+
+esposa = femme (épouse)
+
+germà/germana = frère/sœur
+
+parents = proches/parents
+
+avantpassats = ancêtres
+
+descendents = descendants
+
+Formes genrées : le catalan distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (nascut/da, mort/morta, corregit/da) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs seu (his), seva (her), seu (their). ⚠️ En catalan, l'adjectif possessif s'accorde en genre avec l'objet possédé, pas avec le possesseur — comme en français ou en italien. seu = « son » (objet masculin), seva = « sa » (objet féminin). La distinction his/her de l'anglais ne correspond donc pas exactement au couple seu/seva. La logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par c. $year$ (c. = circa, « environ »).
+
+History : corrigé en Historial.
+
+View_Profil : conservé comme clé, valeur Veure perfil (orthographe catalane correcte).
+
+County : traduit par Comarca (division administrative catalane équivalente au comté).
+
+State : traduit par Estat (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : ACTIVAT / DESACTIVAT (formes courantes en catalan).
+
+Submit : Enviar (envoyer).
+
+About : traduit par Quant a (terme standard dans les interfaces catalanes).
+
+Particularité catalane : le catalan est une langue romane proche de l'occitan et du français. Il utilise l'apostrophe (l'usuari, d'obtenir) et la majuscule pour les noms propres et les débuts de phrase, comme le français.
+
+Article défini : le catalan utilise el/la/els/les (comme l'espagnol) mais aussi l' devant voyelle ou h muet (l'usuari, l'historial).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

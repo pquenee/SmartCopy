@@ -1,0 +1,105 @@
+Notes sur la traduction en chinois traditionnel (zh-TW)
+Système d'écriture : le chinois traditionnel utilise les caractères traditionnels (繁體字), standard à Taïwan, Hong Kong et Macao.
+
+Différences avec le chinois simplifié (zh-CN) :
+
+zh-TW	zh-CN	Français
+資訊	信息	information
+網路	網絡	réseau
+軟體	軟件	logiciel
+硬體	硬件	matériel
+檔案	文件	fichier
+資料	數據	données
+設定	設置	configuration
+選單	菜单	menu
+預設	默认	par défaut
+匯出	导出	exporter
+匯入	导入	importer
+開啟	打开	ouvrir
+關閉	关闭	fermer
+儲存	保存	enregistrer
+紀錄	记录	enregistrement
+支援	支持	supporter
+使用者	用户	utilisateur
+登入	登录	se connecter
+影片	视频	vidéo
+列印	打印	imprimer
+Terminologie généalogique :
+
+名字 (míngzi) = prénom
+
+中間名 (zhōngjiān míng) = deuxième prénom
+
+姓氏 (xìngshì) = nom de famille
+
+出生姓名 (chūshēng xìngmíng) = nom de naissance
+
+娘家姓 (niángjiā xìng) = nom de jeune fille
+
+死亡日期 (sǐwáng rìqī) = date de décès
+
+埋葬日期 (máizàng rìqī) = date d'enterrement
+
+結婚日期 (jiéhūn rìqī) = date de mariage
+
+配偶 (pèi'ǒu) = conjoint(e)
+
+丈夫 (zhàngfu) = mari
+
+妻子 (qīzi) = femme (épouse)
+
+兄弟姐妹 (xiōngdì jiěmèi) = frères et sœurs
+
+親屬 (qīnshǔ) = proches/parents
+
+祖先 (zǔxiān) = ancêtres
+
+後代 (hòudài) = descendants
+
+Genre : le chinois ne distingue pas le genre grammatical pour les pronoms et adjectifs. Les pronoms personnels :
+
+他 (tā) = il
+
+她 (tā) = elle (même prononciation, caractère différent)
+
+他們 (tāmen) = ils/eux
+
+她們 (tāmen) = elles
+
+他們的 (tāmen de) = leur
+
+$pronoun$ : valeurs 他的 (his), 她的 (her), 他們的 (their). Le chinois distingue bien his/her à l'écrit (他的/她的), ce qui correspond à la distinction anglaise.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par 約 $year$ 年 (約 = yuē, « environ »).
+
+History : corrigé en 歷史紀錄 (lìshǐ jìlù).
+
+View_Profil : conservé comme clé, valeur 檢視個人檔案 (orthographe taïwanaise correcte).
+
+County : traduit par 縣 (xiàn, division administrative équivalente au comté).
+
+State : traduit par 州/省 (zhōu/shěng, selon le contexte : État fédéré ou province).
+
+SwitchOn/SwitchOff : 開啟 / 關閉 (formes courantes en chinois traditionnel).
+
+Submit : 提交 (tíjiāo, soumettre).
+
+About : traduit par 關於 (guānyú, à propos de).
+
+Particularité taïwanaise : à Taïwan, on utilise souvent des termes différents de la Chine continentale pour les technologies :
+
+網路 (réseau) au lieu de 網絡
+
+資訊 (information) au lieu de 信息
+
+軟體 (logiciel) au lieu de 軟件
+
+硬體 (matériel) au lieu de 硬件
+
+檔案 (fichier) au lieu de 文件
+
+資料 (données) au lieu de 數據
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

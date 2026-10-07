@@ -1,0 +1,46 @@
+Notes sur la traduction norvégienne bokmål
+Terminologie généalogique :
+
+fornavn = prénom
+
+mellomnavn = deuxième prénom
+
+etternavn = nom de famille
+
+fødselsnavn = nom de naissance
+
+pikenavn = nom de jeune fille
+
+dødsdato = date de décès
+
+begravelsesdato = date d'enterrement
+
+vielsesdato = date de mariage
+
+ektefelle = conjoint(e)
+
+ektemann = mari
+
+kone = femme (épouse)
+
+søsken = frère(s) et sœur(s)
+
+pårørende = proches
+
+forgjenger = ancêtre / prédécesseur
+
+etterkommer = descendant
+
+Formes genrées : le norvégien bokmål utilise mann/kvinne, ektemann/kone, sønn/datter, bror/søster. Les adjectifs ne s'accordent pas en genre, donc født (né/e), avdød (décédé/e) restent invariables.
+
+$pronoun$ : valeurs hans (his), hennes (her), deres (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca. $year$ (ca. = circa en norvégien).
+
+History : corrigé en Historikk.
+
+View_Profil : conservé comme clé, valeur Vis profil (orthographe norvégienne correcte).
+
+County : traduit par Fylke (division administrative norvégienne équivalente au comté).

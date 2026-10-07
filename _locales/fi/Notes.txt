@@ -1,0 +1,54 @@
+Notes sur la traduction finnoise
+Terminologie généalogique :
+
+etunimi = prénom
+
+keskinimi = deuxième prénom
+
+sukunimi = nom de famille
+
+syntymänimi = nom de naissance
+
+tyttönimi = nom de jeune fille
+
+kuolinpäivä = date de décès
+
+hautauspäivä = date d'enterrement
+
+vihkipäivä = date de mariage
+
+puoliso = conjoint(e)
+
+aviomies = mari
+
+vaimo = femme (épouse)
+
+sisarus = frère ou sœur
+
+sukulaiset = proches/parents
+
+esivanhemmat = ancêtres
+
+jälkeläiset = descendants
+
+Genre : le finnois ne distingue pas le genre grammatical. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est hän pour les deux. C'est pourquoi :
+
+his, her → tous les deux hänen (le contexte détermine le sens)
+
+mother/father → äiti/isä (lexical, pas grammatical)
+
+Les adjectifs comme syntynyt (né/e) et kuollut (mort/e) sont invariables en genre.
+
+$pronoun$ : valeurs hänen (his/her) et heidän (their). ⚠️ Attention : comme his et her se traduisent tous deux par hänen, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par n. $year$ (n. = noin, « environ »).
+
+History : corrigé en Historia.
+
+View_Profil : conservé comme clé, valeur Näytä profiili (orthographe finnoise correcte).
+
+County : traduit par Maakunta (division administrative finlandaise équivalente au comté).
+
+State : traduit par Osavaltio (terme standard pour un État fédéré, ex. États-Unis).

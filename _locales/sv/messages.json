@@ -18,106 +18,76 @@
         "message": "Konsekvenskontroll"
     },
     "contains_incorrect_uppercase_lowercase_in_name": {
-        "message": "$person$ innehåller felaktig användning av stora/små bokstäver i $pronoun$ namn ($lang$).",
+        "message": "$person$ innehåller felaktig användning av versaler/gemener i $pronoun$ namn ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_incorrect_uppercase_lowercase_in_name_default": {
-        "message": "$person$ innehåller felaktig användning av stora/små bokstäver i $pronoun$ namn.",
+        "message": "$person$ innehåller felaktig användning av versaler/gemener i $pronoun$ namn.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_patronym_in_first_name": {
-        "message": "$person$ innehåller ett patronymikon/matronymikon i $pronoun$ förnamn ($lang$).",
+        "message": "$person$ innehåller ett patro/matronym i $pronoun$ förnamn ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_patronym_in_first_name_default": {
-        "message": "$person$ innehåller ett patronymikon/matronymikon i $pronoun$ förnamn.",
+        "message": "$person$ innehåller ett patro/matronym i $pronoun$ förnamn.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_non_patronym_in_middle_name": {
-        "message": "$person$ innehåller något som inte är ett patronymikon/matronymikon i $pronoun$ mellannamn ($lang$).",
+        "message": "$person$ innehåller ett icke-patro/matronym i $pronoun$ mellannamn ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_non_patronym_in_middle_name_default": {
-        "message": "$person$ innehåller något som inte är ett patronymikon/matronymikon i $pronoun$ mellannamn.",
+        "message": "$person$ innehåller ett icke-patro/matronym i $pronoun$ mellannamn.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "consistencyCheckLiving": {
         "message": "levande"
     },
     "claimed": {
-        "message": "övertagen"
+        "message": "hävdad"
     },
     "fixCase": {
-        "message": "korrigera skiftläge"
+        "message": "åtgärda versaler/gemener"
     },
     "fixed": {
-        "message": "korrigerad"
+        "message": "åtgärdad"
     },
     "fixName": {
-        "message": "korrigera namn"
+        "message": "åtgärda namn"
     },
     "fixSpace": {
-        "message": "korrigera mellanslag"
+        "message": "åtgärda mellanslag"
     },
     "fixSuffix": {
-        "message": "korrigera suffix"
+        "message": "åtgärda suffix"
     },
     "fixTitle": {
-        "message": "korrigera titel"
+        "message": "åtgärda titel"
     },
     "noPermission": {
-        "message": "ingen behörighet att korrigera"
+        "message": "ingen behörighet att åtgärda"
     },
     "makePublic": {
         "message": "gör offentlig"
@@ -125,27 +95,19 @@
     "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
         "message": "$count$ familjemedlemmar födda före ca $year$ är inställda som privata.",
         "placeholders": {
-            "count": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "personWasBornBeforeYearAndIsSetAsPrivate": {
         "message": "$person$ föddes före ca $year$ och är inställd som privat.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "Research_this_Person": {
-        "message": "Undersök den här personen"
+        "message": "Undersök denna person"
     },
     "All_Collections": {
         "message": "Alla samlingar"
@@ -166,22 +128,22 @@
         "message": "Gravstenar"
     },
     "Genealogies": {
-        "message": "Genealogier"
+        "message": "Släktforskning"
     },
     "Genealogy": {
-        "message": "Genealogi"
+        "message": "Släktforskning"
     },
     "Geni_Search": {
-        "message": "Sök i Geni"
+        "message": "Geni-sökning"
     },
     "Google_Search": {
-        "message": "Sök i Google"
+        "message": "Google-sökning"
     },
     "Records": {
-        "message": "Poster"
+        "message": "Register"
     },
     "Messageboard": {
-        "message": "Anslagstavla"
+        "message": "Diskussionsforum"
     },
     "Newspapers": {
         "message": "Tidningar"
@@ -196,73 +158,73 @@
         "message": "Andra resurser"
     },
     "Unable_to_create_research_links_on_this_profile": {
-        "message": "Det gick inte att skapa forskningslänkar för den här profilen."
+        "message": "Det gick inte att skapa forskningslänkar på denna profil."
     },
     "Loading___": {
-        "message": "Läser in..."
+        "message": "Laddar..."
     },
     "HistoryLink_unreachable_message": {
-        "message": "Det gick inte att nå HistoryLinks inloggningstjänst. Kontrollera internetanslutningen och försök igen."
+        "message": "Kunde inte nå HistoryLinks inloggningstjänst. Kontrollera din internetanslutning och försök igen."
     },
     "HistoryLink": {
         "message": "HistoryLink-verktyg"
     },
     "Ancestor_Graph": {
-        "message": "Antavla"
+        "message": "Angraf"
     },
     "Descendant_Graph": {
-        "message": "Ättlingdiagram"
+        "message": "Ättlingagraf"
     },
     "History_Search": {
-        "message": "Historiksökning"
+        "message": "Historisk sökning"
     },
     "Forest_Density_Calculator": {
-        "message": "Densitetskalkylator"
+        "message": "Densitetsberäknare"
     },
     "Path_To_User": {
-        "message": "Väg till användaren"
+        "message": "Sökväg till användare"
     },
     "Configuration": {
         "message": "Konfiguration"
     },
     "Copy_Preferences": {
-        "message": "Kopieringsinställningar"
+        "message": "Kopiera inställningar"
     },
     "Consistency_Checks": {
         "message": "Konsekvenskontroller"
     },
     "Geni_Customization": {
-        "message": "Anpassning av Geni"
+        "message": "Geni-anpassning"
     },
     "Note_Dates_that_contain_Between_Before_and_After___": {
-        "message": "Obs! Datum som innehåller Mellan, Före och Efter jämförs inte i konsekvenskontroller. Datum med Cirka behandlas som exakta datum."
+        "message": "Obs: Datum som innehåller Between, Before och After jämförs inte i konsekvenskontroller. Datum med Circa betraktas som exakta datum."
     },
     "Run_consistency_checks_when_viewing_Geni_profiles": {
-        "message": "Kör konsekvenskontroller när Geni-profiler visas."
+        "message": "Kör konsekvenskontroller när du visar Geni-profiler."
     },
     "Age_difference_between_partners_is_significant": {
         "message": "Åldersskillnaden mellan partner är betydande"
     },
     "Maiden_name_same_as_husbands_last_name": {
-        "message": "Födelsenamnet är samma som makens efternamn"
+        "message": "Flicknamnet är samma som makens efternamn"
     },
     "Husband_and_wife_death_dates_the_same": {
-        "message": "Makens och hustruns dödsdatum är samma"
+        "message": "Makens och makans dödsdatum är desamma"
     },
     "Husband_death_date_same_as_marriage_date": {
         "message": "Makens dödsdatum är samma som vigseldatumet"
     },
     "Wife_death_date_same_as_marriage_date": {
-        "message": "Hustruns dödsdatum är samma som vigseldatumet"
+        "message": "Makans dödsdatum är samma som vigseldatumet"
     },
     "Born_after_marriage": {
-        "message": "Född efter vigseln"
+        "message": "Född efter äktenskap"
     },
     "Died_before_marriage": {
-        "message": "Avliden före vigseln"
+        "message": "Avled före äktenskap"
     },
     "Implausible_marriage_age_too_young": {
-        "message": "Osannolik ålder vid vigsel: för ung"
+        "message": "Osannolik giftermålsålder, för ung"
     },
     "Siblings_ages_too_close_together": {
         "message": "Syskonens åldrar ligger för nära varandra"
@@ -280,109 +242,109 @@
         "message": "Död efter begravningsdatum"
     },
     "Parent_too_young_for_childs_birth": {
-        "message": "Föräldern var för ung vid barnets födelse"
+        "message": "Förälder för ung för barnets födelse"
     },
     "Mother_too_old_for_childs_birth": {
-        "message": "Modern var för gammal vid barnets födelse"
+        "message": "Mor för gammal för barnets födelse"
     },
     "Born_before_parent_marriage": {
-        "message": "Född före föräldrarnas vigsel"
+        "message": "Född före föräldrarnas äktenskap"
     },
     "Excessive_Age": {
-        "message": "Orimligt hög ålder"
+        "message": "Överdriven ålder"
     },
     "Born_after_death": {
-        "message": "Född efter dödsfallet"
+        "message": "Född efter död"
     },
     "Name_contains_double_space": {
-        "message": "Namnet innehåller dubbla mellanslag"
+        "message": "Namnet innehåller dubbelt mellanslag"
     },
     "Name_contains_alias": {
-        "message": "Namnet innehåller ett alias"
+        "message": "Namnet innehåller alias"
     },
     "Name_contains_improper_use_of_uppercase_lowercase": {
-        "message": "Namnet innehåller felaktig användning av stora/små bokstäver"
+        "message": "Namnet innehåller felaktig användning av versaler/gemener"
     },
     "First_Name_ends_in_suffix_eg___": {
-        "message": "Förnamnet slutar med ett suffix (t.ex. 'i','ii','iii','iv','jr','sr')"
+        "message": "Förnamnet slutar på suffix (t.ex. 'i','ii','iii','iv','jr','sr')"
     },
     "Salutation_or_relationship_in_title_eg___": {
-        "message": "Tilltal eller släktskapsrelation i titeln (t.ex. 'Mr', 'Mrs')"
+        "message": "Tilltal eller släktskap i titel (t.ex. 'Mr', 'Mrs')"
     },
     "Salutation_or_relationship_in_suffix_eg___": {
-        "message": "Tilltal eller släktskapsrelation i suffixet (t.ex. 'Mr', 'Mrs')"
+        "message": "Tilltal eller släktskap i suffix (t.ex. 'Mr', 'Mrs')"
     },
     "Relationship_cycle_in_immediate_family": {
-        "message": "Relationscykel inom den närmaste familjen"
+        "message": "Släktskapscykel i närmaste familjen"
     },
     "Check_date_formatting_for_inconsistent_values": {
-        "message": "Kontrollera datumformat för inkonsekventa värden"
+        "message": "Kontrollera datumformatering för inkonsekventa värden"
     },
     "Check_for_pending_data_conflict_resolution": {
-        "message": "Kontrollera om det finns olösta datakonflikter"
+        "message": "Kontrollera väntande lösning av datakonflikter"
     },
     "Self_check_profile_for_inconsistent_dates_and_values": {
-        "message": "Kontrollera profilen automatiskt för inkonsekventa datum och värden."
+        "message": "Självkontrollera profil för inkonsekventa datum och värden."
     },
     "Check_name_fields_for_improper_values": {
         "message": "Kontrollera namnfält för felaktiga värden"
     },
     "Check_name_fields_for_living_profiles": {
-        "message": "Uteslut profiler för levande personer från snabbkorrigering"
+        "message": "Uteslut levande profiler från snabbåtgärd"
     },
     "Check_profile_for_pending_data_conflicts": {
-        "message": "Kontrollera profilen för väntande datakonflikter"
+        "message": "Kontrollera profil för väntande datakonflikter"
     },
     "Check_date_values_for_irregular_formatting": {
-        "message": "Kontrollera datumvärden för avvikande formatering"
+        "message": "Kontrollera datumvärden för oregelbunden formatering"
     },
     "Check_when_location_is_missing_a_country": {
-        "message": "Kontrollera när land saknas i en plats"
+        "message": "Kontrollera när en plats saknar ett land"
     },
     "Maximum_year_to_be_private": {
-        "message": "Senaste år för privat profil:"
+        "message": "Högsta år för att vara privat:"
     },
     "Maximum_age": {
-        "message": "Maximal ålder:"
+        "message": "Högsta ålder:"
     },
     "Check_the_dates_of_children_against_their_parents": {
-        "message": "Jämför barnens datum med deras föräldrars."
+        "message": "Kontrollera barnens datum mot deras föräldrar."
     },
     "Check_child_is_born_after_parent_marriage": {
-        "message": "Kontrollera att barnet är fött efter föräldrarnas vigsel"
+        "message": "Kontrollera att barnet är fött efter föräldrarnas äktenskap"
     },
     "Age_the_parent_is_too_young_to_have_a_child": {
-        "message": "Ålder under vilken föräldern anses vara för ung för att få barn"
+        "message": "Ålder då föräldern är för ung för att få ett barn"
     },
     "Age_the_mother_is_too_old_to_have_a_child": {
-        "message": "Ålder över vilken modern anses vara för gammal för att få barn"
+        "message": "Ålder då modern är för gammal för att få ett barn"
     },
     "Check_the_values_of_partner_spouses_against_each_other": {
-        "message": "Jämför partner/makars värden med varandra."
+        "message": "Kontrollera värdena för partner/makar mot varandra."
     },
     "Identify_possible_maiden_name_copy_issues": {
-        "message": "Identifiera möjliga problem vid kopiering av födelsenamn"
+        "message": "Identifiera möjliga problem med kopiering av flicknamn"
     },
     "Age_the_spouse_is_too_young_to_be_married": {
-        "message": "Ålder under vilken maken/makan anses vara för ung för att gifta sig"
+        "message": "Ålder då maken/makan är för ung för att gifta sig"
     },
     "Maximum_age_difference_between_spouses": {
-        "message": "Maximal åldersskillnad mellan makar"
+        "message": "Högsta åldersskillnad mellan makar"
     },
     "Check_siblings_birth_are_over_": {
-        "message": "Kontrollera att syskons födelser ligger mer än "
+        "message": "Kontrollera att syskons födslar ligger över "
     },
     "_months_apart_excl_twins": {
-        "message": " månader från varandra (tvillingar undantagna)."
+        "message": " månader isär (exkl. tvillingar)."
     },
     "Future_options_to_add_features_to_Geni": {
         "message": "Framtida alternativ för att lägga till funktioner i Geni."
     },
     "This_profile_is_not_in_the_World_Family_Tree": {
-        "message": "Den här profilen finns inte i Världssläktträdet."
+        "message": "Denna profil finns inte i World Family Tree."
     },
     "Add_to_History": {
-        "message": "Lägg till i historiken"
+        "message": "Lägg till i historik"
     },
     "Show_History": {
         "message": "Visa historik"
@@ -394,14 +356,12 @@
         "message": "Rensa historik"
     },
     "Notice___Please_Read": {
-        "message": "Meddelande - Läs detta"
+        "message": "Meddelande – läs gärna"
     },
     "SmartCopy_will_no_longer_do_geo_location_lookups___": {
-        "message": "SmartCopy kommer inte längre att göra automatiska geolokaliseringssökningar på grund av kostnaden för Googles tjänst. Även om detta är tråkiga nyheter har Geni nyligen lagt till möjligheten att göra geolokaliseringssökningar <i>efter</i> att uppgifterna har skickats in. När en plats skickas via platsfältet gör Geni sökningen och fyller i platsfälten på webbplatsen. Alternativt kan du ange din egen Google API-nyckel i konfigurationen. Du kan fortfarande fylla i platsuppgifterna manuellt i SmartCopy genom att klicka på jordglobsikonen $globe_icon$, och om du vill inaktivera Genis geolokaliseringssökning kan du göra det i SmartCopy-konfigurationen.",
+        "message": "SmartCopy kommer inte längre automatiskt att utföra geolokaliseringssökningar på grund av kostnaden för Googles tjänst. Även om detta är tråkiga nyheter har Geni nyligen erbjudit funktionen att utföra geolokaliseringssökningar <i>efter</i> inlämning. När en plats skickas via platsfältet utför Geni frågan och fyller i platsfälten på webbplatsen. Alternativt kan du ange din egen Google API-nyckel i konfigurationen. Du har fortfarande möjlighet att manuellt fylla i platsdata i SmartCopy genom att klicka på globikonikonen $globe_icon$, och om du vill inaktivera Genis geolokaliseringssökning kan du göra det i SmartCopy-konfigurationen.",
         "placeholders": {
-            "globe_icon": {
-                "content": "$1"
-            }
+            "globe_icon": { "content": "$1" }
         }
     },
     "Close": {
@@ -414,19 +374,19 @@
         "message": "Lägg till biografi"
     },
     "Export_Profiles_button_on_Project_Actions": {
-        "message": "Visa knappen Exportera profiler under Projektåtgärder"
+        "message": "Knappen Exportera profiler i projektåtgärder"
     },
     "Export_Profiles": {
         "message": "Exportera profiler"
     },
     "SmartCopy_does_not_currently_support_parsing": {
-        "message": "SmartCopy stöder för närvarande inte tolkning av den här sidan / webbplatsen / samlingen."
+        "message": "SmartCopy stöder för närvarande inte parsning av denna sida / webbplats / samling."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
         "message": "SmartCopy har svårt att läsa sidan. Försök att uppdatera sidan."
     },
     "This_website_is_not_yet_supported_by_SmartCopy": {
-        "message": "Den här webbplatsen stöds ännu inte av SmartCopy."
+        "message": "Denna webbplats stöds ännu inte av SmartCopy."
     },
     "Selection": {
         "message": "Urval"
@@ -435,19 +395,19 @@
         "message": "Förenkla formuläret genom att dölja oanvända fält"
     },
     "Enable_photo_checkbox_auto_selection": {
-        "message": "Aktivera automatisk markering av fotokryssrutan"
+        "message": "Aktivera automatiskt val av fotokryssruta"
     },
     "Reminder_user_responsible": {
-        "message": "Påminnelse: Användaren ansvarar för<br>att inhämta eventuellt nödvändigt tillstånd från<br>fotografen vid kopiering av bilder."
+        "message": "Påminnelse: Användaren ansvarar för<br>att inhämta nödvändigt tillstånd från<br>fotografen vid kopiering av bilder."
     },
     "Exclude_private_profile_auto_select": {
-        "message": "Uteslut <private>-profiler från automatisk markering"
+        "message": "Uteslut automatiskt val av <private>-profil"
     },
     "Est_burial_date_from_death_if_location": {
-        "message": "Uppskatta begravningsdatum från dödsdatum om plats finns"
+        "message": "Uppskatta begravningsdatum från död om plats finns"
     },
     "This_change_will_take_effect_at_next_use": {
-        "message": "Den här ändringen träder i kraft nästa gång funktionen används."
+        "message": "Denna ändring träder i kraft vid nästa användning."
     },
     "Location": {
         "message": "Plats"
@@ -459,49 +419,61 @@
         "message": "API-nyckel"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "I platsfälten markerar val av ett fält alla"
+        "message": "Platsfält: välj ett, välj alla"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "Redigering av plats förväljer alla fält"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "Parsa platser med FamilySearch Places (experimentellt)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "Använd nuvarande namn för begravningsplats (vs. historiskt)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "Flytta kyrkogård från dödsplats till begravningsplats"
     },
     "Naming": {
         "message": "Namngivning"
     },
     "Auto_populate_empty_birth_name_fields": {
-        "message": "Fyll automatiskt i tomma fält för födelsenamn"
+        "message": "Auto-ifyll tomma födelsenamnfält"
     },
     "Auto_fill_married_last_name": {
-        "message": "Fyll automatiskt i efternamn efter vigsel"
+        "message": "Auto-ifyll gift efternamn"
     },
     "Parse_for_middle_names_automatically": {
-        "message": "Identifiera mellannamn automatiskt"
+        "message": "Parsa automatiskt efter mellannamn"
     },
     "Auto_adjust_the_names_for_mixed_case": {
-        "message": "Justera automatiskt stora/små bokstäver i namn"
+        "message": "Justera automatiskt namn för blandade versaler/gemener"
     },
     "Force_compound_lastname_to_lowercase": {
-        "message": "Tvinga sammansatta efternamn till små bokstäver"
+        "message": "Tvinga sammansatt efternamn till gemener"
     },
     "Default_children_to_likely_Geni_parent": {
-        "message": "Koppla barn som standard till den mest sannolika Geni-föräldern"
+        "message": "Standardtilldela barn till sannolik Geni-förälder"
     },
     "Default_deceased_profiles_to_public": {
-        "message": "Gör profiler för avlidna offentliga som standard"
+        "message": "Standardinställ avlidna profiler som offentliga"
     },
     "Add_reference_to_Geni_s_About_section": {
-        "message": "Lägg till en källa i Genis Om-sektion"
+        "message": "Lägg till referens i Genis Om-sektion"
     },
     "Display_the_Geni_side_data_by_default": {
-        "message": "Visa data från Geni-sidan som standard"
+        "message": "Visa Geni-sidodata som standard"
     },
     "Please_select_one_of_the_Matches": {
-        "message": "Välj en av träffarna på den här resultatsidan."
+        "message": "Välj en av matchningarna på denna resultatsida."
     },
     "_year_age_difference_between_": {
         "message": " års åldersskillnad mellan "
     },
     "Birth_Surname_of_": {
-        "message": "Födelsenamn för "
+        "message": "Födelseefternamn för "
     },
     "_is_the_same_as_the_last_name_of_": {
-        "message": " är samma som efternamnet för "
+        "message": " är samma som efternamnet på "
     },
     "Death_date_of_": {
         "message": "Dödsdatum för "
@@ -519,13 +491,13 @@
         "message": " född efter "
     },
     "_died_before_": {
-        "message": " avliden före "
+        "message": " avled före "
     },
     "_years_old_for_": {
-        "message": " år gammal vid "
+        "message": " år gammal för "
     },
     "_marriage": {
-        "message": " vigsel"
+        "message": " äktenskap"
     },
     "Birth_date_of_": {
         "message": "Födelsedatum för "
@@ -546,19 +518,19 @@
         "message": "död"
     },
     "_born_after_the_death_of_": {
-        "message": " född efter dödsfallet för "
+        "message": " född efter döden av "
     },
     "_is_under_": {
         "message": " är under "
     },
     "_years_old_for_the_birth_of_": {
-        "message": " år gammal vid födelsen av "
+        "message": " år gammal för födelsen av "
     },
     "_is_over_": {
         "message": " är över "
     },
     "_born_before_the_marriage_of_": {
-        "message": " född före vigseln för "
+        "message": " född före äktenskapet mellan "
     },
     "_parents_": {
         "message": " föräldrar "
@@ -573,7 +545,7 @@
         "message": "Åldern på "
     },
     "_exceeds_": {
-        "message": " överstiger "
+        "message": " överskrider "
     },
     "_years": {
         "message": " år"
@@ -597,13 +569,13 @@
         "message": " begravningsdatum"
     },
     "_contains_a_double_space_in_": {
-        "message": " innehåller dubbla mellanslag i "
+        "message": " innehåller ett dubbelt mellanslag i "
     },
     "first_name": {
         "message": "förnamn"
     },
     "_contains_a_double_or_trailing_space_in_": {
-        "message": " innehåller dubbla mellanslag eller ett avslutande mellanslag i "
+        "message": " innehåller ett dubbelt eller avslutande mellanslag i "
     },
     "_names": {
         "message": " namn"
@@ -627,31 +599,31 @@
         "message": "Ta bort tilltal"
     },
     "_contains_improper_use_of_relationship_in_": {
-        "message": " innehåller felaktig användning av släktskapsrelation i "
+        "message": " innehåller felaktig användning av släktskap i "
     },
     "_suffix": {
         "message": " suffix"
     },
     "Remove_relationship": {
-        "message": "Ta bort släktskapsrelation"
+        "message": "Ta bort släktskap"
     },
     "_contains_improper_use_of_a_numbering_scheme_in_": {
-        "message": " innehåller felaktig användning av numrering i "
+        "message": " innehåller felaktig användning av ett numreringssystem i "
     },
     "Remove_numeric": {
-        "message": "Ta bort siffror"
+        "message": "Ta bort numeriskt"
     },
     "_is_in_a_relationship_cycle_within_the_immediate_family": {
-        "message": " ingår i en relationscykel inom den närmaste familjen"
+        "message": " är i en släktskapscykel inom den närmaste familjen"
     },
     "_contains_an_invalid_": {
         "message": " innehåller ett ogiltigt "
     },
     "_date_month_greater_than_12": {
-        "message": " datum, månaden är större än 12."
+        "message": " datum, månad större än 12."
     },
     "_date_day_greater_than_31": {
-        "message": " datum, dagen är större än 31."
+        "message": " datum, dag större än 31."
     },
     "_date": {
         "message": " datum"
@@ -666,10 +638,10 @@
         "message": " datum, år saknas."
     },
     "_contains_a_": {
-        "message": " innehåller ett "
+        "message": " innehåller en "
     },
     "_location_without_a_country": {
-        "message": " plats utan land"
+        "message": " plats utan ett land"
     },
     "his": {
         "message": "hans"
@@ -696,7 +668,7 @@
         "message": "syskon"
     },
     "wife": {
-        "message": "hustru"
+        "message": "maka"
     },
     "husband": {
         "message": "make"
@@ -704,41 +676,125 @@
     "partner": {
         "message": "partner"
     },
-    "Enable_Google_Geocoding": {
-        "message": "Aktivera Google Geocoding"
+    "Submit": {
+        "message": "Skicka"
     },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "Tolka platser med FamilySearch Places (experimentell)"
+    "Profile_Data": {
+        "message": "Profildata"
     },
-    "Use_current_location_name_for_burial": {
-        "message": "Använd nuvarande platsnamn för gravplats (istället för historiskt)"
+    "ExperimentalMessage": {
+        "message": "Experimentellt meddelande"
     },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "Flytta kyrkogård från dödsort till gravplats"
+    "SmartCopy_discussion_at_Geni": {
+        "message": "SmartCopy-diskussion på Geni"
     },
-    "Family_Data": {
-        "message": "Familjedata"
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy kunde inte fastställa Geni-profilen"
     },
-    "Deep_Research_for_full_details_takes_longer": {
-        "message": "Djupforskning för fullständiga detaljer (tar längre tid)"
+    "Set_Geni_Destination_Profile": {
+        "message": "Ange målprofil på Geni"
     },
-    "Skip_Deep_Research_for_this_run": {
-        "message": "Hoppa över djupforskning"
+    "Relatives": {
+        "message": "Anhöriga"
     },
-    "Deep_Research_skipped_for_this_run": {
-        "message": "Hoppar över återstående sökningar..."
+    "Select_from_History": {
+        "message": "Välj från historik"
     },
-    "Estimate_birth_years": {
-        "message": "Uppskatta födelse-/gifte-/döds-/begravningsår"
+    "Invalid_Profile": {
+        "message": "Ogiltig profil"
     },
-    "Average_generational_gap_years": {
-        "message": "Genomsnittligt generationsavstånd (år):"
+    "Set_Destination": {
+        "message": "Ange mål"
     },
-    "Average_spousal_age_gap_years": {
-        "message": "Genomsnittlig åldersskillnad mellan makar (år):"
+    "History": {
+        "message": "Historik"
     },
-    "Show_birth_death_years_in_dropdowns": {
-        "message": "Visa födelse-/dödsår i rullgardinsmenyer"
+    "Reading_Family_Data": {
+        "message": "Läser familjedata ..."
+    },
+    "Updating_Geni": {
+        "message": "Uppdaterar Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni-träd uppdaterat"
+    },
+    "Reminder_Duplicate": {
+        "message": "Påminnelse: dubblett"
+    },
+    "View_Profile": {
+        "message": "Visa profil :"
+    },
+    "Tree_View": {
+        "message": "Trädvy"
+    },
+    "View_Profil": {
+        "message": "Visa profil"
+    },
+    "Geni_Data": {
+        "message": "Geni-data"
+    },
+    "Update_Profile": {
+        "message": "Uppdatera profil"
+    },
+    "Family_Members": {
+        "message": "Familjemedlemmar"
+    },
+    "Parents": {
+        "message": "Föräldrar"
+    },
+    "Siblings": {
+        "message": "Syskon"
+    },
+    "Partners": {
+        "message": "Partner"
+    },
+    "Children": {
+        "message": "Barn"
+    },
+    "expand_all": {
+        "message": "expandera alla"
+    },
+    "collapse_all": {
+        "message": "fäll ihop alla"
+    },
+    "Title": {
+        "message": "Titel:"
+    },
+    "FFirst_Name": {
+        "message": "Förnamn : "
+    },
+    "Middle_Name": {
+        "message": "Mellannamn :"
+    },
+    "Last_Name": {
+        "message": "Efternamn :"
+    },
+    "Birth_Name": {
+        "message": "Födelsenamn :"
+    },
+    "Suffix": {
+        "message": "Suffix :"
+    },
+    "Display_Name": {
+        "message": "Visningsnamn :"
+    },
+    "Also_Known_As": {
+        "message": "Även känd som :"
+    },
+    "Occupation": {
+        "message": "Yrke :"
+    },
+    "Gender": {
+        "message": "Kön :"
+    },
+    "Vital": {
+        "message": "Vitala data :"
+    },
+    "Privacy": {
+        "message": "Integritet :"
+    },
+    "About": {
+        "message": "Om :"
     },
     "Male": {
         "message": "Man"
@@ -746,16 +802,136 @@
     "Female": {
         "message": "Kvinna"
     },
+    "Deceased": {
+        "message": "Avliden"
+    },
+    "LLiving": {
+        "message": "Levande"
+    },
+    "Public": {
+        "message": "Offentlig"
+    },
+    "Private": {
+        "message": "Privat"
+    },
+    "Auto": {
+        "message": "Auto"
+    },
     "Unknown": {
         "message": "Okänd"
+    },
+    "Action": {
+        "message": "Åtgärd:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "Dölj oanvända fält"
+    },
+    "Show_All_Fields": {
+        "message": "Visa alla fält"
+    },
+    "Update": {
+        "message": "Uppdatera :"
+    },
+    "Add": {
+        "message": "Lägg till"
+    },
+    "Add_Profile": {
+        "message": "Lägg till profil "
+    },
+    "Unknown_Relations": {
+        "message": "Okända relationer"
+    },
+    "MMother": {
+        "message": "Mor"
+    },
+    "FFather": {
+        "message": "Far"
+    },
+    "Parent": {
+        "message": "Förälder"
+    },
+    "BBrother": {
+        "message": "Bror"
+    },
+    "Sister": {
+        "message": "Syster"
+    },
+    "SSibling": {
+        "message": "Syskon"
+    },
+    "WWife": {
+        "message": "Maka"
+    },
+    "HHusband": {
+        "message": "Make"
+    },
+    "Partner": {
+        "message": "Partner"
+    },
+    "Spouse": {
+        "message": "Make/maka"
+    },
+    "Son": {
+        "message": "Son"
+    },
+    "Daughter": {
+        "message": "Dotter"
+    },
+    "Child": {
+        "message": "Barn"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Aktivera Google Geocoding"
+    },
+    "Family_Data": {
+        "message": "Familjedata"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "Djupgående research för fullständiga detaljer (tar längre tid)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "Hoppa över djupgående research"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "Hoppar över återstående sökningar..."
+    },
+    "Estimate_birth_years": {
+        "message": "Uppskatta födelse-/vigsel-/döds-/begravningsår"
+    },
+    "Average_generational_gap_years": {
+        "message": "Genomsnittligt generationsgap (år):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "Genomsnittlig åldersskillnad mellan makar (år):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "Visa födelse-/dödsår i rullistor"
     },
     "Living": {
         "message": "Levande"
     },
-    "Deceased": {
-        "message": "Avliden"
-    },
     "Fix_All_Case_Issues": {
-        "message": "Rätta alla"
+        "message": "Åtgärda alla"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Uppdatera platsen och skicka in den igen till Google för geolokalisering."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Uppdatera platsen och/eller året och skicka sedan in igen till FamilySearchs historiska platsökning."
+    },
+    "Country": {
+        "message": "Land"
+    },
+    "State": {
+        "message": "Delstat"
+    },
+    "City": {
+        "message": "Stad"
+    },
+    "Place": {
+        "message": "Plats"
+    },
+    "County": {
+        "message": "Län"
     }
 }

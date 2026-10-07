@@ -9,10 +9,10 @@
         "message": "Outil permettant de copier des données généalogiques dans Geni."
     },
     "switchOn": {
-        "message": "ACTIVÉ"
+        "message": "OUI"
     },
     "switchOff": {
-        "message": "DÉSACTIVÉ"
+        "message": "NON"
     },
     "consistencyCheck": {
         "message": "Contrôle de cohérence"
@@ -419,7 +419,7 @@
     "Export_Profiles": {
         "message": "Exporter les profils"
     },
-    "SmartCopy_does_not_currently_support_parsing": {
+   "SmartCopy_does_not_currently_support_parsing": {
         "message": "SmartCopy ne prend actuellement pas en charge l’analyse de cette page / ce site / cette collection."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
@@ -459,7 +459,19 @@
         "message": "Clé API"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "Dans les champs de lieu, en sélectionner un sélectionne tous les champs"
+    "message": "Champs de localisation : sélection automatique (sélectionner un / sélectionner tout)"
+    },
+    "Location_edit_pre_selects_all_fields": {
+    "message": "La modification de l'emplacement présélectionne tous les champs."
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+    "message": "Analyser les lieux avec FamilySearch Places (expérimental)"
+    },
+    "Use_current_location_name_for_burial": {
+    "message": "Utiliser le nom actuel du lieu d'inhumation (par opposition au nom historique)."
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+    "message": "Déplacer les informations sur le cimetière du lieu de décès vers le lieu d'inhumation"
     },
     "Naming": {
         "message": "Noms"
@@ -704,17 +716,212 @@
     "partner": {
         "message": "partenaire"
     },
+    "Submit": {
+        "message": "Envoi"
+    },
+    "Profile_Data": {
+        "message": "Données du Profil"
+    },
+    "ExperimentalMessage": {
+        "message": "L'utilisation de SmartCopy sur ce site Web est expérimentale et peut ne pas être entièrement prise en charge. Soyez prudent et examinez attentivement les données avant de les soumettre. Signaler les problèmes sur"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "le fil de discussion Geni"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy n'a pas pu déterminer le profil Geni à utiliser comme cible."
+    },
+    "Set_Geni_Destination_Profile":{
+        "message":"Définir le profil Geni à utiliser" 
+    },
+    "Relatives":{
+        "message" : "Parents"
+    },
+    "Select_from_History": {
+        "message":"Sélectionner dans l'historique"
+    },
+    "Invalid_Profile": {
+        "message":"Identifiant de profil invalide – Réessayez"
+    },
+    "Set_Destination": {
+        "message":"Appel du Profil"
+    },
+    "History": {
+        "message":"Profil :"
+    },
+    "Reading_Family_Data": {
+        "message":"Lecture des données familiales ..."
+    },
+    "Updating_Geni": {
+        "message": "Mise à jour de Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Arbre Geni mis à jour"
+    },
+    "Reminder_Duplicate": {
+        "message": "Rappel : veuillez vérifier les doublons<br>et fusionner lorsque cela est possible."
+    },
+    "View_Profile":{
+    "message":"Voir le profil :"
+    },
+    "Tree_View":{
+    "message":"en arbre"
+    },
+    "View_Profil":{
+    "message":"en fiche"
+    },
+    "Geni_Data":{
+    "message":"Donnée Geni"
+    },
+    "Update_Profile":{
+    "message" :"Mise à jour du Profil"
+    },
+    "Family_Members":{
+    "message":"Membres de la famille"
+    },
+    "Parents":{
+    "message":"Parents"
+    },
+    "Siblings":{
+    "message":"Fratrie"
+    },
+    "Partners":{
+    "message":"Partenaires"
+    },
+    "Children":{
+    "message":"Enfants"
+    },
+    "expand_all":{
+    "message": "tout développer"
+    },
+    "collapse_all":{
+    "message": "tout réduire"
+    },
+    "Title":{
+    "message": "Titre:"    
+},
+"FFirst_Name":{
+    "message":"Prénom: "
+},
+"Middle_Name":{
+    "message":"Autres prénoms:"
+},
+"Last_Name":{
+    "message":"Patronyme:"
+},
+"Birth_Name":{
+    "message":"Nom de naissance:"
+},
+"Suffix":{
+    "message":"Suffixe:"
+},
+"Display_Name":{
+    "message":"Nom d'usage:"
+},
+"Also_Known_As":{
+    "message":"Alias:"
+},
+"Occupation":{
+    "message":"Profession:"
+},
+"Gender":{
+    "message":"Genre:"
+},
+"Vital":{
+    "message":"Existence:"
+},
+"Privacy":{
+    "message":"Confidentialité:"
+},
+"About":{
+    "message":"A Propos:"
+},
+"Male":{
+    "message":"Homme"
+},
+"Female":{
+    "message":"Femme"
+},
+"Deceased":{
+    "message":"Décédé(e)"
+},
+"LLiving":{
+    "message":"Vivant(e)"
+},
+"Public":{
+    "message":"Publique"
+},
+"Private":{
+    "message":"Privée"
+},
+"Auto":{
+    "message":"Auto"
+},
+"Unknown":{
+    "message":"Inconnu"
+},
+"Action":{
+    "message":"Action:"
+},
+"Hide_Unused_Fields":{
+    "message":"Masquer les champs inutilisés"
+},
+"Show_All_Fields":{
+    "message":"Afficher tous les champs"
+},
+"Update":{
+    "message":"Mise à jour:"
+},
+"Add":{
+    "message":"Ajout"
+},
+"Add_Profile":{
+    "message":"Ajouter le profil"
+},
+"Unknown_Relations":{
+        "message":"Relations Indéterminées"
+},
+    "MMother": {
+        "message": "Mère"
+    },
+    "FFather": {
+        "message": "Père"
+    },
+    "Parent": {
+        "message": "Parent"
+    },
+    "BBrother": {
+        "message": "Frère"
+    },
+    "Sister": {
+        "message": "Soeur"
+    },
+    "SSibling": {
+        "message": "Fratrie"
+    },
+    "WWife": {
+        "message": "Femme"
+    },
+    "HHusband": {
+        "message": "Mari"
+    },
+    "Partner": {
+        "message": "Partenaire"
+    },
+    "Spouse": {
+        "message": "Epoux Epouse"
+    },
+    "Son": {
+        "message": "Fils"
+    },
+    "Daughter": {
+        "message": "Fille"
+    },
+    "Child": {
+        "message": "Enfant"
+    },
     "Enable_Google_Geocoding": {
         "message": "Activer le géocodage Google"
-    },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "Analyser les lieux avec FamilySearch Places (expérimental)"
-    },
-    "Use_current_location_name_for_burial": {
-        "message": "Utiliser le nom actuel du lieu d'inhumation (plutôt que l'historique)"
-    },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "Déplacer le cimetière du lieu de décès vers le lieu d'inhumation"
     },
     "Family_Data": {
         "message": "Données familiales"
@@ -740,22 +947,31 @@
     "Show_birth_death_years_in_dropdowns": {
         "message": "Afficher les années de naissance/décès dans les listes déroulantes"
     },
-    "Male": {
-        "message": "Homme"
-    },
-    "Female": {
-        "message": "Femme"
-    },
-    "Unknown": {
-        "message": "Inconnu"
-    },
     "Living": {
         "message": "Vivant"
     },
-    "Deceased": {
-        "message": "Décédé"
-    },
     "Fix_All_Case_Issues": {
         "message": "Tout corriger"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Modifie la localisation et la resoumet à Google pour Geolocalisation."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Mettre à jour le lieu et/ou l’année, puis soumettre à nouveau l’information à l’outil de recherche de lieux historiques de FamilySearch."
+    },
+    "Country": {
+        "message": "Pays"
+    },
+    "State": {
+        "message": "Région"
+    },
+    "City": {
+        "message": "Commune"
+    },
+    "Place": {
+        "message": "Lieu ou Adresse"
+    },
+    "County": {
+        "message": "Département"
     }
 }

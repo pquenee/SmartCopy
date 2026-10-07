@@ -1,0 +1,68 @@
+Notes sur la traduction filipino
+Langue : le filipino (ou tagalog) est la langue nationale des Philippines. Il est basé sur le tagalog mais intègre de nombreux emprunts à l'espagnol, à l'anglais et à d'autres langues philippines.
+
+Terminologie généalogique :
+
+unang pangalan = prénom
+
+gitnang pangalan = deuxième prénom
+
+apelyido = nom de famille
+
+pangalan sa kapanganakan = nom de naissance
+
+apelyido noong dalaga = nom de jeune fille
+
+petsa ng kamatayan = date de décès
+
+petsa ng libing = date d'enterrement
+
+petsa ng kasal = date de mariage
+
+asawa = conjoint(e)
+
+asawang lalaki = mari
+
+asawang babae = femme (épouse)
+
+kapatid = frère/sœur
+
+kamag-anak = proches/parents
+
+ninuno = ancêtres
+
+inapo = descendants
+
+Genre : le filipino ne distingue pas le genre grammatical pour les pronoms et adjectifs. Le pronom personnel est siya pour les deux, et le possessif est kanyang (invariable en genre). C'est pourquoi :
+
+his, her → tous les deux kanyang
+
+their → kanilang
+
+Les termes de parenté sont lexicaux : ina (mère), ama (père), kapatid na lalaki (frère), kapatid na babae (sœur)
+
+$pronoun$ : valeurs kanyang (his/her) et kanilang (their). ⚠️ Comme his et her se traduisent tous deux par kanyang, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par c. $year$ (c. = circa, « environ »).
+
+History : corrigé en Kasaysayan.
+
+View_Profil : conservé comme clé, valeur Tingnan ang Profile (orthographe filipino correcte).
+
+County : traduit par Lalawigan (division administrative philippine équivalente à la province).
+
+State : traduit par Estado (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : BUKAS / SARADO (formes courantes en filipino).
+
+Submit : Isumite (soumettre).
+
+About : traduit par Tungkol (à propos de).
+
+Particularité filipino : le filipino utilise un système de focus verbal (actor focus, object focus, etc.) qui détermine la structure de la phrase. J'ai utilisé les formes verbales appropriées selon le contexte.
+
+Emprunts : de nombreux termes techniques sont empruntés à l'anglais (profile, configuration, geolocation, etc.), ce qui est standard en filipino moderne.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

@@ -1,0 +1,71 @@
+Notes sur la traduction en chinois simplifié
+Système d'écriture : le chinois simplifié utilise les caractères simplifiés (简体字), standard en Chine continentale, à Singapour et en Malaisie.
+
+Terminologie généalogique :
+
+名字 (míngzi) = prénom
+
+中间名 (zhōngjiān míng) = deuxième prénom
+
+姓氏 (xìngshì) = nom de famille
+
+出生姓名 (chūshēng xìngmíng) = nom de naissance
+
+娘家姓 (niángjiā xìng) = nom de jeune fille
+
+死亡日期 (sǐwáng rìqī) = date de décès
+
+埋葬日期 (máizàng rìqī) = date d'enterrement
+
+结婚日期 (jiéhūn rìqī) = date de mariage
+
+配偶 (pèi'ǒu) = conjoint(e)
+
+丈夫 (zhàngfu) = mari
+
+妻子 (qīzi) = femme (épouse)
+
+兄弟姐妹 (xiōngdì jiěmèi) = frères et sœurs
+
+亲属 (qīnshǔ) = proches/parents
+
+祖先 (zǔxiān) = ancêtres
+
+后代 (hòudài) = descendants
+
+Genre : le chinois ne distingue pas le genre grammatical pour les pronoms et adjectifs. Les pronoms personnels :
+
+他 (tā) = il
+
+她 (tā) = elle (même prononciation, caractère différent)
+
+他们 (tāmen) = ils/eux
+
+她们 (tāmen) = elles
+
+他们的 (tāmen de) = leur
+
+$pronoun$ : valeurs 他的 (his), 她的 (her), 他们的 (their). Le chinois distingue bien his/her à l'écrit (他的/她的), ce qui correspond à la distinction anglaise.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par 约 $year$ 年 (约 = yuē, « environ »).
+
+History : corrigé en 历史记录 (lìshǐ jìlù).
+
+View_Profil : conservé comme clé, valeur 查看个人资料 (orthographe chinoise correcte).
+
+County : traduit par 县 (xiàn, division administrative chinoise équivalente au comté).
+
+State : traduit par 州/省 (zhōu/shěng, selon le contexte : État fédéré ou province).
+
+SwitchOn/SwitchOff : 开 / 关 (formes courantes en chinois).
+
+Submit : 提交 (tíjiāo, soumettre).
+
+About : traduit par 关于 (guānyú, à propos de).
+
+Particularité chinoise : le chinois est une langue isolante sans flexion grammaticale. Les phrases sont construites avec un ordre des mots SVO (sujet-verbe-objet). J'ai adapté la structure des phrases pour qu'elles sonnent naturellement en chinois.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
+

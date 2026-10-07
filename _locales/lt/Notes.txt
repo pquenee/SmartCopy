@@ -1,0 +1,54 @@
+Notes sur la traduction lituanienne
+Terminologie généalogique :
+
+vardas = prénom
+
+antras vardas = deuxième prénom
+
+pavardė = nom de famille
+
+gimimo vardas = nom de naissance
+
+mergautinė pavardė = nom de jeune fille
+
+mirties data = date de décès
+
+palaidojimo data = date d'enterrement
+
+santuokos data = date de mariage
+
+sutuoktinis = conjoint(e)
+
+vyras = mari
+
+žmona = femme (épouse)
+
+brolis/sesuo = frère/sœur
+
+giminės = proches/parents
+
+protėviai = ancêtres
+
+palikuonys = descendants
+
+Formes genrées : le lituanien distingue le masculin et le féminin. J'ai utilisé des formes inclusives (gimęs/gimusi, miręs/mirusi) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs jo (his), jos (her), jų (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par apie $year$ (apie = « environ »).
+
+History : corrigé en Istorija.
+
+View_Profil : conservé comme clé, valeur Peržiūrėti profilį (orthographe lituanienne correcte).
+
+County : traduit par Apskritis (division administrative lituanienne équivalente au comté).
+
+State : traduit par Valstija (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : ĮJUNGT / IŠJUNGT (formes courantes en lituanien).
+
+Submit : Pateikti (soumettre).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

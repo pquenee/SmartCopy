@@ -1,0 +1,52 @@
+Notes sur la traduction ukrainienne
+Terminologie généalogique :
+
+ім'я = prénom
+
+по батькові = patronyme (équivalent du « deuxième prénom » en Ukraine/Russie)
+
+прізвище = nom de famille
+
+ім'я при народженні = nom de naissance
+
+дівоче прізвище = nom de jeune fille
+
+дата смерті = date de décès
+
+дата поховання = date d'enterrement
+
+дата шлюбу = date de mariage
+
+подружжя = conjoint(e)
+
+чоловік = mari
+
+дружина = femme (épouse)
+
+брат/сестра = frère/sœur
+
+родичі = proches/parents
+
+предки = ancêtres
+
+нащадки = descendants
+
+Particularité ukrainienne : la notion de по батькові (patronyme) est centrale dans la culture ukrainienne. J'ai donc utilisé ce terme pour Middle_Name, qui correspond au middle name dans le contexte anglo-saxon.
+
+Formes genrées : l'ukrainien distingue le masculin et le féminin. J'ai utilisé des formes inclusives (народжений/а, помер/ла, встановлений/встановлена) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs його (his), її (her), їхній (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par прибл. $year$ (прибл. = приблизно, « environ »).
+
+History : corrigé en Історія.
+
+View_Profil : conservé comme clé, valeur Переглянути профіль (orthographe ukrainienne correcte).
+
+County : traduit par Район (division administrative ukrainienne équivalente au comté).
+
+State : traduit par Область (division administrative ukrainienne équivalente à la région).
+
+SwitchOn/SwitchOff : abréviations ukrainiennes courantes УВІМК. (увімкнено) et ВИМК. (вимкнено).

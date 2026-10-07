@@ -1,0 +1,59 @@
+Notes sur la traduction hongroise
+Terminologie généalogique :
+
+keresztnév = prénom
+
+középső név = deuxième prénom
+
+vezetéknév = nom de famille
+
+születési név = nom de naissance
+
+leánykori név = nom de jeune fille
+
+halálozási dátum = date de décès
+
+temetési dátum = date d'enterrement
+
+házasságkötés dátuma = date de mariage
+
+házastárs = conjoint(e)
+
+férj = mari
+
+feleség = femme (épouse)
+
+testvér = frère ou sœur
+
+hozzátartozók = proches/parents
+
+ősök = ancêtres
+
+leszármazottak = descendants
+
+Particularité hongroise : en hongrois, l'ordre traditionnel est nom de famille + prénom (ex. Kovács János), contrairement aux langues indo-européennes. Cependant, dans un contexte international comme Geni, l'ordre occidental est généralement conservé. Les termes restent inchangés.
+
+Formes genrées : le hongrois ne distingue pas le genre grammatical pour les adjectifs et les pronoms. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est ő pour les deux. C'est pourquoi :
+
+his, her, their → tous les trois az ő (le contexte détermine le sens)
+
+elhunyt (décédé/e), élő (vivant/e) sont invariables en genre
+
+Les termes de parenté sont lexicaux : anya (mère), apa (père), fivér (frère), nővér (sœur)
+
+$pronoun$ : valeurs az ő (his/her/their). ⚠️ Attention : comme his et her se traduisent tous deux par az ő, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique. J'ai utilisé az ő (avec l'article défini) pour un rendu plus naturel en hongrois.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par kb. $year$ (kb. = körülbelül, « environ »).
+
+History : corrigé en Előzmények.
+
+View_Profil : conservé comme clé, valeur Profil megtekintése (orthographe hongroise correcte).
+
+County : traduit par Megye (division administrative hongroise équivalente au comté).
+
+State : traduit par Állam (terme standard pour un État fédéré). ⚠️ Si le contexte est américain, Állam est approprié ; pour un contexte hongrois, on utiliserait plutôt megye ou régió, mais megye est déjà utilisé pour County.
+
+SwitchOn/SwitchOff : abréviations hongroises courantes BE (bekapcsolva) et KI (kikapcsolva).
+

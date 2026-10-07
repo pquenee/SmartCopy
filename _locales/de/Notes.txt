@@ -1,0 +1,58 @@
+Notes sur la traduction allemande
+Terminologie généalogique :
+
+Vorname = prénom
+
+Mittelname = deuxième prénom
+
+Nachname = nom de famille
+
+Geburtsname = nom de naissance
+
+Mädchenname = nom de jeune fille
+
+Sterbedatum = date de décès
+
+Begräbnisdatum = date d'enterrement
+
+Heiratsdatum = date de mariage
+
+Ehegatte = conjoint(e)
+
+Ehemann = mari
+
+Ehefrau = femme (épouse)
+
+Geschwister = frère(s) et sœur(s)
+
+Verwandte = proches/parents
+
+Vorfahren = ancêtres
+
+Nachkommen = descendants
+
+Formes genrées : l'allemand distingue le masculin, le féminin et le neutre. J'ai utilisé les formes appropriées :
+
+männlich / weiblich pour le sexe
+
+verstorben (invariable) pour décédé(e)
+
+lebend (invariable) pour vivant(e)
+
+$pronoun$ : valeurs sein (his), ihr (her), deren (their). ⚠️ L'allemand distingue sein (à lui) et ihr (à elle), ce qui correspond bien à la distinction anglaise his/her. Pour their, deren est utilisé lorsque le possesseur est au pluriel.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca. $year$ (ca. = circa en allemand).
+
+History : corrigé en Historie.
+
+View_Profil : conservé comme clé, valeur Profil anzeigen (orthographe allemande correcte).
+
+County : traduit par Kreis (division administrative allemande équivalente au comté).
+
+State : traduit par Bundesland (terme standard pour un État fédéré en Allemagne/Autriche). ⚠️ Si le contexte est plutôt américain, Bundesstaat serait plus approprié. J'ai choisi Bundesland qui est plus courant.
+
+Salutation : traduit par Anrede, terme standard pour les formules de politesse (M., Mme, etc.).
+
+Alias : conservé tel quel, terme couramment utilisé en allemand.

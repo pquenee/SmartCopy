@@ -1,0 +1,52 @@
+Notes sur la traduction russe- Terminologie généalogique :
+имя = prénom
+
+отчество = patronyme (équivalent du « deuxième prénom » en Russie)
+
+фамилия = nom de famille
+
+имя при рождении = nom de naissance
+
+девичья фамилия = nom de jeune fille
+
+дата смерти = date de décès
+
+дата погребения = date d'enterrement
+
+дата брака = date de mariage
+
+супруг/супруга = mari/femme
+
+муж = mari
+
+жена = femme (épouse)
+
+брат/сестра = frère/sœur
+
+родственники = proches/parents
+
+предки = ancêtres
+
+потомки = descendants
+
+Particularité russe : comme en ukrainien et en bulgare, la notion de отчество (patronyme) est centrale dans la culture russe. J'ai donc utilisé ce terme pour Middle_Name.
+
+Formes genrées : le russe distingue le masculin et le féminin. J'ai utilisé des formes inclusives (родился/родилась, умер/умерла, установлен/установлена) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs его (his), её (her), их (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ок. $year$ (ок. = около, « environ »).
+
+History : corrigé en История.
+
+View_Profil : conservé comme clé, valeur Просмотреть профиль (orthographe russe correcte).
+
+County : traduit par Район (division administrative russe équivalente au comté).
+
+State : traduit par Область (division administrative russe équivalente à la région).
+
+SwitchOn/SwitchOff : abréviations russes courantes ВКЛ. (включено) et ВЫКЛ. (выключено).
+
+About : traduit par О программе (littéralement « À propos du programme »), terme standard dans les interfaces russes.

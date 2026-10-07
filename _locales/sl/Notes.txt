@@ -1,0 +1,59 @@
+Notes sur la traduction slovène
+Écriture : le slovène utilise l'alphabet latin avec diacritiques (č, š, ž). Pas de cyrillique.
+
+Terminologie généalogique :
+
+osebno ime = prénom
+
+srednje ime = deuxième prénom
+
+priimek = nom de famille
+
+ime ob rojstvu = nom de naissance
+
+dekliški priimek = nom de jeune fille
+
+datum smrti = date de décès
+
+datum pokopa = date d'enterrement
+
+datum poroke = date de mariage
+
+zakonec = conjoint(e)
+
+mož = mari
+
+žena = femme (épouse)
+
+brat/sestra = frère/sœur
+
+sorodniki = proches/parents
+
+predniki = ancêtres
+
+potomci = descendants
+
+Formes genrées : le slovène distingue le masculin et le féminin. J'ai utilisé des formes inclusives (rojen/rojena, umrl/umrla, nastavljen/nastavljena) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs njegov (his), njen (her), njihov (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par pribl. $year$ (pribl. = približno, « environ »).
+
+History : corrigé en Zgodovina.
+
+View_Profil : conservé comme clé, valeur Prikaži profil (orthographe slovène correcte).
+
+County : traduit par Okrožje (division administrative slovène équivalente au comté/district).
+
+State : traduit par Regija (division administrative slovène équivalente à la région). ⚠️ Si le contexte est américain, Zvezna država serait plus approprié, mais Regija correspond à la réalité administrative slovène.
+
+SwitchOn/SwitchOff : abréviations slovènes courantes VKL. (vklopljeno) et IZKL. (izklopljeno).
+
+Daughter : traduit par Hči (forme standard en slovène).
+
+Particularité slovène : le slovène possède un duel (dvojina) en plus du singulier et du pluriel. J'ai utilisé le pluriel standard dans les traductions, mais pour deux personnes, le duel serait grammaticalement plus correct. Par exemple :
+
+Siblings → Brata in sestre (j'ai utilisé le duel pour « brata » = deux frères, mais le pluriel pour « sestre » = sœurs). Une traduction plus précise serait Brata in sestre ou simplement Sorojenci.
+

@@ -1,0 +1,42 @@
+Notes sur la traduction suédoise
+Terminologie généalogique :
+
+förnamn = prénom
+
+mellannamn = deuxième prénom
+
+efternamn = nom de famille
+
+födelsenamn = nom de naissance
+
+flicknamn = nom de jeune fille
+
+dödsdatum = date de décès
+
+begravningsdatum = date d'enterrement
+
+vigseldatum = date de mariage
+
+make/maka = mari/femme
+
+syskon = frère(s) et sœur(s)
+
+anhöriga = proches/parents
+
+förfäder = ancêtres
+
+ättlingar = descendants
+
+Formes genrées : le suédois utilise make (mari) et maka (femme), man (homme) et kvinna (femme). Les adjectifs ne s'accordent pas en genre comme en tchèque, donc född (né/e), avliden (décédé/e) restent invariables.
+
+$pronoun$ : valeurs hans (his), hennes (her), deras (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca $year$ (ca = circa en suédois, sans point).
+
+History : corrigé en Historik.
+
+View_Profil : conservé comme clé, valeur Visa profil (orthographe suédoise correcte).
+
+County : traduit par Län (division administrative suédoise équivalente au comté).

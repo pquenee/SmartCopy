@@ -1,0 +1,937 @@
+{
+    "appName": {
+        "message": "SmartCopy"
+    },
+    "appShortName": {
+        "message": "SmartCopy"
+    },
+    "appDesc": {
+        "message": "ინსტრუმენტი გენეალოგიური მონაცემების Geni-ში კოპირებისთვის."
+    },
+    "switchOn": {
+        "message": "ჩართული"
+    },
+    "switchOff": {
+        "message": "გამორთული"
+    },
+    "consistencyCheck": {
+        "message": "თანმიმდევრულობის შემოწმება"
+    },
+    "contains_incorrect_uppercase_lowercase_in_name": {
+        "message": "$person$ შეიცავს დიდი/პატარა ასოების არასწორ გამოყენებას $pronoun$ სახელში ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_incorrect_uppercase_lowercase_in_name_default": {
+        "message": "$person$ შეიცავს დიდი/პატარა ასოების არასწორ გამოყენებას $pronoun$ სახელში.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_patronym_in_first_name": {
+        "message": "$person$ შეიცავს მამის/დედის სახელს $pronoun$ სახელში ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_patronym_in_first_name_default": {
+        "message": "$person$ შეიცავს მამის/დედის სახელს $pronoun$ სახელში.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_non_patronym_in_middle_name": {
+        "message": "$person$ შეიცავს არა მამის/დედის სახელს $pronoun$ შუა სახელში ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_non_patronym_in_middle_name_default": {
+        "message": "$person$ შეიცავს არა მამის/დედის სახელს $pronoun$ შუა სახელში.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "consistencyCheckLiving": {
+        "message": "ცოცხალი"
+    },
+    "claimed": {
+        "message": "მოთხოვნილი"
+    },
+    "fixCase": {
+        "message": "ასოების რეგისტრის გასწორება"
+    },
+    "fixed": {
+        "message": "გასწორებულია"
+    },
+    "fixName": {
+        "message": "სახელის გასწორება"
+    },
+    "fixSpace": {
+        "message": "ინტერვალის გასწორება"
+    },
+    "fixSuffix": {
+        "message": "სუფიქსის გასწორება"
+    },
+    "fixTitle": {
+        "message": "ტიტულის გასწორება"
+    },
+    "noPermission": {
+        "message": "გასწორების ნებართვა არ არის"
+    },
+    "makePublic": {
+        "message": "საჯარო გახადე"
+    },
+    "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
+        "message": "$count$ ოჯახის წევრი, დაბადებული დაახლ. $year$ წლამდე, დაყენებულია როგორც პირადი.",
+        "placeholders": {
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "personWasBornBeforeYearAndIsSetAsPrivate": {
+        "message": "$person$ დაიბადა დაახლ. $year$ წლამდე და დაყენებულია როგორც პირადი.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "Research_this_Person": {
+        "message": "ამ პიროვნების კვლევა"
+    },
+    "All_Collections": {
+        "message": "ყველა კოლექცია"
+    },
+    "Collections": {
+        "message": "კოლექციები"
+    },
+    "Publications": {
+        "message": "პუბლიკაციები"
+    },
+    "Holocaust": {
+        "message": "ჰოლოკოსტი"
+    },
+    "Name_Search": {
+        "message": "ძებნა სახელით"
+    },
+    "Gravestones": {
+        "message": "საფლავის ქვები"
+    },
+    "Genealogies": {
+        "message": "გენეალოგიები"
+    },
+    "Genealogy": {
+        "message": "გენეალოგია"
+    },
+    "Geni_Search": {
+        "message": "ძებნა Geni-ში"
+    },
+    "Google_Search": {
+        "message": "ძებნა Google-ში"
+    },
+    "Records": {
+        "message": "ჩანაწერები"
+    },
+    "Messageboard": {
+        "message": "შეტყობინებების დაფა"
+    },
+    "Newspapers": {
+        "message": "გაზეთები"
+    },
+    "Books": {
+        "message": "წიგნები"
+    },
+    "Obituaries": {
+        "message": "ნეკროლოგები"
+    },
+    "Other_Resources": {
+        "message": "სხვა რესურსები"
+    },
+    "Unable_to_create_research_links_on_this_profile": {
+        "message": "ამ პროფილზე კვლევითი ბმულების შექმნა შეუძლებელია."
+    },
+    "Loading___": {
+        "message": "იტვირთება..."
+    },
+    "HistoryLink_unreachable_message": {
+        "message": "HistoryLink-ის შესვლის სერვისთან დაკავშირება ვერ მოხერხდა. შეამოწმეთ ინტერნეტ კავშირი და სცადეთ ხელახლა."
+    },
+    "HistoryLink": {
+        "message": "HistoryLink-ის ინსტრუმენტები"
+    },
+    "Ancestor_Graph": {
+        "message": "წინაპრების გრაფიკი"
+    },
+    "Descendant_Graph": {
+        "message": "შთამომავლების გრაფიკი"
+    },
+    "History_Search": {
+        "message": "ისტორიული ძებნა"
+    },
+    "Forest_Density_Calculator": {
+        "message": "სიმკვრივის კალკულატორი"
+    },
+    "Path_To_User": {
+        "message": "გზა მომხმარებლამდე"
+    },
+    "Configuration": {
+        "message": "კონფიგურაცია"
+    },
+    "Copy_Preferences": {
+        "message": "პარამეტრების კოპირება"
+    },
+    "Consistency_Checks": {
+        "message": "თანმიმდევრულობის შემოწმებები"
+    },
+    "Geni_Customization": {
+        "message": "Geni-ის მორგება"
+    },
+    "Note_Dates_that_contain_Between_Before_and_After___": {
+        "message": "შენიშვნა: თარიღები, რომლებიც შეიცავს Between, Before და After, არ შედარება თანმიმდევრულობის შემოწმებებში. Circa-ს შემცველი თარიღები ითვლება ზუსტ თარიღებად."
+    },
+    "Run_consistency_checks_when_viewing_Geni_profiles": {
+        "message": "Geni-ის პროფილების ნახვისას გაუშვი თანმიმდევრულობის შემოწმებები."
+    },
+    "Age_difference_between_partners_is_significant": {
+        "message": "პარტნიორებს შორის ასაკობრივი სხვაობა მნიშვნელოვანია"
+    },
+    "Maiden_name_same_as_husbands_last_name": {
+        "message": "ქალიშვილობის გვარი იგივეა, რაც ქმრის გვარი"
+    },
+    "Husband_and_wife_death_dates_the_same": {
+        "message": "ქმრისა და ცოლის გარდაცვალების თარიღები ერთნაირია"
+    },
+    "Husband_death_date_same_as_marriage_date": {
+        "message": "ქმრის გარდაცვალების თარიღი იგივეა, რაც ქორწინების თარიღი"
+    },
+    "Wife_death_date_same_as_marriage_date": {
+        "message": "ცოლის გარდაცვალების თარიღი იგივეა, რაც ქორწინების თარიღი"
+    },
+    "Born_after_marriage": {
+        "message": "დაბადებული ქორწინების შემდეგ"
+    },
+    "Died_before_marriage": {
+        "message": "გარდაცვლილი ქორწინებამდე"
+    },
+    "Implausible_marriage_age_too_young": {
+        "message": "ქორწინების არასწორი ასაკი, ძალიან ახალგაზრდა"
+    },
+    "Siblings_ages_too_close_together": {
+        "message": "და-ძმების ასაკები ძალიან ახლოსაა"
+    },
+    "Born_before_parent_birth": {
+        "message": "დაბადებული მშობლის დაბადებამდე"
+    },
+    "Born_after_parent_death": {
+        "message": "დაბადებული მშობლის გარდაცვალების შემდეგ"
+    },
+    "Death_before_baptism_date": {
+        "message": "გარდაცვალება ნათლობის თარიღამდე"
+    },
+    "Death_after_burial_date": {
+        "message": "გარდაცვალება დაკრძალვის თარიღის შემდეგ"
+    },
+    "Parent_too_young_for_childs_birth": {
+        "message": "მშობელი ძალიან ახალგაზრდაა შვილის დაბადებისთვის"
+    },
+    "Mother_too_old_for_childs_birth": {
+        "message": "დედა ძალიან ხანდაზმულია შვილის დაბადებისთვის"
+    },
+    "Born_before_parent_marriage": {
+        "message": "დაბადებული მშობლების ქორწინებამდე"
+    },
+    "Excessive_Age": {
+        "message": "გადაჭარბებული ასაკი"
+    },
+    "Born_after_death": {
+        "message": "დაბადებული გარდაცვალების შემდეგ"
+    },
+    "Name_contains_double_space": {
+        "message": "სახელი შეიცავს ორმაგ ინტერვალს"
+    },
+    "Name_contains_alias": {
+        "message": "სახელი შეიცავს ფსევდონიმს"
+    },
+    "Name_contains_improper_use_of_uppercase_lowercase": {
+        "message": "სახელი შეიცავს დიდი/პატარა ასოების არასწორ გამოყენებას"
+    },
+    "First_Name_ends_in_suffix_eg___": {
+        "message": "სახელი მთავრდება სუფიქსით (მაგ. 'i','ii','iii','iv','jr','sr')"
+    },
+    "Salutation_or_relationship_in_title_eg___": {
+        "message": "მიმართვა ან ნათესაური კავშირი ტიტულში (მაგ. 'Mr', 'Mrs')"
+    },
+    "Salutation_or_relationship_in_suffix_eg___": {
+        "message": "მიმართვა ან ნათესაური კავშირი სუფიქსში (მაგ. 'Mr', 'Mrs')"
+    },
+    "Relationship_cycle_in_immediate_family": {
+        "message": "ურთიერთობის ციკლი ახლო ოჯახში"
+    },
+    "Check_date_formatting_for_inconsistent_values": {
+        "message": "შეამოწმე თარიღის ფორმატირება არათანმიმდევრული მნიშვნელობებისთვის"
+    },
+    "Check_for_pending_data_conflict_resolution": {
+        "message": "შეამოწმე მონაცემთა კონფლიქტის მოლოდინში გადაწყვეტა"
+    },
+    "Self_check_profile_for_inconsistent_dates_and_values": {
+        "message": "თვითშეამოწმე პროფილი არათანმიმდევრული თარიღებისა და მნიშვნელობებისთვის."
+    },
+    "Check_name_fields_for_improper_values": {
+        "message": "შეამოწმე სახელის ველები არასწორი მნიშვნელობებისთვის"
+    },
+    "Check_name_fields_for_living_profiles": {
+        "message": "გამორიცხე ცოცხალი პროფილები სწრაფი გასწორებიდან"
+    },
+    "Check_profile_for_pending_data_conflicts": {
+        "message": "შეამოწმე პროფილი მოლოდინში მყოფი მონაცემთა კონფლიქტებისთვის"
+    },
+    "Check_date_values_for_irregular_formatting": {
+        "message": "შეამოწმე თარიღის მნიშვნელობები არარეგულარული ფორმატირებისთვის"
+    },
+    "Check_when_location_is_missing_a_country": {
+        "message": "შეამოწმე, როცა მდებარეობას აკლია ქვეყანა"
+    },
+    "Maximum_year_to_be_private": {
+        "message": "მაქსიმალური წელი პირადი ყოფნისთვის:"
+    },
+    "Maximum_age": {
+        "message": "მაქსიმალური ასაკი:"
+    },
+    "Check_the_dates_of_children_against_their_parents": {
+        "message": "შეამოწმე შვილების თარიღები მათი მშობლების მიმართ."
+    },
+    "Check_child_is_born_after_parent_marriage": {
+        "message": "შეამოწმე, დაიბადა თუ არა შვილი მშობლების ქორწინების შემდეგ"
+    },
+    "Age_the_parent_is_too_young_to_have_a_child": {
+        "message": "ასაკი, როცა მშობელი ძალიან ახალგაზრდაა შვილისთვის"
+    },
+    "Age_the_mother_is_too_old_to_have_a_child": {
+        "message": "ასაკი, როცა დედა ძალიან ხანდაზმულია შვილისთვის"
+    },
+    "Check_the_values_of_partner_spouses_against_each_other": {
+        "message": "შეამოწმე პარტნიორების/მეუღლეების მნიშვნელობები ერთმანეთის მიმართ."
+    },
+    "Identify_possible_maiden_name_copy_issues": {
+        "message": "გამოავლინე ქალიშვილობის გვარის კოპირების შესაძლო პრობლემები"
+    },
+    "Age_the_spouse_is_too_young_to_be_married": {
+        "message": "ასაკი, როცა მეუღლე ძალიან ახალგაზრდაა ქორწინებისთვის"
+    },
+    "Maximum_age_difference_between_spouses": {
+        "message": "მაქსიმალური ასაკობრივი სხვაობა მეუღლეებს შორის"
+    },
+    "Check_siblings_birth_are_over_": {
+        "message": "შეამოწმე, არის თუ არა და-ძმების დაბადებებს შორის მეტი, ვიდრე "
+    },
+    "_months_apart_excl_twins": {
+        "message": " თვე (ტყუპების გარდა)."
+    },
+    "Future_options_to_add_features_to_Geni": {
+        "message": "მომავალი ვარიანტები Geni-ში ფუნქციების დასამატებლად."
+    },
+    "This_profile_is_not_in_the_World_Family_Tree": {
+        "message": "ეს პროფილი არ არის World Family Tree-ში."
+    },
+    "Add_to_History": {
+        "message": "ისტორიაში დამატება"
+    },
+    "Show_History": {
+        "message": "ისტორიის ჩვენება"
+    },
+    "Hide_History": {
+        "message": "ისტორიის დამალვა"
+    },
+    "Clear_History": {
+        "message": "ისტორიის გასუფთავება"
+    },
+    "Notice___Please_Read": {
+        "message": "შეტყობინება – გთხოვთ წაიკითხოთ"
+    },
+    "SmartCopy_will_no_longer_do_geo_location_lookups___": {
+        "message": "SmartCopy აღარ შეასრულებს ავტომატურად გეოლოკაციის ძებნას Google-ის სერვისის ღირებულების გამო. მიუხედავად იმისა, რომ ეს სამწუხარო ამბავია, Geni-მ ცოტა ხნის წინ შემოგვთავაზა გეოლოკაციის ძებნის შესრულების ფუნქცია <i>გაგზავნის შემდეგ</i>. როდესაც მდებარეობა გაიგზავნება ადგილის ველის მეშვეობით, Geni შეასრულებს მოთხოვნას და შეავსებს მდებარეობის ველებს ვებსაიტზე. ალტერნატიულად, შეგიძლიათ მიუთითოთ საკუთარი Google API გასაღები კონფიგურაციაში. თქვენ ასევე კვლავ გაქვთ ვარიანტი ხელით შეავსოთ მდებარეობის მონაცემები SmartCopy-ში გლობუსის ხატულაზე დაწკაპუნებით $globe_icon$, და თუ გსურთ Geni-ის გეოლოკაციის ძებნის გამორთვა, ამის გაკეთება შეგიძლიათ SmartCopy-ის კონფიგურაციაში.",
+        "placeholders": {
+            "globe_icon": { "content": "$1" }
+        }
+    },
+    "Close": {
+        "message": "დახურვა"
+    },
+    "Display_Add_Biography_button_in_About": {
+        "message": "ბიოგრაფიის დამატების ღილაკის ჩვენება „შესახებ“ განყოფილებაში"
+    },
+    "Add_Biography": {
+        "message": "ბიოგრაფიის დამატება"
+    },
+    "Export_Profiles_button_on_Project_Actions": {
+        "message": "პროფილების ექსპორტის ღილაკი პროექტის ქმედებებში"
+    },
+    "Export_Profiles": {
+        "message": "პროფილების ექსპორტი"
+    },
+    "SmartCopy_does_not_currently_support_parsing": {
+        "message": "SmartCopy ამჟამად არ უჭერს მხარს ამ გვერდის / საიტის / კოლექციის პარსინგს."
+    },
+    "SmartCopy_is_having_difficulty_reading_the_page": {
+        "message": "SmartCopy-ს უჭირს გვერდის წაკითხვა. სცადეთ გვერდის განახლება."
+    },
+    "This_website_is_not_yet_supported_by_SmartCopy": {
+        "message": "ეს ვებსაიტი ჯერ არ არის მხარდაჭერილი SmartCopy-ის მიერ."
+    },
+    "Selection": {
+        "message": "არჩევანი"
+    },
+    "Simplify_form_by_hiding_unused_fields": {
+        "message": "ფორმის გამარტივება გამოუყენებელი ველების დამალვით"
+    },
+    "Enable_photo_checkbox_auto_selection": {
+        "message": "ფოტოს მონიშვნის ველის ავტომატური არჩევის ჩართვა"
+    },
+    "Reminder_user_responsible": {
+        "message": "შეხსენება: მომხმარებელი პასუხისმგებელია<br>სურათების კოპირებისას ფოტოგრაფისგან<br>საჭირო ნებართვის მიღებაზე."
+    },
+    "Exclude_private_profile_auto_select": {
+        "message": "<private> პროფილის ავტომატური არჩევის გამორიცხვა"
+    },
+    "Est_burial_date_from_death_if_location": {
+        "message": "დაკრძალვის თარიღის შეფასება გარდაცვალებიდან, თუ მდებარეობა არსებობს"
+    },
+    "This_change_will_take_effect_at_next_use": {
+        "message": "ეს ცვლილება ძალაში შევა შემდეგ გამოყენებისას."
+    },
+    "Location": {
+        "message": "მდებარეობა"
+    },
+    "Enable_Geolocation": {
+        "message": "გეოლოკაციის ჩართვა"
+    },
+    "API_Key": {
+        "message": "API გასაღები"
+    },
+    "Location_fields_auto_select_one_select_all": {
+        "message": "მდებარეობის ველები: აირჩიე ერთი, აირჩიე ყველა"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "მდებარეობის რედაქტირება წინასწარ ირჩევს ყველა ველს"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "მდებარეობების პარსინგი FamilySearch Places-ით (ექსპერიმენტული)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "გამოიყენე მიმდინარე სახელი დაკრძალვის ადგილისთვის (ისტორიულის ნაცვლად)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "სასაფლაოს გადატანა გარდაცვალების ადგილიდან დაკრძალვის ადგილზე"
+    },
+    "Naming": {
+        "message": "სახელდება"
+    },
+    "Auto_populate_empty_birth_name_fields": {
+        "message": "ცარიელი დაბადების სახელის ველების ავტომატური შევსება"
+    },
+    "Auto_fill_married_last_name": {
+        "message": "ქორწინების შემდეგ გვარის ავტომატური შევსება"
+    },
+    "Parse_for_middle_names_automatically": {
+        "message": "შუა სახელების ავტომატური პარსინგი"
+    },
+    "Auto_adjust_the_names_for_mixed_case": {
+        "message": "სახელების ავტომატური კორექტირება შერეული რეგისტრისთვის"
+    },
+    "Force_compound_lastname_to_lowercase": {
+        "message": "რთული გვარის იძულებითი გადაყვანა პატარა ასოებში"
+    },
+    "Default_children_to_likely_Geni_parent": {
+        "message": "ნაგულისხმევად შვილების დაკავშირება სავარაუდო Geni მშობელთან"
+    },
+    "Default_deceased_profiles_to_public": {
+        "message": "ნაგულისხმევად გარდაცვლილთა პროფილების საჯაროდ დაყენება"
+    },
+    "Add_reference_to_Geni_s_About_section": {
+        "message": "მითითების დამატება Geni-ის „შესახებ“ განყოფილებაში"
+    },
+    "Display_the_Geni_side_data_by_default": {
+        "message": "Geni-ის მხარის მონაცემების ჩვენება ნაგულისხმევად"
+    },
+    "Please_select_one_of_the_Matches": {
+        "message": "გთხოვთ, აირჩიოთ ერთი დამთხვევა ამ შედეგების გვერდზე."
+    },
+    "_year_age_difference_between_": {
+        "message": " წლის ასაკობრივი სხვაობა "
+    },
+    "Birth_Surname_of_": {
+        "message": "დაბადების გვარი: "
+    },
+    "_is_the_same_as_the_last_name_of_": {
+        "message": " იგივეა, რაც გვარი: "
+    },
+    "Death_date_of_": {
+        "message": "გარდაცვალების თარიღი: "
+    },
+    "_is_the_same_as_the_death_date_of_": {
+        "message": " იგივეა, რაც გარდაცვალების თარიღი: "
+    },
+    "_is_the_same_as_": {
+        "message": " იგივეა, რაც "
+    },
+    "_marriage_date": {
+        "message": " ქორწინების თარიღი"
+    },
+    "_born_after_": {
+        "message": " დაბადებული შემდეგ: "
+    },
+    "_died_before_": {
+        "message": " გარდაცვლილი ადრე: "
+    },
+    "_years_old_for_": {
+        "message": " წლის "
+    },
+    "_marriage": {
+        "message": " ქორწინება"
+    },
+    "Birth_date_of_": {
+        "message": "დაბადების თარიღი: "
+    },
+    "_and_": {
+        "message": " და "
+    },
+    "_are_within_": {
+        "message": " არიან შიგნით "
+    },
+    "_months": {
+        "message": " თვე"
+    },
+    "_born_before_the_birth_of_": {
+        "message": " დაბადებული ადრე, ვიდრე დაბადება: "
+    },
+    "death": {
+        "message": "გარდაცვალება"
+    },
+    "_born_after_the_death_of_": {
+        "message": " დაბადებული გარდაცვალების შემდეგ: "
+    },
+    "_is_under_": {
+        "message": " არის ქვემოთ "
+    },
+    "_years_old_for_the_birth_of_": {
+        "message": " წლის დაბადებისთვის: "
+    },
+    "_is_over_": {
+        "message": " არის ზემოთ "
+    },
+    "_born_before_the_marriage_of_": {
+        "message": " დაბადებული ქორწინებამდე: "
+    },
+    "_parents_": {
+        "message": " მშობლები "
+    },
+    "_has_pending_": {
+        "message": " აქვს მოლოდინში "
+    },
+    "data_conflicts": {
+        "message": "მონაცემთა კონფლიქტები"
+    },
+    "The_age_of_": {
+        "message": "ასაკი: "
+    },
+    "_exceeds_": {
+        "message": " აღემატება "
+    },
+    "_years": {
+        "message": " წელი"
+    },
+    "_is_after_": {
+        "message": " არის შემდეგ "
+    },
+    "_death_date": {
+        "message": " გარდაცვალების თარიღი"
+    },
+    "Baptism_date_of_": {
+        "message": "ნათლობის თარიღი: "
+    },
+    "_is_before_": {
+        "message": " არის ადრე "
+    },
+    "_birth_date": {
+        "message": " დაბადების თარიღი"
+    },
+    "_burial_date": {
+        "message": " დაკრძალვის თარიღი"
+    },
+    "_contains_a_double_space_in_": {
+        "message": " შეიცავს ორმაგ ინტერვალს: "
+    },
+    "first_name": {
+        "message": "სახელი"
+    },
+    "_contains_a_double_or_trailing_space_in_": {
+        "message": " შეიცავს ორმაგ ან ბოლო ინტერვალს: "
+    },
+    "_names": {
+        "message": " სახელები"
+    },
+    "_contains_an_alias_in_": {
+        "message": " შეიცავს ფსევდონიმს: "
+    },
+    "_appears_to_contain_a_suffix_in_": {
+        "message": " როგორც ჩანს, შეიცავს სუფიქსს: "
+    },
+    "Move_Suffix": {
+        "message": "სუფიქსის გადატანა"
+    },
+    "_contains_improper_use_of_salutation_in_": {
+        "message": " შეიცავს მიმართვის არასწორ გამოყენებას: "
+    },
+    "_title": {
+        "message": " ტიტული"
+    },
+    "Remove_salutation": {
+        "message": "მიმართვის წაშლა"
+    },
+    "_contains_improper_use_of_relationship_in_": {
+        "message": " შეიცავს ნათესაური კავშირის არასწორ გამოყენებას: "
+    },
+    "_suffix": {
+        "message": " სუფიქსი"
+    },
+    "Remove_relationship": {
+        "message": "ნათესაური კავშირის წაშლა"
+    },
+    "_contains_improper_use_of_a_numbering_scheme_in_": {
+        "message": " შეიცავს ნუმერაციის სქემის არასწორ გამოყენებას: "
+    },
+    "Remove_numeric": {
+        "message": "რიცხვის წაშლა"
+    },
+    "_is_in_a_relationship_cycle_within_the_immediate_family": {
+        "message": " იმყოფება ურთიერთობის ციკლში ახლო ოჯახში"
+    },
+    "_contains_an_invalid_": {
+        "message": " შეიცავს არასწორს "
+    },
+    "_date_month_greater_than_12": {
+        "message": " თარიღი, თვე 12-ზე მეტი."
+    },
+    "_date_day_greater_than_31": {
+        "message": " თარიღი, დღე 31-ზე მეტი."
+    },
+    "_date": {
+        "message": " თარიღი"
+    },
+    "_contains_an_incomplete_": {
+        "message": " შეიცავს არასრულს "
+    },
+    "_date_missing_month": {
+        "message": " თარიღი, თვე აკლია."
+    },
+    "_date_missing_year": {
+        "message": " თარიღი, წელი აკლია."
+    },
+    "_contains_a_": {
+        "message": " შეიცავს "
+    },
+    "_location_without_a_country": {
+        "message": " მდებარეობა ქვეყნის გარეშე"
+    },
+    "his": {
+        "message": "მისი"
+    },
+    "her": {
+        "message": "მისი"
+    },
+    "their": {
+        "message": "მათი"
+    },
+    "mother": {
+        "message": "დედა"
+    },
+    "father": {
+        "message": "მამა"
+    },
+    "parent": {
+        "message": "მშობელი"
+    },
+    "brother": {
+        "message": "ძმა"
+    },
+    "sibling": {
+        "message": "და/ძმა"
+    },
+    "wife": {
+        "message": "ცოლი"
+    },
+    "husband": {
+        "message": "ქმარი"
+    },
+    "partner": {
+        "message": "პარტნიორი"
+    },
+    "Submit": {
+        "message": "გაგზავნა"
+    },
+    "Profile_Data": {
+        "message": "პროფილის მონაცემები"
+    },
+    "ExperimentalMessage": {
+        "message": "ექსპერიმენტული შეტყობინება"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "SmartCopy-ის დისკუსია Geni-ზე"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy-მ ვერ განსაზღვრა Geni-ის პროფილი"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "Geni-ის დანიშნულების პროფილის დაყენება"
+    },
+    "Relatives": {
+        "message": "ნათესავები"
+    },
+    "Select_from_History": {
+        "message": "აირჩიე ისტორიიდან"
+    },
+    "Invalid_Profile": {
+        "message": "არასწორი პროფილი"
+    },
+    "Set_Destination": {
+        "message": "დანიშნულების დაყენება"
+    },
+    "History": {
+        "message": "ისტორია"
+    },
+    "Reading_Family_Data": {
+        "message": "ოჯახის მონაცემების წაკითხვა ..."
+    },
+    "Updating_Geni": {
+        "message": "Geni-ის განახლება"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni-ის ხე განახლდა"
+    },
+    "Reminder_Duplicate": {
+        "message": "შეხსენება: დუბლიკატი"
+    },
+    "View_Profile": {
+        "message": "პროფილის ნახვა :"
+    },
+    "Tree_View": {
+        "message": "ხის ხედი"
+    },
+    "View_Profil": {
+        "message": "პროფილის ნახვა"
+    },
+    "Geni_Data": {
+        "message": "Geni-ის მონაცემები"
+    },
+    "Update_Profile": {
+        "message": "პროფილის განახლება"
+    },
+    "Family_Members": {
+        "message": "ოჯახის წევრები"
+    },
+    "Parents": {
+        "message": "მშობლები"
+    },
+    "Siblings": {
+        "message": "და-ძმები"
+    },
+    "Partners": {
+        "message": "პარტნიორები"
+    },
+    "Children": {
+        "message": "შვილები"
+    },
+    "expand_all": {
+        "message": "ყველას გაშლა"
+    },
+    "collapse_all": {
+        "message": "ყველას ჩაკეცვა"
+    },
+    "Title": {
+        "message": "ტიტული:"
+    },
+    "FFirst_Name": {
+        "message": "სახელი : "
+    },
+    "Middle_Name": {
+        "message": "შუა სახელი :"
+    },
+    "Last_Name": {
+        "message": "გვარი :"
+    },
+    "Birth_Name": {
+        "message": "დაბადების სახელი :"
+    },
+    "Suffix": {
+        "message": "სუფიქსი :"
+    },
+    "Display_Name": {
+        "message": "ნაჩვენები სახელი :"
+    },
+    "Also_Known_As": {
+        "message": "ასევე ცნობილია როგორც :"
+    },
+    "Occupation": {
+        "message": "პროფესია :"
+    },
+    "Gender": {
+        "message": "სქესი :"
+    },
+    "Vital": {
+        "message": "სასიცოცხლო მონაცემები :"
+    },
+    "Privacy": {
+        "message": "კონფიდენციალურობა :"
+    },
+    "About": {
+        "message": "შესახებ :"
+    },
+    "Male": {
+        "message": "მამრობითი"
+    },
+    "Female": {
+        "message": "მდედრობითი"
+    },
+    "Deceased": {
+        "message": "გარდაცვლილი"
+    },
+    "LLiving": {
+        "message": "ცოცხალი"
+    },
+    "Public": {
+        "message": "საჯარო"
+    },
+    "Private": {
+        "message": "პირადი"
+    },
+    "Auto": {
+        "message": "ავტო"
+    },
+    "Unknown": {
+        "message": "უცნობი"
+    },
+    "Action": {
+        "message": "ქმედება:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "გამოუყენებელი ველების დამალვა"
+    },
+    "Show_All_Fields": {
+        "message": "ყველა ველის ჩვენება"
+    },
+    "Update": {
+        "message": "განახლება :"
+    },
+    "Add": {
+        "message": "დამატება"
+    },
+    "Add_Profile": {
+        "message": "პროფილის დამატება "
+    },
+    "Unknown_Relations": {
+        "message": "უცნობი კავშირები"
+    },
+    "MMother": {
+        "message": "დედა"
+    },
+    "FFather": {
+        "message": "მამა"
+    },
+    "Parent": {
+        "message": "მშობელი"
+    },
+    "BBrother": {
+        "message": "ძმა"
+    },
+    "Sister": {
+        "message": "და"
+    },
+    "SSibling": {
+        "message": "და/ძმა"
+    },
+    "WWife": {
+        "message": "ცოლი"
+    },
+    "HHusband": {
+        "message": "ქმარი"
+    },
+    "Partner": {
+        "message": "პარტნიორი"
+    },
+    "Spouse": {
+        "message": "მეუღლე"
+    },
+    "Son": {
+        "message": "ვაჟიშვილი"
+    },
+    "Daughter": {
+        "message": "ქალიშვილი"
+    },
+    "Child": {
+        "message": "შვილი"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Google Geocoding-ის ჩართვა"
+    },
+    "Family_Data": {
+        "message": "ოჯახის მონაცემები"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "ღრმა კვლევა სრული დეტალებისთვის (მეტ დროს იკავებს)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "ღრმა კვლევის გამოტოვება"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "დარჩენილი ძებნების გამოტოვება..."
+    },
+    "Estimate_birth_years": {
+        "message": "დაბადების/ქორწინების/გარდაცვალების/დაკრძალვის წლების შეფასება"
+    },
+    "Average_generational_gap_years": {
+        "message": "საშუალო თაობათა შორის სხვაობა (წლები):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "მეუღლეებს შორის საშუალო ასაკობრივი სხვაობა (წლები):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "დაბადების/გარდაცვალების წლების ჩვენება ჩამოსაშლელ მენიუებში"
+    },
+    "Living": {
+        "message": "ცოცხალი"
+    },
+    "Fix_All_Case_Issues": {
+        "message": "ყველას გასწორება"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "განაახლეთ მდებარეობა და ხელახლა გაუგზავნეთ Google-ს გეოლოკაციისთვის."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "განაახლეთ მდებარეობა და/ან წელი, შემდეგ ხელახლა გაუგზავნეთ FamilySearch-ის ისტორიული ადგილების ძებნას."
+    },
+    "Country": {
+        "message": "ქვეყანა"
+    },
+    "State": {
+        "message": "რეგიონი"
+    },
+    "City": {
+        "message": "ქალაქი"
+    },
+    "Place": {
+        "message": "ადგილი"
+    },
+    "County": {
+        "message": "მუნიციპალიტეტი"
+    }
+}

@@ -1,0 +1,69 @@
+Notes sur la traduction géorgienne
+Système d'écriture : le géorgien utilise l'alphabet mkhedruli (მხედრული), un alphabet propre à la langue géorgienne, écrit de gauche à droite. Il n'y a pas de distinction de casse (majuscules/minuscules) en géorgien moderne — l'écriture asomtavruli (majuscules) n'est utilisée que pour les titres et les inscriptions.
+
+Code de langue : le code ISO 639-1 est ka (du nom géorgien kartuli = ქართული). Le code ge n'est pas standard.
+
+Terminologie généalogique :
+
+სახელი (sakheli) = prénom
+
+შუა სახელი (shua sakheli) = deuxième prénom
+
+გვარი (gvari) = nom de famille
+
+დაბადების სახელი (dabadebis sakheli) = nom de naissance
+
+ქალიშვილობის გვარი (khalishvilobis gvari) = nom de jeune fille
+
+გარდაცვალების თარიღი (gardatsvalebis tarighi) = date de décès
+
+დაკრძალვის თარიღი (dakrdzalvis tarighi) = date d'enterrement
+
+ქორწინების თარიღი (qortsinebis tarighi) = date de mariage
+
+მეუღლე (meughle) = conjoint(e)
+
+ქმარი (kmari) = mari
+
+ცოლი (tsoli) = femme (épouse)
+
+და/ძმა (da/dzma) = sœur/frère
+
+ნათესავები (natesavebi) = proches/parents
+
+წინაპრები (tsinaprebi) = ancêtres
+
+შთამომავლები (shtamomavlebi) = descendants
+
+Genre : le géorgien ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est ის (is) pour les deux, et le possessif est მისი (misi) (invariable en genre). C'est pourquoi :
+
+his, her → tous les deux მისი (misi)
+
+their → მათი (mati)
+
+Les termes de parenté sont lexicaux : დედა (deda, mère), მამა (mama, père), ძმა (dzma, frère), და (da, sœur)
+
+$pronoun$ : valeurs მისი (his/her) et მათი (their). ⚠️ Comme his et her se traduisent tous deux par მისი, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par დაახლ. $year$ (daakhl. = დაახლოებით, « environ »).
+
+History : corrigé en ისტორია (istoria).
+
+View_Profil : conservé comme clé, valeur პროფილის ნახვა (orthographe géorgienne correcte).
+
+County : traduit par მუნიციპალიტეტი (munitsipaliteti, division administrative géorgienne équivalente à la municipalité).
+
+State : traduit par რეგიონი (regioni, division administrative géorgienne équivalente à la région).
+
+SwitchOn/SwitchOff : ჩართული / გამორთული (formes courantes en géorgien).
+
+Submit : გაგზავნა (gagzavna, envoyer).
+
+About : traduit par შესახებ (shesakheb, à propos de).
+
+Particularité géorgienne : le géorgien est une langue kartvélienne (caucasienne du Sud), isolat linguistique sans parenté avec les langues indo-européennes. Elle possède un système de cas riche (7 cas) et un système verbal complexe avec des préverbes directionnels.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
+

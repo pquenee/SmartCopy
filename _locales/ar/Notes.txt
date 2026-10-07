@@ -1,0 +1,64 @@
+Notes sur la traduction arabe
+Sens d'écriture (RTL) : l'arabe s'écrit de droite à gauche. Cela a plusieurs conséquences :
+
+Les valeurs message s'afficheront RTL dans l'interface.
+
+Les placeholders ($person$, $pronoun$, etc.) restent en place, mais leur position visuelle dans la phrase peut changer. Il faudra vérifier que l'application gère correctement le RTL bidirectionnel (notamment pour les chiffres, les dates, les balises HTML).
+
+Les signes de ponctuation comme : et . peuvent apparaître à gauche au lieu de droite selon le contexte. J'ai utilisé le point-virgule et le deux-points de manière standard, mais un ajustement peut être nécessaire côté interface.
+
+Les balises HTML (<br>, <i>, <private>) restent inchangées et seront interprétées normalement.
+
+Terminologie généalogique :
+
+الاسم الأول = prénom
+
+الاسم الأوسط = deuxième prénom
+
+اسم العائلة = nom de famille
+
+اسم الميلاد = nom de naissance
+
+اسم العائلة قبل الزواج = nom de jeune fille
+
+تاريخ الوفاة = date de décès
+
+تاريخ الدفن = date d'enterrement
+
+تاريخ الزواج = date de mariage
+
+زوج/زوجة = mari/femme
+
+أخ/أخت = frère/sœur
+
+الأقارب = proches/parents
+
+الأسلاف = ancêtres
+
+الأحفاد = descendants
+
+Formes genrées : l'arabe distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (وُلد/وُلدت, توفي/توفيت) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs له (his), لها (her), لهم (their). ⚠️ En arabe, le pronom possessif s'accorde avec le possesseur, mais la forme له/لها/لهم est un complément indirect. Selon le contexte grammatical exact, il pourrait être nécessaire d'utiliser الخاص به / الخاص بها / الخاص بهم (qui lui appartient). La logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par حوالي $year$ (حوالي = « environ »).
+
+History : corrigé en السجل.
+
+View_Profil : conservé comme clé, valeur عرض الملف الشخصي (orthographe arabe correcte).
+
+County : traduit par المقاطعة (division administrative équivalente au comté).
+
+State : traduit par الولاية (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : مُشغَّل (en marche) et مُطفأ (éteint).
+
+Submit : إرسال (envoyer).
+
+Particularité arabe : l'arabe s'écrit avec un alphabet consonantique. J'ai utilisé l'orthographe standard moderne sans diacritiques (harakat), sauf pour les mots courts où l'ambiguïté serait trop grande.
+
+Geni : le nom propre reste en latin, mais dans un contexte RTL, il peut être nécessaire de l'entourer de marques d'isolation directionnelle (U+2068/U+2069) pour un affichage correct. J'ai laissé le nom tel quel ; l'application devra gérer le bidi.
+
+appDesc : j'ai utilisé le mot anglais genealogical car la translittération arabe (جينيالوجي) est peu courante. On pourrait aussi écrire الجينيالوجية ou الأنساب. Si tu préfères, je peux adapter.

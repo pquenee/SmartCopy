@@ -1,0 +1,65 @@
+Notes sur la traduction swahilie
+Terminologie généalogique :
+
+jina la kwanza = prénom
+
+jina la kati = deuxième prénom
+
+jina la ukoo = nom de famille
+
+jina la kuzaliwa = nom de naissance
+
+jina la ujana = nom de jeune fille
+
+tarehe ya kifo = date de décès
+
+tarehe ya mazishi = date d'enterrement
+
+tarehe ya ndoa = date de mariage
+
+mwenzi wa ndoa = conjoint(e)
+
+mume = mari
+
+mke = femme (épouse)
+
+ndugu = frère/sœur
+
+wazazi = parents
+
+mababu = ancêtres
+
+wazao = descendants
+
+Genre : le swahili ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est yeye pour les deux, et le possessif est -ake (invariable en genre). C'est pourquoi :
+
+his, her → tous les deux yake
+
+their → yao
+
+amekufa (décédé/e), hai (vivant/e) sont invariables en genre
+
+$pronoun$ : valeurs yake (his/her) et yao (their). ⚠️ Comme his et her se traduisent tous deux par yake, la distinction faite en anglais disparaît. Si le code source s'appuie sur cette distinction, il faudra peut-être adapter la logique.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par takriban $year$ (takriban = « environ »).
+
+History : corrigé en Historia.
+
+View_Profil : conservé comme clé, valeur Tazama wasifu (orthographe swahilie correcte).
+
+County : traduit par Wilaya (division administrative swahilie équivalente au comté/district).
+
+State : traduit par Jimbo (terme standard pour un État fédéré ou une région).
+
+SwitchOn/SwitchOff : IMEWASHWA / IMEZIMWA (formes courantes en swahili).
+
+Submit : Wasilisha (soumettre).
+
+About : traduit par Kuhusu (à propos de).
+
+Particularité swahilie : le swahili est une langue bantoue avec un système de classes nominales (accord en genre/nombre). Les noms appartiennent à différentes classes qui déterminent les accords des adjectifs, verbes et pronoms. J'ai respecté les accords standards.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
+

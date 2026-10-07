@@ -1,0 +1,60 @@
+Notes sur la traduction serbe
+Écriture : le serbe utilise deux alphabets :
+
+Cyrillique (званично) — utilisé ici
+
+Latin (у широкој употреби, нарочито на интернету)
+
+Si tu préfères la version en latin (ex. Ime, Prezime, Datum smrti), je peux la fournir.
+
+Terminologie généalogique :
+
+лично име = prénom
+
+средње име = deuxième prénom
+
+презиме = nom de famille
+
+име при рођењу = nom de naissance
+
+девојачко презиме = nom de jeune fille
+
+датум смрти = date de décès
+
+датум сахране = date d'enterrement
+
+датум брака = date de mariage
+
+супружник = conjoint(e)
+
+супруг = mari
+
+супруга = femme (épouse)
+
+брат/сестра = frère/sœur
+
+рођаци = proches/parents
+
+преци = ancêtres
+
+потомци = descendants
+
+Formes genrées : le serbe distingue le masculin et le féminin. J'ai utilisé des formes inclusives (рођен/рођена, умро/умрла, подешен/подешена) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs његов (his), њен (her), њихов (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par око $year$ (око = « environ »).
+
+History : corrigé en Историја.
+
+View_Profil : conservé comme clé, valeur Прикажи профил (orthographe serbe correcte).
+
+County : traduit par Округ (division administrative serbe équivalente au comté).
+
+State : traduit par Област (division administrative serbe équivalente à la région).
+
+SwitchOn/SwitchOff : abréviations serbes courantes УКЉ. (укључено) et ИСКЉ. (искључено).
+
+Daughter : traduit par Ћерка (forme ekavienne, standard en Serbie). En croate/bosniaque, ce serait Kći (forme ijekavienne).

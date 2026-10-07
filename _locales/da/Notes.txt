@@ -1,0 +1,39 @@
+Notes sur la traduction danoise
+Terminologie généalogique :
+
+fornavn = prénom
+
+mellemnavn = deuxième prénom
+
+efternavn = nom de famille
+
+fødselsnavn = nom de naissance
+
+pigenavn = nom de jeune fille
+
+dødsdato = date de décès
+
+begravelsesdato = date d'enterrement
+
+vielsesdato = date de mariage
+
+ægtefælle = conjoint(e)
+
+søskende = frère(s) et sœur(s)
+
+forfædre = ancêtres
+
+efterkommer = descendant
+
+Formes genrées : le danois ne marque pas le genre sur les adjectifs de la même manière que le tchèque, donc født (né/e), død (mort/e) restent invariables. Pas besoin de double forme.
+
+$pronoun$ : valeurs hans (his), hendes (her), deres (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca. $year$ (ca. = circa en danois).
+
+History : j'ai corrigé la valeur en Historik (au lieu de l'ancien Profil :).
+
+View_Profil : conservé comme clé, valeur Se profil (orthographe danoise correcte).
+

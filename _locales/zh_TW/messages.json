@@ -6,7 +6,7 @@
         "message": "SmartCopy"
     },
     "appDesc": {
-        "message": "用於將家譜資料複製到 Geni 的工具。"
+        "message": "將族譜資料複製到 Geni 的工具。"
     },
     "switchOn": {
         "message": "開啟"
@@ -18,78 +18,48 @@
         "message": "一致性檢查"
     },
     "contains_incorrect_uppercase_lowercase_in_name": {
-        "message": "$person$：$pronoun$姓名中的大小寫使用不正確（$lang$）。",
+        "message": "$person$ 的 $pronoun$ 姓名中存在大小寫使用錯誤（$lang$）。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_incorrect_uppercase_lowercase_in_name_default": {
-        "message": "$person$：$pronoun$姓名中的大小寫使用不正確。",
+        "message": "$person$ 的 $pronoun$ 姓名中存在大小寫使用錯誤。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_patronym_in_first_name": {
-        "message": "$person$：$pronoun$名字中包含父名/母名（$lang$）。",
+        "message": "$person$ 的 $pronoun$ 名字中包含父名/母名（$lang$）。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_patronym_in_first_name_default": {
-        "message": "$person$：$pronoun$名字中包含父名/母名。",
+        "message": "$person$ 的 $pronoun$ 名字中包含父名/母名。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_non_patronym_in_middle_name": {
-        "message": "$person$：$pronoun$中間名中包含非父名/母名內容（$lang$）。",
+        "message": "$person$ 的 $pronoun$ 中間名中包含非父名/母名（$lang$）。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_non_patronym_in_middle_name_default": {
-        "message": "$person$：$pronoun$中間名中包含非父名/母名內容。",
+        "message": "$person$ 的 $pronoun$ 中間名中包含非父名/母名。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "consistencyCheckLiving": {
@@ -117,47 +87,39 @@
         "message": "修正頭銜"
     },
     "noPermission": {
-        "message": "沒有修正權限"
+        "message": "無修正權限"
     },
     "makePublic": {
         "message": "設為公開"
     },
     "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
-        "message": "$count$ 位約在 $year$ 年之前出生的家庭成員已設為私人。",
+        "message": "$count$ 位出生於約 $year$ 年之前的家庭成員被設為私密。",
         "placeholders": {
-            "count": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "personWasBornBeforeYearAndIsSetAsPrivate": {
-        "message": "$person$ 約出生於 $year$ 年之前，已設為私人。",
+        "message": "$person$ 出生於約 $year$ 年之前，已被設為私密。",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "Research_this_Person": {
         "message": "研究此人"
     },
     "All_Collections": {
-        "message": "所有集合"
+        "message": "所有收藏"
     },
     "Collections": {
-        "message": "集合"
+        "message": "收藏"
     },
     "Publications": {
         "message": "出版物"
     },
     "Holocaust": {
-        "message": "猶太人大屠殺"
+        "message": "大屠殺"
     },
     "Name_Search": {
         "message": "姓名搜尋"
@@ -166,10 +128,10 @@
         "message": "墓碑"
     },
     "Genealogies": {
-        "message": "家譜"
+        "message": "族譜"
     },
     "Genealogy": {
-        "message": "家譜"
+        "message": "族譜學"
     },
     "Geni_Search": {
         "message": "Geni 搜尋"
@@ -190,7 +152,7 @@
         "message": "書籍"
     },
     "Obituaries": {
-        "message": "訃告"
+        "message": "訃聞"
     },
     "Other_Resources": {
         "message": "其他資源"
@@ -202,7 +164,7 @@
         "message": "載入中..."
     },
     "HistoryLink_unreachable_message": {
-        "message": "無法連線至 HistoryLink 的登入服務。請檢查網路連線後再試一次。"
+        "message": "無法連線至 HistoryLink 的登入服務。請檢查您的網路連線並重試。"
     },
     "HistoryLink": {
         "message": "HistoryLink 工具"
@@ -220,7 +182,7 @@
         "message": "密度計算器"
     },
     "Path_To_User": {
-        "message": "使用者路徑"
+        "message": "到使用者的路徑"
     },
     "Configuration": {
         "message": "設定"
@@ -235,19 +197,19 @@
         "message": "Geni 自訂"
     },
     "Note_Dates_that_contain_Between_Before_and_After___": {
-        "message": "注意：包含「介於」、「之前」和「之後」的日期不會在一致性檢查中進行比較。標示為「約」的日期會視為精確日期。"
+        "message": "注意：包含 Between、Before 和 After 的日期不會在一致性檢查中比較。包含 Circa 的日期被視為精確日期。"
     },
     "Run_consistency_checks_when_viewing_Geni_profiles": {
         "message": "檢視 Geni 個人檔案時執行一致性檢查。"
     },
     "Age_difference_between_partners_is_significant": {
-        "message": "伴侶之間的年齡差異較大"
+        "message": "伴侶之間的年齡差異顯著"
     },
     "Maiden_name_same_as_husbands_last_name": {
-        "message": "出生姓氏與丈夫的姓氏相同"
+        "message": "娘家姓與丈夫的姓氏相同"
     },
     "Husband_and_wife_death_dates_the_same": {
-        "message": "丈夫與妻子的死亡日期相同"
+        "message": "丈夫和妻子的死亡日期相同"
     },
     "Husband_death_date_same_as_marriage_date": {
         "message": "丈夫的死亡日期與結婚日期相同"
@@ -256,152 +218,150 @@
         "message": "妻子的死亡日期與結婚日期相同"
     },
     "Born_after_marriage": {
-        "message": "出生於結婚之後"
+        "message": "婚後出生"
     },
     "Died_before_marriage": {
-        "message": "死亡於結婚之前"
+        "message": "婚前過世"
     },
     "Implausible_marriage_age_too_young": {
-        "message": "結婚年齡不合理：過於年輕"
+        "message": "結婚年齡不合理，太年輕"
     },
     "Siblings_ages_too_close_together": {
-        "message": "兄弟姊妹的年齡過於接近"
+        "message": "兄弟姐妹的年齡太接近"
     },
     "Born_before_parent_birth": {
-        "message": "出生早於父母出生"
+        "message": "在父母出生前出生"
     },
     "Born_after_parent_death": {
-        "message": "出生於父母去世之後"
+        "message": "在父母過世後出生"
     },
     "Death_before_baptism_date": {
-        "message": "死亡日期早於洗禮日期"
+        "message": "在洗禮日期前過世"
     },
     "Death_after_burial_date": {
-        "message": "死亡日期晚於安葬日期"
+        "message": "在埋葬日期後過世"
     },
     "Parent_too_young_for_childs_birth": {
-        "message": "子女出生時父母年齡過小"
+        "message": "父母太年輕，無法生育子女"
     },
     "Mother_too_old_for_childs_birth": {
-        "message": "子女出生時母親年齡過大"
+        "message": "母親太年長，無法生育子女"
     },
     "Born_before_parent_marriage": {
-        "message": "出生早於父母結婚"
+        "message": "在父母結婚前出生"
     },
     "Excessive_Age": {
         "message": "年齡過大"
     },
     "Born_after_death": {
-        "message": "出生於死亡之後"
+        "message": "死後出生"
     },
     "Name_contains_double_space": {
-        "message": "姓名中包含連續兩個空格"
+        "message": "姓名包含雙空格"
     },
     "Name_contains_alias": {
-        "message": "姓名中包含別名"
+        "message": "姓名包含別名"
     },
     "Name_contains_improper_use_of_uppercase_lowercase": {
-        "message": "姓名中的大小寫使用不正確"
+        "message": "姓名包含不正確的大小寫使用"
     },
     "First_Name_ends_in_suffix_eg___": {
-        "message": "名字以姓名後綴結尾（例如 'i','ii','iii','iv','jr','sr'）"
+        "message": "名字以後綴結尾（例如 'i','ii','iii','iv','jr','sr'）"
     },
     "Salutation_or_relationship_in_title_eg___": {
-        "message": "頭銜欄位中包含稱謂或親屬關係（例如 'Mr', 'Mrs'）"
+        "message": "頭銜中包含稱謂或親屬關係（例如 'Mr', 'Mrs'）"
     },
     "Salutation_or_relationship_in_suffix_eg___": {
-        "message": "後綴欄位中包含稱謂或親屬關係（例如 'Mr', 'Mrs'）"
+        "message": "後綴中包含稱謂或親屬關係（例如 'Mr', 'Mrs'）"
     },
     "Relationship_cycle_in_immediate_family": {
-        "message": "直系親屬中存在親屬關係循環"
+        "message": "直系親屬中的關係循環"
     },
     "Check_date_formatting_for_inconsistent_values": {
-        "message": "檢查日期格式是否有不一致的值"
+        "message": "檢查日期格式是否存在不一致的值"
     },
     "Check_for_pending_data_conflict_resolution": {
-        "message": "檢查是否有待解決的資料衝突"
+        "message": "檢查待處理的資料衝突解決"
     },
     "Self_check_profile_for_inconsistent_dates_and_values": {
-        "message": "自動檢查個人檔案中的日期和值是否一致。"
+        "message": "自行檢查個人檔案中不一致的日期和值。"
     },
     "Check_name_fields_for_improper_values": {
-        "message": "檢查姓名欄位中是否有不正確的值"
+        "message": "檢查姓名欄位是否存在不正確的值"
     },
     "Check_name_fields_for_living_profiles": {
-        "message": "從快速修正中排除在世者的個人檔案"
+        "message": "從快速修正中排除在世個人檔案"
     },
     "Check_profile_for_pending_data_conflicts": {
-        "message": "檢查個人檔案中是否有待處理的資料衝突"
+        "message": "檢查個人檔案中待處理的資料衝突"
     },
     "Check_date_values_for_irregular_formatting": {
-        "message": "檢查日期值是否有異常格式"
+        "message": "檢查日期值是否存在不規則格式"
     },
     "Check_when_location_is_missing_a_country": {
         "message": "檢查地點是否缺少國家"
     },
     "Maximum_year_to_be_private": {
-        "message": "可設為私人的最晚年份："
+        "message": "設為私密的最大年份："
     },
     "Maximum_age": {
         "message": "最大年齡："
     },
     "Check_the_dates_of_children_against_their_parents": {
-        "message": "將子女的日期與其父母的日期進行核對。"
+        "message": "檢查子女的日期與其父母是否一致。"
     },
     "Check_child_is_born_after_parent_marriage": {
-        "message": "檢查子女是否出生於父母結婚之後"
+        "message": "檢查子女是否在父母結婚後出生"
     },
     "Age_the_parent_is_too_young_to_have_a_child": {
-        "message": "父母被視為年齡過小而不適合生育子女的年齡"
+        "message": "父母太年輕無法生育子女的年齡"
     },
     "Age_the_mother_is_too_old_to_have_a_child": {
-        "message": "母親被視為年齡過大而不適合生育子女的年齡"
+        "message": "母親太年長無法生育子女的年齡"
     },
     "Check_the_values_of_partner_spouses_against_each_other": {
-        "message": "相互核對伴侶/配偶的值。"
+        "message": "檢查伴侶/配偶的值是否相互一致。"
     },
     "Identify_possible_maiden_name_copy_issues": {
-        "message": "識別複製出生姓氏時可能出現的問題"
+        "message": "識別可能的娘家姓複製問題"
     },
     "Age_the_spouse_is_too_young_to_be_married": {
-        "message": "配偶被視為年齡過小而不適合結婚的年齡"
+        "message": "配偶太年輕無法結婚的年齡"
     },
     "Maximum_age_difference_between_spouses": {
         "message": "配偶之間的最大年齡差"
     },
     "Check_siblings_birth_are_over_": {
-        "message": "檢查兄弟姊妹的出生日期是否相隔超過 "
+        "message": "檢查兄弟姐妹的出生間隔是否超過 "
     },
     "_months_apart_excl_twins": {
-        "message": " 個月（雙胞胎除外）。"
+        "message": " 個月（不包括雙胞胎）。"
     },
     "Future_options_to_add_features_to_Geni": {
-        "message": "未來可為 Geni 新增功能的選項。"
+        "message": "向 Geni 新增功能的未來選項。"
     },
     "This_profile_is_not_in_the_World_Family_Tree": {
-        "message": "此個人檔案不在世界家族樹中。"
+        "message": "此個人檔案不在 World Family Tree 中。"
     },
     "Add_to_History": {
-        "message": "新增至歷史記錄"
+        "message": "新增至歷史紀錄"
     },
     "Show_History": {
-        "message": "顯示歷史記錄"
+        "message": "顯示歷史紀錄"
     },
     "Hide_History": {
-        "message": "隱藏歷史記錄"
+        "message": "隱藏歷史紀錄"
     },
     "Clear_History": {
-        "message": "清除歷史記錄"
+        "message": "清除歷史紀錄"
     },
     "Notice___Please_Read": {
-        "message": "注意 - 請閱讀"
+        "message": "通知 – 請閱讀"
     },
     "SmartCopy_will_no_longer_do_geo_location_lookups___": {
-        "message": "由於 Google 服務的成本，SmartCopy 將不再自動執行地理位置查詢。雖然這不是個好消息，但 Geni 最近已支援在提交<i>之後</i>進行地理位置查詢。透過地點欄位提交一個地點時，Geni 會執行查詢並在網站上填入位置欄位。或者，您也可以在設定中指定自己的 Google API 金鑰。您仍然可以按一下地球圖示 $globe_icon$，在 SmartCopy 中手動填寫位置資料；如果您想停用 Geni 的地理位置查詢，也可以在 SmartCopy 設定中進行設定。",
+        "message": "由於 Google 服務的成本，SmartCopy 將不再自動進行地理位置查詢。雖然這是個令人遺憾的消息，但 Geni 最近提供了在提交<i>後</i>進行地理位置查詢的功能。當透過地點欄位提交位置時，Geni 將執行查詢並填寫網站上的位置欄位。或者，您可以在設定中指定自己的 Google API 金鑰。您仍然可以選擇透過點擊地球圖示 $globe_icon$ 在 SmartCopy 中手動填寫位置資料，如果您想停用 Geni 的地理位置查詢，可以在 SmartCopy 設定中進行設定。",
         "placeholders": {
-            "globe_icon": {
-                "content": "$1"
-            }
+            "globe_icon": { "content": "$1" }
         }
     },
     "Close": {
@@ -414,40 +374,40 @@
         "message": "新增傳記"
     },
     "Export_Profiles_button_on_Project_Actions": {
-        "message": "在「專案操作」中顯示「匯出個人檔案」按鈕"
+        "message": "專案動作中的「匯出個人檔案」按鈕"
     },
     "Export_Profiles": {
         "message": "匯出個人檔案"
     },
     "SmartCopy_does_not_currently_support_parsing": {
-        "message": "SmartCopy 目前不支援解析此頁面 / 網站 / 集合。"
+        "message": "SmartCopy 目前不支援解析此頁面 / 網站 / 收藏。"
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
-        "message": "SmartCopy 無法正常讀取此頁面。請嘗試重新整理頁面。"
+        "message": "SmartCopy 讀取頁面時遇到困難。請嘗試重新整理頁面。"
     },
     "This_website_is_not_yet_supported_by_SmartCopy": {
-        "message": "SmartCopy 尚不支援此網站。"
+        "message": "SmartCopy 尚未支援此網站。"
     },
     "Selection": {
-        "message": "選擇"
+        "message": "選取"
     },
     "Simplify_form_by_hiding_unused_fields": {
-        "message": "隱藏未使用的欄位以簡化表單"
+        "message": "透過隱藏未使用的欄位簡化表單"
     },
     "Enable_photo_checkbox_auto_selection": {
         "message": "啟用照片核取方塊自動選取"
     },
     "Reminder_user_responsible": {
-        "message": "提醒：複製圖片時，使用者有責任<br>取得攝影者所要求的任何<br>必要許可。"
+        "message": "提醒：使用者在複製圖像時<br>有責任向攝影師<br>取得任何必要的許可。"
     },
     "Exclude_private_profile_auto_select": {
-        "message": "不要自動選取 <private> 個人檔案"
+        "message": "排除 <private> 個人檔案自動選取"
     },
     "Est_burial_date_from_death_if_location": {
-        "message": "如果有地點，則根據死亡日期估算安葬日期"
+        "message": "如果有地點，根據死亡日期估算埋葬日期"
     },
     "This_change_will_take_effect_at_next_use": {
-        "message": "此變更將於下次使用時生效。"
+        "message": "此變更將在下次使用時生效。"
     },
     "Location": {
         "message": "地點"
@@ -459,40 +419,52 @@
         "message": "API 金鑰"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "位置欄位中選取一個即選取全部"
+        "message": "地點欄位：選取一個，選取全部"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "地點編輯會預先選取所有欄位"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "使用 FamilySearch Places 解析地點（實驗性）"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "使用目前名稱作為埋葬地點（而非歷史名稱）"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "將墓地資訊從死亡地點移至埋葬地點"
     },
     "Naming": {
-        "message": "姓名"
+        "message": "命名"
     },
     "Auto_populate_empty_birth_name_fields": {
-        "message": "自動填入空白的出生姓名欄位"
+        "message": "自動填寫空的出生姓名欄位"
     },
     "Auto_fill_married_last_name": {
-        "message": "自動填入婚後姓氏"
+        "message": "自動填寫婚後姓氏"
     },
     "Parse_for_middle_names_automatically": {
-        "message": "自動辨識中間名"
+        "message": "自動解析中間名"
     },
     "Auto_adjust_the_names_for_mixed_case": {
         "message": "自動調整姓名的大小寫"
     },
     "Force_compound_lastname_to_lowercase": {
-        "message": "強制將複合姓氏轉為小寫"
+        "message": "強制複合姓氏為小寫"
     },
     "Default_children_to_likely_Geni_parent": {
-        "message": "預設將子女關聯到最可能的 Geni 父母"
+        "message": "預設將子女關聯到可能的 Geni 父母"
     },
     "Default_deceased_profiles_to_public": {
-        "message": "預設將已故者的個人檔案設為公開"
+        "message": "預設將已故者個人檔案設為公開"
     },
     "Add_reference_to_Geni_s_About_section": {
-        "message": "在 Geni 的「關於」區段新增來源"
+        "message": "在 Geni 的「關於」部分新增引用"
     },
     "Display_the_Geni_side_data_by_default": {
-        "message": "預設顯示 Geni 端的資料"
+        "message": "預設顯示 Geni 側資料"
     },
     "Please_select_one_of_the_Matches": {
-        "message": "請在此結果頁面中選擇一個符合項目。"
+        "message": "請在此結果頁面上選擇一個匹配項。"
     },
     "_year_age_difference_between_": {
         "message": " 歲年齡差，介於 "
@@ -501,31 +473,31 @@
         "message": "出生姓氏： "
     },
     "_is_the_same_as_the_last_name_of_": {
-        "message": " 與以下人員的姓氏相同： "
+        "message": " 與以下姓氏相同： "
     },
     "Death_date_of_": {
         "message": "死亡日期： "
     },
     "_is_the_same_as_the_death_date_of_": {
-        "message": " 與以下人員的死亡日期相同： "
+        "message": " 與以下死亡日期相同： "
     },
     "_is_the_same_as_": {
-        "message": " 與以下內容相同： "
+        "message": " 與以下相同： "
     },
     "_marriage_date": {
         "message": " 結婚日期"
     },
     "_born_after_": {
-        "message": " 出生晚於 "
+        "message": " 出生於以下之後： "
     },
     "_died_before_": {
-        "message": " 死亡早於 "
+        "message": " 過世於以下之前： "
     },
     "_years_old_for_": {
-        "message": " 歲，針對 "
+        "message": " 歲，用於 "
     },
     "_marriage": {
-        "message": " 結婚"
+        "message": " 婚姻"
     },
     "Birth_date_of_": {
         "message": "出生日期： "
@@ -534,31 +506,31 @@
         "message": " 和 "
     },
     "_are_within_": {
-        "message": " 相差不超過 "
+        "message": " 在以下範圍內： "
     },
     "_months": {
         "message": " 個月"
     },
     "_born_before_the_birth_of_": {
-        "message": " 出生早於以下人員的出生日期： "
+        "message": " 出生於以下出生之前： "
     },
     "death": {
         "message": "死亡"
     },
     "_born_after_the_death_of_": {
-        "message": " 出生晚於以下人員的死亡日期： "
+        "message": " 出生於以下死亡之後： "
     },
     "_is_under_": {
-        "message": " 小於 "
+        "message": " 低於 "
     },
     "_years_old_for_the_birth_of_": {
-        "message": " 歲，針對以下人員的出生： "
+        "message": " 歲，用於以下出生： "
     },
     "_is_over_": {
-        "message": " 大於 "
+        "message": " 高於 "
     },
     "_born_before_the_marriage_of_": {
-        "message": " 出生早於以下人員的結婚日期： "
+        "message": " 出生於以下婚姻之前： "
     },
     "_parents_": {
         "message": " 父母 "
@@ -579,7 +551,7 @@
         "message": " 歲"
     },
     "_is_after_": {
-        "message": " 晚於 "
+        "message": " 在以下之後： "
     },
     "_death_date": {
         "message": " 死亡日期"
@@ -588,37 +560,37 @@
         "message": "洗禮日期： "
     },
     "_is_before_": {
-        "message": " 早於 "
+        "message": " 在以下之前： "
     },
     "_birth_date": {
         "message": " 出生日期"
     },
     "_burial_date": {
-        "message": " 安葬日期"
+        "message": " 埋葬日期"
     },
     "_contains_a_double_space_in_": {
-        "message": " 在以下欄位中包含連續兩個空格： "
+        "message": " 在以下位置包含雙空格： "
     },
     "first_name": {
         "message": "名字"
     },
     "_contains_a_double_or_trailing_space_in_": {
-        "message": " 在以下欄位中包含連續兩個空格或結尾空格： "
+        "message": " 在以下位置包含雙空格或尾端空格： "
     },
     "_names": {
         "message": " 姓名"
     },
     "_contains_an_alias_in_": {
-        "message": " 在以下欄位中包含別名： "
+        "message": " 在以下位置包含別名： "
     },
     "_appears_to_contain_a_suffix_in_": {
-        "message": " 以下欄位似乎包含後綴： "
+        "message": " 似乎包含後綴，位於： "
     },
     "Move_Suffix": {
         "message": "移動後綴"
     },
     "_contains_improper_use_of_salutation_in_": {
-        "message": " 以下欄位中的稱謂使用不當： "
+        "message": " 包含不正確的稱謂使用，位於： "
     },
     "_title": {
         "message": " 頭銜"
@@ -627,7 +599,7 @@
         "message": "移除稱謂"
     },
     "_contains_improper_use_of_relationship_in_": {
-        "message": " 以下欄位中的親屬關係使用不當： "
+        "message": " 包含不正確的親屬關係使用，位於： "
     },
     "_suffix": {
         "message": " 後綴"
@@ -636,13 +608,13 @@
         "message": "移除親屬關係"
     },
     "_contains_improper_use_of_a_numbering_scheme_in_": {
-        "message": " 以下欄位中的編號方式使用不當： "
+        "message": " 包含不正確的編號方案使用，位於： "
     },
     "Remove_numeric": {
         "message": "移除數字"
     },
     "_is_in_a_relationship_cycle_within_the_immediate_family": {
-        "message": " 在直系親屬中形成親屬關係循環"
+        "message": " 處於直系親屬中的關係循環"
     },
     "_contains_an_invalid_": {
         "message": " 包含無效的 "
@@ -651,7 +623,7 @@
         "message": " 日期，月份大於 12。"
     },
     "_date_day_greater_than_31": {
-        "message": " 日期，日期數字大於 31。"
+        "message": " 日期，日期大於 31。"
     },
     "_date": {
         "message": " 日期"
@@ -669,16 +641,16 @@
         "message": " 包含一個 "
     },
     "_location_without_a_country": {
-        "message": " 缺少國家的地點"
+        "message": " 沒有國家的地點"
     },
     "his": {
-        "message": "其"
+        "message": "他的"
     },
     "her": {
-        "message": "其"
+        "message": "她的"
     },
     "their": {
-        "message": "其"
+        "message": "他們的"
     },
     "mother": {
         "message": "母親"
@@ -693,7 +665,7 @@
         "message": "兄弟"
     },
     "sibling": {
-        "message": "兄弟姊妹"
+        "message": "兄弟姐妹"
     },
     "wife": {
         "message": "妻子"
@@ -704,41 +676,125 @@
     "partner": {
         "message": "伴侶"
     },
-    "Enable_Google_Geocoding": {
-        "message": "啟用 Google 地理編碼"
+    "Submit": {
+        "message": "提交"
     },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "使用 FamilySearch Places 解析地點（實驗性功能）"
+    "Profile_Data": {
+        "message": "個人檔案資料"
     },
-    "Use_current_location_name_for_burial": {
-        "message": "安葬地使用現今地名（而非歷史地名）"
+    "ExperimentalMessage": {
+        "message": "實驗性訊息"
     },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "將墓地資訊從死亡地點移至安葬地點"
+    "SmartCopy_discussion_at_Geni": {
+        "message": "Geni 上的 SmartCopy 討論"
     },
-    "Family_Data": {
-        "message": "家庭資料"
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy 無法確定 Geni 個人檔案"
     },
-    "Deep_Research_for_full_details_takes_longer": {
-        "message": "深度研究以取得完整詳情（耗時較長）"
+    "Set_Geni_Destination_Profile": {
+        "message": "設定 Geni 目標個人檔案"
     },
-    "Skip_Deep_Research_for_this_run": {
-        "message": "跳過深度研究"
+    "Relatives": {
+        "message": "親屬"
     },
-    "Deep_Research_skipped_for_this_run": {
-        "message": "正在跳過剩餘查詢..."
+    "Select_from_History": {
+        "message": "從歷史紀錄中選取"
     },
-    "Estimate_birth_years": {
-        "message": "估算出生/結婚/死亡/安葬年份"
+    "Invalid_Profile": {
+        "message": "無效的個人檔案"
     },
-    "Average_generational_gap_years": {
-        "message": "平均世代差（年）："
+    "Set_Destination": {
+        "message": "設定目標"
     },
-    "Average_spousal_age_gap_years": {
-        "message": "配偶平均年齡差（年）："
+    "History": {
+        "message": "歷史紀錄"
     },
-    "Show_birth_death_years_in_dropdowns": {
-        "message": "在下拉選單中顯示出生/死亡年份"
+    "Reading_Family_Data": {
+        "message": "正在讀取家庭資料 ..."
+    },
+    "Updating_Geni": {
+        "message": "正在更新 Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Geni 樹已更新"
+    },
+    "Reminder_Duplicate": {
+        "message": "提醒：重複"
+    },
+    "View_Profile": {
+        "message": "檢視個人檔案 :"
+    },
+    "Tree_View": {
+        "message": "樹狀檢視"
+    },
+    "View_Profil": {
+        "message": "檢視個人檔案"
+    },
+    "Geni_Data": {
+        "message": "Geni 資料"
+    },
+    "Update_Profile": {
+        "message": "更新個人檔案"
+    },
+    "Family_Members": {
+        "message": "家庭成員"
+    },
+    "Parents": {
+        "message": "父母"
+    },
+    "Siblings": {
+        "message": "兄弟姐妹"
+    },
+    "Partners": {
+        "message": "伴侶"
+    },
+    "Children": {
+        "message": "子女"
+    },
+    "expand_all": {
+        "message": "全部展開"
+    },
+    "collapse_all": {
+        "message": "全部收合"
+    },
+    "Title": {
+        "message": "頭銜："
+    },
+    "FFirst_Name": {
+        "message": "名字 : "
+    },
+    "Middle_Name": {
+        "message": "中間名 :"
+    },
+    "Last_Name": {
+        "message": "姓氏 :"
+    },
+    "Birth_Name": {
+        "message": "出生姓名 :"
+    },
+    "Suffix": {
+        "message": "後綴 :"
+    },
+    "Display_Name": {
+        "message": "顯示名稱 :"
+    },
+    "Also_Known_As": {
+        "message": "又名 :"
+    },
+    "Occupation": {
+        "message": "職業 :"
+    },
+    "Gender": {
+        "message": "性別 :"
+    },
+    "Vital": {
+        "message": "生死資訊 :"
+    },
+    "Privacy": {
+        "message": "隱私 :"
+    },
+    "About": {
+        "message": "關於 :"
     },
     "Male": {
         "message": "男"
@@ -746,16 +802,136 @@
     "Female": {
         "message": "女"
     },
+    "Deceased": {
+        "message": "已故"
+    },
+    "LLiving": {
+        "message": "在世"
+    },
+    "Public": {
+        "message": "公開"
+    },
+    "Private": {
+        "message": "私密"
+    },
+    "Auto": {
+        "message": "自動"
+    },
     "Unknown": {
         "message": "未知"
+    },
+    "Action": {
+        "message": "操作："
+    },
+    "Hide_Unused_Fields": {
+        "message": "隱藏未使用的欄位"
+    },
+    "Show_All_Fields": {
+        "message": "顯示所有欄位"
+    },
+    "Update": {
+        "message": "更新 :"
+    },
+    "Add": {
+        "message": "新增"
+    },
+    "Add_Profile": {
+        "message": "新增個人檔案 "
+    },
+    "Unknown_Relations": {
+        "message": "未知關係"
+    },
+    "MMother": {
+        "message": "母親"
+    },
+    "FFather": {
+        "message": "父親"
+    },
+    "Parent": {
+        "message": "父母"
+    },
+    "BBrother": {
+        "message": "兄弟"
+    },
+    "Sister": {
+        "message": "姐妹"
+    },
+    "SSibling": {
+        "message": "兄弟姐妹"
+    },
+    "WWife": {
+        "message": "妻子"
+    },
+    "HHusband": {
+        "message": "丈夫"
+    },
+    "Partner": {
+        "message": "伴侶"
+    },
+    "Spouse": {
+        "message": "配偶"
+    },
+    "Son": {
+        "message": "兒子"
+    },
+    "Daughter": {
+        "message": "女兒"
+    },
+    "Child": {
+        "message": "子女"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "啟用 Google Geocoding"
+    },
+    "Family_Data": {
+        "message": "家庭資料"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "深入研究以取得完整細節（耗時較長）"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "跳過深入研究"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "正在跳過剩餘查詢..."
+    },
+    "Estimate_birth_years": {
+        "message": "估算出生/結婚/死亡/埋葬年份"
+    },
+    "Average_generational_gap_years": {
+        "message": "平均代際間隔（年）："
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "配偶之間的平均年齡差（年）："
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "在下拉式選單中顯示出生/死亡年份"
     },
     "Living": {
         "message": "在世"
     },
-    "Deceased": {
-        "message": "已故"
-    },
     "Fix_All_Case_Issues": {
-        "message": "全部修復"
+        "message": "全部修正"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "更新地點並重新提交給 Google 進行地理位置查詢。"
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "更新地點和/或年份，然後重新提交給 FamilySearch 的歷史地點查詢。"
+    },
+    "Country": {
+        "message": "國家"
+    },
+    "State": {
+        "message": "州/省"
+    },
+    "City": {
+        "message": "城市"
+    },
+    "Place": {
+        "message": "地點"
+    },
+    "County": {
+        "message": "縣"
     }
 }

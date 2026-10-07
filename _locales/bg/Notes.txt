@@ -1,0 +1,48 @@
+Notes sur la traduction bulgare
+Terminologie généalogique :
+
+собствено име = prénom
+
+бащино име = patronyme (équivalent du « deuxième prénom » en Bulgarie)
+
+фамилно име = nom de famille
+
+име при раждане = nom de naissance
+
+моминско име = nom de jeune fille
+
+дата на смъртта = date de décès
+
+дата на погребение = date d'enterrement
+
+дата на брака = date de mariage
+
+съпруг/съпруга = mari/femme
+
+брат/сестра = frère/sœur
+
+роднини = proches/parents
+
+предци = ancêtres
+
+потомци = descendants
+
+Particularité bulgare : comme en ukrainien et en russe, la notion de бащино име (patronyme) est centrale dans la culture bulgare. J'ai donc utilisé ce terme pour Middle_Name.
+
+Formes genrées : le bulgare distingue le masculin et le féminin. J'ai utilisé des formes inclusives (роден/а, починал/а, зададен/а) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs неговия (his), нейния (her), техния (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ок. $year$ (ок. = около, « environ »).
+
+History : corrigé en История.
+
+View_Profil : conservé comme clé, valeur Прегледай профила (orthographe bulgare correcte).
+
+County : traduit par Окръг (division administrative bulgare équivalente au comté).
+
+State : traduit par Област (division administrative bulgare équivalente à la région).
+
+SwitchOn/SwitchOff : abréviations bulgares courantes ВКЛ. (включено) et ИЗКЛ. (изключено).

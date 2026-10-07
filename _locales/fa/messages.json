@@ -1,0 +1,937 @@
+{
+    "appName": {
+        "message": "SmartCopy"
+    },
+    "appShortName": {
+        "message": "SmartCopy"
+    },
+    "appDesc": {
+        "message": "ابزاری برای کپی داده‌های شجره‌نامه‌ای به Geni."
+    },
+    "switchOn": {
+        "message": "روشن"
+    },
+    "switchOff": {
+        "message": "خاموش"
+    },
+    "consistencyCheck": {
+        "message": "بررسی سازگاری"
+    },
+    "contains_incorrect_uppercase_lowercase_in_name": {
+        "message": "$person$ استفاده نادرست از حروف بزرگ/کوچک در نام $pronoun$ دارد ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_incorrect_uppercase_lowercase_in_name_default": {
+        "message": "$person$ استفاده نادرست از حروف بزرگ/کوچک در نام $pronoun$ دارد.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_patronym_in_first_name": {
+        "message": "$person$ یک نام پدری/مادری در نام کوچک $pronoun$ دارد ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_patronym_in_first_name_default": {
+        "message": "$person$ یک نام پدری/مادری در نام کوچک $pronoun$ دارد.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "contains_non_patronym_in_middle_name": {
+        "message": "$person$ یک نام غیرپدری/غیرمادری در نام میانی $pronoun$ دارد ($lang$).",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
+        }
+    },
+    "contains_non_patronym_in_middle_name_default": {
+        "message": "$person$ یک نام غیرپدری/غیرمادری در نام میانی $pronoun$ دارد.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
+        }
+    },
+    "consistencyCheckLiving": {
+        "message": "زنده"
+    },
+    "claimed": {
+        "message": "ادعا شده"
+    },
+    "fixCase": {
+        "message": "اصلاح حروف بزرگ/کوچک"
+    },
+    "fixed": {
+        "message": "اصلاح شد"
+    },
+    "fixName": {
+        "message": "اصلاح نام"
+    },
+    "fixSpace": {
+        "message": "اصلاح فاصله"
+    },
+    "fixSuffix": {
+        "message": "اصلاح پسوند"
+    },
+    "fixTitle": {
+        "message": "اصلاح عنوان"
+    },
+    "noPermission": {
+        "message": "بدون مجوز برای اصلاح"
+    },
+    "makePublic": {
+        "message": "عمومی کردن"
+    },
+    "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
+        "message": "$count$ عضو خانواده که قبل از حدود $year$ متولد شده‌اند، خصوصی تنظیم شده‌اند.",
+        "placeholders": {
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "personWasBornBeforeYearAndIsSetAsPrivate": {
+        "message": "$person$ قبل از حدود $year$ متولد شده و خصوصی تنظیم شده است.",
+        "placeholders": {
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
+        }
+    },
+    "Research_this_Person": {
+        "message": "تحقیق درباره این شخص"
+    },
+    "All_Collections": {
+        "message": "همه مجموعه‌ها"
+    },
+    "Collections": {
+        "message": "مجموعه‌ها"
+    },
+    "Publications": {
+        "message": "انتشارات"
+    },
+    "Holocaust": {
+        "message": "هولوکاست"
+    },
+    "Name_Search": {
+        "message": "جستجوی نام"
+    },
+    "Gravestones": {
+        "message": "سنگ قبر"
+    },
+    "Genealogies": {
+        "message": "شجره‌نامه‌ها"
+    },
+    "Genealogy": {
+        "message": "شجره‌شناسی"
+    },
+    "Geni_Search": {
+        "message": "جستجوی Geni"
+    },
+    "Google_Search": {
+        "message": "جستجوی Google"
+    },
+    "Records": {
+        "message": "سوابق"
+    },
+    "Messageboard": {
+        "message": "انجمن پیام"
+    },
+    "Newspapers": {
+        "message": "روزنامه‌ها"
+    },
+    "Books": {
+        "message": "کتاب‌ها"
+    },
+    "Obituaries": {
+        "message": "آگهی‌های ترحیم"
+    },
+    "Other_Resources": {
+        "message": "منابع دیگر"
+    },
+    "Unable_to_create_research_links_on_this_profile": {
+        "message": "امکان ایجاد پیوندهای تحقیقاتی در این نمایه وجود ندارد."
+    },
+    "Loading___": {
+        "message": "در حال بارگذاری..."
+    },
+    "HistoryLink_unreachable_message": {
+        "message": "امکان دسترسی به سرویس ورود HistoryLink وجود ندارد. اتصال اینترنت خود را بررسی کرده و دوباره تلاش کنید."
+    },
+    "HistoryLink": {
+        "message": "ابزارهای HistoryLink"
+    },
+    "Ancestor_Graph": {
+        "message": "نمودار نیاکان"
+    },
+    "Descendant_Graph": {
+        "message": "نمودار نوادگان"
+    },
+    "History_Search": {
+        "message": "جستجوی تاریخی"
+    },
+    "Forest_Density_Calculator": {
+        "message": "ماشین‌حساب تراکم"
+    },
+    "Path_To_User": {
+        "message": "مسیر به کاربر"
+    },
+    "Configuration": {
+        "message": "پیکربندی"
+    },
+    "Copy_Preferences": {
+        "message": "کپی تنظیمات"
+    },
+    "Consistency_Checks": {
+        "message": "بررسی‌های سازگاری"
+    },
+    "Geni_Customization": {
+        "message": "سفارشی‌سازی Geni"
+    },
+    "Note_Dates_that_contain_Between_Before_and_After___": {
+        "message": "توجه: تاریخ‌هایی که شامل Between، Before و After هستند در بررسی‌های سازگاری مقایسه نمی‌شوند. تاریخ‌های دارای Circa به‌عنوان تاریخ‌های دقیق در نظر گرفته می‌شوند."
+    },
+    "Run_consistency_checks_when_viewing_Geni_profiles": {
+        "message": "هنگام مشاهده نمایه‌های Geni، بررسی‌های سازگاری را اجرا کن."
+    },
+    "Age_difference_between_partners_is_significant": {
+        "message": "اختلاف سنی بین شرکا قابل‌توجه است"
+    },
+    "Maiden_name_same_as_husbands_last_name": {
+        "message": "نام دوشیزگی با نام خانوادگی شوهر یکسان است"
+    },
+    "Husband_and_wife_death_dates_the_same": {
+        "message": "تاریخ فوت شوهر و همسر یکسان است"
+    },
+    "Husband_death_date_same_as_marriage_date": {
+        "message": "تاریخ فوت شوهر با تاریخ ازدواج یکسان است"
+    },
+    "Wife_death_date_same_as_marriage_date": {
+        "message": "تاریخ فوت همسر با تاریخ ازدواج یکسان است"
+    },
+    "Born_after_marriage": {
+        "message": "متولد شده پس از ازدواج"
+    },
+    "Died_before_marriage": {
+        "message": "فوت شده پیش از ازدواج"
+    },
+    "Implausible_marriage_age_too_young": {
+        "message": "سن ازدواج غیرمحتمل، خیلی جوان"
+    },
+    "Siblings_ages_too_close_together": {
+        "message": "سن خواهر و برادرها خیلی نزدیک به هم است"
+    },
+    "Born_before_parent_birth": {
+        "message": "متولد شده پیش از تولد والد"
+    },
+    "Born_after_parent_death": {
+        "message": "متولد شده پس از فوت والد"
+    },
+    "Death_before_baptism_date": {
+        "message": "فوت پیش از تاریخ غسل تعمید"
+    },
+    "Death_after_burial_date": {
+        "message": "فوت پس از تاریخ دفن"
+    },
+    "Parent_too_young_for_childs_birth": {
+        "message": "والد برای تولد فرزند خیلی جوان است"
+    },
+    "Mother_too_old_for_childs_birth": {
+        "message": "مادر برای تولد فرزند خیلی مسن است"
+    },
+    "Born_before_parent_marriage": {
+        "message": "متولد شده پیش از ازدواج والدین"
+    },
+    "Excessive_Age": {
+        "message": "سن بیش از حد"
+    },
+    "Born_after_death": {
+        "message": "متولد شده پس از فوت"
+    },
+    "Name_contains_double_space": {
+        "message": "نام شامل فاصله دوتایی است"
+    },
+    "Name_contains_alias": {
+        "message": "نام شامل نام مستعار است"
+    },
+    "Name_contains_improper_use_of_uppercase_lowercase": {
+        "message": "نام شامل استفاده نادرست از حروف بزرگ/کوچک است"
+    },
+    "First_Name_ends_in_suffix_eg___": {
+        "message": "نام کوچک به پسوند ختم می‌شود (مثلاً 'i','ii','iii','iv','jr','sr')"
+    },
+    "Salutation_or_relationship_in_title_eg___": {
+        "message": "خطاب یا نسبت خویشاوندی در عنوان (مثلاً 'Mr', 'Mrs')"
+    },
+    "Salutation_or_relationship_in_suffix_eg___": {
+        "message": "خطاب یا نسبت خویشاوندی در پسوند (مثلاً 'Mr', 'Mrs')"
+    },
+    "Relationship_cycle_in_immediate_family": {
+        "message": "چرخه روابط در خانواده نزدیک"
+    },
+    "Check_date_formatting_for_inconsistent_values": {
+        "message": "بررسی قالب‌بندی تاریخ برای مقادیر ناسازگار"
+    },
+    "Check_for_pending_data_conflict_resolution": {
+        "message": "بررسی حل تعارض داده‌های در انتظار"
+    },
+    "Self_check_profile_for_inconsistent_dates_and_values": {
+        "message": "خودبررسی نمایه برای تاریخ‌ها و مقادیر ناسازگار."
+    },
+    "Check_name_fields_for_improper_values": {
+        "message": "بررسی فیلدهای نام برای مقادیر نامناسب"
+    },
+    "Check_name_fields_for_living_profiles": {
+        "message": "حذف نمایه‌های زنده از اصلاح سریع"
+    },
+    "Check_profile_for_pending_data_conflicts": {
+        "message": "بررسی نمایه برای تعارضات داده در انتظار"
+    },
+    "Check_date_values_for_irregular_formatting": {
+        "message": "بررسی مقادیر تاریخ برای قالب‌بندی نامنظم"
+    },
+    "Check_when_location_is_missing_a_country": {
+        "message": "بررسی زمانی که مکان فاقد کشور است"
+    },
+    "Maximum_year_to_be_private": {
+        "message": "حداکثر سال برای خصوصی بودن:"
+    },
+    "Maximum_age": {
+        "message": "حداکثر سن:"
+    },
+    "Check_the_dates_of_children_against_their_parents": {
+        "message": "بررسی تاریخ‌های فرزندان در برابر والدینشان."
+    },
+    "Check_child_is_born_after_parent_marriage": {
+        "message": "بررسی اینکه فرزند پس از ازدواج والدین متولد شده است"
+    },
+    "Age_the_parent_is_too_young_to_have_a_child": {
+        "message": "سنی که والد برای داشتن فرزند خیلی جوان است"
+    },
+    "Age_the_mother_is_too_old_to_have_a_child": {
+        "message": "سنی که مادر برای داشتن فرزند خیلی مسن است"
+    },
+    "Check_the_values_of_partner_spouses_against_each_other": {
+        "message": "بررسی مقادیر شرکا/همسران در برابر یکدیگر."
+    },
+    "Identify_possible_maiden_name_copy_issues": {
+        "message": "شناسایی مشکلات احتمالی کپی نام دوشیزگی"
+    },
+    "Age_the_spouse_is_too_young_to_be_married": {
+        "message": "سنی که همسر برای ازدواج خیلی جوان است"
+    },
+    "Maximum_age_difference_between_spouses": {
+        "message": "حداکثر اختلاف سنی بین همسران"
+    },
+    "Check_siblings_birth_are_over_": {
+        "message": "بررسی اینکه تولدهای خواهر و برادرها بیش از "
+    },
+    "_months_apart_excl_twins": {
+        "message": " ماه فاصله دارند (به‌جز دوقلوها)."
+    },
+    "Future_options_to_add_features_to_Geni": {
+        "message": "گزینه‌های آینده برای افزودن ویژگی‌ها به Geni."
+    },
+    "This_profile_is_not_in_the_World_Family_Tree": {
+        "message": "این نمایه در World Family Tree نیست."
+    },
+    "Add_to_History": {
+        "message": "افزودن به تاریخچه"
+    },
+    "Show_History": {
+        "message": "نمایش تاریخچه"
+    },
+    "Hide_History": {
+        "message": "پنهان کردن تاریخچه"
+    },
+    "Clear_History": {
+        "message": "پاک کردن تاریخچه"
+    },
+    "Notice___Please_Read": {
+        "message": "اطلاعیه – لطفاً بخوانید"
+    },
+    "SmartCopy_will_no_longer_do_geo_location_lookups___": {
+        "message": "SmartCopy به دلیل هزینه سرویس Google دیگر به‌طور خودکار جستجوهای موقعیت جغرافیایی را انجام نخواهد داد. اگرچه این خبر ناراحت‌کننده‌ای است، Geni اخیراً قابلیت انجام جستجوهای موقعیت جغرافیایی را <i>پس از</i> ارسال فراهم کرده است. وقتی مکانی از طریق فیلد مکان ارسال می‌شود، Geni پرس‌وجو را اجرا کرده و فیلدهای مکان را در وب‌سایت پر می‌کند. همچنین می‌توانید کلید Google API خود را در پیکربندی مشخص کنید. هنوز این گزینه را دارید که داده‌های مکان را به‌صورت دستی در SmartCopy با کلیک روی نماد کره زمین $globe_icon$ پر کنید، و اگر می‌خواهید جستجوی موقعیت جغرافیایی Geni را غیرفعال کنید، می‌توانید این کار را در پیکربندی SmartCopy انجام دهید.",
+        "placeholders": {
+            "globe_icon": { "content": "$1" }
+        }
+    },
+    "Close": {
+        "message": "بستن"
+    },
+    "Display_Add_Biography_button_in_About": {
+        "message": "نمایش دکمه افزودن زندگی‌نامه در بخش درباره"
+    },
+    "Add_Biography": {
+        "message": "افزودن زندگی‌نامه"
+    },
+    "Export_Profiles_button_on_Project_Actions": {
+        "message": "دکمه صادرات نمایه‌ها در اقدامات پروژه"
+    },
+    "Export_Profiles": {
+        "message": "صادرات نمایه‌ها"
+    },
+    "SmartCopy_does_not_currently_support_parsing": {
+        "message": "SmartCopy در حال حاضر از تجزیه این صفحه / سایت / مجموعه پشتیبانی نمی‌کند."
+    },
+    "SmartCopy_is_having_difficulty_reading_the_page": {
+        "message": "SmartCopy در خواندن صفحه مشکل دارد. سعی کنید صفحه را بازخوانی کنید."
+    },
+    "This_website_is_not_yet_supported_by_SmartCopy": {
+        "message": "این وب‌سایت هنوز توسط SmartCopy پشتیبانی نمی‌شود."
+    },
+    "Selection": {
+        "message": "انتخاب"
+    },
+    "Simplify_form_by_hiding_unused_fields": {
+        "message": "ساده‌سازی فرم با پنهان کردن فیلدهای استفاده‌نشده"
+    },
+    "Enable_photo_checkbox_auto_selection": {
+        "message": "فعال‌سازی انتخاب خودکار چک‌باکس عکس"
+    },
+    "Reminder_user_responsible": {
+        "message": "یادآوری: کاربر مسئول<br>دریافت هرگونه مجوز لازم از<br>عکاس هنگام کپی تصاویر است."
+    },
+    "Exclude_private_profile_auto_select": {
+        "message": "حذف انتخاب خودکار نمایه <private>"
+    },
+    "Est_burial_date_from_death_if_location": {
+        "message": "برآورد تاریخ دفن از فوت در صورت وجود مکان"
+    },
+    "This_change_will_take_effect_at_next_use": {
+        "message": "این تغییر در استفاده بعدی اعمال خواهد شد."
+    },
+    "Location": {
+        "message": "مکان"
+    },
+    "Enable_Geolocation": {
+        "message": "فعال‌سازی موقعیت جغرافیایی"
+    },
+    "API_Key": {
+        "message": "کلید API"
+    },
+    "Location_fields_auto_select_one_select_all": {
+        "message": "فیلدهای مکان: انتخاب یکی، انتخاب همه"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "ویرایش مکان همه فیلدها را از پیش انتخاب می‌کند"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "تجزیه مکان‌ها با FamilySearch Places (آزمایشی)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "استفاده از نام کنونی برای محل دفن (در برابر تاریخی)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "انتقال قبرستان از محل فوت به محل دفن"
+    },
+    "Naming": {
+        "message": "نام‌گذاری"
+    },
+    "Auto_populate_empty_birth_name_fields": {
+        "message": "پر کردن خودکار فیلدهای خالی نام تولد"
+    },
+    "Auto_fill_married_last_name": {
+        "message": "پر کردن خودکار نام خانوادگی پس از ازدواج"
+    },
+    "Parse_for_middle_names_automatically": {
+        "message": "تجزیه خودکار نام‌های میانی"
+    },
+    "Auto_adjust_the_names_for_mixed_case": {
+        "message": "تنظیم خودکار نام‌ها برای حروف بزرگ/کوچک مختلط"
+    },
+    "Force_compound_lastname_to_lowercase": {
+        "message": "اجبار نام خانوادگی مرکب به حروف کوچک"
+    },
+    "Default_children_to_likely_Geni_parent": {
+        "message": "اتصال پیش‌فرض فرزندان به والد احتمالی در Geni"
+    },
+    "Default_deceased_profiles_to_public": {
+        "message": "تنظیم پیش‌فرض نمایه‌های متوفیان به‌عنوان عمومی"
+    },
+    "Add_reference_to_Geni_s_About_section": {
+        "message": "افزودن مرجع به بخش درباره Geni"
+    },
+    "Display_the_Geni_side_data_by_default": {
+        "message": "نمایش پیش‌فرض داده‌های سمت Geni"
+    },
+    "Please_select_one_of_the_Matches": {
+        "message": "لطفاً یکی از تطابق‌ها را در این صفحه نتایج انتخاب کنید."
+    },
+    "_year_age_difference_between_": {
+        "message": " سال اختلاف سنی بین "
+    },
+    "Birth_Surname_of_": {
+        "message": "نام خانوادگی تولد: "
+    },
+    "_is_the_same_as_the_last_name_of_": {
+        "message": " با نام خانوادگی یکسان است: "
+    },
+    "Death_date_of_": {
+        "message": "تاریخ فوت: "
+    },
+    "_is_the_same_as_the_death_date_of_": {
+        "message": " با تاریخ فوت یکسان است: "
+    },
+    "_is_the_same_as_": {
+        "message": " یکسان است با "
+    },
+    "_marriage_date": {
+        "message": " تاریخ ازدواج"
+    },
+    "_born_after_": {
+        "message": " متولد شده پس از "
+    },
+    "_died_before_": {
+        "message": " فوت شده پیش از "
+    },
+    "_years_old_for_": {
+        "message": " سال سن برای "
+    },
+    "_marriage": {
+        "message": " ازدواج"
+    },
+    "Birth_date_of_": {
+        "message": "تاریخ تولد: "
+    },
+    "_and_": {
+        "message": " و "
+    },
+    "_are_within_": {
+        "message": " در محدوده "
+    },
+    "_months": {
+        "message": " ماه"
+    },
+    "_born_before_the_birth_of_": {
+        "message": " متولد شده پیش از تولد "
+    },
+    "death": {
+        "message": "فوت"
+    },
+    "_born_after_the_death_of_": {
+        "message": " متولد شده پس از فوت "
+    },
+    "_is_under_": {
+        "message": " زیر "
+    },
+    "_years_old_for_the_birth_of_": {
+        "message": " سال سن برای تولد "
+    },
+    "_is_over_": {
+        "message": " بالای "
+    },
+    "_born_before_the_marriage_of_": {
+        "message": " متولد شده پیش از ازدواج "
+    },
+    "_parents_": {
+        "message": " والدین "
+    },
+    "_has_pending_": {
+        "message": " در انتظار "
+    },
+    "data_conflicts": {
+        "message": "تعارضات داده"
+    },
+    "The_age_of_": {
+        "message": "سن: "
+    },
+    "_exceeds_": {
+        "message": " فراتر می‌رود از "
+    },
+    "_years": {
+        "message": " سال"
+    },
+    "_is_after_": {
+        "message": " پس از "
+    },
+    "_death_date": {
+        "message": " تاریخ فوت"
+    },
+    "Baptism_date_of_": {
+        "message": "تاریخ غسل تعمید: "
+    },
+    "_is_before_": {
+        "message": " پیش از "
+    },
+    "_birth_date": {
+        "message": " تاریخ تولد"
+    },
+    "_burial_date": {
+        "message": " تاریخ دفن"
+    },
+    "_contains_a_double_space_in_": {
+        "message": " شامل فاصله دوتایی در "
+    },
+    "first_name": {
+        "message": "نام کوچک"
+    },
+    "_contains_a_double_or_trailing_space_in_": {
+        "message": " شامل فاصله دوتایی یا انتهایی در "
+    },
+    "_names": {
+        "message": " نام‌ها"
+    },
+    "_contains_an_alias_in_": {
+        "message": " شامل نام مستعار در "
+    },
+    "_appears_to_contain_a_suffix_in_": {
+        "message": " به نظر می‌رسد شامل پسوند در "
+    },
+    "Move_Suffix": {
+        "message": "انتقال پسوند"
+    },
+    "_contains_improper_use_of_salutation_in_": {
+        "message": " شامل استفاده نادرست از خطاب در "
+    },
+    "_title": {
+        "message": " عنوان"
+    },
+    "Remove_salutation": {
+        "message": "حذف خطاب"
+    },
+    "_contains_improper_use_of_relationship_in_": {
+        "message": " شامل استفاده نادرست از نسبت خویشاوندی در "
+    },
+    "_suffix": {
+        "message": " پسوند"
+    },
+    "Remove_relationship": {
+        "message": "حذف نسبت خویشاوندی"
+    },
+    "_contains_improper_use_of_a_numbering_scheme_in_": {
+        "message": " شامل استفاده نادرست از طرح شماره‌گذاری در "
+    },
+    "Remove_numeric": {
+        "message": "حذف عدد"
+    },
+    "_is_in_a_relationship_cycle_within_the_immediate_family": {
+        "message": " در چرخه روابط در خانواده نزدیک است"
+    },
+    "_contains_an_invalid_": {
+        "message": " شامل نامعتبر "
+    },
+    "_date_month_greater_than_12": {
+        "message": " تاریخ، ماه بزرگتر از ۱۲."
+    },
+    "_date_day_greater_than_31": {
+        "message": " تاریخ، روز بزرگتر از ۳۱."
+    },
+    "_date": {
+        "message": " تاریخ"
+    },
+    "_contains_an_incomplete_": {
+        "message": " شامل ناقص "
+    },
+    "_date_missing_month": {
+        "message": " تاریخ، ماه گم شده."
+    },
+    "_date_missing_year": {
+        "message": " تاریخ، سال گم شده."
+    },
+    "_contains_a_": {
+        "message": " شامل "
+    },
+    "_location_without_a_country": {
+        "message": " مکان بدون کشور"
+    },
+    "his": {
+        "message": "او"
+    },
+    "her": {
+        "message": "او"
+    },
+    "their": {
+        "message": "آنها"
+    },
+    "mother": {
+        "message": "مادر"
+    },
+    "father": {
+        "message": "پدر"
+    },
+    "parent": {
+        "message": "والد"
+    },
+    "brother": {
+        "message": "برادر"
+    },
+    "sibling": {
+        "message": "خواهر/برادر"
+    },
+    "wife": {
+        "message": "همسر"
+    },
+    "husband": {
+        "message": "شوهر"
+    },
+    "partner": {
+        "message": "شریک"
+    },
+    "Submit": {
+        "message": "ارسال"
+    },
+    "Profile_Data": {
+        "message": "داده‌های نمایه"
+    },
+    "ExperimentalMessage": {
+        "message": "پیام آزمایشی"
+    },
+    "SmartCopy_discussion_at_Geni": {
+        "message": "بحث SmartCopy در Geni"
+    },
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy نتوانست نمایه Geni را تعیین کند"
+    },
+    "Set_Geni_Destination_Profile": {
+        "message": "تنظیم نمایه مقصد Geni"
+    },
+    "Relatives": {
+        "message": "بستگان"
+    },
+    "Select_from_History": {
+        "message": "انتخاب از تاریخچه"
+    },
+    "Invalid_Profile": {
+        "message": "نمایه نامعتبر"
+    },
+    "Set_Destination": {
+        "message": "تنظیم مقصد"
+    },
+    "History": {
+        "message": "تاریخچه"
+    },
+    "Reading_Family_Data": {
+        "message": "در حال خواندن داده‌های خانواده ..."
+    },
+    "Updating_Geni": {
+        "message": "در حال به‌روزرسانی Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "درخت Geni به‌روزرسانی شد"
+    },
+    "Reminder_Duplicate": {
+        "message": "یادآوری: تکراری"
+    },
+    "View_Profile": {
+        "message": "مشاهده نمایه :"
+    },
+    "Tree_View": {
+        "message": "نمای درختی"
+    },
+    "View_Profil": {
+        "message": "مشاهده نمایه"
+    },
+    "Geni_Data": {
+        "message": "داده‌های Geni"
+    },
+    "Update_Profile": {
+        "message": "به‌روزرسانی نمایه"
+    },
+    "Family_Members": {
+        "message": "اعضای خانواده"
+    },
+    "Parents": {
+        "message": "والدین"
+    },
+    "Siblings": {
+        "message": "خواهر و برادرها"
+    },
+    "Partners": {
+        "message": "شرکا"
+    },
+    "Children": {
+        "message": "فرزندان"
+    },
+    "expand_all": {
+        "message": "باز کردن همه"
+    },
+    "collapse_all": {
+        "message": "بستن همه"
+    },
+    "Title": {
+        "message": "عنوان:"
+    },
+    "FFirst_Name": {
+        "message": "نام کوچک : "
+    },
+    "Middle_Name": {
+        "message": "نام میانی :"
+    },
+    "Last_Name": {
+        "message": "نام خانوادگی :"
+    },
+    "Birth_Name": {
+        "message": "نام تولد :"
+    },
+    "Suffix": {
+        "message": "پسوند :"
+    },
+    "Display_Name": {
+        "message": "نام نمایشی :"
+    },
+    "Also_Known_As": {
+        "message": "همچنین شناخته‌شده به‌عنوان :"
+    },
+    "Occupation": {
+        "message": "شغل :"
+    },
+    "Gender": {
+        "message": "جنسیت :"
+    },
+    "Vital": {
+        "message": "اطلاعات حیاتی :"
+    },
+    "Privacy": {
+        "message": "حریم خصوصی :"
+    },
+    "About": {
+        "message": "درباره :"
+    },
+    "Male": {
+        "message": "مرد"
+    },
+    "Female": {
+        "message": "زن"
+    },
+    "Deceased": {
+        "message": "متوفی"
+    },
+    "LLiving": {
+        "message": "زنده"
+    },
+    "Public": {
+        "message": "عمومی"
+    },
+    "Private": {
+        "message": "خصوصی"
+    },
+    "Auto": {
+        "message": "خودکار"
+    },
+    "Unknown": {
+        "message": "ناشناخته"
+    },
+    "Action": {
+        "message": "اقدام:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "پنهان کردن فیلدهای استفاده‌نشده"
+    },
+    "Show_All_Fields": {
+        "message": "نمایش همه فیلدها"
+    },
+    "Update": {
+        "message": "به‌روزرسانی :"
+    },
+    "Add": {
+        "message": "افزودن"
+    },
+    "Add_Profile": {
+        "message": "افزودن نمایه "
+    },
+    "Unknown_Relations": {
+        "message": "روابط ناشناخته"
+    },
+    "MMother": {
+        "message": "مادر"
+    },
+    "FFather": {
+        "message": "پدر"
+    },
+    "Parent": {
+        "message": "والد"
+    },
+    "BBrother": {
+        "message": "برادر"
+    },
+    "Sister": {
+        "message": "خواهر"
+    },
+    "SSibling": {
+        "message": "خواهر/برادر"
+    },
+    "WWife": {
+        "message": "همسر"
+    },
+    "HHusband": {
+        "message": "شوهر"
+    },
+    "Partner": {
+        "message": "شریک"
+    },
+    "Spouse": {
+        "message": "همسر"
+    },
+    "Son": {
+        "message": "پسر"
+    },
+    "Daughter": {
+        "message": "دختر"
+    },
+    "Child": {
+        "message": "فرزند"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "فعال‌سازی Google Geocoding"
+    },
+    "Family_Data": {
+        "message": "داده‌های خانواده"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "تحقیق عمیق برای جزئیات کامل (زمان بیشتری می‌برد)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "رد کردن تحقیق عمیق"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "در حال رد کردن جستجوهای باقی‌مانده..."
+    },
+    "Estimate_birth_years": {
+        "message": "برآورد سال‌های تولد/ازدواج/فوت/دفن"
+    },
+    "Average_generational_gap_years": {
+        "message": "فاصله میانگین نسل‌ها (سال):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "اختلاف سنی میانگین بین همسران (سال):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "نمایش سال‌های تولد/فوت در منوهای بازشو"
+    },
+    "Living": {
+        "message": "زنده"
+    },
+    "Fix_All_Case_Issues": {
+        "message": "اصلاح همه"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "مکان را به‌روزرسانی کرده و دوباره به Google برای موقعیت جغرافیایی ارسال کنید."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "مکان و/یا سال را به‌روزرسانی کرده، سپس دوباره به جستجوی مکان‌های تاریخی FamilySearch ارسال کنید."
+    },
+    "Country": {
+        "message": "کشور"
+    },
+    "State": {
+        "message": "استان"
+    },
+    "City": {
+        "message": "شهر"
+    },
+    "Place": {
+        "message": "مکان"
+    },
+    "County": {
+        "message": "شهرستان"
+    }
+}

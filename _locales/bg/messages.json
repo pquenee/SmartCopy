@@ -18,134 +18,96 @@
         "message": "Проверка за съгласуваност"
     },
     "contains_incorrect_uppercase_lowercase_in_name": {
-        "message": "$person$ съдържа неправилна употреба на главни/малки букви в $pronoun$ име ($lang$).",
+        "message": "$person$ съдържа неправилно използване на главни/малки букви в $pronoun$ име ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_incorrect_uppercase_lowercase_in_name_default": {
-        "message": "$person$ съдържа неправилна употреба на главни/малки букви в $pronoun$ име.",
+        "message": "$person$ съдържа неправилно използване на главни/малки букви в $pronoun$ име.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_patronym_in_first_name": {
-        "message": "$person$ съдържа бащино/майчино име в $pronoun$ собствено име ($lang$).",
+        "message": "$person$ съдържа патро/матроним в $pronoun$ собствено име ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_patronym_in_first_name_default": {
-        "message": "$person$ съдържа бащино/майчино име в $pronoun$ собствено име.",
+        "message": "$person$ съдържа патро/матроним в $pronoun$ собствено име.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "contains_non_patronym_in_middle_name": {
-        "message": "$person$ съдържа стойност, която не е бащино/майчино име, в $pronoun$ второ име ($lang$).",
+        "message": "$person$ съдържа не-патро/матроним в $pronoun$ бащино име ($lang$).",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            },
-            "lang": {
-                "content": "$3"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" },
+            "lang": { "content": "$3" }
         }
     },
     "contains_non_patronym_in_middle_name_default": {
-        "message": "$person$ съдържа стойност, която не е бащино/майчино име, в $pronoun$ второ име.",
+        "message": "$person$ съдържа не-патро/матроним в $pronoun$ бащино име.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "pronoun": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "pronoun": { "content": "$2" }
         }
     },
     "consistencyCheckLiving": {
         "message": "жив"
     },
     "claimed": {
-        "message": "потвърден"
+        "message": "заявено"
     },
     "fixCase": {
-        "message": "поправи регистъра"
+        "message": "коригирай главни/малки букви"
     },
     "fixed": {
-        "message": "поправено"
+        "message": "коригирано"
     },
     "fixName": {
-        "message": "поправи името"
+        "message": "коригирай име"
     },
     "fixSpace": {
-        "message": "поправи интервала"
+        "message": "коригирай интервал"
     },
     "fixSuffix": {
-        "message": "поправи суфикса"
+        "message": "коригирай суфикс"
     },
     "fixTitle": {
-        "message": "поправи титлата"
+        "message": "коригирай титла"
     },
     "noPermission": {
-        "message": "няма разрешение за поправка"
+        "message": "няма разрешение за корекция"
     },
     "makePublic": {
-        "message": "направи публичен"
+        "message": "направи публично"
     },
     "numFamilyMembersBornBeforeYearAreSetAsPrivate": {
-        "message": "$count$ членове на семейството, родени преди около $year$ г., са зададени като частни.",
+        "message": "$count$ членове на семейството, родени преди ок. $year$, са зададени като частни.",
         "placeholders": {
-            "count": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "count": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "personWasBornBeforeYearAndIsSetAsPrivate": {
-        "message": "$person$ е роден/а преди около $year$ г. и е зададен/а като частен/частна.",
+        "message": "$person$ е роден/а преди ок. $year$ и е зададен/а като частен/а.",
         "placeholders": {
-            "person": {
-                "content": "$1"
-            },
-            "year": {
-                "content": "$2"
-            }
+            "person": { "content": "$1" },
+            "year": { "content": "$2" }
         }
     },
     "Research_this_Person": {
-        "message": "Проучи този човек"
+        "message": "Проучи това лице"
     },
     "All_Collections": {
         "message": "Всички колекции"
@@ -163,10 +125,10 @@
         "message": "Търсене по име"
     },
     "Gravestones": {
-        "message": "Надгробни плочи"
+        "message": "Надгробни камъни"
     },
     "Genealogies": {
-        "message": "Родословия"
+        "message": "Генеалогии"
     },
     "Genealogy": {
         "message": "Генеалогия"
@@ -181,7 +143,7 @@
         "message": "Записи"
     },
     "Messageboard": {
-        "message": "Форум"
+        "message": "Дискусионен форум"
     },
     "Newspapers": {
         "message": "Вестници"
@@ -196,13 +158,13 @@
         "message": "Други ресурси"
     },
     "Unable_to_create_research_links_on_this_profile": {
-        "message": "Не могат да бъдат създадени връзки за проучване за този профил."
+        "message": "Не могат да бъдат създадени изследователски връзки на този профил."
     },
     "Loading___": {
         "message": "Зареждане..."
     },
     "HistoryLink_unreachable_message": {
-        "message": "Неуспешна връзка с услугата за вход на HistoryLink. Проверете интернет връзката си и опитайте отново."
+        "message": "Услугата за вход на HistoryLink не може да бъде достигната. Проверете интернет връзката си и опитайте отново."
     },
     "HistoryLink": {
         "message": "Инструменти HistoryLink"
@@ -223,10 +185,10 @@
         "message": "Път до потребителя"
     },
     "Configuration": {
-        "message": "Настройки"
+        "message": "Конфигурация"
     },
     "Copy_Preferences": {
-        "message": "Настройки за копиране"
+        "message": "Копирай предпочитанията"
     },
     "Consistency_Checks": {
         "message": "Проверки за съгласуваност"
@@ -235,16 +197,16 @@
         "message": "Персонализиране на Geni"
     },
     "Note_Dates_that_contain_Between_Before_and_After___": {
-        "message": "Забележка: датите, съдържащи „Между“, „Преди“ и „След“, не се сравняват при проверките за съгласуваност. Датите с „Около“ се считат за точни дати."
+        "message": "Забележка: Датите, които съдържат Between, Before и After, не се сравняват при проверките за съгласуваност. Датите с Circa се считат за точни дати."
     },
     "Run_consistency_checks_when_viewing_Geni_profiles": {
-        "message": "Изпълнявай проверки за съгласуваност при преглед на профили в Geni."
+        "message": "Изпълнявай проверки за съгласуваност при преглед на Geni профили."
     },
     "Age_difference_between_partners_is_significant": {
         "message": "Разликата във възрастта между партньорите е значителна"
     },
     "Maiden_name_same_as_husbands_last_name": {
-        "message": "Фамилията по рождение е същата като фамилията на съпруга"
+        "message": "Моминското име е същото като фамилното име на съпруга"
     },
     "Husband_and_wife_death_dates_the_same": {
         "message": "Датите на смъртта на съпруга и съпругата са еднакви"
@@ -262,10 +224,10 @@
         "message": "Починал/а преди брака"
     },
     "Implausible_marriage_age_too_young": {
-        "message": "Неправдоподобна възраст за брак: твърде млад/а"
+        "message": "Неправдоподобна възраст за брак, твърде млад/а"
     },
     "Siblings_ages_too_close_together": {
-        "message": "Възрастите на братята/сестрите са твърде близки"
+        "message": "Възрастите на братята и сестрите са твърде близки"
     },
     "Born_before_parent_birth": {
         "message": "Роден/а преди раждането на родителя"
@@ -280,10 +242,10 @@
         "message": "Смърт след датата на погребението"
     },
     "Parent_too_young_for_childs_birth": {
-        "message": "Родителят е бил твърде млад при раждането на детето"
+        "message": "Родителят е твърде млад за раждането на детето"
     },
     "Mother_too_old_for_childs_birth": {
-        "message": "Майката е била твърде възрастна при раждането на детето"
+        "message": "Майката е твърде стара за раждането на детето"
     },
     "Born_before_parent_marriage": {
         "message": "Роден/а преди брака на родителите"
@@ -301,88 +263,88 @@
         "message": "Името съдържа псевдоним"
     },
     "Name_contains_improper_use_of_uppercase_lowercase": {
-        "message": "Името съдържа неправилна употреба на главни/малки букви"
+        "message": "Името съдържа неправилно използване на главни/малки букви"
     },
     "First_Name_ends_in_suffix_eg___": {
         "message": "Собственото име завършва със суфикс (напр. 'i','ii','iii','iv','jr','sr')"
     },
     "Salutation_or_relationship_in_title_eg___": {
-        "message": "Обръщение или роднинска връзка в полето за титла (напр. 'Mr', 'Mrs')"
+        "message": "Обръщение или роднинска връзка в титлата (напр. 'Mr', 'Mrs')"
     },
     "Salutation_or_relationship_in_suffix_eg___": {
-        "message": "Обръщение или роднинска връзка в полето за суфикс (напр. 'Mr', 'Mrs')"
+        "message": "Обръщение или роднинска връзка в суфикса (напр. 'Mr', 'Mrs')"
     },
     "Relationship_cycle_in_immediate_family": {
-        "message": "Цикъл на роднинска връзка в близкото семейство"
+        "message": "Цикъл на взаимоотношения в най-близкото семейство"
     },
     "Check_date_formatting_for_inconsistent_values": {
-        "message": "Проверявай форматирането на датите за несъгласувани стойности"
+        "message": "Провери форматирането на датата за непоследователни стойности"
     },
     "Check_for_pending_data_conflict_resolution": {
-        "message": "Проверявай за нерешени конфликти на данни"
+        "message": "Провери за чакащо разрешаване на конфликт на данни"
     },
     "Self_check_profile_for_inconsistent_dates_and_values": {
-        "message": "Автоматично проверявай профила за несъгласувани дати и стойности."
+        "message": "Самопроверка на профила за непоследователни дати и стойности."
     },
     "Check_name_fields_for_improper_values": {
-        "message": "Проверявай полетата за имена за неправилни стойности"
+        "message": "Провери полетата за имена за неправилни стойности"
     },
     "Check_name_fields_for_living_profiles": {
-        "message": "Изключвай профилите на живи хора от бързата поправка"
+        "message": "Изключи живите профили от бърза корекция"
     },
     "Check_profile_for_pending_data_conflicts": {
-        "message": "Проверявай профила за чакащи конфликти на данни"
+        "message": "Провери профила за чакащи конфликти на данни"
     },
     "Check_date_values_for_irregular_formatting": {
-        "message": "Проверявай стойностите на датите за неправилно форматиране"
+        "message": "Провери стойностите на датите за нередовно форматиране"
     },
     "Check_when_location_is_missing_a_country": {
-        "message": "Проверявай, когато в местоположението липсва държава"
+        "message": "Провери кога на локацията липсва държава"
     },
     "Maximum_year_to_be_private": {
-        "message": "Най-късна година за частен профил:"
+        "message": "Максимална година за поверителност:"
     },
     "Maximum_age": {
         "message": "Максимална възраст:"
     },
     "Check_the_dates_of_children_against_their_parents": {
-        "message": "Сравнявай датите на децата с датите на техните родители."
+        "message": "Провери датите на децата спрямо техните родители."
     },
     "Check_child_is_born_after_parent_marriage": {
-        "message": "Проверявай дали детето е родено след брака на родителите"
+        "message": "Провери дали детето е родено след брака на родителите"
     },
     "Age_the_parent_is_too_young_to_have_a_child": {
-        "message": "Възраст, под която родителят се счита за твърде млад, за да има дете"
+        "message": "Възраст, при която родителят е твърде млад, за да има дете"
     },
     "Age_the_mother_is_too_old_to_have_a_child": {
-        "message": "Възраст, над която майката се счита за твърде възрастна, за да има дете"
+        "message": "Възраст, при която майката е твърде стара, за да има дете"
     },
     "Check_the_values_of_partner_spouses_against_each_other": {
-        "message": "Сравнявай стойностите на партньорите/съпрузите помежду им."
+        "message": "Провери стойностите на партньорите/съпрузите един спрямо друг."
     },
     "Identify_possible_maiden_name_copy_issues": {
-        "message": "Откривай възможни проблеми при копиране на фамилията по рождение"
+        "message": "Идентифицирай възможни проблеми с копирането на моминското име"
     },
     "Age_the_spouse_is_too_young_to_be_married": {
-        "message": "Възраст, под която съпругът/съпругата се счита за твърде млад/а за брак"
+        "message": "Възраст, при която съпругът/съпругата е твърде млад/а за брак"
     },
     "Maximum_age_difference_between_spouses": {
         "message": "Максимална разлика във възрастта между съпрузите"
     },
     "Check_siblings_birth_are_over_": {
-        "message": "Проверявай дали ражданията на братя/сестри са на повече от "
+        "message": "Провери дали ражданията на братята и сестрите са на повече от "
     },
     "_months_apart_excl_twins": {
-        "message": " месеца разлика (без близнаци)."
+        "message": " месеца един от друг (без близнаци)."
     },
     "Future_options_to_add_features_to_Geni": {
-        "message": "Бъдещи възможности за добавяне на функции към Geni."
+        "message": "Бъдещи опции за добавяне на функции към Geni."
     },
     "This_profile_is_not_in_the_World_Family_Tree": {
-        "message": "Този профил не е в Световното родословно дърво."
+        "message": "Този профил не е в World Family Tree."
     },
     "Add_to_History": {
-        "message": "Добави в историята"
+        "message": "Добави към историята"
     },
     "Show_History": {
         "message": "Покажи историята"
@@ -394,36 +356,34 @@
         "message": "Изчисти историята"
     },
     "Notice___Please_Read": {
-        "message": "Внимание — моля, прочетете"
+        "message": "Известие – моля, прочетете"
     },
     "SmartCopy_will_no_longer_do_geo_location_lookups___": {
-        "message": "SmartCopy вече няма автоматично да извършва търсене на геолокация поради цената на услугата на Google. Макар това да е неприятна новина, Geni наскоро предостави възможност за търсене на геолокация <i>след</i> изпращането. Когато местоположение бъде изпратено чрез полето за място, Geni ще извърши заявката и ще попълни полетата за местоположение на уебсайта. Като алтернатива можете да посочите собствен Google API ключ в настройките. Също така все още можете ръчно да попълвате данните за местоположението в SmartCopy, като щракнете върху иконата на глобус $globe_icon$, а ако искате да изключите търсенето на геолокация от Geni, можете да го направите в настройките на SmartCopy.",
+        "message": "SmartCopy вече няма автоматично да извършва търсения за геолокация поради разходите за услугата на Google. Въпреки че това е тъжна новина, Geni наскоро предостави функцията за извършване на търсения за геолокация <i>след</i> подаване. Когато дадена локация бъде подадена чрез полето за място, Geni ще изпълни заявката и ще попълни полетата за локация на уебсайта. Като алтернатива можете да посочите свой собствен Google API ключ в конфигурацията. Също така все още имате опцията ръчно да попълните данните за локацията в SmartCopy, като щракнете върху иконата на глобуса $globe_icon$, и ако искате да деактивирате търсенето за геолокация на Geni, можете да го направите в конфигурацията на SmartCopy.",
         "placeholders": {
-            "globe_icon": {
-                "content": "$1"
-            }
+            "globe_icon": { "content": "$1" }
         }
     },
     "Close": {
         "message": "Затвори"
     },
     "Display_Add_Biography_button_in_About": {
-        "message": "Показвай бутона „Добави биография“ в раздел „Относно“"
+        "message": "Покажи бутона Добави биография в секцията Относно"
     },
     "Add_Biography": {
         "message": "Добави биография"
     },
     "Export_Profiles_button_on_Project_Actions": {
-        "message": "Показвай бутона „Експортирай профили“ в действията по проекта"
+        "message": "Бутон Експортирай профили в действията на проекта"
     },
     "Export_Profiles": {
         "message": "Експортирай профили"
     },
     "SmartCopy_does_not_currently_support_parsing": {
-        "message": "SmartCopy в момента не поддържа обработка на тази страница / сайт / колекция."
+        "message": "SmartCopy в момента не поддържа парсване на тази страница / сайт / колекция."
     },
     "SmartCopy_is_having_difficulty_reading_the_page": {
-        "message": "SmartCopy има затруднения при прочитането на страницата. Опитайте да я обновите."
+        "message": "SmartCopy има трудности при четенето на страницата. Опитайте да опресните страницата."
     },
     "This_website_is_not_yet_supported_by_SmartCopy": {
         "message": "Този уебсайт все още не се поддържа от SmartCopy."
@@ -432,64 +392,76 @@
         "message": "Избор"
     },
     "Simplify_form_by_hiding_unused_fields": {
-        "message": "Опрости формуляра, като скриеш неизползваните полета"
+        "message": "Опростете формуляра, като скриете неизползваните полета"
     },
     "Enable_photo_checkbox_auto_selection": {
-        "message": "Активирай автоматичното избиране на отметката за снимка"
+        "message": "Активирай автоматичния избор на квадратчето за снимка"
     },
     "Reminder_user_responsible": {
-        "message": "Напомняне: Потребителят е отговорен за<br>получаването на всички необходими разрешения от<br>фотографа при копиране на изображения."
+        "message": "Напомняне: Потребителят е отговорен за<br>получаването на необходимото разрешение от<br>фотографа при копиране на изображения."
     },
     "Exclude_private_profile_auto_select": {
-        "message": "Изключи профилите <private> от автоматичния избор"
+        "message": "Изключи автоматичния избор на <private> профил"
     },
     "Est_burial_date_from_death_if_location": {
-        "message": "Оцени датата на погребение по датата на смъртта, ако има местоположение"
+        "message": "Оцени датата на погребението от смъртта, ако има локация"
     },
     "This_change_will_take_effect_at_next_use": {
         "message": "Тази промяна ще влезе в сила при следващото използване."
     },
     "Location": {
-        "message": "Местоположение"
+        "message": "Локация"
     },
     "Enable_Geolocation": {
-        "message": "Активирай геолокацията"
+        "message": "Активирай геолокация"
     },
     "API_Key": {
         "message": "API ключ"
     },
     "Location_fields_auto_select_one_select_all": {
-        "message": "В полетата за местоположение изборът на едно избира всички"
+        "message": "Полета за локация: избери едно, избери всички"
+    },
+    "Location_edit_pre_selects_all_fields": {
+        "message": "Редактирането на локацията предварително избира всички полета"
+    },
+    "Parse_locations_with_FamilySearch_Places": {
+        "message": "Парсвай локации с FamilySearch Places (експериментално)"
+    },
+    "Use_current_location_name_for_burial": {
+        "message": "Използвай текущото име за място на погребение (срещу историческо)"
+    },
+    "Move_cemetery_info_from_death_to_burial_location": {
+        "message": "Премести гробището от мястото на смъртта до мястото на погребението"
     },
     "Naming": {
-        "message": "Имена"
+        "message": "Именуване"
     },
     "Auto_populate_empty_birth_name_fields": {
-        "message": "Автоматично попълвай празните полета за име при раждане"
+        "message": "Автоматично попълни празните полета за име при раждане"
     },
     "Auto_fill_married_last_name": {
-        "message": "Автоматично попълвай фамилията след брак"
+        "message": "Автоматично попълни фамилното име след брак"
     },
     "Parse_for_middle_names_automatically": {
-        "message": "Автоматично разпознавай вторите имена"
+        "message": "Автоматично парсвай за бащини имена"
     },
     "Auto_adjust_the_names_for_mixed_case": {
-        "message": "Автоматично коригирай главни/малки букви в имената"
+        "message": "Автоматично коригирай имената за смесени главни/малки букви"
     },
     "Force_compound_lastname_to_lowercase": {
-        "message": "Принудително преобразувай съставните фамилии в малки букви"
+        "message": "Принудително преобразувай съставното фамилно име в малки букви"
     },
     "Default_children_to_likely_Geni_parent": {
-        "message": "По подразбиране свързвай децата с най-вероятния родител в Geni"
+        "message": "По подразбиране свържи децата с вероятния родител в Geni"
     },
     "Default_deceased_profiles_to_public": {
-        "message": "По подразбиране прави профилите на починали публични"
+        "message": "По подразбиране задай профилите на починалите като публични"
     },
     "Add_reference_to_Geni_s_About_section": {
-        "message": "Добави източник към раздела „Относно“ в Geni"
+        "message": "Добави препратка в секцията Относно на Geni"
     },
     "Display_the_Geni_side_data_by_default": {
-        "message": "По подразбиране показвай данните от страната на Geni"
+        "message": "Показвай данните от страната на Geni по подразбиране"
     },
     "Please_select_one_of_the_Matches": {
         "message": "Моля, изберете едно от съвпаденията на тази страница с резултати."
@@ -498,10 +470,10 @@
         "message": " години разлика във възрастта между "
     },
     "Birth_Surname_of_": {
-        "message": "Фамилия по рождение на "
+        "message": "Фамилия при раждане на "
     },
     "_is_the_same_as_the_last_name_of_": {
-        "message": " е същата като фамилията на "
+        "message": " е същото като фамилното име на "
     },
     "Death_date_of_": {
         "message": "Дата на смъртта на "
@@ -522,7 +494,7 @@
         "message": " починал/а преди "
     },
     "_years_old_for_": {
-        "message": " години на "
+        "message": " години за "
     },
     "_marriage": {
         "message": " брак"
@@ -552,7 +524,7 @@
         "message": " е под "
     },
     "_years_old_for_the_birth_of_": {
-        "message": " години при раждането на "
+        "message": " години за раждането на "
     },
     "_is_over_": {
         "message": " е над "
@@ -582,10 +554,10 @@
         "message": " е след "
     },
     "_death_date": {
-        "message": " дата на смърт"
+        "message": " дата на смъртта"
     },
     "Baptism_date_of_": {
-        "message": "Дата на кръщение на "
+        "message": "Дата на кръщението на "
     },
     "_is_before_": {
         "message": " е преди "
@@ -603,7 +575,7 @@
         "message": "собствено име"
     },
     "_contains_a_double_or_trailing_space_in_": {
-        "message": " съдържа двоен или краен интервал в "
+        "message": " съдържа двоен или завършващ интервал в "
     },
     "_names": {
         "message": " имена"
@@ -618,7 +590,7 @@
         "message": "Премести суфикса"
     },
     "_contains_improper_use_of_salutation_in_": {
-        "message": " съдържа неправилна употреба на обръщение в "
+        "message": " съдържа неправилно използване на обръщение в "
     },
     "_title": {
         "message": " титла"
@@ -627,7 +599,7 @@
         "message": "Премахни обръщението"
     },
     "_contains_improper_use_of_relationship_in_": {
-        "message": " съдържа неправилна употреба на роднинска връзка в "
+        "message": " съдържа неправилно използване на роднинска връзка в "
     },
     "_suffix": {
         "message": " суфикс"
@@ -636,28 +608,28 @@
         "message": "Премахни роднинската връзка"
     },
     "_contains_improper_use_of_a_numbering_scheme_in_": {
-        "message": " съдържа неправилна употреба на схема за номериране в "
+        "message": " съдържа неправилно използване на схема за номериране в "
     },
     "Remove_numeric": {
-        "message": "Премахни числата"
+        "message": "Премахни числото"
     },
     "_is_in_a_relationship_cycle_within_the_immediate_family": {
-        "message": " е в цикъл на роднински връзки в близкото семейство"
+        "message": " е в цикъл на взаимоотношения в най-близкото семейство"
     },
     "_contains_an_invalid_": {
-        "message": " съдържа невалидна "
+        "message": " съдържа невалидно "
     },
     "_date_month_greater_than_12": {
-        "message": " дата, месецът е по-голям от 12."
+        "message": " дата, месец по-голям от 12."
     },
     "_date_day_greater_than_31": {
-        "message": " дата, денят е по-голям от 31."
+        "message": " дата, ден по-голям от 31."
     },
     "_date": {
         "message": " дата"
     },
     "_contains_an_incomplete_": {
-        "message": " съдържа непълна "
+        "message": " съдържа непълно "
     },
     "_date_missing_month": {
         "message": " дата, липсва месец."
@@ -669,16 +641,16 @@
         "message": " съдържа "
     },
     "_location_without_a_country": {
-        "message": " местоположение без държава"
+        "message": " локация без държава"
     },
     "his": {
-        "message": "неговото"
+        "message": "неговия"
     },
     "her": {
-        "message": "нейното"
+        "message": "нейния"
     },
     "their": {
-        "message": "тяхното"
+        "message": "техния"
     },
     "mother": {
         "message": "майка"
@@ -704,41 +676,125 @@
     "partner": {
         "message": "партньор"
     },
-    "Enable_Google_Geocoding": {
-        "message": "Активиране на Google Геокодиране"
+    "Submit": {
+        "message": "Изпрати"
     },
-    "Parse_locations_with_FamilySearch_Places": {
-        "message": "Анализиране на местоположения с FamilySearch Places (експериментално)"
+    "Profile_Data": {
+        "message": "Данни на профила"
     },
-    "Use_current_location_name_for_burial": {
-        "message": "Използване на текущото име за мястото на погребение (срещу историческото)"
+    "ExperimentalMessage": {
+        "message": "Експериментално съобщение"
     },
-    "Move_cemetery_info_from_death_to_burial_location": {
-        "message": "Преместване на гробището от мястото на смъртта към мястото на погребение"
+    "SmartCopy_discussion_at_Geni": {
+        "message": "Дискусия за SmartCopy в Geni"
     },
-    "Family_Data": {
-        "message": "Семейни данни"
+    "SmartCopy_was_unable_to_determine_the_Geni_profile": {
+        "message": "SmartCopy не успя да определи Geni профила"
     },
-    "Deep_Research_for_full_details_takes_longer": {
-        "message": "Задълбочено проучване за пълни детайли (отнема повече време)"
+    "Set_Geni_Destination_Profile": {
+        "message": "Задай целеви Geni профил"
     },
-    "Skip_Deep_Research_for_this_run": {
-        "message": "Пропускане на задълбоченото търсене"
+    "Relatives": {
+        "message": "Роднини"
     },
-    "Deep_Research_skipped_for_this_run": {
-        "message": "Пропускане на оставащите заявки..."
+    "Select_from_History": {
+        "message": "Избери от историята"
     },
-    "Estimate_birth_years": {
-        "message": "Оценка на години на раждане/брак/смърт/погребение"
+    "Invalid_Profile": {
+        "message": "Невалиден профил"
     },
-    "Average_generational_gap_years": {
-        "message": "Средна разлика между поколенията (години):"
+    "Set_Destination": {
+        "message": "Задай дестинация"
     },
-    "Average_spousal_age_gap_years": {
-        "message": "Средна възрастова разлика между съпрузи (години):"
+    "History": {
+        "message": "История"
     },
-    "Show_birth_death_years_in_dropdowns": {
-        "message": "Показване на години на раждане/смърт в падащите менюта"
+    "Reading_Family_Data": {
+        "message": "Четене на семейни данни ..."
+    },
+    "Updating_Geni": {
+        "message": "Актуализиране на Geni"
+    },
+    "Geni_Tree_Updated": {
+        "message": "Дървото на Geni е актуализирано"
+    },
+    "Reminder_Duplicate": {
+        "message": "Напомняне: дубликат"
+    },
+    "View_Profile": {
+        "message": "Прегледай профила :"
+    },
+    "Tree_View": {
+        "message": "Изглед на дърво"
+    },
+    "View_Profil": {
+        "message": "Прегледай профила"
+    },
+    "Geni_Data": {
+        "message": "Данни на Geni"
+    },
+    "Update_Profile": {
+        "message": "Актуализирай профила"
+    },
+    "Family_Members": {
+        "message": "Членове на семейството"
+    },
+    "Parents": {
+        "message": "Родители"
+    },
+    "Siblings": {
+        "message": "Братя и сестри"
+    },
+    "Partners": {
+        "message": "Партньори"
+    },
+    "Children": {
+        "message": "Деца"
+    },
+    "expand_all": {
+        "message": "разгъни всичко"
+    },
+    "collapse_all": {
+        "message": "свий всичко"
+    },
+    "Title": {
+        "message": "Титла:"
+    },
+    "FFirst_Name": {
+        "message": "Собствено име : "
+    },
+    "Middle_Name": {
+        "message": "Бащино име :"
+    },
+    "Last_Name": {
+        "message": "Фамилно име :"
+    },
+    "Birth_Name": {
+        "message": "Име при раждане :"
+    },
+    "Suffix": {
+        "message": "Суфикс :"
+    },
+    "Display_Name": {
+        "message": "Показвано име :"
+    },
+    "Also_Known_As": {
+        "message": "Известен/а също като :"
+    },
+    "Occupation": {
+        "message": "Професия :"
+    },
+    "Gender": {
+        "message": "Пол :"
+    },
+    "Vital": {
+        "message": "Жизнени данни :"
+    },
+    "Privacy": {
+        "message": "Поверителност :"
+    },
+    "About": {
+        "message": "Относно :"
     },
     "Male": {
         "message": "Мъж"
@@ -746,16 +802,136 @@
     "Female": {
         "message": "Жена"
     },
+    "Deceased": {
+        "message": "Починал/а"
+    },
+    "LLiving": {
+        "message": "Жив/а"
+    },
+    "Public": {
+        "message": "Публичен"
+    },
+    "Private": {
+        "message": "Частен"
+    },
+    "Auto": {
+        "message": "Авто"
+    },
     "Unknown": {
-        "message": "Неизвестен"
+        "message": "Неизвестно"
+    },
+    "Action": {
+        "message": "Действие:"
+    },
+    "Hide_Unused_Fields": {
+        "message": "Скрий неизползваните полета"
+    },
+    "Show_All_Fields": {
+        "message": "Покажи всички полета"
+    },
+    "Update": {
+        "message": "Актуализирай :"
+    },
+    "Add": {
+        "message": "Добави"
+    },
+    "Add_Profile": {
+        "message": "Добави профил "
+    },
+    "Unknown_Relations": {
+        "message": "Неизвестни връзки"
+    },
+    "MMother": {
+        "message": "Майка"
+    },
+    "FFather": {
+        "message": "Баща"
+    },
+    "Parent": {
+        "message": "Родител"
+    },
+    "BBrother": {
+        "message": "Брат"
+    },
+    "Sister": {
+        "message": "Сестра"
+    },
+    "SSibling": {
+        "message": "Брат/сестра"
+    },
+    "WWife": {
+        "message": "Съпруга"
+    },
+    "HHusband": {
+        "message": "Съпруг"
+    },
+    "Partner": {
+        "message": "Партньор"
+    },
+    "Spouse": {
+        "message": "Съпруг/съпруга"
+    },
+    "Son": {
+        "message": "Син"
+    },
+    "Daughter": {
+        "message": "Дъщеря"
+    },
+    "Child": {
+        "message": "Дете"
+    },
+    "Enable_Google_Geocoding": {
+        "message": "Активирай Google Geocoding"
+    },
+    "Family_Data": {
+        "message": "Семейни данни"
+    },
+    "Deep_Research_for_full_details_takes_longer": {
+        "message": "Задълбочено проучване за пълни подробности (отнема повече време)"
+    },
+    "Skip_Deep_Research_for_this_run": {
+        "message": "Пропусни задълбоченото проучване"
+    },
+    "Deep_Research_skipped_for_this_run": {
+        "message": "Пропускане на останалите търсения..."
+    },
+    "Estimate_birth_years": {
+        "message": "Оцени годините на раждане/брак/смърт/погребение"
+    },
+    "Average_generational_gap_years": {
+        "message": "Средна разлика между поколенията (години):"
+    },
+    "Average_spousal_age_gap_years": {
+        "message": "Средна разлика във възрастта между съпрузите (години):"
+    },
+    "Show_birth_death_years_in_dropdowns": {
+        "message": "Показвай годините на раждане/смърт в падащите менюта"
     },
     "Living": {
-        "message": "Жив"
-    },
-    "Deceased": {
-        "message": "Починал"
+        "message": "Жив/а"
     },
     "Fix_All_Case_Issues": {
-        "message": "Поправи всички"
+        "message": "Коригирай всичко"
+    },
+    "Update_location_resubmit_to_Google": {
+        "message": "Актуализирайте локацията и я изпратете отново на Google за геолокация."
+    },
+    "Update_location_resubmit_to_FamilySearch": {
+        "message": "Актуализирайте локацията и/или годината, след което я изпратете отново към историческото търсене на места на FamilySearch."
+    },
+    "Country": {
+        "message": "Държава"
+    },
+    "State": {
+        "message": "Област"
+    },
+    "City": {
+        "message": "Град"
+    },
+    "Place": {
+        "message": "Място"
+    },
+    "County": {
+        "message": "Окръг"
     }
 }

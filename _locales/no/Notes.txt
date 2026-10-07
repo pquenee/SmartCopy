@@ -1,0 +1,68 @@
+Notes sur la traduction en norvégien nynorsk
+Nynorsk vs bokmål : le nynorsk est l'une des deux normes écrites officielles du norvégien, avec le bokmål. Il se distingue par :
+
+ikkje (nynorsk) vs ikke (bokmål) = « ne... pas »
+
+eg (nynorsk) vs jeg (bokmål) = « je »
+
+kva (nynorsk) vs hva (bokmål) = « quoi »
+
+noko (nynorsk) vs noe (bokmål) = « quelque chose »
+
+vere (nynorsk) vs være (bokmål) = « être »
+
+vert (nynorsk) vs blir (bokmål) = « devient »
+
+ein/ei/eit (nynorsk) vs en/ei/et (bokmål) = articles indéfinis
+
+Terminologie généalogique :
+
+fornamn = prénom
+
+mellomnamn = deuxième prénom
+
+etternamn = nom de famille
+
+fødselsnamn = nom de naissance
+
+pikenamn = nom de jeune fille
+
+dødsdato = date de décès
+
+gravleggingsdato = date d'enterrement
+
+vigselsdato = date de mariage
+
+ektefelle = conjoint(e)
+
+ektemann = mari
+
+kone = femme (épouse)
+
+sysken = frère(s) et sœur(s)
+
+påørande = proches
+
+forfedre = ancêtres
+
+etterkomarar = descendants
+
+Formes genrées : comme le bokmål, le nynorsk utilise mann/kvinne, ektemann/kone, son/dotter, bror/syster. Les adjectifs ne s'accordent pas en genre de la même manière qu'en français.
+
+$pronoun$ : valeurs hans (his), hennar (her), deira (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ca. $year$ (ca. = circa en nynorsk).
+
+History : corrigé en Historikk.
+
+View_Profil : conservé comme clé, valeur Vis profil (orthographe nynorsk correcte).
+
+County : traduit par Fylke (division administrative norvégienne équivalente au comté).
+
+State : traduit par Fylke également. ⚠️ En Norvège, il n'y a pas de distinction nette entre State et County dans le contexte administratif local. Si le contexte est américain, Delstat serait plus approprié pour State. J'ai utilisé Fylke pour les deux, ce qui peut prêter à confusion — il faudrait peut-être différencier.
+
+SwitchOn/SwitchOff : PÅ / AV (formes courantes en nynorsk).
+
+Submit : Send inn (envoyer).

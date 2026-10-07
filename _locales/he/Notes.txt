@@ -1,0 +1,66 @@
+Notes sur la traduction hébraïque
+Sens d'écriture (RTL) : l'hébreu s'écrit de droite à gauche. Cela a plusieurs conséquences :
+
+Les valeurs message s'afficheront RTL dans l'interface.
+
+Les placeholders ($person$, $pronoun$, etc.) restent en place, mais leur position visuelle dans la phrase peut changer. Il faudra vérifier que l'application gère correctement le RTL bidirectionnel (notamment pour les chiffres, les dates, les balises HTML).
+
+Les signes de ponctuation comme : et . peuvent apparaître à gauche au lieu de droite selon le contexte. J'ai utilisé le point-virgule et le deux-points de manière standard, mais un ajustement peut être nécessaire côté interface.
+
+Les balises HTML (<br>, <i>, <private>) restent inchangées et seront interprétées normalement.
+
+Terminologie généalogique :
+
+שם פרטי = prénom
+
+שם אמצעי = deuxième prénom
+
+שם משפחה = nom de famille
+
+שם לידה = nom de naissance
+
+שם נעורים = nom de jeune fille
+
+תאריך פטירה = date de décès
+
+תאריך קבורה = date d'enterrement
+
+תאריך נישואין = date de mariage
+
+בן/בת זוג = conjoint(e)
+
+בעל = mari
+
+אישה = femme (épouse)
+
+אח/אחות = frère/sœur
+
+קרובים = proches/parents
+
+אבות = ancêtres
+
+צאצאים = descendants
+
+Formes genrées : l'hébreu distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (נולד/ה, נפטר/ה, מוגדר/ת) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs שלו (his), שלה (her), שלהם (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par כ-$year$ (כ- = *k-*, « environ »).
+
+History : corrigé en היסטוריה.
+
+View_Profil : conservé comme clé, valeur הצג פרופיל (orthographe hébraïque correcte).
+
+County : traduit par נפה (division administrative israélienne équivalente au comté/district).
+
+State : traduit par מדינה/מחוז (selon le contexte : État fédéré ou district). ⚠️ Si le contexte est américain, מדינה (État) est approprié ; pour un contexte israélien, מחוז (district) serait plus juste. J'ai mis les deux pour couvrir les cas.
+
+SwitchOn/SwitchOff : פועל (en marche) et כבוי (éteint).
+
+Submit : שלח (envoyer).
+
+Particularité hébraïque : l'hébreu n'a pas de voyelles courtes écrites (niqqud) dans l'usage courant. J'ai utilisé l'orthographe pleine (ktiv male), standard dans les interfaces modernes.
+
+Geni : le nom propre reste en latin, mais dans un contexte RTL, il peut être nécessaire de l'entourer de marques d'isolation directionnelle (U+2068/U+2069) pour un affichage correct. J'ai laissé le nom tel quel ; l'application devra gérer le bidi.

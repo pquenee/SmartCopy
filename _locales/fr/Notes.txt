@@ -1,0 +1,56 @@
+Notes sur la traduction française
+Terminologie généalogique :
+
+prénom = prénom
+
+deuxième prénom = deuxième prénom
+
+nom de famille = nom de famille
+
+nom de naissance = nom de naissance
+
+nom de jeune fille = nom de jeune fille
+
+date de décès = date de décès
+
+date d'inhumation = date d'enterrement
+
+date de mariage = date de mariage
+
+conjoint = conjoint(e)
+
+mari = mari
+
+épouse = femme (épouse)
+
+frère/sœur = frère/sœur
+
+parents = proches/parents
+
+ancêtres = ancêtres
+
+descendants = descendants
+
+Formes genrées : le français distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (né/e, décédé/e, corrigé/e) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs son (his), sa (her), leur (their). ⚠️ En français, l'adjectif possessif s'accorde en genre avec l'objet possédé, pas avec le possesseur. son = « son » (à lui/elle, objet masculin), sa = « sa » (à lui/elle, objet féminin). La distinction his/her de l'anglais ne correspond donc pas exactement au couple son/sa. La logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par env. $year$ (env. = environ).
+
+History : corrigé en Historique.
+
+View_Profil : conservé comme clé, valeur Voir le profil (orthographe française correcte).
+
+County : traduit par Comté (division administrative équivalente au comté).
+
+State : traduit par État (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : ACTIVÉ / DÉSACTIVÉ (formes courantes en français).
+
+Submit : Soumettre (envoyer).
+
+About : traduit par À propos (terme standard dans les interfaces françaises).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

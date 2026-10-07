@@ -1,0 +1,50 @@
+Notes sur la traduction polonaise
+Terminologie généalogique :
+
+imię = prénom
+
+drugie imię = deuxième prénom
+
+nazwisko = nom de famille
+
+imię z urodzenia = nom de naissance
+
+nazwisko panieńskie = nom de jeune fille
+
+data śmierci = date de décès
+
+data pochówku = date d'enterrement
+
+data ślubu = date de mariage
+
+małżonek = conjoint(e)
+
+mąż = mari
+
+żona = femme (épouse)
+
+rodzeństwo = frère(s) et sœur(s)
+
+krewni = proches/parents
+
+przodkowie = ancêtres
+
+potomkowie = descendants
+
+Formes genrées : le polonais distingue le masculin et le féminin. J'ai utilisé des formes inclusives (urodzony/a, zmarł/a, zmarły/a) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs jego (his), jej (her), ich (their).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par ok. $year$ (ok. = około, « environ »).
+
+History : corrigé en Historia.
+
+View_Profil : conservé comme clé, valeur Zobacz profil (orthographe polonaise correcte).
+
+County : traduit par Powiat (division administrative polonaise équivalente au comté).
+
+State : traduit par Województwo (division administrative polonaise équivalente à la région/voïvodie). ⚠️ Si le contexte est américain, Stan serait plus approprié. J'ai choisi Województwo qui correspond à la réalité administrative polonaise, mais il faudrait vérifier l'usage prévu.
+
+SwitchOn/SwitchOff : abréviations polonaises courantes WŁ. (włączone) et WYŁ. (wyłączone).

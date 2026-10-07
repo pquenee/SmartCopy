@@ -1,0 +1,60 @@
+Notes sur la traduction croate
+Écriture : le croate utilise exclusivement l'alphabet latin avec diacritiques (č, ć, đ, š, ž). Pas de cyrillique.
+
+Terminologie généalogique :
+
+osobno ime = prénom
+
+srednje ime = deuxième prénom
+
+prezime = nom de famille
+
+ime pri rođenju = nom de naissance
+
+djevojačko prezime = nom de jeune fille
+
+datum smrti = date de décès
+
+datum pokopa = date d'enterrement
+
+datum vjenčanja = date de mariage
+
+supružnik = conjoint(e)
+
+suprug = mari
+
+supruga = femme (épouse)
+
+brat/sestra = frère/sœur
+
+rođaci = proches/parents
+
+preci = ancêtres
+
+potomci = descendants
+
+Formes genrées : le croate distingue le masculin et le féminin. J'ai utilisé des formes inclusives (rođen/rođena, umro/umrla, postavljen/postavljena) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs njegov (his), njezin (her), njihov (their). ⚠️ En croate, on utilise souvent njen (forme abrégée) au lieu de njezin, mais njezin est plus formel et standard.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par oko $year$ (oko = « environ »).
+
+History : corrigé en Povijest.
+
+View_Profil : conservé comme clé, valeur Prikaži profil (orthographe croate correcte).
+
+County : traduit par Okrug (division administrative croate équivalente au comté).
+
+State : traduit par Županija (division administrative croate équivalente à la région/comté). ⚠️ Si le contexte est américain, Država serait plus approprié, mais Država est déjà utilisé pour Country. J'ai donc choisi Županija qui correspond à la réalité administrative croate.
+
+SwitchOn/SwitchOff : abréviations croates courantes UKLJ. (uključeno) et ISKLJ. (isključeno).
+
+Daughter : traduit par Kći (forme ijekavienne standard en croate). En serbe ekavien, ce serait Ћерка / Ćerka.
+
+Différences avec le serbe :
+
+Croate : kći, vjenčanje, povijest, tko, gdje
+
+Serbe : ћерка/ćerka, венчање/venčanje, историја/istorija, ко/ko, где/gde

@@ -1,0 +1,84 @@
+Notes sur la traduction portugaise (pt-PT)
+Variante : j'ai utilisé le portugais européen (pt-PT). Voici quelques différences avec le portugais brésilien (pt-BR) si tu souhaites adapter :
+
+pt-PT	pt-BR
+ficheiro	arquivo
+ecrã	tela
+utilizador	usuário
+ligação	conexão
+registos	registros
+autocarros	ônibus
+casaco	casaco
+pequeno-almoço	café da manhã
+geolocalização	geolocalização (idem)
+concreto	concreto (idem)
+comboio	trem
+Dans ce fichier, les différences notables seraient :
+
+utilizador → usuário
+
+ligação → conexão
+
+registos → registros
+
+atualizar → atualizar (idem, mais courant au Brésil)
+
+a carregar → carregando
+
+a ler → lendo
+
+Terminologie généalogique :
+
+nome próprio = prénom
+
+nome do meio = deuxième prénom
+
+apelido = nom de famille
+
+nome de nascimento = nom de naissance
+
+nome de solteira = nom de jeune fille
+
+data de óbito = date de décès
+
+data de sepultamento = date d'enterrement
+
+data de casamento = date de mariage
+
+cônjuge = conjoint(e)
+
+marido = mari
+
+esposa = femme (épouse)
+
+irmão/irmã = frère/sœur
+
+parentes = proches/parents
+
+antepassados = ancêtres
+
+descendentes = descendants
+
+Formes genrées : le portugais distingue le masculin et le féminin. J'ai utilisé des formes inclusives avec slash (nascido/a, falecido/a, filho/a) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs dele (his), dela (her), deles (their). En portugais, on utilise souvent la forme analytique de ele → dele, de ela → dela, de eles → deles. C'est plus naturel que seu/sua qui peut être ambigu (il peut signifier « son » ou « leur »).
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par c. $year$ (c. = circa, « environ »).
+
+History : corrigé en Histórico.
+
+View_Profil : conservé comme clé, valeur Ver perfil (orthographe portugaise correcte).
+
+County : traduit par Concelho (division administrative portugaise équivalente au comté/municipalité).
+
+State : traduit par Estado (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : LIGADO / DESLIGADO (formes courantes en portugais).
+
+Submit : Submeter (soumettre).
+
+About : traduit par Acerca de (terme standard dans les interfaces portugaises).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

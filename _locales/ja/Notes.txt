@@ -1,0 +1,76 @@
+Notes sur la traduction japonaise
+Système d'écriture : le japonais mélange trois écritures :
+
+Kanji (caractères chinois) pour les noms et les concepts
+
+Hiragana pour les particules grammaticales et les terminaisons
+
+Katakana pour les mots étrangers (ex. プロフィール = purofīru = « profil »)
+
+Pas d'espaces entre les mots, sauf dans certains contextes techniques.
+
+Terminologie généalogique :
+
+名前 (namae) = prénom
+
+ミドルネーム (midorunēmu) = deuxième prénom (emprunt à l'anglais)
+
+姓 (sei) = nom de famille
+
+出生名 (shusseimei) = nom de naissance
+
+旧姓 (kyūsei) = nom de jeune fille
+
+死亡日 (shibōbi) = date de décès
+
+埋葬日 (maisōbi) = date d'enterrement
+
+結婚日 (kekkonbi) = date de mariage
+
+配偶者 (haigūsha) = conjoint(e)
+
+夫 (otto) = mari
+
+妻 (tsuma) = femme (épouse)
+
+兄弟姉妹 (kyōdai shimai) = frères et sœurs
+
+親族 (shinzoku) = proches/parents
+
+祖先 (sosen) = ancêtres
+
+子孫 (shison) = descendants
+
+Genre : le japonais ne distingue pas le genre grammatical pour les pronoms et adjectifs. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est 彼 (kare, lui) ou 彼女 (kanojo, elle) selon le contexte, mais ces termes sont souvent omis. Les possessifs :
+
+his → 彼の (kare no)
+
+her → 彼女の (kanojo no)
+
+their → 彼らの (karera no)
+
+⚠️ En japonais, le possessif est souvent implicite et le pronom est omis quand le contexte est clair.
+
+$pronoun$ : valeurs 彼の (his), 彼女の (her), 彼らの (their). ⚠️ Comme en japonais le pronom possessif est souvent omis, l'insertion de $pronoun$ peut sembler redondante. La logique devra être adaptée.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par $year$年頃 (年頃 = korogoro, « environ »).
+
+History : corrigé en 履歴 (rireki).
+
+View_Profil : conservé comme clé, valeur プロフィールを表示 (orthographe japonaise correcte).
+
+County : traduit par 郡 (gun, division administrative japonaise équivalente au comté/district).
+
+State : traduit par 州 (shū, terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : オン / オフ (emprunts à l'anglais on/off, standard en japonais).
+
+Submit : 送信 (sōshin, envoyer).
+
+About : traduit par 情報 (jōhō, informations).
+
+Particularité japonaise : le japonais est une langue agglutinante avec un ordre des mots SOV (sujet-objet-verbe). Les phrases sont souvent construites avec le verbe à la fin. J'ai adapté la structure des phrases pour qu'elles sonnent naturellement en japonais.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

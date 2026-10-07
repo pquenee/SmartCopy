@@ -1,0 +1,44 @@
+Notes sur la traduction slovaque
+Terminologie généalogique :
+
+krstné meno = prénom
+
+stredné meno = deuxième prénom
+
+priezvisko = nom de famille
+
+rodné meno = nom de naissance
+
+rodné priezvisko = nom de jeune fille
+
+dátum úmrtia = date de décès
+
+dátum pohrebu = date d'enterrement
+
+dátum sobáša = date de mariage
+
+manžel / manželka = mari / femme
+
+súrodenec = frère ou sœur
+
+príbuzní = proches/parents
+
+predkovia = ancêtres
+
+potomkovia = descendants
+
+Formes genrées : le slovaque distingue le masculin et le féminin. J'ai utilisé des formes inclusives (narodený/á, zomrel/a, zosnulý/á) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs jeho (his), jej (her), ich (their). ⚠️ Comme en tchèque, l'accord de jeho/jej avec le nom qui suit peut différer selon le contexte, mais comme il s'agit d'un placeholder, la logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par cca $year$ (cca = circa en slovaque).
+
+History : corrigé en História.
+
+View_Profil : conservé comme clé, valeur Zobraziť profil (orthographe slovaque correcte).
+
+County : traduit par Okres (division administrative slovaque équivalente au comté).
+
+State : traduit par Štát (terme standard pour un État fédéré).

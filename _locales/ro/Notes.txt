@@ -1,0 +1,46 @@
+Notes sur la traduction roumaine
+Terminologie généalogique :
+
+prenume = prénom
+
+al doilea prenume = deuxième prénom
+
+nume de familie = nom de famille
+
+nume la naștere = nom de naissance
+
+nume de fată = nom de jeune fille
+
+data decesului = date de décès
+
+data înmormântării = date d'enterrement
+
+data căsătoriei = date de mariage
+
+soț/soție = mari/femme
+
+frate/soră = frère/sœur
+
+rude = proches/parents
+
+strămoși = ancêtres
+
+descendenți = descendants
+
+Formes genrées : le roumain distingue le masculin et le féminin. J'ai utilisé des formes inclusives (născut/ă, decedat/ă, setat/ă) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs lui (his), ei (her), lor (their). ⚠️ En roumain, l'article possessif s'accorde avec l'objet possédé, pas avec le possesseur. lui = « à lui », ei = « à elle », lor = « à eux/elles ». La logique d'accord devra être gérée côté code.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par cca. $year$ (cca. = circa en roumain).
+
+History : corrigé en Istoric.
+
+View_Profil : conservé comme clé, valeur Vezi profilul (orthographe roumaine correcte).
+
+County : traduit par Județ (division administrative roumaine équivalente au comté).
+
+State : traduit par Stat (terme standard pour un État fédéré).
+
+SwitchOn/SwitchOff : PORNIT / OPRIT (formes courantes en roumain).

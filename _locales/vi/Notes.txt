@@ -1,0 +1,92 @@
+Notes sur la traduction vietnamienne
+Système d'écriture : le vietnamien utilise l'alphabet latin avec des diacritiques (dấu) pour marquer les 6 tons :
+
+ngang (ton plat, pas de marque) : ma
+
+huyền (ton descendant) : mà
+
+sắc (ton montant) : má
+
+hỏi (ton descendant-montant) : mả
+
+ngã (ton montant brisé) : mã
+
+nặng (ton descendant glottal) : mạ
+
+Terminologie généalogique :
+
+tên riêng = prénom
+
+tên đệm = deuxième prénom
+
+họ = nom de famille
+
+tên khai sinh = nom de naissance
+
+tên thời con gái = nom de jeune fille
+
+ngày mất = date de décès
+
+ngày mai táng = date d'enterrement
+
+ngày kết hôn = date de mariage
+
+vợ/chồng = conjoint(e)
+
+chồng = mari
+
+vợ = femme (épouse)
+
+anh chị em = frère(s) et sœur(s)
+
+người thân = proches/parents
+
+tổ tiên = ancêtres
+
+hậu duệ = descendants
+
+Genre : le vietnamien ne distingue pas le genre grammatical pour les pronoms et adjectifs. Les pronoms personnels varient selon le statut social et le degré de familiarité :
+
+anh = frère aîné (ou « vous » pour un homme plus âgé)
+
+chị = sœur aînée (ou « vous » pour une femme plus âgée)
+
+em = frère/sœur cadet(te) (ou « je » humble)
+
+ông = monsieur (homme âgé)
+
+bà = madame (femme âgée)
+
+cô = tante (ou « vous » pour une femme)
+
+chú = oncle (ou « vous » pour un homme)
+
+nó = il/elle (familier, pour un enfant)
+
+họ = ils/elles
+
+$pronoun$ : valeurs của anh ấy (his), của cô ấy (her), của họ (their). Le vietnamien distingue bien his/her selon le contexte.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par khoảng $year$ (khoảng = « environ »).
+
+History : corrigé en Lịch sử.
+
+View_Profil : conservé comme clé, valeur Xem hồ sơ (orthographe vietnamienne correcte).
+
+County : traduit par Huyện (division administrative vietnamienne équivalente au district/comté).
+
+State : traduit par Tỉnh/Bang (tỉnh = province, bang = État fédéré).
+
+SwitchOn/SwitchOff : BẬT / TẮT (formes courantes en vietnamien).
+
+Submit : Gửi (envoyer).
+
+About : traduit par Giới thiệu (à propos de).
+
+Particularité vietnamienne : le vietnamien est une langue isolante avec un ordre des mots SVO (sujet-verbe-objet). Les mots ne se fléchissent pas, mais la syntaxe et les particules jouent un rôle crucial.
+
+Ordre des noms : en vietnamien, l'ordre traditionnel est Họ + Tên đệm + Tên riêng (Nguyễn Văn A = Họ Nguyễn + Tên đệm Văn + Tên riêng A). Dans un contexte international comme Geni, l'ordre occidental peut être utilisé, mais il faut être conscient de cette différence.
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.

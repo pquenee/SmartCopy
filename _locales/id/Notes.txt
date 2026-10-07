@@ -1,0 +1,38 @@
+Notes sur la traduction indonésienne
+Terminologie généalogique :
+
+nama depan = prénom
+
+nama tengah = deuxième prénom
+
+nama belakang = nom de famille
+
+nama lahir = nom de naissance
+
+nama gadis = nom de jeune fille
+
+tanggal kematian = date de décès
+
+tanggal pemakaman = date d'enterrement
+
+tanggal pernikahan = date de mariage
+
+pasangan = conjoint(e)/partenaire
+
+suami = mari
+
+istri = femme (épouse)
+
+saudara kandung = frère/sœur
+
+kerabat = proches/parents
+
+leluhur = ancêtres
+
+keturunan = descendants
+
+Genre : l'indonésien ne distingue pas le genre grammatical. Il n'y a pas de « il » / « elle » distincts — le pronom personnel est dia (ou ia) pour les deux, et le possessif est -nya. C'est pourquoi :
+
+his, her → tous les deux nya (suffixe possessif)
+
+their

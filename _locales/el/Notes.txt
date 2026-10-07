@@ -1,0 +1,52 @@
+Notes sur la traduction grecque
+Terminologie généalogique :
+
+μικρό όνομα = prénom
+
+μεσαίο όνομα = deuxième prénom
+
+επώνυμο = nom de famille
+
+όνομα γέννησης = nom de naissance
+
+πατρικό επώνυμο = nom de jeune fille
+
+ημερομηνία θανάτου = date de décès
+
+ημερομηνία ταφής = date d'enterrement
+
+ημερομηνία γάμου = date de mariage
+
+σύζυγος = conjoint(e) (terme épicène)
+
+σύντροφος = partenaire
+
+αδελφός/αδελφή = frère/sœur
+
+συγγενείς = proches/parents
+
+πρόγονοι = ancêtres
+
+απόγονοι = descendants
+
+Formes genrées : le grec distingue le masculin, le féminin et le neutre. J'ai utilisé des formes inclusives avec slash (γεννήθηκε, πέθανε sont invariables en genre au passé ; θανών/θανούσα, ιδιωτικός/ιδιωτική) lorsque le sujet peut être des deux sexes.
+
+$pronoun$ : valeurs του (his), της (her), τους (their). ⚠️ En grec, le pronom possessif s'accorde en genre avec le possesseur (et non avec l'objet possédé), ce qui correspond bien à la distinction anglaise his/her.
+
+<private> : conservé tel quel (balise interne).
+
+c.$year$ : rendu par περ. $year$ (περ. = περίπου, « environ »).
+
+History : corrigé en Ιστορικό.
+
+View_Profil : conservé comme clé, valeur Προβολή προφίλ (orthographe grecque correcte).
+
+County : traduit par Νομός (division administrative grecque équivalente au comté/département).
+
+State : traduit par Περιφέρεια (division administrative grecque équivalente à la région). ⚠️ Si le contexte est américain, Πολιτεία serait plus approprié, mais Περιφέρεια correspond à la réalité administrative grecque.
+
+SwitchOn/SwitchOff : ΕΝΕΡΓΟ / ΑΝΕΝΕΡΓΟ (formes courantes en grec).
+
+Submit : Υποβολή (soumission).
+
+Geni : le nom propre reste en latin, il n'y a pas de problème bidi particulier.
